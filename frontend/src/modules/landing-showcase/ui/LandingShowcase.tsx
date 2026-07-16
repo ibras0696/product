@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, type ReactNode } from "react";
 
 import {
   isLandingStyleId,
@@ -17,7 +17,11 @@ function initialStyle(): LandingStyleId {
   return isLandingStyleId(fromUrl) ? fromUrl : "signal";
 }
 
-export function LandingShowcase() {
+interface LandingShowcaseProps {
+  accountSlot?: ReactNode;
+}
+
+export function LandingShowcase({ accountSlot }: LandingShowcaseProps) {
   const [activeStyle, setActiveStyle] = useState<LandingStyleId>(initialStyle);
   const selected = landingStyles.find((style) => style.id === activeStyle);
 
@@ -41,6 +45,7 @@ export function LandingShowcase() {
           <a href="#principles">Подход</a>
           <a href="#cases">Кейсы</a>
           <a href="/api/docs">API</a>
+          {accountSlot}
         </div>
       </nav>
       <StyleSwitcher activeStyle={activeStyle} onChange={changeStyle} />

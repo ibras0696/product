@@ -48,6 +48,17 @@ Use custom subagents when a task has at least two independent workstreams, a lar
 - Preserve dependency direction. Domain code must not depend on frameworks or infrastructure.
 - Avoid circular imports and cross-module access to internal files.
 
+## API contract enforcement
+
+- Read `docs/api-contracts.md` before changing an endpoint, transport schema, authentication, authorization, frontend API adapter, or generated client.
+- The document is the shared binding baseline for backend, frontend, tests, Claude Code, and Codex.
+- A contract change must update the policy document when applicable, Pydantic/OpenAPI, the generated TypeScript client or adapter, and scenario tests as one coherent change.
+- Backend owns validation, HTTP semantics, authentication, authorization, cookie behavior, and stable error codes. Frontend must not invent fields, statuses, defaults, or permissions.
+- Authentication tokens must never be stored in `localStorage`, `sessionStorage`, IndexedDB, URLs, or frontend state.
+- Hidden frontend controls are UX only; backend application policy always enforces authorization.
+- Any divergence between documentation, OpenAPI, runtime behavior, and frontend types is a bug.
+- Roles, external identity providers, and product-specific resources remain open until an approved case requires them.
+
 ## Engineering principles
 
 Resolve conflicts in this order: correctness, security, testability, KISS, YAGNI, SOLID, then DRY.

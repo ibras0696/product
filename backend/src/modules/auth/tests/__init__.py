@@ -1,0 +1,1 @@
+"""Authentication scenario tests."""

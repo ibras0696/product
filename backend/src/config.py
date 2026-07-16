@@ -1,5 +1,6 @@
 from functools import lru_cache
 
+from pydantic import PositiveInt
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -12,6 +13,10 @@ class Settings(BaseSettings):
     celery_broker_url: str = "amqp://guest:guest@localhost:5672//"
     celery_result_backend: str = "redis://localhost:6379/1"
     encryption_key: str | None = None
+    auth_session_idle_days: PositiveInt = 7
+    auth_session_absolute_days: PositiveInt = 30
+    auth_rate_limit_attempts: PositiveInt = 5
+    auth_rate_limit_window_seconds: PositiveInt = 900
 
 
 @lru_cache

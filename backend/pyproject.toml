@@ -39,7 +39,7 @@ include_external_packages = true
 [[tool.importlinter.contracts]]
 name = "Domain must not depend on frameworks or infrastructure"
 type = "forbidden"
-source_modules = ["modules.health.domain"]
+source_modules = ["modules.health.domain", "modules.auth.domain"]
 forbidden_modules = [
   "fastapi",
   "pydantic",
@@ -49,4 +49,6 @@ forbidden_modules = [
   "infrastructure",
   "modules.health.repository",
   "modules.health.routes",
+  "modules.auth.repository",
+  "modules.auth.routes",
 ]

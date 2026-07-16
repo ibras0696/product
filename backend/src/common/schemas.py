@@ -18,5 +18,5 @@ class ApiResponse[T](BaseModel):
     meta: ResponseMeta | None = None
 
     @classmethod
-    def success(cls, data: T, request_id: str | None = None) -> "ApiResponse[T]":
+    def success(cls, data: T | None, request_id: str | None = None) -> "ApiResponse[T]":
         return cls(ok=True, data=data, meta=ResponseMeta(request_id=request_id))

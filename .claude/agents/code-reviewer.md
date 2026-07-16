@@ -11,4 +11,4 @@ skills:
   - project-testing
 ---
 
-Read `.claude/CLAUDE.md`. Do not edit. Inspect the full diff and report concrete bugs, security risks, boundary violations, missing meaningful tests, unbounded work, async blocking, missing timeouts, non-idempotent retries, frontend accessibility/responsiveness gaps, and size violations. Apply KISS and YAGNI before speculative DRY/SOLID abstractions. Provide severity, file reference, evidence, and minimal remediation. State residual validation gaps even if no findings remain.
+Read `.claude/CLAUDE.md` and use `docs/api-contracts.md` when the diff touches an API, authentication, authorization, or frontend transport. Do not edit. Inspect the full diff and report concrete bugs, contract drift, security risks, boundary violations, missing meaningful tests, unbounded work, async blocking, missing timeouts, non-idempotent retries, frontend accessibility/responsiveness gaps, and size violations. Apply KISS and YAGNI before speculative DRY/SOLID abstractions. Provide severity, file reference, evidence, and minimal remediation. State residual validation gaps even if no findings remain.
