@@ -10,6 +10,7 @@ import { StyleSwitcher } from "./StyleSwitcher";
 import "./landing-content.css";
 import "./landing-showcase.css";
 import "./landing-themes.css";
+import "./landing-themes-new.css";
 
 function initialStyle(): LandingStyleId {
   const fromUrl = new URLSearchParams(window.location.search).get("style");
@@ -29,6 +30,9 @@ export function LandingShowcase() {
 
   return (
     <main className="showcase" data-theme={activeStyle}>
+      <a className="skip-link" href="#page-title">
+        К содержанию
+      </a>
       <nav className="site-nav" aria-label="Основная навигация">
         <a className="brand" href="#top" aria-label="Product Lab, наверх">
           PRODUCT/LAB

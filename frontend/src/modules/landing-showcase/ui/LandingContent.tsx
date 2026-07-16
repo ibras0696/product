@@ -1,4 +1,4 @@
-import type { landingStyles } from "../model/landingStyles";
+import { landingStyles } from "../model/landingStyles";
 import { DeliveryPreview } from "./DeliveryPreview";
 
 type LandingStyle = (typeof landingStyles)[number];
@@ -49,7 +49,7 @@ function Facts() {
   return (
     <section className="facts" aria-label="Свойства витрины">
       <div>
-        <strong>10</strong>
+        <strong>{landingStyles.length}</strong>
         <span>систем дизайна</span>
       </div>
       <div>

@@ -10,7 +10,7 @@ export function StyleSwitcher({ activeStyle, onChange }: StyleSwitcherProps) {
   return (
     <section className="style-switcher" aria-labelledby="style-switcher-title">
       <div className="style-switcher-copy">
-        <p id="style-switcher-title">10 дизайн-систем</p>
+        <p id="style-switcher-title">{landingStyles.length} дизайн-систем</p>
         <span>Выберите направление</span>
       </div>
       <div className="style-options" aria-label="Варианты дизайна">

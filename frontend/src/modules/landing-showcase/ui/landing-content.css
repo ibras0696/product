@@ -39,6 +39,7 @@
   font-size: clamp(2.5rem, 6vw, 5.4rem);
   line-height: 0.95;
   letter-spacing: -0.06em;
+  text-wrap: balance;
 }
 
 .section-intro p {

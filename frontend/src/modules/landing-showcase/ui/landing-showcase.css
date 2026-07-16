@@ -17,8 +17,24 @@
   background: var(--bg);
   font-family: var(--body);
   transition:
-    color 220ms ease,
-    background-color 220ms ease;
+    color 280ms cubic-bezier(0.16, 1, 0.3, 1),
+    background-color 280ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.skip-link {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 2;
+  padding: 12px 16px;
+  transform: translateY(-160%);
+  border-radius: 8px;
+  color: var(--accent-text);
+  background: var(--accent);
+}
+
+.skip-link:focus-visible {
+  transform: translateY(0);
 }
 
 .site-nav,
@@ -65,6 +81,24 @@
   place-items: center;
   color: var(--muted);
   font-size: 0.86rem;
+}
+
+.nav-links a,
+.brand,
+.button,
+.style-option,
+.site-footer a {
+  touch-action: manipulation;
+}
+
+.nav-links a:focus-visible,
+.brand:focus-visible,
+.button:focus-visible,
+.style-option:focus-visible,
+.site-footer a:focus-visible,
+.case-track:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 4px;
 }
 
 .nav-links a:hover {
@@ -122,9 +156,9 @@
   background: var(--surface);
   cursor: pointer;
   transition:
-    transform 160ms ease,
-    color 160ms ease,
-    background 160ms ease;
+    transform 220ms cubic-bezier(0.16, 1, 0.3, 1),
+    color 220ms cubic-bezier(0.16, 1, 0.3, 1),
+    background 220ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .style-option span {
@@ -183,6 +217,7 @@
   font-size: clamp(3.15rem, 8.6vw, 7.4rem);
   line-height: 0.88;
   letter-spacing: -0.07em;
+  text-wrap: balance;
 }
 
 .hero-lead {
@@ -212,7 +247,7 @@
   font-size: 0.88rem;
   font-weight: 740;
   white-space: nowrap;
-  transition: transform 160ms ease;
+  transition: transform 220ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .button.primary {
@@ -317,6 +352,12 @@
   margin: 0;
 }
 
+#principles,
+#cases,
+#page-title {
+  scroll-margin-top: 24px;
+}
+
 @media (max-width: 767px) {
   .site-nav,
   .style-switcher,
@@ -340,6 +381,7 @@
 
   .hero h1 {
     font-size: clamp(3rem, 15vw, 5rem);
+    overflow-wrap: anywhere;
   }
 
   .delivery-preview {
@@ -366,5 +408,13 @@
     from {
       transform: translateY(18px);
     }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .showcase,
+  .style-option,
+  .button {
+    transition: none;
   }
 }

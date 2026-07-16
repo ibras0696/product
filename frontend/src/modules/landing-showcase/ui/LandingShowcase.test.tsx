@@ -24,7 +24,7 @@ it("switches the complete landing design while preserving usable content", async
   const user = userEvent.setup();
   render(<LandingShowcase />);
 
-  expect(screen.getAllByRole("button")).toHaveLength(10);
+  expect(screen.getAllByRole("button")).toHaveLength(20);
   expect(screen.getByRole("button", { name: /Signal/ })).toHaveAttribute(
     "aria-pressed",
     "true",
@@ -44,4 +44,16 @@ it("switches the complete landing design while preserving usable content", async
   expect(document.querySelector("main")).toHaveAttribute("data-theme", "glass");
   expect(window.location.search).toBe("?style=glass");
   expect(await screen.findByText("Все базовые сервисы доступны")).toBeVisible();
+
+  await user.click(screen.getByRole("button", { name: /Chrome/ }));
+
+  expect(screen.getByRole("button", { name: /Chrome/ })).toHaveAttribute(
+    "aria-pressed",
+    "true",
+  );
+  expect(document.querySelector("main")).toHaveAttribute(
+    "data-theme",
+    "chrome",
+  );
+  expect(window.location.search).toBe("?style=chrome");
 });

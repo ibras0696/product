@@ -59,6 +59,66 @@ export const landingStyles = [
     note: "Friendly consumer utility",
     dials: "6 / 4 / 4",
   },
+  {
+    id: "chrome",
+    name: "Chrome",
+    note: "Cold luxury product hardware",
+    dials: "7 / 5 / 3",
+  },
+  {
+    id: "bauhaus",
+    name: "Bauhaus",
+    note: "Geometric primary composition",
+    dials: "9 / 4 / 5",
+  },
+  {
+    id: "sumi",
+    name: "Sumi",
+    note: "Japanese restraint and rhythm",
+    dials: "6 / 2 / 3",
+  },
+  {
+    id: "nocturne",
+    name: "Nocturne",
+    note: "Cinematic dark direction",
+    dials: "8 / 6 / 3",
+  },
+  {
+    id: "kinetic",
+    name: "Kinetic",
+    note: "Sports editorial momentum",
+    dials: "10 / 7 / 5",
+  },
+  {
+    id: "orbit",
+    name: "Orbit",
+    note: "Spatial browser interface",
+    dials: "9 / 6 / 4",
+  },
+  {
+    id: "play",
+    name: "Play",
+    note: "Creative modular workspace",
+    dials: "9 / 5 / 6",
+  },
+  {
+    id: "ledger",
+    name: "Ledger",
+    note: "Financial editorial precision",
+    dials: "6 / 3 / 7",
+  },
+  {
+    id: "riviera",
+    name: "Riviera",
+    note: "Bold optimistic consumer brand",
+    dials: "8 / 4 / 4",
+  },
+  {
+    id: "industrial",
+    name: "Industrial",
+    note: "Engineered utilitarian system",
+    dials: "7 / 3 / 7",
+  },
 ] as const;
 
 export type LandingStyleId = (typeof landingStyles)[number]["id"];
