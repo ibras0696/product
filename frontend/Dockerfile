@@ -15,14 +15,17 @@ USER node
 EXPOSE 8080
 CMD ["npm", "run", "dev"]
 
-FROM dependencies AS build
+FROM dependencies AS quality
 COPY --chown=node:node . .
 RUN npm run format:check \
     && npm run lint \
     && npm run typecheck \
     && npm run boundaries \
-    && npm run test:run \
-    && npm run build
+    && npm run test:run
+
+FROM dependencies AS build
+COPY --chown=node:node . .
+RUN npm run build
 
 FROM nginxinc/nginx-unprivileged:1.28.2-alpine AS runtime
 COPY nginx.conf /etc/nginx/conf.d/default.conf
