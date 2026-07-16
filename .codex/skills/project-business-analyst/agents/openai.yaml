@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Business Analyst"
+  short_description: "Trace requirements into testable product behavior"
+  default_prompt: "Use $project-business-analyst to turn this product case into traceable requirements and acceptance criteria."

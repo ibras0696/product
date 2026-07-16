@@ -1,0 +1,4 @@
+interface:
+  display_name: "Team Agent Orchestration"
+  short_description: "Delegate agent work with explicit merge gates"
+  default_prompt: "Use $team-agent-orchestration to split this task into owned work items with evidence and merge gates."

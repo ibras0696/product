@@ -1,0 +1,117 @@
+developer_instructions = """
+This repository contract is mandatory for the main Codex agent and every subagent.
+
+WORK: Inspect existing code, tests, configuration, and Git diff before editing. Plan ambiguous or high-risk work. Use relevant skills from .codex/skills and read selected SKILL.md files completely. Preserve unrelated user changes. Implement the smallest complete solution, run proportional validation, inspect the final diff, and report skipped checks honestly.
+
+ROLE_SKILLS: Load only the smallest relevant role set. For a new case, unclear product idea, prioritization, roadmap, market, metrics, or PRD, start with project-product-manager and label assumptions. For requirements, business rules, actors, permissions, journeys, edge cases, acceptance criteria, or readiness, use project-business-analyst and preserve outcome-to-test traceability. For a new or materially changed interface, use ui-ux-pro-max only after product intent and requirements are stable, combine it with the existing design/frontend/accessibility skills, and keep one design-system source of truth. For two or more independent workstreams or explicit delegation, use team-agent-orchestration with bounded ownership, inherited rules/skills, acceptance criteria, evidence, and merge gates. Default sequence: product discovery -> business analysis -> UI/UX system -> engineering delivery -> quality gate. Skip stages whose inputs already exist and remain valid.
+
+SUBAGENTS: Use subagents for at least two independent workstreams, large read-heavy investigation, or independent architecture/test/security review. Give each a bounded objective, non-overlapping owned paths, constraints, expected output, applicable rules/skills, and validation. Prefer read-only reviewers. Wait for results and reconcile conflicts. The main agent owns integration and must rerun the quality gate. Subagents may not weaken rules, tests, linters, permissions, hooks, or CI.
+
+PRINCIPLES: Resolve conflicts in this order: correctness, security, testability, KISS, YAGNI, SOLID, DRY. Choose the simplest complete design. Do not add speculative abstractions, extension points, configuration, dependencies, or infrastructure. Remove duplicated knowledge, not merely similar syntax; use the rule of three. Apply SOLID to responsibilities and dependency direction without one-line classes or interfaces without a real boundary.
+
+ARCHITECTURE: Backend is a modular monolith with DDD-lite and hexagonal boundaries. Frontend uses isolated domain modules and explicit public APIs. Modules communicate only through public application contracts or explicit events. Shared code stays small and domain-neutral. No generic utils/helper dumping grounds, universal base repositories, circular imports, or deep cross-module imports.
+
+TESTS: Test observable behavior, complete use cases, important invariants, integrations, and critical workflows—not one trivial test per function. Related assertions may prove one behavior across several functions. Important features normally cover happy path, main boundary/invariant, meaningful failure, and authorization. Mock only true external boundaries. Reject arbitrary sleeps, ordering dependencies, implementation-detail assertions, giant snapshots, and coverage-only tests. Bug fixes require regression coverage.
+
+TESTABILITY_AND_SCALE: Reject hidden dependencies, global mutable state, blocking I/O in async paths, unbounded reads, missing timeouts, uncontrolled retries, N+1 queries, non-idempotent retryable jobs, duplicated server state, and business logic inside routers, repositories, Celery tasks, JSX, or framework callbacks. Pass dependencies explicitly and bound payloads/queries.
+
+LIMITS: Target files below 300 lines, review at 400, hard limit 600 non-generated code lines. Target functions below 40 lines, hard limit 80, complexity at most 10. React components hard limit 300 lines. Generated code, lockfiles, migrations, and declarative data may exceed file limits but contain no hand-written business logic. Silent lint/type/test disables are forbidden.
+
+BACKEND: Put bounded contexts under backend/src/modules/<module>. Enforce routes -> service -> domain; service coordinates repositories and Unit of Work, and schemas exist only at the routes/service boundary. Domain imports no FastAPI, Pydantic, SQLAlchemy, Celery, Redis, repository, or vendor SDKs. Routes contain HTTP only. Services orchestrate use-cases and transactions. Repositories contain SQLAlchemy queries only and never authorize, call APIs, publish jobs, or commit. Models contain ORM mapping only. One use-case equals one Unit of Work commit. Use Adapter + Registry for source connectors and LLM providers. Every endpoint returns ApiResponse[T]. Use typed application errors instead of raw HTTPException. Split files near 300 lines.
+
+FRONTEND: Put business code under frontend/src/modules/<domain>; other modules import only public index.ts. Keep shared domain-neutral and app responsible for composition. Wrap generated API clients before UI use. Keep business logic out of JSX, server state in TanStack Query, forms in React Hook Form, and local UI state local. No any, @ts-ignore, effect-derived state, giant contexts, deep imports, or global-store shortcuts. Design mobile-first from 360px with 44px targets, semantic HTML, labels, keyboard focus, reduced motion, and useful loading/error/empty states.
+
+INFRA: Keep infra/compose.yaml canonical and infra/compose.dev.yaml plus infra/compose.prod.yaml as overrides. Every runtime container, including PostgreSQL, Redis, RabbitMQ, Nginx, API, workers, migrations, and Certbot, must use an explicit non-root UID/GID, no-new-privileges, and dropped capabilities. Pin image versions; use multi-stage builds, health checks, explicit networks, named volumes, resource limits, bounded logs, and read-only root filesystems where supported. Publish only Nginx 80/443 in production. Keep databases, Redis, RabbitMQ, admin/debug/metrics private. Never bake secrets into images, Compose, Git, logs, or command arguments. Run migrations as a one-shot release step. Backups require a tested restore path. Validate rendered Compose base/dev/prod, effective runtime users, and Nginx syntax.
+
+SECURITY: Never read, print, commit, or embed .env values, credentials, keys, or production data. Never use destructive Git commands or overwrite user work without explicit authority. Validate external input, parameterize DB access, use least privilege, and never edit an already-applied migration.
+
+DONE: Before completion, requested behavior works; boundaries remain valid; meaningful tests exist; configured format/lint/type/architecture/migration/test/build/E2E/a11y/infra checks pass; API clients are synchronized; no limits are violated; and the final diff is reviewed for security, regression, dead code, and secrets. Never weaken a gate to make work appear complete.
+"""
+
+[features]
+multi_agent = true
+
+[agents]
+max_threads = 4
+max_depth = 1
+interrupt_message = true
+
+[[skills.config]]
+path = "skills/project-backend-ddd/SKILL.md"
+enabled = true
+
+[[skills.config]]
+path = "skills/project-frontend-module/SKILL.md"
+enabled = true
+
+[[skills.config]]
+path = "skills/project-testing/SKILL.md"
+enabled = true
+
+[[skills.config]]
+path = "skills/project-quality-gate/SKILL.md"
+enabled = true
+
+[[skills.config]]
+path = "skills/project-production-infra/SKILL.md"
+enabled = true
+
+[[skills.config]]
+path = "skills/project-ai-feature/SKILL.md"
+enabled = true
+
+[[skills.config]]
+path = "skills/design-taste-frontend/SKILL.md"
+enabled = true
+
+[[skills.config]]
+path = "skills/high-end-visual-design/SKILL.md"
+enabled = true
+
+[[skills.config]]
+path = "skills/redesign-existing-projects/SKILL.md"
+enabled = true
+
+[[skills.config]]
+path = "skills/web-design-guidelines/SKILL.md"
+enabled = true
+
+[[skills.config]]
+path = "skills/vercel-react-best-practices/SKILL.md"
+enabled = true
+
+[[skills.config]]
+path = "skills/playwright-pro/SKILL.md"
+enabled = true
+
+[[skills.config]]
+path = "skills/webapp-testing/SKILL.md"
+enabled = true
+
+[[skills.config]]
+path = "skills/docker-development/SKILL.md"
+enabled = true
+
+[[skills.config]]
+path = "skills/security-guidance/SKILL.md"
+enabled = true
+
+[[skills.config]]
+path = "skills/slo-architect/SKILL.md"
+enabled = true
+
+[[skills.config]]
+path = "skills/ui-ux-pro-max/SKILL.md"
+enabled = true
+
+[[skills.config]]
+path = "skills/project-product-manager/SKILL.md"
+enabled = true
+
+[[skills.config]]
+path = "skills/project-business-analyst/SKILL.md"
+enabled = true
+
+[[skills.config]]
+path = "skills/team-agent-orchestration/SKILL.md"
+enabled = true

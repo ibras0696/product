@@ -1,0 +1,24 @@
+services:
+  api:
+    restart: always
+
+  worker:
+    restart: always
+
+  frontend:
+    restart: always
+
+  gateway:
+    restart: always
+    environment:
+      DOMAIN: ${DOMAIN:-example.com}
+    volumes:
+      - ./nginx/templates/prod.conf.template:/etc/nginx/templates/default.conf.template:ro
+      - certbot_www:/var/www/certbot:ro
+      - certbot_certs:/etc/letsencrypt:ro
+    ports: !override
+      - "80:8080"
+      - "443:8443"
+
+  certbot-renew:
+    restart: always

@@ -1,0 +1,283 @@
+name: product_hacaton
+
+x-logging: &default-logging
+  driver: json-file
+  options:
+    max-size: "10m"
+    max-file: "3"
+
+x-backend-environment: &backend-environment
+  APP_ENVIRONMENT: ${APP_ENVIRONMENT:-development}
+  DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-app}:${POSTGRES_PASSWORD:-app}@postgres:5432/${POSTGRES_DB:-app}
+  REDIS_URL: redis://:${REDIS_PASSWORD:-redis-dev-password}@redis:6379/0
+  CELERY_BROKER_URL: amqp://${RABBITMQ_USER:-app}:${RABBITMQ_PASSWORD:-rabbit-dev-password}@rabbitmq:5672//
+  CELERY_RESULT_BACKEND: redis://:${REDIS_PASSWORD:-redis-dev-password}@redis:6379/1
+
+x-runtime-security: &runtime-security
+  security_opt:
+    - no-new-privileges:true
+  cap_drop:
+    - ALL
+
+services:
+  postgres:
+    <<: *runtime-security
+    image: postgres:17.7-alpine
+    user: "70:70"
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-app}
+      POSTGRES_USER: ${POSTGRES_USER:-app}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-app}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks: [data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp:uid=70,gid=70,mode=1770
+      - /var/run/postgresql:uid=70,gid=70,mode=2770
+    cpus: 1.0
+    mem_limit: 768m
+    logging: *default-logging
+
+  redis:
+    <<: *runtime-security
+    image: redis:8.0.5-alpine
+    user: "999:1000"
+    command: ["redis-server", "--appendonly", "yes", "--requirepass", "${REDIS_PASSWORD:-redis-dev-password}"]
+    volumes:
+      - redis_data:/data
+    networks: [data]
+    healthcheck:
+      test: ["CMD", "redis-cli", "-a", "${REDIS_PASSWORD:-redis-dev-password}", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp:uid=999,gid=1000,mode=1770
+    cpus: 0.5
+    mem_limit: 384m
+    logging: *default-logging
+
+  rabbitmq:
+    <<: *runtime-security
+    image: rabbitmq:4.1.4-management-alpine
+    user: "100:101"
+    environment:
+      RABBITMQ_DEFAULT_USER: ${RABBITMQ_USER:-app}
+      RABBITMQ_DEFAULT_PASS: ${RABBITMQ_PASSWORD:-rabbit-dev-password}
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+    networks: [data]
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "-q", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp:uid=100,gid=101,mode=1770
+      - /var/log/rabbitmq:uid=100,gid=101,mode=1770
+    cpus: 1.0
+    mem_limit: 768m
+    logging: *default-logging
+
+  migrate:
+    <<: *runtime-security
+    build:
+      context: ../backend
+      target: runtime
+    user: "10001:10001"
+    image: product-hackathon-api:${IMAGE_TAG:-local}
+    command: ["alembic", "upgrade", "head"]
+    environment: *backend-environment
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks: [data]
+    restart: "no"
+    read_only: true
+    tmpfs: [/tmp]
+    logging: *default-logging
+
+  api:
+    <<: *runtime-security
+    build:
+      context: ../backend
+      target: runtime
+    user: "10001:10001"
+    image: product-hackathon-api:${IMAGE_TAG:-local}
+    environment: *backend-environment
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+      redis:
+        condition: service_healthy
+      rabbitmq:
+        condition: service_healthy
+    networks: [application, data]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health/ready', timeout=3)"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 15s
+    restart: unless-stopped
+    read_only: true
+    tmpfs: [/tmp]
+    cpus: 1.0
+    mem_limit: 512m
+    logging: *default-logging
+
+  worker:
+    <<: *runtime-security
+    image: product-hackathon-api:${IMAGE_TAG:-local}
+    user: "10001:10001"
+    command: ["celery", "-A", "infrastructure.celery_app:celery", "worker", "--loglevel=INFO", "--concurrency=${CELERY_CONCURRENCY:-2}"]
+    environment: *backend-environment
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+      redis:
+        condition: service_healthy
+      rabbitmq:
+        condition: service_healthy
+    networks: [data]
+    healthcheck:
+      test: ["CMD-SHELL", "celery -A infrastructure.celery_app:celery inspect ping -d celery@$${HOSTNAME} --timeout=5 | grep -q pong"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 20s
+    restart: unless-stopped
+    read_only: true
+    tmpfs: [/tmp]
+    cpus: 1.0
+    mem_limit: 512m
+    logging: *default-logging
+
+  frontend:
+    <<: *runtime-security
+    build:
+      context: ../frontend
+      target: runtime
+    user: "101:101"
+    image: product-hackathon-frontend:${IMAGE_TAG:-local}
+    networks: [application]
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://127.0.0.1:8080/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp
+      - /var/cache/nginx
+    cpus: 0.5
+    mem_limit: 256m
+    logging: *default-logging
+
+  gateway:
+    <<: *runtime-security
+    image: nginxinc/nginx-unprivileged:1.28.2-alpine
+    user: "101:101"
+    environment:
+      DOMAIN: ${DOMAIN:-localhost}
+    volumes:
+      - ./nginx/templates/local.conf.template:/etc/nginx/templates/default.conf.template:ro
+      - certbot_www:/var/www/certbot:ro
+    ports:
+      - "${HTTP_PORT:-8080}:8080"
+    depends_on:
+      api:
+        condition: service_healthy
+      frontend:
+        condition: service_healthy
+    networks: [edge, application]
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://127.0.0.1:8080/gateway-health"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp
+      - /var/cache/nginx
+      - /etc/nginx/conf.d:uid=101,gid=101,mode=755
+    cpus: 0.5
+    mem_limit: 256m
+    logging: *default-logging
+
+  certbot-init:
+    <<: *runtime-security
+    build:
+      context: ./certbot
+    image: product-hackathon-certbot:${IMAGE_TAG:-local}
+    user: "10001:10001"
+    read_only: true
+    tmpfs:
+      - /tmp:uid=10001,gid=10001,mode=1770
+    profiles: [tls-init]
+    command:
+      - certonly
+      - --webroot
+      - --webroot-path=/var/www/certbot
+      - --non-interactive
+      - --agree-tos
+      - --no-eff-email
+      - --email=${CERTBOT_EMAIL:-admin@example.com}
+      - --domain=${DOMAIN:-example.com}
+    volumes:
+      - certbot_www:/var/www/certbot
+      - certbot_certs:/etc/letsencrypt
+      - certbot_work:/var/lib/letsencrypt
+      - certbot_logs:/var/log/letsencrypt
+    networks: [edge]
+
+  certbot-renew:
+    <<: *runtime-security
+    image: product-hackathon-certbot:${IMAGE_TAG:-local}
+    user: "10001:10001"
+    read_only: true
+    tmpfs:
+      - /tmp:uid=10001,gid=10001,mode=1770
+    profiles: [tls]
+    entrypoint: /bin/sh
+    command: -c "trap exit TERM; while :; do certbot renew --webroot -w /var/www/certbot --quiet; sleep 12h & wait $${!}; done"
+    volumes:
+      - certbot_www:/var/www/certbot
+      - certbot_certs:/etc/letsencrypt
+      - certbot_work:/var/lib/letsencrypt
+      - certbot_logs:/var/log/letsencrypt
+    networks: [edge]
+    restart: unless-stopped
+    logging: *default-logging
+
+networks:
+  edge:
+  application:
+    internal: true
+  data:
+    internal: true
+
+volumes:
+  postgres_data:
+  redis_data:
+  rabbitmq_data:
+  certbot_www:
+  certbot_certs:
+  certbot_work:
+  certbot_logs:

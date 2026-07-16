@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Product Manager"
+  short_description: "Turn cases into evidence-led product decisions"
+  default_prompt: "Use $project-product-manager to turn this case into a focused product brief with an MVP and measurable outcome."
