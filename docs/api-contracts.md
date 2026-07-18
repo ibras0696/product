@@ -1,50 +1,50 @@
-# API contracts
+# API contracts: «Паутина истории Чечни»
 
-Status: binding baseline for backend, frontend, tests, Claude Code, and Codex.
+Статус: approved target contract for MVP.
 
-This document defines the stable rules for communication between the React frontend and FastAPI backend. Product-specific resources are added only after the hackathon case is known. Unknown business contracts must not be invented in advance.
+Владельцы: backend, frontend, tests, Claude Code и Codex.
 
-## 1. Sources of truth
+Документ хранит общую HTTP-политику и согласованный target-контракт. Реализованным контракт
+становится только вертикальный срез, в котором одновременно обновлены Pydantic/OpenAPI,
+generated TypeScript client, frontend adapter и сценарные тесты. До миграции auth-среза
+текущий runtime `/api/auth/*` остаётся совместимым; целевой путь указан ниже.
 
-The contract has three synchronized representations:
+## 1. Источники истины и workflow
 
-1. This document owns cross-cutting policy and explicit decisions.
-2. FastAPI Pydantic schemas and generated OpenAPI own the executable HTTP shape.
-3. The generated TypeScript client owns transport types on the frontend.
+1. Этот документ владеет решениями, семантикой, правами, ошибками и target endpoints.
+2. Pydantic и сгенерированный FastAPI OpenAPI владеют исполняемой HTTP-формой.
+3. Сгенерированные TypeScript-типы владеют frontend transport types.
+4. Frontend использует generated client только через adapter своего модуля.
 
-A change is incomplete if these representations disagree. Backend and frontend changes for one contract must land together or remain backward compatible during a documented transition.
+Расхождение между документом, OpenAPI, клиентом и runtime — баг. Сгенерированные файлы
+вручную не редактируются. Корневого второго API-контракта быть не должно.
 
-Backend owns HTTP semantics, validation, authentication, authorization, and error codes. Frontend must not guess fields, statuses, permissions, defaults, or undocumented error behavior.
+## 2. Общий HTTP-контракт
 
-## 2. General HTTP contract
+- Базовый target prefix: `/api/v1`.
+- JSON: UTF-8, `application/json`, wire fields в `snake_case`.
+- Upload: `multipart/form-data` только на указанном endpoint.
+- ID — непрозрачный UUID; frontend не извлекает из него смысл.
+- Date/time — ISO 8601 UTC с `Z`; исторический период имеет отдельные nullable-поля.
+- Optional и nullable различаются и явно отражаются в OpenAPI.
+- Все списки и graph/map queries ограничиваются backend-максимумами.
+- Клиент может передать `X-Request-ID`; ответ возвращает тот же ID или создаёт новый.
+- Автоповтор mutation запрещён без endpoint-specific idempotency contract.
 
-### 2.1 Transport
+### 2.1. Единый envelope
 
-- Public application endpoints live under `/api`.
-- JSON uses UTF-8 and `application/json`.
-- Wire field names use `snake_case`; generated frontend types preserve the wire contract.
-- Identifiers are opaque strings. UUID format may be used by the backend but clients must not derive meaning from it.
-- Timestamps use ISO 8601 UTC with a `Z` suffix.
-- Optional means the field may be absent. Nullable means the field may be present with `null`. These are not interchangeable.
-- A list endpoint must be bounded. Its pagination contract is defined with the endpoint, not assumed by the frontend.
-- API versioning is not added until a real compatibility boundary exists. A breaking contract requires an explicit migration or a versioned endpoint.
-
-### 2.2 Response envelope
-
-Every JSON application endpoint returns `ApiResponse[T]`:
+Каждый JSON endpoint возвращает `ApiResponse[T]`:
 
 ```json
 {
   "ok": true,
   "data": {},
   "error": null,
-  "meta": {
-    "request_id": "opaque-request-id"
-  }
+  "meta": { "request_id": "opaque-id" }
 }
 ```
 
-Failure response:
+Ошибка:
 
 ```json
 {
@@ -52,205 +52,503 @@ Failure response:
   "data": null,
   "error": {
     "code": "stable_machine_code",
-    "message": "Safe user-facing message",
+    "message": "Безопасное сообщение",
     "details": null
   },
-  "meta": {
-    "request_id": "opaque-request-id"
-  }
+  "meta": { "request_id": "opaque-id" }
 }
 ```
 
-Invariants:
+`ok=true` требует `error=null`; `ok=false` требует `data=null`. Frontend ветвится только по
+`error.code`, но не парсит `message`. Успешное удаление возвращает HTTP 200 и `data:null`,
+а не 204.
 
-- `ok=true` means `error=null`.
-- `ok=false` means `data=null` and `error` is present.
-- `error.code` is stable and drives frontend behavior.
-- `error.message` is safe to display but must not be parsed.
-- `error.details` contains structured validation context only and never secrets, stack traces, SQL, tokens, or internal identifiers.
-- `meta.request_id` matches the `X-Request-ID` response header when available.
-- A successful operation with no resource result returns HTTP 200 with `data: null`; it does not use a bodyless 204 response.
+### 2.2. HTTP и базовые ошибки
 
-### 2.3 Status and error mapping
+| HTTP | Код | Значение |
+| --- | --- | --- |
+| 400 | `bad_request` | семантически неверный запрос |
+| 401 | `unauthorized` | нет действующей сессии |
+| 403 | `forbidden` | личность известна, права недостаточны |
+| 404 | `not_found` | объект не существует или не видим актору |
+| 409 | `conflict` | недопустимый переход, версия или повтор |
+| 413 | `payload_too_large` | превышен лимит upload/request |
+| 415 | `unsupported_media_type` | недопустимый фактический формат файла |
+| 422 | `validation_error` | нарушена транспортная схема |
+| 429 | `rate_limited` | превышен лимит; присутствует `Retry-After` |
+| 500 | `internal_error` | непредвиденная ошибка без внутренних деталей |
+| 503 | `service_unavailable` | обязательная зависимость недоступна |
 
-| HTTP | Meaning                                        | Baseline code         |
-| ---- | ---------------------------------------------- | --------------------- |
-| 400  | Request is semantically invalid                | `bad_request`         |
-| 401  | Authentication is missing or invalid           | `unauthorized`        |
-| 403  | Identity is known but action is not allowed    | `forbidden`           |
-| 404  | Resource is not visible or does not exist      | `not_found`           |
-| 409  | State conflicts with the requested transition  | `conflict`            |
-| 422  | Request shape or field validation failed       | `validation_error`    |
-| 429  | A bounded rate limit was exceeded              | `rate_limited`        |
-| 500  | Unexpected server failure                      | `internal_error`      |
-| 503  | Required dependency is temporarily unavailable | `service_unavailable` |
+Предметные коды: `source_required`, `self_relation_forbidden`, `invalid_credentials`,
+`email_already_registered`, `invalid_origin`, `draft_not_editable`, `invalid_transition`,
+`media_rejected`, `idempotency_conflict`.
 
-FastAPI validation errors and unexpected errors must be normalized into the same envelope before feature endpoints are released. The frontend handles known `error.code` values and uses a safe generic fallback for unknown codes.
-
-### 2.4 Request correlation and retries
-
-- A client may send `X-Request-ID`; the backend returns it or creates one.
-- Logs correlate by request ID but never contain credentials, cookies, raw tokens, or passwords.
-- GET requests are safe and idempotent.
-- Retryable mutations require an endpoint-specific idempotency contract before automatic retries are enabled.
-- The frontend must not retry authentication failures, validation failures, or non-idempotent mutations automatically.
-
-## 3. Authentication contract
-
-### 3.1 Decision
-
-Browser authentication uses a server-side opaque session. JWT access or refresh tokens are not exposed to JavaScript and are not stored in `localStorage`, `sessionStorage`, IndexedDB, URL parameters, or frontend state.
-
-The backend sets one cookie:
+## 3. Общие типы
 
 ```text
-__Host-product_session=<opaque random token>;
-Path=/;
-Secure;
-HttpOnly;
-SameSite=Lax
+LocalizedText = { ru: string, ce: string | null }
+Coordinates = { latitude: number[-90..90], longitude: number[-180..180] }
+Period = { period_from: integer | null, period_to: integer | null }
+PageMeta = { limit: integer, offset: integer, total: integer }
+Page[T] = { items: T[], meta: PageMeta }
 ```
 
-The cookie has no `Domain` attribute. The raw token exists only in the browser cookie and transient backend request memory. Persistent storage contains a cryptographic hash of the token.
+`LocalizedText.ru` обязателен в MVP. Пустая строка не заменяет `null`.
 
-### 3.2 Ownership and invariants
+### 3.1. Enum
 
-The backend `auth` module owns credentials and sessions. A separate profile or permissions module is introduced only when the case requires distinct business ownership.
+```text
+EntityType = settlement | person | event | landmark | natural_object |
+             cultural_object | organization | university_object | artifact
 
-Mandatory invariants:
+RelationType = born_in | lived_in | worked_in | studied_in | taught_at |
+               participated_in | located_in | part_of | created_by |
+               described_in | connected_with | connected_with_chgu
 
-- Email comparison is normalized and case-insensitive.
-- Passwords are hashed with Argon2id. Plaintext passwords are never logged, persisted, queued, or returned.
-- Password length is 12-128 characters; spaces and Unicode are allowed; arbitrary composition rules are forbidden.
-- A session belongs to exactly one account and has server-enforced expiry and revocation state.
-- Session identifiers rotate after login and any privilege-sensitive identity transition.
-- Logout revokes the current session. Logout-all revokes every session for the account.
-- Password change revokes all existing sessions.
-- Authentication errors do not reveal whether an account exists.
-- Authorization is enforced by backend application policy. Hiding frontend controls is UX, not security.
-- Unknown roles and permissions are denied by default.
+SubmissionType = new_entity | update_entity | new_relation | new_source |
+                 new_media | report_error
 
-Initial session lifetime is 7 days of inactivity with a 30-day absolute maximum. These values are configuration, not frontend constants.
+SubmissionStatus = draft | pending | in_review | needs_revision | rejected | published
 
-### 3.3 Browser request rules
+SourceType = archive_document | book | scientific_article | museum_material |
+             official_publication | photo | audio | video | oral_testimony | web_resource
 
-- Frontend calls same-origin `/api` endpoints and allows the browser to attach the cookie.
-- Unsafe cookie-authenticated requests must pass same-origin `Origin` validation.
-- CORS with credentials is disabled unless a concrete separate frontend origin is approved.
-- If cross-site clients are introduced, CSRF protection and cookie policy must be redesigned explicitly.
-- API endpoints return JSON errors; they never redirect an unauthenticated API request to an HTML login page.
+Role = moderator | editor | admin
+```
 
-### 3.4 Initial endpoints
+Основные mutation/read models:
 
-#### `POST /api/auth/register`
+```text
+SubmissionDraft = {
+  id: UUID, type: SubmissionType, related_entity_id: UUID | null,
+  settlement_id: UUID | null, title: string, description: string,
+  source_description: string, author_name: string, contact: string,
+  consent: boolean, status: draft | needs_revision, version: integer,
+  tracking_code: string, created_at: datetime, updated_at: datetime
+}
 
-Request:
+SubmissionStatusView = {
+  id: UUID, tracking_code: string, type: SubmissionType, title: string,
+  status: SubmissionStatus, public_comment: string | null,
+  submitted_at: datetime | null, updated_at: datetime
+}
 
-```json
-{
-  "email": "person@example.com",
-  "password": "long user supplied password"
+SubmissionMedia = {
+  id: UUID, submission_id: UUID, original_name: string, mime_type: string,
+  size_bytes: integer, width: integer, height: integer, preview_url: string,
+  caption: string, author: string, approximate_date: string | null,
+  source_description: string, related_entity_id: UUID | null, status: pending
+}
+
+PublishResult = {
+  submission_id: UUID, status: published, action: PublishAction,
+  published_entity_ids: UUID[], published_relation_ids: UUID[],
+  published_source_ids: UUID[], published_media_ids: UUID[], audit_id: UUID
+}
+
+EntityInput = {
+  type: EntityType, slug: string, title: LocalizedText,
+  short_description: LocalizedText, full_description: LocalizedText,
+  coordinates: Coordinates | null, period_from: integer | null,
+  period_to: integer | null, district_id: UUID | null
+}
+
+AdminEntity = EntityInput & {
+  id: UUID, status: draft | published | archived, version: integer,
+  relations_count: integer, sources_count: integer, media_count: integer,
+  created_at: datetime, updated_at: datetime
+}
+
+EntityPatch = partial EntityInput without `type`; `slug` and localized/period/location fields
+may change, but unknown fields are forbidden and `expected_version` is required by mutation.
+
+RelationInput = {
+  source_entity_id: UUID, target_entity_id: UUID, type: RelationType,
+  title: LocalizedText, description: LocalizedText,
+  period_from: integer | null, period_to: integer | null
+}
+
+SourceInput = {
+  title: string, type: SourceType, author: string | null,
+  publisher: string | null, publication_year: integer | null,
+  url: string | null, archive_reference: string | null, description: string
 }
 ```
 
-Creates an account and authenticated session atomically. Returns HTTP 201, sets the session cookie, and returns `ApiResponse[CurrentAccount]`.
+Все поля обязательны, если явно не указано `| null`. PATCH-схемы содержат только разрешённые
+изменяемые поля; отсутствие поля означает «не менять», явный `null` — очистить nullable поле.
 
-Possible errors: `validation_error`, `email_already_registered`, `rate_limited`.
+Enum расширяется только вместе с domain rule, OpenAPI, UI fallback и тестом неизвестного
+значения. `approved` отсутствует: publish — атомарное решение MVP.
 
-#### `POST /api/auth/login`
+## 4. Authentication и authorization
 
-Uses the same request shape. Returns HTTP 200, replaces any presented session cookie, and returns `ApiResponse[CurrentAccount]`.
+Browser auth использует серверную opaque session в cookie:
 
-Invalid email or password always returns HTTP 401 with `invalid_credentials` and the same public message.
+```text
+__Host-product_session=<random token>; Path=/; Secure; HttpOnly; SameSite=Lax
+```
 
-#### `GET /api/auth/me`
+Cookie не имеет `Domain`. Raw token не хранится в базе; сохраняется криптографический hash.
+Пароль: 12–128 Unicode-символов, Argon2id. Session: 7 дней inactivity, максимум 30 дней.
 
-Returns HTTP 200 with `ApiResponse[CurrentAccount]` for a valid session. Missing, expired, or revoked sessions return HTTP 401 with `unauthorized`.
+Unsafe cookie-authenticated запрос проверяет same-origin `Origin`. CORS credentials не
+включается без отдельного решения. Роли проверяются backend; неизвестное разрешение denied.
 
-#### `POST /api/auth/logout`
-
-Revokes the current session, clears the cookie, and returns HTTP 200 with successful `data: null`. The operation is idempotent.
-
-#### `POST /api/auth/logout-all`
-
-Requires a valid session, revokes every session for the account, clears the current cookie, and returns HTTP 200 with successful `data: null`.
-
-### 3.5 Current account shape
-
-The initial public shape is intentionally small:
+| Endpoint | Auth | Успех |
+| --- | --- | --- |
+| `POST /api/v1/auth/register` | public | 201 + `CurrentAccount` + cookie |
+| `POST /api/v1/auth/login` | public | 200 + `CurrentAccount` + rotated cookie |
+| `GET /api/v1/auth/me` | session | 200 + `CurrentAccount` |
+| `POST /api/v1/auth/logout` | optional session | 200 + null; idempotent |
+| `POST /api/v1/auth/logout-all` | session | 200 + null |
+| `GET /api/v1/admin/me` | one admin role | 200 + `AdminAccount` |
 
 ```json
 {
-  "id": "opaque-account-id",
-  "email": "person@example.com",
-  "status": "active"
+  "id": "account-uuid",
+  "email": "moderator@example.com",
+  "status": "active",
+  "display_name": "Модератор",
+  "roles": ["moderator"]
 }
 ```
 
-Fields such as roles, display name, avatar, subscription, and provider identities are not added until a use case owns them.
+Публичная регистрация никогда не назначает административную роль. Назначение роли —
+отдельный admin use case с аудитом; его UI не входит в MVP. Invalid login не раскрывает,
+существует ли email. Login/register ограничены по source и нормализованному account key.
+Первый admin создаётся idempotent one-shot bootstrap release step. Email поступает из
+`ADMIN_BOOTSTRAP_EMAIL`, пароль читается только из файла по пути
+`ADMIN_BOOTSTRAP_PASSWORD_FILE`. Значения не входят в Git/Compose, command arguments или
+логи; bootstrap secret не передаётся постоянным API/frontend containers. После создания
+login проверяет Argon2id hash в PostgreSQL, а не ENV.
 
-### 3.6 Abuse and failure behavior
+Admin frontend routes: `/admin/login` и защищённый `/admin/*`. Это client routes того же
+frontend bundle; backend API остаётся под `/api/v1/admin/*`.
+Admin UI не использует public register: первый admin создаётся bootstrap-операцией, остальные
+administrative accounts/roles назначаются только разрешённым admin use case с аудитом.
 
-- Registration and login are rate-limited by both source and normalized account key.
-- Initial baseline: 5 failed login attempts per 15 minutes for one source and account key. Production configuration may be stricter.
-- A limited response returns HTTP 429, `rate_limited`, and a `Retry-After` header.
-- Redis unavailability must fail safely without allowing an unbounded authentication attack. Exact degraded behavior must be covered by an integration test.
-- Database or session-store failure returns `service_unavailable` or `internal_error`; it never creates a partial account or session.
+## 5. Публичный каталог
 
-## 4. Frontend contract
+Публичные endpoints возвращают только `published` данные.
+JSON-примеры ниже показывают значение поля `data`; transport всегда добавляет envelope.
 
-The owning module is `frontend/src/modules/auth`. Other modules import only its public `index.ts`.
+### 5.1. Карта
 
-Frontend rules:
+`GET /api/v1/map/entities`
 
-- A module API adapter unwraps `ApiResponse[T]` and maps known errors into typed frontend failures.
-- `GET /api/auth/me` is server state and belongs in TanStack Query.
-- Login and registration forms use React Hook Form plus Zod for immediate format feedback. Backend validation remains authoritative.
-- Login success invalidates or replaces the `me` query.
-- HTTP 401 from `me` represents the anonymous state and does not create a global error notification.
-- A protected route waits for the initial `me` result before rendering or redirecting.
-- Redirect after login uses a validated same-origin path, never an arbitrary external URL.
-- Logout clears cached account data only after the backend request completes or returns the documented idempotent result.
-- Frontend never decodes cookies, infers permissions, or persists the current account as an authentication source of truth.
+Query:
 
-## 5. Contract change workflow
+```text
+bbox=min_lon,min_lat,max_lon,max_lat (required)
+zoom=integer 5..18 (required)
+types=EntityType[]
+district_id=UUID
+period_from=integer
+period_to=integer
+limit=1..500 (default 200)
+```
 
-Every API change follows this order:
+```json
+{
+  "items": [{
+    "id": "entity-uuid",
+    "type": "settlement",
+    "title": { "ru": "Ножай-Юрт", "ce": null },
+    "coordinates": { "latitude": 43.092, "longitude": 46.378 },
+    "relations_count": 24,
+    "cover_url": "/media/entities/cover.webp",
+    "district_id": "district-uuid"
+  }],
+  "truncated": false
+}
+```
 
-1. Record the decision or endpoint contract in this document when it changes shared policy.
-2. Implement Pydantic request, response, and error schemas.
-3. Regenerate and review OpenAPI.
-4. Regenerate the TypeScript transport client.
-5. Update the owning frontend adapter and user-visible states.
-6. Add scenario tests at the appropriate backend, component, and E2E levels.
-7. Verify no undocumented field, status, cookie, or error-code dependency remains.
+Неверный bbox/period — `bad_request`; превышение server maximum не приводит к unbounded
+query, а возвращает `truncated=true`.
 
-Manual duplicate TypeScript interfaces for backend responses are forbidden once client generation is configured. Generated files are not edited by hand.
+### 5.2. Сущность, источники и медиа
 
-## 6. Required authentication scenarios
+| Endpoint | Data |
+| --- | --- |
+| `GET /api/v1/entities/{entity_id}` | `EntityDetails` |
+| `GET /api/v1/entities/{entity_id}/sources?limit&offset` | `Page[Source]` |
+| `GET /api/v1/entities/{entity_id}/media?limit&offset` | `Page[PublishedMedia]` |
+| `GET /api/v1/relations/{relation_id}/sources?limit&offset` | `Page[Source]` |
 
-One scenario may exercise several functions and assertions. Coverage must include:
+`EntityDetails` содержит `id`, `type`, `slug`, `title`, localized short/full description,
+coordinates, period, cover URL, counts и `status=published`.
 
-- registration creates one account, one session, a protected cookie, and a usable `me` response;
-- duplicate normalized email is rejected without a partial session;
-- valid login succeeds and invalid credentials return the same public failure;
-- missing, expired, and revoked sessions cannot access protected behavior;
-- logout is idempotent and logout-all revokes parallel sessions;
-- unsafe requests with an invalid origin are rejected;
-- rate limiting is bounded and returns retry information;
-- frontend restores an existing session, handles anonymous state, displays login failure, and completes logout;
-- authorization tests prove forbidden behavior on the backend even when requests bypass the UI.
+`Source` содержит `id`, `title`, `type`, author, publisher, publication year, URL,
+archive reference, description и verification status. Устное свидетельство всегда имеет
+`type=oral_testimony` и не маскируется под установленный факт.
 
-## 7. Explicitly open decisions
+`PublishedMedia` содержит безопасные public/preview URL, фактический MIME, dimensions,
+caption, author, approximate date и source description. Внутренний storage key не выдаётся.
 
-These items are not approved for implementation yet:
+### 5.3. Граф
 
-- email verification;
-- password reset and outbound email provider;
-- Google, GitHub, Telegram, or other OAuth/OIDC providers;
-- roles, permissions, organizations, and multi-tenancy;
-- native-mobile token flow;
-- account deletion and regulatory retention periods;
-- session management UI beyond logout-all.
+`GET /api/v1/entities/{entity_id}/graph`
 
-When the case makes one of these necessary, update this document before implementation and add traceable acceptance scenarios.
+```text
+depth=1..2 (default 1)
+types=EntityType[]
+limit=1..40 (default 20)
+period_from=integer
+period_to=integer
+```
+
+```json
+{
+  "center": { "id": "center-uuid", "type": "settlement", "title": { "ru": "Ножай-Юрт", "ce": null } },
+  "nodes": [{ "id": "person-uuid", "type": "person", "title": { "ru": "Имя", "ce": null }, "relations_count": 6 }],
+  "edges": [{
+    "id": "relation-uuid",
+    "source_id": "person-uuid",
+    "target_id": "center-uuid",
+    "type": "born_in",
+    "title": { "ru": "родился в", "ce": null },
+    "description": { "ru": "Описание связи", "ce": null },
+    "sources_count": 2
+  }],
+  "hidden_nodes_count": 14
+}
+```
+
+Каждый edge ссылается на center или существующий node. Ответ не содержит дублей. Циклы
+разрешены; self relation запрещён business rule.
+
+### 5.4. Поиск
+
+`GET /api/v1/search?q&types&district_id&period_from&period_to&limit&offset`
+
+- `q`: trimmed 2–100 символов;
+- `limit`: 1–50, default 20;
+- `offset`: 0–1000;
+- ответ: `Page[SearchItem]` с title/subtitle, cover, coordinates и relations count;
+- поиск учитывает RU/CE, альтернативные и исторические названия, регистр и опечатки;
+- пустой результат — 200 с `items:[]`.
+
+### 5.5. Справочники фильтров
+
+`GET /api/v1/catalog/options` возвращает:
+
+```text
+CatalogOptions = {
+  districts: { id: UUID, title: LocalizedText }[],
+  periods: { id: string, title: LocalizedText, period_from: integer | null,
+             period_to: integer | null }[],
+  entity_types: EntityType[]
+}
+```
+
+Ответ versioned через `ETag`; frontend не придумывает district IDs и границы периодов.
+
+## 6. Публичные заявки
+
+Публичный автор может работать только со своим draft capability. UUID заявки не является
+секретом и сам по себе не авторизует mutation. Capability хранится в Secure HttpOnly cookie
+или эквивалентной server-side session; frontend его не читает и не сохраняет.
+
+### 6.1. Endpoints
+
+| Endpoint | Auth/ownership | Успех |
+| --- | --- | --- |
+| `POST /api/v1/submissions` | public + rate limit | 201 `SubmissionDraft` |
+| `PATCH /api/v1/submissions/{id}` | owner, status=draft или needs_revision | 200 `SubmissionDraft` |
+| `POST /api/v1/submissions/{id}/submit` | draft owner | 200 `SubmissionStatusView` |
+| `POST /api/v1/submissions/status` | tracking capability в JSON body + rate limit | 200 `SubmissionStatusView` |
+| `POST /api/v1/submissions/{id}/media` | owner, draft или needs_revision | 201 `SubmissionMedia` |
+| `GET /api/v1/submissions/{id}/media` | draft owner/admin role | 200 list |
+| `PATCH /api/v1/submissions/{id}/media/{media_id}` | owner, draft или needs_revision | 200 media |
+| `DELETE /api/v1/submissions/{id}/media/{media_id}` | owner, draft или needs_revision | 200 null |
+
+Create request:
+
+```json
+{
+  "type": "new_entity",
+  "related_entity_id": null,
+  "settlement_id": "settlement-uuid",
+  "title": "История населённого пункта",
+  "description": "Описание материала",
+  "source_description": "Семейный архив",
+  "author_name": "Имя автора",
+  "contact": "example@example.com",
+  "consent": true
+}
+```
+
+Response содержит UUID, случайный неугадываемый `tracking_code`, status и timestamps.
+Status endpoint не возвращает contact, consent, внутренний audit и закрытые комментарии.
+Он принимает `{ "tracking_code": "..." }`, отвечает с `Cache-Control: no-store` и не пишет
+код в access/application logs. POST здесь является read-only и безопасен для ручного повтора.
+
+Submit атомарно проверяет обязательные поля/consent/media metadata и меняет `draft→pending`
+или `needs_revision→pending`.
+Повторный submit возвращает прежний результат или `conflict`, но не дублирует событие.
+
+### 6.2. Media upload
+
+Multipart fields: `file`, `caption`, `author`, `approximate_date`, `source_description`,
+`related_entity_id`.
+
+Upload требует header `Idempotency-Key: <UUID>`. Frontend создаёт один key при выборе файла и
+повторно использует его для retry этого файла. Одинаковый key и payload возвращают прежний
+`SubmissionMedia`; другой payload с тем же key возвращает `idempotency_conflict`.
+
+MVP принимает JPEG, PNG и WebP после проверки сигнатуры и декодирования. Настраиваемые
+server limits имеют обязательные production defaults: до 10 файлов на заявку, до 10 MiB на
+файл и до 40 megapixels. Сервер генерирует storage name, удаляет EXIF, создаёт WebP preview
+и не публикует оригинал до решения модератора. Частично записанный файл удаляется при
+ошибке; orphan draft media очищается отдельной bounded maintenance operation.
+
+## 7. Admin API: модерация и каталог
+
+Все endpoints требуют `moderator`, `editor` или `admin` в соответствии с permission policy.
+Queue и details доступны moderator; публикация требует `moderation:publish`.
+
+| Endpoint | Успех |
+| --- | --- |
+| `GET /api/v1/admin/submissions?status&type&settlement_id&created_from&created_to&limit&offset` | bounded page |
+| `GET /api/v1/admin/submissions/{id}` | полная заявка с media и контактами |
+| `POST /api/v1/admin/submissions/{id}/claim` | `pending→in_review` |
+| `POST /api/v1/admin/submissions/{id}/publish` | атомарный `PublishResult` |
+| `POST /api/v1/admin/submissions/{id}/reject` | `in_review→rejected` |
+| `POST /api/v1/admin/submissions/{id}/request-revision` | `in_review→needs_revision` |
+
+Publish request:
+
+```json
+{
+  "expected_version": 3,
+  "idempotency_key": "client-generated-uuid",
+  "action": "create_entity",
+  "payload": {
+    "entity": {
+      "type": "person",
+      "slug": "person-name",
+      "title": { "ru": "Имя личности", "ce": null },
+      "short_description": { "ru": "Краткое описание", "ce": null },
+      "full_description": { "ru": "Полное описание", "ce": null },
+      "coordinates": null,
+      "period_from": null,
+      "period_to": null
+    },
+    "relations": [],
+    "sources": [],
+    "approved_media_ids": []
+  },
+  "comment": "Материал проверен"
+}
+```
+
+`action` — discriminator, а `payload` — соответствующая Pydantic discriminated union:
+
+| SubmissionType | PublishAction | Payload |
+| --- | --- | --- |
+| `new_entity` | `create_entity` | `entity`, `relations[]`, `sources[]`, `approved_media_ids[]` |
+| `update_entity` | `update_entity` | `entity_id`, `entity_patch`, `sources[]`, `approved_media_ids[]` |
+| `new_relation` | `create_relation` | `relation`, `sources[]` |
+| `new_source` | `add_source` | `target_type`, `target_id`, `source` |
+| `new_media` | `publish_media` | `target_entity_id`, `approved_media_ids[]` |
+| `report_error` | `resolve_report` | `resolution`, optional `entity_patch` или `archive_entity_id` |
+
+Несовпадение `submission.type` и `action` возвращает `invalid_transition`. Поля каждого
+payload полностью задаются Pydantic/OpenAPI; неизвестные поля запрещены.
+
+Publish выполняется в одном Unit of Work: проверяет version, роль, источники, связи и media;
+создаёт/обновляет каталог; фиксирует audit; переводит заявку в `published`; делает один
+commit. Ошибка откатывает всё. Повтор с тем же idempotency key возвращает тот же результат;
+другой payload с тем же key — `idempotency_conflict`.
+
+Reject/request revision принимают `{expected_version, comment}`. Пустой comment запрещён.
+Конкурентное решение по устаревшей версии возвращает `conflict`.
+
+### 7.1. Управление каталогом из `/admin`
+
+`editor` и `admin` могут читать и изменять каталог; `moderator` имеет только read-доступ,
+необходимый для заявки. DELETE означает archive, физического удаления нет.
+
+| Endpoint | Permission | Результат |
+| --- | --- | --- |
+| `GET /api/v1/admin/catalog/entities?query&type&status&limit&offset` | catalog:read | `Page[AdminEntity]` |
+| `POST /api/v1/admin/catalog/entities` | catalog:write | 201 `AdminEntity` |
+| `PATCH /api/v1/admin/catalog/entities/{id}` | catalog:write | 200 `AdminEntity` |
+| `DELETE /api/v1/admin/catalog/entities/{id}` | catalog:write | 200 null, archive |
+| `GET /api/v1/admin/catalog/relations?entity_id&type&limit&offset` | catalog:read | bounded page |
+| `POST /api/v1/admin/catalog/relations` | catalog:write | 201 relation |
+| `PATCH /api/v1/admin/catalog/relations/{id}` | catalog:write | 200 relation |
+| `DELETE /api/v1/admin/catalog/relations/{id}` | catalog:write | 200 null, archive |
+| `GET /api/v1/admin/catalog/sources?query&type&limit&offset` | catalog:read | bounded page |
+| `POST /api/v1/admin/catalog/sources` | catalog:write | 201 source |
+| `PATCH /api/v1/admin/catalog/sources/{id}` | catalog:write | 200 source |
+| `DELETE /api/v1/admin/catalog/sources/{id}` | catalog:write | 200 null, archive |
+| `GET /api/v1/admin/audit?actor_id&action&created_from&created_to&limit&offset` | audit:read | bounded page |
+
+Каждая mutation принимает `expected_version`, выполняет один UoW commit и создаёт audit
+record. Source invariants применяются так же строго, как при moderation publish.
+
+### 7.2. Экспорт каталога
+
+`GET /api/v1/admin/catalog/export?format=json|csv&status=published|all`
+
+- permission: `catalog:export` (`editor` и `admin`);
+- streaming response с `Content-Disposition: attachment`;
+- hard limits: 10 000 записей и 100 MiB; превышение — `export_too_large`;
+- экспорт содержит entities, localized names, relations, sources и public media metadata;
+- allowlist исключает passwords/hashes, sessions, contacts, submissions, internal storage keys
+  и audit internals;
+- export response — файл, поэтому не оборачивается в JSON `ApiResponse`.
+
+## 8. Health
+
+Health endpoints остаются platform-level и не версионируются:
+
+| Endpoint | Назначение |
+| --- | --- |
+| `GET /api/health/live` | процесс жив; без внешних I/O |
+| `GET /api/health/ready` | bounded probes PostgreSQL, Redis и RabbitMQ из текущей платформы |
+
+Они используют `ApiResponse`. Наличие Redis/RabbitMQ в readiness не разрешает новым
+feature-срезам использовать их без конкретного требования.
+
+## 9. Frontend integration
+
+- Все calls same-origin; browser прикладывает cookie автоматически.
+- TanStack Query хранит server state; mutation не ретраится автоматически.
+- React Hook Form + Zod дают быстрый format feedback; backend остаётся авторитетом.
+- 401 от `me` — anonymous state без глобального toast.
+- Protected route ждёт initial `me` и проверяет roles из backend response.
+- Redirect после login допускает только validated same-origin path.
+- Tracking/draft capability не попадает в localStorage/sessionStorage/IndexedDB.
+- Upload показывает индивидуальный progress/error/retry без повторной отправки успешных файлов.
+- Retry одного upload повторно использует его `Idempotency-Key`.
+- Unknown enum/error имеет безопасный fallback.
+
+## 10. Обязательные сценарии контракта
+
+1. Map bbox/graph/search возвращают bounded published data и корректную пустую выдачу.
+2. Сущность и связь без источника не публикуются.
+3. Чужой draft UUID не позволяет читать или менять заявку и media.
+4. Submit и publish идемпотентны в рамках описанного контракта.
+5. Устаревшая moderation version не перезаписывает чужое решение.
+6. Publish либо создаёт весь публичный результат и audit, либо ничего.
+7. Invalid/oversized media не сохраняется и не публикуется.
+8. Anonymous/admin role boundaries доказаны backend-тестом в обход UI.
+9. Frontend проходит map→graph→source, submission и moderation critical flows.
+10. OpenAPI и generated TypeScript client не имеют расхождений.
+11. Editor управляет каталогом и скачивает allowlisted bounded export через `/admin`.
+12. Bootstrap secret создаёт admin один раз и отсутствует в runtime logs/responses.
+
+## 11. Явно открытые решения
+
+- email verification, password reset и email provider;
+- UI назначения ролей;
+- срок хранения отклонённых заявок, контактов и оригинальных media;
+- точный offline tile provider и лицензия;
+- S3/MinIO migration и media antivirus pipeline;
+- native mobile auth и сторонние OAuth/OIDC providers.
+
+Эти решения не реализуются скрыто. Они сначала добавляются в ТЗ и контракт с новыми
+acceptance scenarios.
