@@ -4,7 +4,7 @@ from uuid import UUID
 from sqlalchemy import select, update
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from modules.auth.models import Account, AuthSession
+from modules.auth.models import Account, AccountRole, AuthSession, Role
 
 
 class AuthRepository:
@@ -18,6 +18,28 @@ class AuthRepository:
     async def find_account_by_email(self, email: str) -> Account | None:
         result = await self._session.execute(select(Account).where(Account.email == email))
         return result.scalar_one_or_none()
+
+    async def find_role_by_name(self, name: str) -> Role | None:
+        result = await self._session.execute(select(Role).where(Role.name == name))
+        return result.scalar_one_or_none()
+
+    async def add_role(self, role: Role) -> None:
+        self._session.add(role)
+        await self._session.flush()
+
+    async def add_account_role(self, account_role: AccountRole) -> None:
+        self._session.add(account_role)
+        await self._session.flush()
+
+    async def list_account_role_names(self, account_id: UUID) -> frozenset[str]:
+        statement = (
+            select(Role.name)
+            .join(AccountRole, AccountRole.role_id == Role.id)
+            .where(AccountRole.account_id == account_id)
+            .order_by(Role.name)
+        )
+        result = await self._session.execute(statement)
+        return frozenset(result.scalars().all())
 
     async def add_session(self, session: AuthSession) -> None:
         self._session.add(session)

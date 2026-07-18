@@ -7,3 +7,7 @@ class EmailAlreadyRegisteredError(ConflictError):
 
 class InvalidCredentialsError(UnauthorizedError):
     code = "invalid_credentials"
+
+
+class BootstrapConflictError(ConflictError):
+    code = "admin_bootstrap_conflict"

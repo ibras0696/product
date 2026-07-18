@@ -38,6 +38,7 @@ RUN ruff format --check . \
     && ruff check . \
     && mypy src \
     && lint-imports \
+    && python scripts/check_module_boundaries.py \
     && pytest
 
 FROM base AS runtime

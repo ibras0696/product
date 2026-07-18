@@ -45,4 +45,9 @@ export default tseslint.config(
       "@typescript-eslint/no-non-null-assertion": "error",
     },
   },
+  {
+    // Canonical OpenAPI output is generated and contains no hand-written logic.
+    files: ["src/shared/api/schema.d.ts"],
+    rules: { "max-lines": "off", "max-lines-per-function": "off" },
+  },
 );

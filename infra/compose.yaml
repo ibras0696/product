@@ -26,7 +26,7 @@ x-runtime-security: &runtime-security
 services:
   postgres:
     <<: *runtime-security
-    image: postgres:17.7-alpine
+    image: postgis/postgis:17-3.5-alpine@sha256:4901dbe093da7bee4526c2da5fd9bbbe3921901485bc0eeea18db2414ba745b1
     user: "70:70"
     environment:
       POSTGRES_DB: ${POSTGRES_DB:-app}
@@ -114,6 +114,35 @@ services:
     tmpfs: [/tmp]
     logging: *default-logging
 
+  bootstrap-admin:
+    <<: *runtime-security
+    profiles: [bootstrap]
+    build:
+      context: ../backend
+      target: runtime
+    image: product-hackathon-api:${IMAGE_TAG:-local}
+    user: "10001:10001"
+    command: ["python", "scripts/bootstrap_admin.py"]
+    environment:
+      <<: *backend-environment
+      ADMIN_BOOTSTRAP_EMAIL: ${ADMIN_BOOTSTRAP_EMAIL:-}
+      ADMIN_BOOTSTRAP_PASSWORD_FILE: /run/secrets/admin_bootstrap_password
+    volumes:
+      - type: bind
+        source: ${ADMIN_BOOTSTRAP_PASSWORD_FILE:-./secrets/admin_bootstrap_password}
+        target: /run/secrets/admin_bootstrap_password
+        read_only: true
+        bind:
+          create_host_path: false
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    networks: [data]
+    restart: "no"
+    read_only: true
+    tmpfs: [/tmp]
+    logging: *default-logging
+
   api:
     <<: *runtime-security
     build:
@@ -145,6 +174,9 @@ services:
 
   worker:
     <<: *runtime-security
+    build:
+      context: ../backend
+      target: runtime
     image: product-hackathon-api:${IMAGE_TAG:-local}
     user: "10001:10001"
     command: ["celery", "-A", "infrastructure.celery_app:celery", "worker", "--loglevel=INFO", "--concurrency=${CELERY_CONCURRENCY:-2}"]

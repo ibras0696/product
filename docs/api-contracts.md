@@ -249,6 +249,11 @@ period_to=integer
 limit=1..500 (default 200)
 ```
 
+`types` передаётся повторяемым query-параметром. Bbox включает границы и не поддерживает
+переход через антимеридиан: `min_lon <= max_lon`, `min_lat <= max_lat`. Фильтр периода
+использует пересечение интервалов; открытая граница entity пересекается с соответствующей
+стороной фильтра. Результат сортируется по UUID для стабильной пагинации.
+
 ```json
 {
   "items": [{
@@ -274,7 +279,14 @@ query, а возвращает `truncated=true`.
 | `GET /api/v1/entities/{entity_id}` | `EntityDetails` |
 | `GET /api/v1/entities/{entity_id}/sources?limit&offset` | `Page[Source]` |
 | `GET /api/v1/entities/{entity_id}/media?limit&offset` | `Page[PublishedMedia]` |
+| `GET /api/v1/media/{media_id}/original` | published media binary |
+| `GET /api/v1/media/{media_id}/preview` | published WebP preview binary |
 | `GET /api/v1/relations/{relation_id}/sources?limit&offset` | `Page[Source]` |
+
+Для дочерних списков `limit=1..100` (default 20), `offset=0..1000` (default 0).
+Публичные списки источников содержат только связанные `published` и `verified` источники;
+родитель со статусом draft/archived неотличим от отсутствующего и возвращает `not_found`.
+Элементы сортируются по `created_at`, затем UUID.
 
 `EntityDetails` содержит `id`, `type`, `slug`, `title`, localized short/full description,
 coordinates, period, cover URL, counts и `status=published`.
@@ -343,6 +355,10 @@ CatalogOptions = {
 ```
 
 Ответ versioned через `ETag`; frontend не придумывает district IDs и границы периодов.
+Используется strong ETag от канонического JSON. Совпавший `If-None-Match` возвращает стандартный
+пустой `304`; при изменении справочника ETag меняется. Районы сортируются по RU title и UUID,
+периоды — по `period_from`, `period_to`, `id`; неизвестный `district_id` отклоняется как
+`bad_request` потребляющими endpoints.
 
 ## 6. Публичные заявки
 

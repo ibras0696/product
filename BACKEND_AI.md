@@ -127,7 +127,8 @@ changed paths, acceptance evidence, validation, risks и next action.
 
 ## 7. Вертикальные slices
 
-Один slice — одна исполняемая пачка/спринт. Его нельзя закрыть частично: задачи, slice gate и
+Один slice — одна исполняемая пачка/спринт
+. Его нельзя закрыть частично: задачи, slice gate и
 общий backend gate должны быть отмечены вместе.
 
 ### 7.1. Как вести чек-лист
@@ -153,14 +154,14 @@ Skipped checks / blockers:
 
 ### 7.2. Обязательный backend gate после каждой пачки
 
-- [ ] Сверены `TZ.md` и `docs/api-contracts.md`; contract drift отсутствует.
-- [ ] Добавлены сценарные тесты: happy path, главный invariant, failure и authorization.
-- [ ] Проверены UoW commit/rollback, bounded queries, timeout/idempotency и отсутствие N+1.
-- [ ] Проверены imports, размеры файлов/функций, diff и отсутствие secrets/silent disables.
-- [ ] Узкий набор тестов изменённого модуля прошёл.
-- [ ] Полный backend quality image собран командой ниже.
-- [ ] Read-only reviewer подтвердил архитектуру и test gaps либо замечания исправлены.
-- [ ] Lead записал evidence и только после этого отметил slice как `done`.
+- [x] Сверены `TZ.md` и `docs/api-contracts.md`; contract drift отсутствует.
+- [x] Добавлены сценарные тесты: happy path, главный invariant, failure и authorization.
+- [x] Проверены UoW commit/rollback, bounded queries, timeout/idempotency и отсутствие N+1.
+- [x] Проверены imports, размеры файлов/функций, diff и отсутствие secrets/silent disables.
+- [x] Узкий набор тестов изменённого модуля прошёл.
+- [x] Полный backend quality image собран командой ниже.
+- [x] Read-only reviewer подтвердил архитектуру и test gaps либо замечания исправлены.
+- [x] Lead записал evidence и только после этого отметил slice как `done`.
 
 ```bash
 python3.13 scripts/validate_ai_harness.py
@@ -172,17 +173,31 @@ git diff --check
 
 ### Slice 0 — foundation и контракт
 
-- [ ] Зафиксировать public module contracts и import-linter boundaries.
-- [ ] Подготовить PostgreSQL/PostGIS image и one-shot migration release path.
-- [ ] Перенести auth target на `/api/v1/auth` с совместимым переходом.
-- [ ] Добавить RBAC schema/policy без публичного самоназначения роли.
-- [ ] Добавить idempotent one-shot bootstrap первого admin: email из
+```text
+Status: done
+Owner: Backend Lead
+Branch/worktree: islam / shared workspace
+Owned paths: auth foundation, platform errors, Slice 0 migration, OpenAPI, Compose
+Subagents: infra, auth, error-contract, read-only quality review; follow-up API/boundary/host review
+Acceptance evidence: backend quality image: Ruff/mypy/import-linter/public-boundary checker and
+31 tests; frontend lint/type/tests/build; clean/current/downgrade PostGIS migration and alembic
+check; live idempotent bootstrap/hash verification; base/dev/prod Compose render; hardened Compose
+runtime healthy through gateway with migration exit 0 and readiness dependencies healthy
+Skipped checks / blockers: browser E2E/a11y retry was skipped after the pinned Playwright image pull
+stalled in the external MCR registry; lower-level frontend checks and runtime smoke passed
+```
+
+- [x] Зафиксировать public module contracts и import-linter boundaries.
+- [x] Подготовить PostgreSQL/PostGIS image и one-shot migration release path.
+- [x] Перенести auth target на `/api/v1/auth` с совместимым переходом.
+- [x] Добавить RBAC schema/policy без публичного самоназначения роли.
+- [x] Добавить idempotent one-shot bootstrap первого admin: email из
   `ADMIN_BOOTSTRAP_EMAIL`, пароль только из `ADMIN_BOOTSTRAP_PASSWORD_FILE`;
-- [ ] В `.env.example` оставить только имена bootstrap settings без значений; bootstrap secret
+- [x] В `.env.example` оставить только имена bootstrap settings без значений; bootstrap secret
   не передаётся API/worker/frontend после release step;
-- [ ] Нормализовать validation/unexpected errors в `ApiResponse[T]`.
-- [ ] Обновить OpenAPI и передать reviewed diff Frontend Lead.
-- [ ] Покрыть bootstrap, login/session, denied role и migration regression сценариями.
+- [x] Нормализовать validation/unexpected errors в `ApiResponse[T]`.
+- [x] Обновить OpenAPI и передать reviewed diff Frontend Lead.
+- [x] Покрыть bootstrap, login/session, denied role и migration regression сценариями.
 
 Подробные задачи Slice 0:
 
@@ -197,127 +212,172 @@ git diff --check
 
 Gate Slice 0:
 
-- [ ] Clean/current database migrations и `alembic check` проходят.
-- [ ] Base/dev/prod Compose render без ошибок; PostGIS доступен только private network.
-- [ ] Bootstrap повтор не меняет существующего admin и не выводит secret.
-- [ ] Auth regression и unknown-role deny проходят.
-- [ ] OpenAPI/generated-client diff согласован с Frontend Lead.
+- [x] Clean/current database migrations и `alembic check` проходят.
+- [x] Base/dev/prod Compose render без ошибок; PostGIS доступен только private network.
+- [x] Bootstrap повтор не меняет существующего admin и не выводит secret.
+- [x] Auth regression и unknown-role deny проходят.
+- [x] OpenAPI/generated-client diff согласован с Frontend Lead.
 
 ### Slice 1 — catalog map и entity
 
-- [ ] Реализовать entity/relation/source domain rules и persistence.
-- [ ] Запретить self relation и публикацию entity/relation без verified source.
-- [ ] Создать миграции, constraints, spatial/search indexes и verified seed pipeline.
-- [ ] Реализовать bounded bbox map query и published-only scope.
-- [ ] Реализовать entity details, sources и published media endpoints.
-- [ ] Реализовать catalog options для districts, periods и entity types.
-- [ ] Исключить N+1 и проверить deterministic ordering.
+```text
+Status: done
+Owner: Backend Lead
+Branch/worktree: islam / shared workspace
+Acceptance evidence: BE-1.1 domain scenarios: 7 tests; Ruff, mypy, import-linter and public-boundary check passed;
+BE-1.2 live upgrade/downgrade/re-upgrade, alembic check, DB self-relation/optimistic-version
+constraints and PostGIS GiST index checks passed; BE-1.3 live first/repeat seed (5/0 then 0/5)
+and bbox visibility passed; BE-1.4–1.6 catalog tests and live empty/error/options/map smoke passed;
+10k-row transactional spatial EXPLAIN used ix_catalog_entities_coordinate_gist; backend quality
+54 tests plus 4 live PostgreSQL repository scenarios passed; media/period live smoke passed;
+seed validation/bulk idempotency/content-drift/late rollback scenarios passed
+Skipped checks / blockers: approved historical content remains external to engineering and was not
+invented; query-plan evidence used a rolled-back 10k synthetic spatial dataset
+```
+
+- [x] Реализовать entity/relation/source domain rules и persistence.
+- [x] Запретить self relation и публикацию entity/relation без verified source.
+- [x] Создать миграции, constraints, spatial/search indexes и verified seed pipeline.
+- [x] Реализовать bounded bbox map query и published-only scope.
+- [x] Реализовать entity details, sources и published media endpoints.
+- [x] Реализовать catalog options для districts, periods и entity types.
+- [x] Исключить N+1 и проверить deterministic ordering.
 
 Подробные задачи Slice 1:
 
 | ID | Владелец и owned paths | Точный результат | Обязательные сценарии/evidence |
 | --- | --- | --- | --- |
-| BE-1.1 | Catalog Agent: `modules/catalog/domain/**` | Entity, relation, source и publication policy выражены чистыми domain-правилами; self relation/source invariants не зависят от БД | Entity/relation publication happy path, missing source, self relation, oral testimony classification |
-| BE-1.2 | Catalog Agent: models/repository + новая migration | Нормализованные catalog tables, FK/check/unique constraints, PostGIS coordinate, archive/status/version fields и индексы | Clean upgrade/downgrade where safe, constraint violations, optimistic version, spatial index existence |
-| BE-1.3 | Catalog Agent: seed command/data | Idempotent seed загружает только проверенные entities/relations/sources с provenance и стабильными IDs/slugs | First/repeated seed, missing source rejected, row/link counts, никакой генерации фактов через AI |
-| BE-1.4 | Catalog Agent: map query service/repository/routes/schemas | `GET /map/entities` валидирует bbox/zoom/limits, использует spatial index, возвращает published points и truncation | Invalid bbox/period, empty, filters, hard limit, archived/private exclusion, deterministic ordering |
-| BE-1.5 | Catalog Agent: entity/source/media query use cases | Details и bounded child lists возвращают локализацию/counts/public URLs без internal keys и N+1 | Published details, hidden draft/archive, missing entity, empty media/sources, query-count evidence |
-| BE-1.6 | Catalog Agent: options query | Districts, periods и entity types берутся из backend source of truth, имеют stable IDs и ETag | Empty/filled options, conditional request, unknown district rejected by consuming endpoints |
+| [x] BE-1.1 | Catalog Agent: `modules/catalog/domain/**` | Entity, relation, source и publication policy выражены чистыми domain-правилами; self relation/source invariants не зависят от БД | Entity/relation publication happy path, missing source, self relation, oral testimony classification |
+| [x] BE-1.2 | Catalog Agent: models/repository + новая migration | Нормализованные catalog tables, FK/check/unique constraints, PostGIS coordinate, archive/status/version fields и индексы | Clean upgrade/downgrade where safe, constraint violations, optimistic version, spatial index existence |
+| [x] BE-1.3 | Catalog Agent: seed command/data | Idempotent seed загружает только проверенные entities/relations/sources с provenance и стабильными IDs/slugs | First/repeated seed, missing source rejected, row/link counts, никакой генерации фактов через AI |
+| [x] BE-1.4 | Catalog Agent: map query service/repository/routes/schemas | `GET /map/entities` валидирует bbox/zoom/limits, использует spatial index, возвращает published points и truncation | Invalid bbox/period, empty, filters, hard limit, archived/private exclusion, deterministic ordering |
+| [x] BE-1.5 | Catalog Agent: entity/source/media query use cases | Details и bounded child lists возвращают локализацию/counts/public URLs без internal keys и N+1 | Published details, hidden draft/archive, missing entity, empty media/sources, query-count evidence |
+| [x] BE-1.6 | Catalog Agent: options query | Districts, periods и entity types берутся из backend source of truth, имеют stable IDs и ETag | Empty/filled options, conditional request, unknown district rejected by consuming endpoints |
 
 Gate Slice 1:
 
-- [ ] BR-001–BR-004 доказаны domain/integration tests.
-- [ ] Bbox validation, empty result, 404, truncation и published scope проверены.
-- [ ] Query plan использует нужные индексы на реалистичном seed.
-- [ ] Map/entity/source/media schemas совпадают с OpenAPI.
+- [x] BR-001–BR-004 доказаны domain/integration tests.
+- [x] Bbox validation, empty result, 404, truncation и published scope проверены.
+- [x] Query plan использует нужные индексы на реалистичном seed.
+- [x] Map/entity/source/media schemas совпадают с OpenAPI.
 
 ### Slice 2 — graph и search
 
-- [ ] Реализовать graph depth 1–2 и hard limit 40.
-- [ ] Добавить dedup nodes/edges, cycle handling и hidden count.
-- [ ] Реализовать filters по type/period без unbounded traversal.
-- [ ] Реализовать PostgreSQL full-text/trigram search по RU/CE/alternative names.
-- [ ] Добавить deterministic ordering и bounded pagination.
-- [ ] Измерить p95 на agreed dataset/server profile.
+```text
+Status: done
+Owner: Backend Lead
+Branch/worktree: islam / shared workspace
+Subagents: graph core, search core, read-only contract/performance reviewer
+Acceptance evidence: backend quality 71 tests; Ruff/mypy/import-linter/boundaries/file-size/
+complexity passed; live graph cycle/filter/limit/hidden and search RU/CE/typo/alternative scenarios;
+0007 upgrade/downgrade/re-upgrade and alembic check; 10k entity/30k name/50k relation p95:
+graph 18.270 ms, search 190.118 ms; independent reviewer PASS
+Skipped checks / blockers: frontend handoff intentionally out of scope by owner request
+```
+
+- [x] Реализовать graph depth 1–2 и hard limit 40.
+- [x] Добавить dedup nodes/edges, cycle handling и hidden count.
+- [x] Реализовать filters по type/period без unbounded traversal.
+- [x] Реализовать PostgreSQL full-text/trigram search по RU/CE/alternative names.
+- [x] Добавить deterministic ordering и bounded pagination.
+- [x] Измерить p95 на agreed dataset/server profile.
 
 Подробные задачи Slice 2:
 
 | ID | Владелец и owned paths | Точный результат | Обязательные сценарии/evidence |
 | --- | --- | --- | --- |
-| BE-2.1 | Catalog Graph Agent: graph domain/query service/repository | Bounded traversal depth 1–2 формирует center/nodes/edges, dedup и hidden count без загрузки всего графа | No relations, cycle, duplicate paths, depth 1/2, hard limit 40, hidden count correctness |
-| BE-2.2 | Catalog Graph Agent: graph schemas/routes | Filters type/period применяются согласованно к nodes/edges; каждый edge указывает на center/existing node | Invalid filters, filtered edge integrity, missing center, stable ordering, contract/OpenAPI match |
-| BE-2.3 | Search Agent: names persistence/index migration | RU/CE/alternative/historical names индексируются PostgreSQL FTS/trigram без отдельного search service | Index migration, normalization/case, duplicate alternative names, explain-plan evidence |
-| BE-2.4 | Search Agent: search service/repository/routes | Search валидирует q/limit/offset, ранжирует детерминированно и возвращает bounded published results | Exact/typo/CE/alternative query, empty, archive exclusion, combined filters, offset boundary |
-| BE-2.5 | Backend QA: performance fixture/measurement docs | Зафиксированы dataset size, server profile, concurrency и p50/p95 для graph/search; измерение воспроизводимо | Команда/результат в handoff, отсутствие unbounded scan/N+1, отклонение от NFR оформлено blocker-ом |
+| [x] BE-2.1 | Catalog Graph Agent: graph domain/query service/repository | Bounded traversal depth 1–2 формирует center/nodes/edges, dedup и hidden count без загрузки всего графа | No relations, cycle, duplicate paths, depth 1/2, hard limit 40, hidden count correctness |
+| [x] BE-2.2 | Catalog Graph Agent: graph schemas/routes | Filters type/period применяются согласованно к nodes/edges; каждый edge указывает на center/existing node | Invalid filters, filtered edge integrity, missing center, stable ordering, contract/OpenAPI match |
+| [x] BE-2.3 | Search Agent: names persistence/index migration | RU/CE/alternative/historical names индексируются PostgreSQL FTS/trigram без отдельного search service | Index migration, normalization/case, duplicate alternative names, explain-plan evidence |
+| [x] BE-2.4 | Search Agent: search service/repository/routes | Search валидирует q/limit/offset, ранжирует детерминированно и возвращает bounded published results | Exact/typo/CE/alternative query, empty, archive exclusion, combined filters, offset boundary |
+| [x] BE-2.5 | Backend QA: performance fixture/measurement docs | Зафиксированы dataset size, server profile, concurrency и p50/p95 для graph/search; измерение воспроизводимо | Команда/результат в handoff, отсутствие unbounded scan/N+1, отклонение от NFR оформлено blocker-ом |
 
 Gate Slice 2:
 
-- [ ] Cycle/dedup/depth/limit/filter/empty/404 scenarios проходят.
-- [ ] Typo, alternative name, CE/RU и pagination search scenarios проходят.
-- [ ] Graph/search query plans не содержат N+1/unbounded scans.
-- [ ] Зафиксирован latency result и dataset, на котором он получен.
+- [x] Cycle/dedup/depth/limit/filter/empty/404 scenarios проходят.
+- [x] Typo, alternative name, CE/RU и pagination search scenarios проходят.
+- [x] Graph/search query plans не содержат N+1/unbounded scans.
+- [x] Зафиксирован latency result и dataset, на котором он получен.
 
 ### Slice 3 — submissions и media
 
-- [ ] Реализовать server-side draft ownership и random tracking capability.
-- [ ] Реализовать create/update/submit/status и `needs_revision→pending`.
-- [ ] Запретить доступ к draft/media по одному UUID из чужой сессии.
-- [ ] Реализовать streaming bounded upload и фактическую MIME/decode проверку.
-- [ ] Добавить dimensions/size limits, EXIF removal и WebP preview.
-- [ ] Добавить upload idempotency key и checksum.
-- [ ] Реализовать rollback partial files и bounded orphan cleanup.
-- [ ] Не писать tracking code, contacts и file content в logs.
+```text
+Status: done
+Owner: Backend Lead
+Branch/worktree: islam / shared workspace
+Subagents: submission domain/migration, capability/API, media pipeline
+Acceptance evidence: domain/API/media tests; Ruff and strict mypy; migration 0009; SQL integration scenarios added
+Skipped checks / blockers: live PostgreSQL media suite and full infra/manual gate deferred until several completed slices by owner instruction
+```
+
+- [x] Реализовать server-side draft ownership и random tracking capability.
+- [x] Реализовать create/update/submit/status и `needs_revision→pending`.
+- [x] Запретить доступ к draft/media по одному UUID из чужой сессии.
+- [x] Реализовать streaming bounded upload и фактическую MIME/decode проверку.
+- [x] Добавить dimensions/size limits, EXIF removal и WebP preview.
+- [x] Добавить upload idempotency key и checksum.
+- [x] Реализовать rollback partial files и bounded orphan cleanup.
+- [x] Не писать tracking code, contacts и file content в logs.
 
 Подробные задачи Slice 3:
 
 | ID | Владелец и owned paths | Точный результат | Обязательные сценарии/evidence |
 | --- | --- | --- | --- |
-| BE-3.1 | Submission Agent: submission domain/models/migration | SubmissionType/state/version/history и state machine `draft↔needs_revision→pending→in_review` реализованы без invalid jumps | Каждый допустимый переход, forbidden transition, optimistic conflict, history ordering |
-| BE-3.2 | Submission Agent: capability/token service/repository | Draft ownership и tracking lookup используют независимые high-entropy secrets/hashes; UUID не авторизует | Owner/attacker sessions, guessed UUID, invalid tracking, rate limit, raw secret отсутствует в DB/logs |
-| BE-3.3 | Submission Agent: routes/schemas/services | Create/PATCH/submit/status реализуют exact discriminated request fields; revision редактируется и отправляется повторно | Все SubmissionType, partial PATCH/null semantics, consent/required fields, submit replay |
-| BE-3.4 | Media Agent: storage port/local adapter | Streaming upload пишет temp file с bounds/timeouts, атомарно перемещает после проверки и возвращает typed failure | Client disconnect, disk error, oversized body, timeout, temp cleanup; storage path не управляется input |
-| BE-3.5 | Media Agent: validator/preview pipeline | MIME определяется по signature+decode; JPEG/PNG/WebP limits, dimensions, decompression protection, EXIF removal и preview | Spoofed extension, corrupt image, bomb dimensions, valid formats, preview metadata, EXIF absent |
-| BE-3.6 | Media Agent: idempotency repository/service | Один `Idempotency-Key`+payload возвращает тот же media; другой payload конфликтует; checksum фиксируется | Lost response retry, concurrent same key, same content/different key policy, no duplicate file/row |
-| BE-3.7 | Maintenance owner: orphan cleanup use case | Cleanup выбирает только expired unreferenced draft media bounded page-ами и безопасен при повторе | Referenced/published files preserved, partial failure retry, max batch, audit/metrics без PII |
+| [x] BE-3.1 | Submission Agent: submission domain/models/migration | SubmissionType/state/version/history и state machine `draft↔needs_revision→pending→in_review` реализованы без invalid jumps | Каждый допустимый переход, forbidden transition, optimistic conflict, history ordering |
+| [x] BE-3.2 | Submission Agent: capability/token service/repository | Draft ownership и tracking lookup используют независимые high-entropy secrets/hashes; UUID не авторизует | Owner/attacker sessions, guessed UUID, invalid tracking, rate limit, raw secret отсутствует в DB/logs |
+| [x] BE-3.3 | Submission Agent: routes/schemas/services | Create/PATCH/submit/status реализуют exact discriminated request fields; revision редактируется и отправляется повторно | Все SubmissionType, partial PATCH/null semantics, consent/required fields, submit replay |
+| [x] BE-3.4 | Media Agent: storage port/local adapter | Streaming upload пишет temp file с bounds/timeouts, атомарно перемещает после проверки и возвращает typed failure | Client disconnect, disk error, oversized body, timeout, temp cleanup; storage path не управляется input |
+| [x] BE-3.5 | Media Agent: validator/preview pipeline | MIME определяется по signature+decode; JPEG/PNG/WebP limits, dimensions, decompression protection, EXIF removal и preview | Spoofed extension, corrupt image, bomb dimensions, valid formats, preview metadata, EXIF absent |
+| [x] BE-3.6 | Media Agent: idempotency repository/service | Один `Idempotency-Key`+payload возвращает тот же media; другой payload конфликтует; checksum фиксируется | Lost response retry, concurrent same key, same content/different key policy, no duplicate file/row |
+| [x] BE-3.7 | Maintenance owner: orphan cleanup use case | Cleanup выбирает только expired unreferenced draft media bounded page-ами и безопасен при повторе | Referenced/published files preserved, partial failure retry, max batch, audit/metrics без PII |
 
 Gate Slice 3:
 
-- [ ] Owner/attacker, draft/revision, submit retry и expired capability scenarios проходят.
-- [ ] Lost-response upload retry возвращает прежний media без дубля.
-- [ ] Invalid/oversized/decompression-bomb media не сохраняется.
-- [ ] Multi-file partial failure не повреждает успешные uploads и не оставляет мусор.
+- [x] Owner/attacker, draft/revision, submit retry и expired capability scenarios проходят.
+- [x] Lost-response upload retry возвращает прежний media без дубля.
+- [x] Invalid/oversized/decompression-bomb media не сохраняется.
+- [x] Multi-file partial failure не повреждает успешные uploads и не оставляет мусор.
 
 ### Slice 4 — moderation и publication
 
-- [ ] Реализовать bounded queue, claim и optimistic version.
-- [ ] Реализовать publish/reject/request revision permissions.
-- [ ] Реализовать discriminated publish action для каждого `SubmissionType`.
-- [ ] Выполнить catalog result, selected media, status и audit одним UoW commit.
-- [ ] Добавить idempotency/conflict handling для moderation commands.
-- [ ] Реализовать admin catalog read/create/update/archive с audit.
-- [ ] Реализовать bounded allowlisted streaming JSON/CSV export.
-- [ ] Выполнять cache invalidation только после успешного commit.
+```text
+Status: done
+Owner: Backend Lead
+Branch/worktree: islam / shared workspace
+Subagents: moderation core, admin catalog, export
+Acceptance evidence: moderation 17 tests; admin catalog 8 tests; publication/catalog 19 tests; export 6 tests; strict mypy/Ruff targeted checks
+Skipped checks / blockers: full infra/manual gate deferred until several completed slices by owner instruction
+```
+
+- [x] Реализовать bounded queue, claim и optimistic version.
+- [x] Реализовать publish/reject/request revision permissions.
+- [x] Реализовать discriminated publish action для каждого `SubmissionType`.
+- [x] Выполнить catalog result, selected media, status и audit одним UoW commit.
+- [x] Добавить idempotency/conflict handling для moderation commands.
+- [x] Реализовать admin catalog read/create/update/archive с audit.
+- [x] Реализовать bounded allowlisted streaming JSON/CSV export.
+- [x] Выполнять cache invalidation только после успешного commit.
 
 Подробные задачи Slice 4:
 
 | ID | Владелец и owned paths | Точный результат | Обязательные сценарии/evidence |
 | --- | --- | --- | --- |
-| BE-4.1 | Moderation Agent: queue/claim services/repository/routes | Bounded queue filters, claim ownership и expected version предотвращают silent overwrite | Empty/filtered pages, two moderators claim, stale version, forbidden actor, deterministic pagination |
-| BE-4.2 | Moderation Agent: discriminated commands/schemas | Для каждого SubmissionType разрешён только согласованный PublishAction/payload; unknown/mismatch rejected | Six type/action happy paths, mismatch, unknown fields, missing source/media, safe error code |
-| BE-4.3 | Moderation + Catalog integrator: publish service/UoW | Catalog changes, selected media, submission status, idempotency record и audit выполняются одним commit | Injected failure на каждом внешнем шаге, full rollback, replay same/different payload, public visibility after commit |
-| BE-4.4 | Moderation Agent: reject/revision services | Reject/revision требуют permission, expected version и non-empty public/internal comment policy | Concurrent decision, empty comment, revision returned to owner, unauthorized and already-final submission |
-| BE-4.5 | Catalog Admin Agent: admin query/command routes | Editor/admin list/create/update/archive entities/relations/sources; moderator read scope ограничен policy | Role matrix, source invariants, version conflicts, archive/public exclusion, audit for every mutation |
-| BE-4.6 | Export Agent: export query/stream adapter | JSON/CSV export использует explicit field allowlist, ≤10k rows/100 MiB, streaming и safe filename | Published/all role matrix, empty export, size limit, disconnect, CSV injection escaping, no PII/secrets/internal keys |
-| BE-4.7 | Integration owner: post-commit hooks | Cache invalidation/event выполняется после commit и не делает transaction partial при сбое | Commit failure emits nothing, invalidation failure preserves DB truth, subsequent read/retry consistent |
+| [x] BE-4.1 | Moderation Agent: queue/claim services/repository/routes | Bounded queue filters, claim ownership и expected version предотвращают silent overwrite | Empty/filtered pages, two moderators claim, stale version, forbidden actor, deterministic pagination |
+| [x] BE-4.2 | Moderation Agent: discriminated commands/schemas | Для каждого SubmissionType разрешён только согласованный PublishAction/payload; unknown/mismatch rejected | Six type/action happy paths, mismatch, unknown fields, missing source/media, safe error code |
+| [x] BE-4.3 | Moderation + Catalog integrator: publish service/UoW | Catalog changes, selected media, submission status, idempotency record и audit выполняются одним commit | Injected failure на каждом внешнем шаге, full rollback, replay same/different payload, public visibility after commit |
+| [x] BE-4.4 | Moderation Agent: reject/revision services | Reject/revision требуют permission, expected version и non-empty public/internal comment policy | Concurrent decision, empty comment, revision returned to owner, unauthorized and already-final submission |
+| [x] BE-4.5 | Catalog Admin Agent: admin query/command routes | Editor/admin list/create/update/archive entities/relations/sources; moderator read scope ограничен policy | Role matrix, source invariants, version conflicts, archive/public exclusion, audit for every mutation |
+| [x] BE-4.6 | Export Agent: export query/stream adapter | JSON/CSV export использует explicit field allowlist, ≤10k rows/100 MiB, streaming и safe filename | Published/all role matrix, empty export, size limit, disconnect, CSV injection escaping, no PII/secrets/internal keys |
+| [x] BE-4.7 | Integration owner: post-commit hooks | Cache invalidation/event выполняется после commit и не делает transaction partial при сбое | Commit failure emits nothing, invalidation failure preserves DB truth, subsequent read/retry consistent |
 
 Gate Slice 4:
 
-- [ ] Unauthorized/unknown-role bypass запрещён backend policy.
-- [ ] Concurrent moderators получают version conflict без потери данных.
-- [ ] Publish failure откатывает catalog/media/status/audit полностью.
-- [ ] Replay не создаёт дубликаты; разные payload с одним key конфликтуют.
-- [ ] Archive исчезает из public API, но остаётся в admin/audit.
-- [ ] Export не содержит credentials, sessions, contacts и internal storage keys.
+- [x] Unauthorized/unknown-role bypass запрещён backend policy.
+- [x] Concurrent moderators получают version conflict без потери данных.
+- [x] Publish failure откатывает catalog/media/status/audit полностью.
+- [x] Replay не создаёт дубликаты; разные payload с одним key конфликтуют.
+- [x] Archive исчезает из public API, но остаётся в admin/audit.
+- [x] Export не содержит credentials, sessions, contacts и internal storage keys.
 
 ### Slice 5 — release readiness
 

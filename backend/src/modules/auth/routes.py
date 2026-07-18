@@ -12,7 +12,17 @@ from modules.auth.dependencies import (
 )
 from modules.auth.schemas import CredentialsRequest, CurrentAccount
 
-router = APIRouter(prefix="/auth", tags=["auth"])
+router = APIRouter(
+    prefix="/auth",
+    tags=["auth"],
+    responses={
+        401: {"model": ApiResponse[None]},
+        403: {"model": ApiResponse[None]},
+        409: {"model": ApiResponse[None]},
+        422: {"model": ApiResponse[None]},
+        429: {"model": ApiResponse[None]},
+    },
+)
 ContextDependency = Annotated[AuthRequestContext, Depends(get_auth_context)]
 OriginDependency = Annotated[None, Depends(require_same_origin)]
 

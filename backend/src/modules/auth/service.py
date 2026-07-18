@@ -5,12 +5,20 @@ from typing import Protocol
 
 from sqlalchemy.exc import IntegrityError
 
-from common.exceptions import UnauthorizedError
-from modules.auth.domain import SessionState, evaluate_session, normalize_email, validate_password
+from common.exceptions import ForbiddenError, UnauthorizedError
+from modules.auth.domain import (
+    RoleName,
+    SessionState,
+    evaluate_session,
+    has_admin_role,
+    has_permission,
+    normalize_email,
+    validate_password,
+)
 from modules.auth.exceptions import EmailAlreadyRegisteredError, InvalidCredentialsError
 from modules.auth.models import ACTIVE_STATUS, Account, AuthSession
 from modules.auth.rate_limit import AuthRateLimiterContract
-from modules.auth.schemas import AuthenticatedAccount, CurrentAccount
+from modules.auth.schemas import AdminAccount, AuthenticatedAccount, CurrentAccount
 from modules.auth.tokens import SessionTokenManager
 from modules.auth.uow import AuthUnitOfWorkContract
 
@@ -106,6 +114,22 @@ class AuthService:
             _, account = await self._require_session(uow, token, now)
             await uow.repository.revoke_account_sessions(account.id, now)
 
+    async def admin_account(self, token: str | None) -> AdminAccount:
+        async with self._uow_factory() as uow:
+            _, account = await self._require_session(uow, token, self._clock())
+            role_names = await uow.repository.list_account_role_names(account.id)
+            if not has_admin_role(role_names):
+                raise ForbiddenError("Administrative role is required")
+        return self._admin_account(account, role_names)
+
+    async def require_permission(self, token: str | None, permission: str) -> AdminAccount:
+        async with self._uow_factory() as uow:
+            _, account = await self._require_session(uow, token, self._clock())
+            role_names = await uow.repository.list_account_role_names(account.id)
+            if not has_permission(role_names, permission):
+                raise ForbiddenError("Permission is required")
+        return self._admin_account(account, role_names)
+
     async def _require_session(
         self, uow: AuthUnitOfWorkContract, token: str | None, now: datetime
     ) -> tuple[AuthSession, Account]:
@@ -144,3 +168,16 @@ class AuthService:
     @staticmethod
     def _public_account(account: Account) -> CurrentAccount:
         return CurrentAccount(id=account.id, email=account.email, status="active")
+
+    @staticmethod
+    def _admin_account(account: Account, role_names: frozenset[str]) -> AdminAccount:
+        known_roles = sorted(
+            RoleName(role) for role in role_names if role in RoleName._value2member_map_
+        )
+        return AdminAccount(
+            id=account.id,
+            email=account.email,
+            status="active",
+            display_name=account.display_name,
+            roles=known_roles,
+        )

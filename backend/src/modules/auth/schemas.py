@@ -3,6 +3,8 @@ from uuid import UUID
 
 from pydantic import BaseModel, EmailStr, Field
 
+from modules.auth.domain import RoleName
+
 
 class CredentialsRequest(BaseModel):
     email: EmailStr
@@ -13,6 +15,11 @@ class CurrentAccount(BaseModel):
     id: UUID
     email: str
     status: Literal["active"]
+
+
+class AdminAccount(CurrentAccount):
+    display_name: str
+    roles: list[RoleName]
 
 
 class AuthenticatedAccount(BaseModel):
