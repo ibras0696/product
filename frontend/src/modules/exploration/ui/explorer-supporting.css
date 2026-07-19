@@ -1,0 +1,234 @@
+.hx-supporting-wrap {
+  padding: 8px;
+  background: var(--hx-bg);
+}
+
+.hx-supporting-panel {
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid var(--hx-line);
+  border-radius: 6px;
+  background: var(--hx-surface);
+}
+
+.hx-supporting-summary {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: clamp(20px, 4vw, 56px);
+  align-items: end;
+  padding: clamp(20px, 3vw, 36px);
+  border-bottom: 1px solid var(--hx-line);
+}
+
+.hx-supporting-summary > div:first-child {
+  display: grid;
+  max-width: 72ch;
+  gap: 7px;
+}
+
+.hx-supporting-summary span,
+.hx-supporting-summary p,
+.hx-supporting-summary strong {
+  color: var(--hx-muted);
+}
+
+.hx-supporting-summary > div > span {
+  color: var(--hx-accent);
+  font-size: 0.72rem;
+}
+
+.hx-supporting-summary h2,
+.hx-supporting-list h3,
+.hx-supporting-summary p,
+.hx-supporting-counts {
+  margin: 0;
+}
+
+.hx-supporting-summary h2 {
+  color: var(--hx-text);
+  font-size: clamp(1.35rem, 3vw, 2rem);
+  line-height: 1.15;
+}
+
+.hx-supporting-summary strong {
+  line-height: 1.45;
+}
+
+.hx-supporting-summary p {
+  line-height: 1.6;
+}
+
+.hx-supporting-counts {
+  display: flex;
+  gap: 1px;
+  border: 1px solid var(--hx-line);
+  background: var(--hx-line);
+}
+
+.hx-supporting-counts div {
+  display: grid;
+  min-width: 92px;
+  min-height: 72px;
+  align-content: center;
+  gap: 3px;
+  padding: 10px 14px;
+  background: var(--hx-surface-raised);
+}
+
+.hx-supporting-counts dt,
+.hx-supporting-counts dd {
+  margin: 0;
+}
+
+.hx-supporting-counts dt {
+  color: var(--hx-muted);
+  font-size: 0.68rem;
+}
+
+.hx-supporting-counts dd {
+  color: var(--hx-text);
+  font-size: 1.35rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 800;
+}
+
+.hx-supporting-graph {
+  display: grid;
+  gap: 18px;
+  padding: clamp(20px, 3vw, 36px);
+}
+
+.hx-supporting-graph-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  color: var(--hx-muted);
+  font-size: 0.75rem;
+}
+
+.hx-supporting-columns {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.8fr) minmax(320px, 1.2fr);
+  gap: clamp(24px, 4vw, 54px);
+}
+
+.hx-supporting-list {
+  min-width: 0;
+}
+
+.hx-supporting-list h3 {
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--hx-line);
+  font-size: 0.95rem;
+}
+
+.hx-supporting-list ul {
+  display: grid;
+  gap: 1px;
+  margin: 0;
+  padding: 0;
+  background: var(--hx-line);
+  list-style: none;
+}
+
+.hx-supporting-list li {
+  background: var(--hx-surface);
+}
+
+.hx-supporting-list button {
+  display: flex;
+  width: 100%;
+  min-height: 52px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 8px 10px;
+  border: 0;
+  color: var(--hx-text);
+  background: transparent;
+  text-align: left;
+}
+
+.hx-supporting-list button:hover {
+  background: var(--hx-surface-raised);
+}
+
+.hx-supporting-list button > span:first-child {
+  display: grid;
+  gap: 3px;
+}
+
+.hx-supporting-list button small,
+.hx-supporting-list button > span:last-child {
+  color: var(--hx-muted);
+  font-size: 0.7rem;
+}
+
+.hx-supporting-edge {
+  display: grid;
+  gap: 6px;
+  padding: 12px 10px;
+}
+
+.hx-supporting-edge > span,
+.hx-supporting-edge p,
+.hx-supporting-edge small {
+  margin: 0;
+  color: var(--hx-muted);
+  font-size: 0.75rem;
+  line-height: 1.45;
+}
+
+.hx-supporting-state {
+  display: grid;
+  min-height: 180px;
+  margin: 0;
+  padding: 24px;
+  color: var(--hx-muted);
+  place-content: center;
+  gap: 14px;
+  text-align: center;
+}
+
+.hx-supporting-skeleton {
+  width: min(240px, 70vw);
+  height: 8px;
+  border-radius: 4px;
+  background: var(--hx-surface-raised);
+}
+
+@media (max-width: 760px) {
+  .hx-supporting-summary,
+  .hx-supporting-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .hx-supporting-summary {
+    align-items: start;
+  }
+
+  .hx-supporting-counts {
+    width: 100%;
+  }
+
+  .hx-supporting-counts div {
+    min-width: 0;
+    flex: 1 1 0;
+    padding-inline: 10px;
+  }
+}
+
+@media (max-width: 420px) {
+  .hx-supporting-wrap {
+    padding: 8px;
+  }
+
+  .hx-supporting-summary,
+  .hx-supporting-graph {
+    padding: 18px 14px;
+  }
+
+  .hx-supporting-counts dt {
+    font-size: 0.64rem;
+  }
+}

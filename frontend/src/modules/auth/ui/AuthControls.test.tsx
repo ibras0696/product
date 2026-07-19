@@ -1,7 +1,9 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
+import { afterEach, vi } from "vitest";
 
+import { authQueryKeys } from "../model/authQueryKeys";
 import { AuthControls } from "./AuthControls";
 
 const account = {
@@ -9,6 +11,10 @@ const account = {
   email: "person@example.com",
   status: "active",
 } as const;
+
+afterEach(() => {
+  vi.unstubAllGlobals();
+});
 
 it("moves through anonymous, failed login, authenticated, and logout states", async () => {
   let loginAttempts = 0;
@@ -37,6 +43,11 @@ it("moves through anonymous, failed login, authenticated, and logout states", as
   const queryClient = new QueryClient({
     defaultOptions: { queries: { retry: false } },
   });
+  queryClient.setQueryData(authQueryKeys.adminSession, {
+    ...account,
+    displayName: "Старый администратор",
+    roles: ["admin"],
+  });
 
   render(
     <QueryClientProvider client={queryClient}>
@@ -53,8 +64,15 @@ it("moves through anonymous, failed login, authenticated, and logout states", as
 
   await user.click(dialog.getByRole("button", { name: "Войти" }));
   expect(await screen.findByText(account.email)).toBeVisible();
+  expect(queryClient.getQueryData(authQueryKeys.adminSession)).toBeUndefined();
+  queryClient.setQueryData(authQueryKeys.adminSession, {
+    ...account,
+    displayName: "Старый администратор",
+    roles: ["admin"],
+  });
   await user.click(screen.getByRole("button", { name: "Выйти" }));
   expect(await screen.findByRole("button", { name: "Войти" })).toBeVisible();
+  expect(queryClient.getQueryData(authQueryKeys.adminSession)).toBeUndefined();
 });
 
 function apiResponse(

@@ -1,0 +1,330 @@
+.submission-page {
+  min-height: 100dvh;
+  color: var(--color-text);
+  background:
+    radial-gradient(circle at 20% 0%, rgb(121 204 250 / 8%), transparent 32%),
+    var(--color-bg);
+}
+
+.submission-page-header {
+  display: flex;
+  min-height: 58px;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  padding: 8px max(16px, calc((100vw - 1040px) / 2));
+  border-bottom: 1px solid var(--color-line);
+  background: rgb(6 16 22 / 92%);
+}
+
+.submission-page-header > a {
+  color: var(--color-text);
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.submission-page-header > div {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.submission-page-header span {
+  color: var(--color-warning);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.submission-page-header button,
+.submission-wizard-navigation button,
+.submission-status-lookup button,
+.submission-receipt a {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--space-4);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-sm);
+  color: var(--color-text);
+  background: var(--color-surface-raised);
+  font: inherit;
+  font-weight: 700;
+}
+
+.submission-intro {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 28px 16px 22px;
+}
+
+.submission-intro > span,
+.submission-step-heading > span,
+.submission-receipt > span,
+.submission-status-lookup > div > span {
+  color: var(--color-focus);
+  font-size: 0.75rem;
+  font-weight: 750;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.submission-intro h1 {
+  max-width: 680px;
+  margin: var(--space-2) 0;
+  font-family: var(--font-editorial);
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  line-height: 1.08;
+}
+
+.submission-intro p {
+  max-width: 70ch;
+  margin: 0;
+  color: var(--color-text-muted);
+  line-height: 1.65;
+}
+
+.submission-offline,
+.submission-revision,
+.submission-form-error {
+  max-width: 1040px;
+  margin: 0 auto var(--space-4);
+  padding: var(--space-4);
+  border: 1px solid var(--color-warning);
+  border-radius: var(--radius-sm);
+  background: color-mix(
+    in srgb,
+    var(--color-warning) 10%,
+    var(--color-surface)
+  );
+}
+
+.submission-revision p {
+  margin: var(--space-2) 0 0;
+}
+
+.submission-wizard-layout {
+  display: grid;
+  grid-template-areas:
+    "progress"
+    "card"
+    "privacy";
+  grid-template-columns: 1fr;
+  gap: var(--space-4);
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 16px 40px;
+}
+
+.submission-progress,
+.submission-privacy-note,
+.submission-wizard-card,
+.submission-status-lookup,
+.submission-receipt {
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+}
+
+.submission-progress {
+  grid-area: progress;
+  padding: var(--space-3) var(--space-4);
+}
+
+.submission-progress-summary {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+.submission-progress-summary span {
+  color: var(--color-text-muted);
+  font-size: 0.875rem;
+}
+
+.submission-progress-summary strong {
+  font-size: 0.9375rem;
+  text-align: right;
+}
+
+.submission-progress progress {
+  display: block;
+  width: 100%;
+  height: 4px;
+  margin-top: var(--space-3);
+  border: 0;
+  border-radius: 999px;
+  overflow: hidden;
+  background: var(--color-line);
+  accent-color: var(--color-focus);
+}
+
+.submission-progress progress::-webkit-progress-bar {
+  background: var(--color-line);
+}
+
+.submission-progress progress::-webkit-progress-value {
+  background: var(--color-focus);
+}
+
+.submission-progress progress::-moz-progress-bar {
+  background: var(--color-focus);
+}
+
+.submission-progress ol {
+  display: none;
+  gap: var(--space-2);
+  margin: var(--space-4) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.submission-progress li {
+  display: grid;
+  grid-template-columns: 32px 1fr;
+  min-height: 44px;
+  align-items: center;
+  gap: var(--space-2);
+  color: var(--color-text-muted);
+}
+
+.submission-progress li > span {
+  display: grid;
+  width: 28px;
+  height: 28px;
+  place-items: center;
+  border: 1px solid var(--color-line);
+  border-radius: 50%;
+}
+
+.submission-progress li[aria-current="step"] {
+  color: var(--color-text);
+  font-weight: 700;
+}
+
+.submission-progress li[aria-current="step"] > span {
+  border-color: var(--color-focus);
+  color: var(--color-bg);
+  background: var(--color-focus);
+}
+
+.submission-wizard-card {
+  grid-area: card;
+  min-width: 0;
+  padding: var(--space-4);
+}
+
+.submission-step-heading {
+  margin-bottom: var(--space-4);
+  padding-bottom: var(--space-4);
+  border-bottom: 1px solid var(--color-line);
+}
+
+.submission-step-heading h2 {
+  margin: var(--space-2) 0 0;
+  font-family: var(--font-editorial);
+  font-size: clamp(1.65rem, 4vw, 2.25rem);
+  line-height: 1.15;
+}
+
+.submission-wizard-navigation {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--space-3);
+  margin-top: var(--space-6);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--color-line);
+}
+
+.submission-wizard-navigation .submission-primary-action {
+  min-width: 180px;
+  border-color: var(--color-focus);
+  color: var(--color-bg);
+  background: var(--color-focus);
+}
+
+.submission-wizard-navigation button:disabled,
+.submission-page-header button:disabled,
+.submission-status-lookup button:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
+.submission-privacy-note {
+  grid-area: privacy;
+  padding: var(--space-4);
+  color: var(--color-text-muted);
+  line-height: 1.55;
+}
+
+.submission-privacy-note p {
+  margin: var(--space-2) 0 0;
+}
+
+@media (min-width: 768px) {
+  .submission-wizard-layout {
+    grid-template-areas:
+      "progress card"
+      "privacy card";
+    grid-template-columns: 190px minmax(0, 1fr);
+    align-items: start;
+  }
+
+  .submission-progress {
+    align-self: start;
+  }
+
+  .submission-progress-summary {
+    display: block;
+  }
+
+  .submission-progress-summary strong {
+    display: none;
+  }
+
+  .submission-progress progress {
+    display: none;
+  }
+
+  .submission-progress ol {
+    display: grid;
+  }
+
+  .submission-wizard-card {
+    grid-row: card-start / card-end;
+  }
+}
+
+@media (min-width: 1180px) {
+  .submission-wizard-card {
+    padding: var(--space-6);
+  }
+}
+
+@media (max-width: 620px) {
+  .submission-page-header span {
+    display: none;
+  }
+
+  .submission-page-header button {
+    max-width: 160px;
+    padding-inline: 10px;
+    font-size: 0.75rem;
+  }
+
+  .submission-wizard-navigation .submission-primary-action {
+    flex: 1;
+    min-width: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .submission-page *,
+  .submission-page *::before,
+  .submission-page *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,131 @@
+import { MOCK_ENTITY_IDS as id } from "./entityIds";
+import type { EntityRecord } from "./types";
+
+export const groznyRecord: EntityRecord = {
+  details: {
+    id: id.grozny,
+    type: "settlement",
+    slug: "grozny",
+    title: { ru: "Грозный", ce: "Соьлжа-ГӀала" },
+    shortDescription: {
+      ru: "Столица Чеченской Республики и крупнейший город региона.",
+      ce: null,
+    },
+    fullDescription: {
+      ru: "Грозный возник как крепость в 1818 году. Сегодня город соединяет архивные свидетельства, городскую память и истории людей, сформировавших культурный ландшафт республики.",
+      ce: null,
+    },
+    coordinates: { latitude: 43.3187, longitude: 45.6986 },
+    periodFrom: 1818,
+    periodTo: null,
+    coverUrl: "/images/history/grozny.jpg",
+    counts: { relations: 128, sources: 3, media: 3 },
+    status: "published",
+    researchStatus: "verified",
+  },
+  sources: [
+    {
+      id: "source-grozny-1",
+      title: "Кавказский календарь на 1910 год",
+      type: "archive_document",
+      author: null,
+      publisher: "Канцелярия наместника на Кавказе",
+      publicationYear: 1909,
+      url: null,
+      archiveReference: "НБ ЧР, фонд редких изданий, К-1910",
+      description:
+        "Статистические сведения о населении, инфраструктуре и административном положении города.",
+      verificationStatus: "verified",
+    },
+    {
+      id: "source-grozny-2",
+      title: "Грозный: история города",
+      type: "book",
+      author: "Коллектив авторов",
+      publisher: "Книжное издательство",
+      publicationYear: 1984,
+      url: null,
+      archiveReference: "НБ ЧР, 63.3(2Рос.Чеч)-Г87",
+      description:
+        "Исследование этапов развития городской территории и общественной жизни.",
+      verificationStatus: "contextual",
+    },
+    {
+      id: "source-grozny-3",
+      title: "Панорамы и городская память",
+      type: "web_resource",
+      author: "Национальный музей Чеченской Республики",
+      publisher: null,
+      publicationYear: 2024,
+      url: "https://museum-chr.ru/",
+      archiveReference: null,
+      description:
+        "Публичная музейная подборка с историческими фотографиями и описаниями городских объектов.",
+      verificationStatus: "verified",
+    },
+  ],
+  media: [
+    {
+      id: "media-grozny-1",
+      publicUrl: "/images/history/grozny.jpg",
+      previewUrl: "/images/history/grozny.jpg",
+      mimeType: "image/jpeg",
+      width: 960,
+      height: 640,
+      caption: "Современная панорама центральной части Грозного",
+      author: null,
+      approximateDate: "XXI век",
+      sourceDescription: "Публичная иллюстративная коллекция проекта",
+    },
+    {
+      id: "media-grozny-2",
+      publicUrl: "/images/history/chechnya-relief.jpg",
+      previewUrl: "/images/history/chechnya-relief.jpg",
+      mimeType: "image/jpeg",
+      width: 1600,
+      height: 1000,
+      caption: "Рельеф центральной части Чечни",
+      author: null,
+      approximateDate: null,
+      sourceDescription: "Картографический фон проекта",
+    },
+    {
+      id: "media-grozny-3",
+      publicUrl: "/images/history/mountains.jpg",
+      previewUrl: "/images/history/mountains.jpg",
+      mimeType: "image/jpeg",
+      width: 960,
+      height: 640,
+      caption: "Горный ландшафт Чеченской Республики",
+      author: null,
+      approximateDate: null,
+      sourceDescription: "Публичная иллюстративная коллекция проекта",
+    },
+  ],
+};
+
+export const nozhayYurtRecord: EntityRecord = {
+  details: {
+    id: id.nozhayYurt,
+    type: "settlement",
+    slug: "nozhay-yurt",
+    title: { ru: "Ножай-Юрт", ce: "Ножай-Юрт" },
+    shortDescription: {
+      ru: "Село и административный центр Ножай-Юртовского района.",
+      ce: null,
+    },
+    fullDescription: {
+      ru: "Карточка подготовлена для дальнейшего наполнения проверенными свидетельствами. Источники и медиаматериалы пока не опубликованы.",
+      ce: null,
+    },
+    coordinates: { latitude: 43.093, longitude: 46.378 },
+    periodFrom: null,
+    periodTo: null,
+    coverUrl: "/images/history/mountains.jpg",
+    counts: { relations: 36, sources: 0, media: 0 },
+    status: "published",
+    researchStatus: "needs_review",
+  },
+  sources: [],
+  media: [],
+};

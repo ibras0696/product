@@ -1,0 +1,35 @@
+.hx-about {
+  display: grid;
+  align-content: start;
+  gap: 16px;
+  padding: clamp(24px, 4vw, 50px);
+}
+
+.hx-about p {
+  color: var(--hx-muted);
+  line-height: 1.65;
+}
+
+.hx-about-note {
+  padding-top: 16px;
+  border-top: 1px solid var(--hx-line);
+  font-size: 0.8rem;
+}
+
+.hx-footer {
+  display: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  min-height: 70px;
+  padding: 16px 24px;
+  border-top: 1px solid var(--hx-line);
+  color: var(--hx-muted);
+  background: #050d12;
+  font-size: 0.78rem;
+}
+
+.hx-footer a {
+  color: var(--hx-text);
+}

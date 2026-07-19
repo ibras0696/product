@@ -1,0 +1,234 @@
+.submission-step {
+  display: grid;
+  gap: 20px;
+}
+
+.submission-step h2,
+.submission-step p {
+  margin: 0;
+}
+
+.submission-type-step {
+  min-inline-size: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.submission-type-step legend {
+  margin-bottom: var(--space-2);
+  padding: 0;
+  font-weight: 700;
+}
+
+.submission-step-lead,
+.submission-legal-note {
+  color: var(--color-text-muted);
+  line-height: 1.6;
+}
+
+.submission-type-grid {
+  display: grid;
+  gap: var(--space-3);
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.submission-type-option {
+  position: relative;
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  gap: var(--space-3);
+  min-height: 76px;
+  padding: 14px;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  cursor: pointer;
+}
+
+.submission-type-option--locked {
+  cursor: default;
+}
+
+.submission-type-marker {
+  width: 18px;
+  height: 18px;
+  margin-top: 2px;
+  border: 5px solid var(--color-focus);
+  border-radius: 50%;
+}
+
+.submission-type-option:has(input:checked) {
+  border-color: var(--color-focus);
+  background: color-mix(in srgb, var(--color-focus) 12%, var(--color-surface));
+}
+
+.submission-type-option input,
+.submission-consent input {
+  width: 20px;
+  height: 20px;
+  margin: 2px 0 0;
+  accent-color: var(--color-focus);
+}
+
+.submission-type-option strong,
+.submission-type-option small {
+  display: block;
+}
+
+.submission-type-option small {
+  margin-top: var(--space-2);
+  color: var(--color-text-muted);
+  line-height: 1.45;
+}
+
+.submission-field {
+  display: grid;
+  gap: var(--space-2);
+  font-weight: 600;
+}
+
+.submission-field input,
+.submission-field select,
+.submission-field textarea {
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-sm);
+  color: var(--color-text);
+  background: var(--color-surface-raised);
+  font: inherit;
+  font-weight: 400;
+}
+
+.submission-field textarea {
+  min-height: 128px;
+  resize: vertical;
+}
+
+.submission-field input:focus-visible,
+.submission-field select:focus-visible,
+.submission-field textarea:focus-visible,
+.submission-type-option:focus-within,
+.submission-error-summary button:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 3px;
+}
+
+.submission-field-error {
+  color: var(--color-danger);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.submission-consent {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  gap: var(--space-3);
+  min-height: 44px;
+  align-items: start;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.submission-contract-block,
+.submission-review-state,
+.submission-error-summary {
+  padding: var(--space-4);
+  border: 1px solid var(--color-warning);
+  border-radius: var(--radius-md);
+  background: color-mix(
+    in srgb,
+    var(--color-warning) 12%,
+    var(--color-surface)
+  );
+}
+
+.submission-review-state {
+  border-color: var(--color-place);
+  background: color-mix(in srgb, var(--color-place) 10%, var(--color-surface));
+}
+
+.submission-review-state p {
+  margin: var(--space-2) 0 0;
+  color: var(--color-text-muted);
+}
+
+.submission-contract-block p,
+.submission-error-summary p {
+  margin-top: var(--space-2);
+}
+
+.submission-error-summary ul {
+  display: grid;
+  gap: var(--space-2);
+  margin: var(--space-3) 0 0;
+  padding-left: var(--space-6);
+}
+
+.submission-error-summary button {
+  min-height: 44px;
+  padding: 0;
+  border: 0;
+  color: var(--color-text);
+  background: transparent;
+  font: inherit;
+  text-align: left;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.submission-review-list {
+  display: grid;
+  gap: var(--space-3);
+  margin: 0;
+}
+
+.submission-review-list > div {
+  padding: var(--space-4);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface);
+}
+
+.submission-review-list dt {
+  color: var(--color-text-muted);
+  font-size: 0.8125rem;
+}
+
+.submission-review-list dd {
+  margin: var(--space-2) 0 0;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+}
+
+@media (min-width: 48rem) {
+  .submission-type-grid,
+  .submission-review-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .submission-review-wide {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (min-width: 80rem) {
+  .submission-type-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .submission-step *,
+  .submission-step *::before,
+  .submission-step *::after {
+    scroll-behavior: auto;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}

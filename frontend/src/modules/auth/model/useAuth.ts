@@ -8,11 +8,13 @@ import {
   type Credentials,
   type CurrentAccount,
 } from "../api/authApi";
-
-const currentAccountKey = ["auth", "current-account"] as const;
+import { authQueryKeys } from "./authQueryKeys";
 
 export function useCurrentAccount() {
-  return useQuery({ queryKey: currentAccountKey, queryFn: getCurrentAccount });
+  return useQuery({
+    queryKey: authQueryKeys.currentAccount,
+    queryFn: getCurrentAccount,
+  });
 }
 
 export function useLogin() {
@@ -27,7 +29,10 @@ export function useLogout() {
   const queryClient = useQueryClient();
   return useMutation({
     mutationFn: logout,
-    onSuccess: () => queryClient.setQueryData(currentAccountKey, null),
+    onSuccess: () => {
+      queryClient.removeQueries({ queryKey: authQueryKeys.adminSession });
+      queryClient.setQueryData(authQueryKeys.currentAccount, null);
+    },
   });
 }
 
@@ -37,7 +42,9 @@ function useSessionMutation(
   const queryClient = useQueryClient();
   return useMutation({
     mutationFn: action,
-    onSuccess: (account) =>
-      queryClient.setQueryData(currentAccountKey, account),
+    onSuccess: (account) => {
+      queryClient.removeQueries({ queryKey: authQueryKeys.adminSession });
+      queryClient.setQueryData(authQueryKeys.currentAccount, account);
+    },
   });
 }

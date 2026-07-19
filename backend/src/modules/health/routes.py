@@ -3,6 +3,7 @@ from typing import Annotated
 from fastapi import APIRouter, Depends, Request
 from sqlalchemy.ext.asyncio import AsyncSession
 
+from common.exceptions import ServiceUnavailableError
 from common.schemas import ApiResponse
 from infrastructure.broker_probe import BrokerHealthProbe
 from infrastructure.database import get_session
@@ -35,4 +36,9 @@ async def readiness(
     service: Annotated[HealthService, Depends(get_health_service)],
 ) -> ApiResponse[HealthStatus]:
     result = await service.readiness()
+    if result.status != "ready":
+        raise ServiceUnavailableError(
+            "Required dependencies are unavailable",
+            details={"components": [component.model_dump() for component in result.components]},
+        )
     return ApiResponse[HealthStatus].success(result, request_id=request.state.request_id)

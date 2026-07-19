@@ -1,0 +1,1299 @@
+[
+  {
+    "period_from": 1567,
+    "period_to": null,
+    "date_text": "1567",
+    "event_type": "foundation",
+    "slug": "fortress-terki-1567",
+    "name_ru": "Возведение крепости Терки",
+    "description": "В 1567 году на границе расселения вайнахов была возведена русская крепость Терки. Её появление сопровождалось установлением политических связей Русского государства с Окоцким владением",
+    "place": null,
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "bigenc_chechnya"
+    ],
+    "provenance": {
+      "record_url": "https://old.bigenc.ru/geography/text/5453415"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1732,
+    "period_to": 1732,
+    "date_text": null,
+    "event_type": "battle",
+    "slug": "wd-q113017198",
+    "name_ru": "Сражение за Чечен-аул (1732)",
+    "description": "Сражение 7 июля 1732 года у села Чечен-Аул: чеченские ополченцы под предводительством Айдемира Бардыханова устроили засаду отступающему русскому отряду полковника Коха. Бой завершился крупной победой чеченцев и разгромом отряда. С этим сражением ряд историков связывает закрепление за краем и народом названия «Чечня»",
+    "place": "Чечен-Аул",
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "wikidata",
+      "ru_wikipedia",
+      "checheninfo"
+    ],
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q113017198"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1785,
+    "period_to": null,
+    "date_text": "1785-07-06",
+    "event_type": "battle",
+    "slug": "battle-aldy-1785",
+    "name_ru": "Разгром отряда де Пьери у Алдов",
+    "description": "6 июля 1785 года посланный против Мансура отряд полковника де Пьери потерпел поражение у селения Алды; сам де Пьери погиб",
+    "place": "Алды",
+    "participants": [
+      "Шейх Мансур (Ушурма)"
+    ],
+    "photo": null,
+    "sources": [
+      "anchr"
+    ],
+    "provenance": {
+      "record_url": "https://anchr.ru/"
+    },
+    "status": "verified"
+  },
+  {
+    "period_from": 1785,
+    "period_to": 1791,
+    "date_text": null,
+    "event_type": "uprising",
+    "slug": "mansur-uprising",
+    "name_ru": "Восстание шейха Мансура",
+    "description": "Народно-освободительное восстание горцев Северного Кавказа под руководством шейха Мансура",
+    "place": "Алды",
+    "participants": [
+      "Шейх Мансур (Ушурма)"
+    ],
+    "photo": null,
+    "sources": [
+      "anchr"
+    ],
+    "provenance": {
+      "record_url": "https://anchr.ru/"
+    },
+    "status": "verified"
+  },
+  {
+    "period_from": 1807,
+    "period_to": 1807,
+    "date_text": null,
+    "event_type": "battle",
+    "slug": "wd-q115299524",
+    "name_ru": "Ханкальское сражение (1807)",
+    "description": "Сражение 1 марта 1807 года в Ханкальском ущелье под Грозным. Четырёхтысячный отряд генерала Булгакова штурмовал ущелье, которое обороняли чеченцы вместе с пришедшими на помощь лезгинами и карабулаками. Русские войска заняли ущелье, но понесли большие потери, что лишь укрепило горцев в уверенности в неприступности их края",
+    "place": "Ханкала",
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "wikidata",
+      "ru_wikipedia",
+      "checheninfo"
+    ],
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q115299524"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1817,
+    "period_to": 1864,
+    "date_text": null,
+    "event_type": "war",
+    "slug": "caucasian-war",
+    "name_ru": "Кавказская война",
+    "description": "Длительная война Российской империи за присоединение Северного Кавказа",
+    "place": null,
+    "participants": [
+      "Байсангур Беноевский",
+      "Бейбулат Таймиев"
+    ],
+    "photo": null,
+    "sources": [
+      "wiki_general"
+    ],
+    "provenance": {
+      "record_url": "https://ru.wikipedia.org/"
+    },
+    "status": "verified"
+  },
+  {
+    "period_from": 1818,
+    "period_to": null,
+    "date_text": null,
+    "event_type": "founding",
+    "slug": "founding-grozny",
+    "name_ru": "Основание крепости Грозная",
+    "description": "В 1818 году основана крепость Грозная, давшая начало городу Грозному",
+    "place": "Грозный",
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "wiki_general"
+    ],
+    "provenance": {
+      "record_url": "https://ru.wikipedia.org/"
+    },
+    "status": "verified"
+  },
+  {
+    "period_from": 1819,
+    "period_to": 1819,
+    "date_text": null,
+    "event_type": "battle",
+    "slug": "wd-q4527033",
+    "name_ru": "Штурм села Дади-юрт",
+    "description": "Чеченское селение на Тереке (до 200 домов), полностью уничтоженное русскими войсками 15 (28) сентября 1819 года в ходе карательной экспедиции генерала А. П. Ермолова. Штурм отличался ожесточённостью — бой шёл за каждый дом. На следующий день при переправе через Терек 46 пленных девушек, не желая позора, бросились в воду, увлекая за собой конвоиров. Событие стало символом сопротивления горцев",
+    "place": "Дади-юрт",
+    "participants": [],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B2_%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B8_%D0%94%D0%B0%D0%B4%D0%B8-%D0%AE%D1%80%D1%82.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B2_%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B8_%D0%94%D0%B0%D0%B4%D0%B8-%D0%AE%D1%80%D1%82.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Товболатов"
+    },
+    "sources": [
+      "wikidata",
+      "ru_wikipedia",
+      "checheninfo"
+    ],
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4527033"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1830,
+    "period_to": 1830,
+    "date_text": null,
+    "event_type": "battle",
+    "slug": "wd-q125658233",
+    "name_ru": "Военная экспедиция Абхазова в Ингушетию",
+    "description": "военная операция Кавказской войны",
+    "place": "Асса",
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "wikidata"
+    ],
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q125658233"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1832,
+    "period_to": 1832,
+    "date_text": null,
+    "event_type": "battle",
+    "slug": "wd-q113256568",
+    "name_ru": "Штурм Герменчука",
+    "description": "Историческое событие; сведения требуют проверки",
+    "place": "Герменчук",
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "wikidata"
+    ],
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q113256568"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1840,
+    "period_to": null,
+    "date_text": "1840-07-11",
+    "event_type": "battle",
+    "slug": "battle-valerik-1840",
+    "name_ru": "Сражение на реке Валерик",
+    "description": "Кровопролитное сражение Кавказской войны 11 июля 1840 года, описанное М. Ю. Лермонтовым в стихотворении «Валерик»",
+    "place": null,
+    "participants": [],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Valerik.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Valerik.jpg",
+      "license": "Public domain",
+      "license_url": null,
+      "author": "Mikhail Lermontov"
+    },
+    "sources": [
+      "wiki_general"
+    ],
+    "provenance": {
+      "record_url": "https://ru.wikipedia.org/"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1845,
+    "period_to": 1859,
+    "date_text": null,
+    "event_type": "founding",
+    "slug": "shamil-imamate-vedeno",
+    "name_ru": "Столица имамата Шамиля в Ведено",
+    "description": "В 1845–1859 годах Ведено служило столицей имамата Шамиля",
+    "place": "Ведено",
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "wiki_general"
+    ],
+    "provenance": {
+      "record_url": "https://ru.wikipedia.org/"
+    },
+    "status": "verified"
+  },
+  {
+    "period_from": 1859,
+    "period_to": 1859,
+    "date_text": null,
+    "event_type": "battle",
+    "slug": "wd-q16630155",
+    "name_ru": "Взятие аула Ведень",
+    "description": "Взятие русскими войсками аула Ведено — столицы имамата Шамиля — в 1859 году. Падение Ведено стало решающим этапом завершающей фазы Кавказской войны и предопределило скорое пленение Шамиля в том же году",
+    "place": "Ведено",
+    "participants": [],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/%D0%A2%D0%B5%D0%BE%D0%B4%D0%BE%D1%80_%D0%93%D0%BE%D1%80%D1%88%D0%B5%D0%BB%D1%8C%D1%82._%D0%9E%D1%81%D0%B0%D0%B4%D0%B0_%D0%B0%D1%83%D0%BB%D0%B0_%D0%92%D0%B5%D0%B4%D0%B5%D0%BD%D1%8F_1859_%D0%B3._%28%D1%84%D0%B0%D0%B9%D0%BB_2%29.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%A2%D0%B5%D0%BE%D0%B4%D0%BE%D1%80_%D0%93%D0%BE%D1%80%D1%88%D0%B5%D0%BB%D1%8C%D1%82._%D0%9E%D1%81%D0%B0%D0%B4%D0%B0_%D0%B0%D1%83%D0%BB%D0%B0_%D0%92%D0%B5%D0%B4%D0%B5%D0%BD%D1%8F_1859_%D0%B3._(%D1%84%D0%B0%D0%B9%D0%BB_2).jpg",
+      "license": "Public domain",
+      "license_url": null,
+      "author": "Теодор Горшельт"
+    },
+    "sources": [
+      "wikidata",
+      "ru_wikipedia",
+      "checheninfo"
+    ],
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q16630155"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1860,
+    "period_to": null,
+    "date_text": "1860",
+    "event_type": "administrative_change",
+    "slug": "chechnya-terek-oblast-1860",
+    "name_ru": "Включение территории Чечни в Терскую область",
+    "description": "С 1860 года территория современной Чеченской Республики вошла в состав Терской области Российской империи. Это закрепило новое административное устройство после основной фазы Кавказской войны",
+    "place": null,
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "bigenc_chechnya"
+    ],
+    "provenance": {
+      "record_url": "https://old.bigenc.ru/geography/text/5453415"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1860,
+    "period_to": 1861,
+    "date_text": null,
+    "event_type": "uprising",
+    "slug": "uprising-1860-1861",
+    "name_ru": "Восстание в Чечне 1860–1861 годов",
+    "description": "Одно из последних крупных восстаний Кавказской войны; среди лидеров — Байсангур Беноевский",
+    "place": null,
+    "participants": [
+      "Байсангур Беноевский"
+    ],
+    "photo": null,
+    "sources": [
+      "wiki_general"
+    ],
+    "provenance": {
+      "record_url": "https://ru.wikipedia.org/"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1877,
+    "period_to": 1878,
+    "date_text": null,
+    "event_type": "uprising",
+    "slug": "uprising-1877",
+    "name_ru": "Восстание в Чечне 1877–1878 годов",
+    "description": "Крупное восстание в Чечне и Дагестане; среди руководителей — Ума Дуев",
+    "place": null,
+    "participants": [
+      "Ума Дуев"
+    ],
+    "photo": null,
+    "sources": [
+      "wiki_general"
+    ],
+    "provenance": {
+      "record_url": "https://ru.wikipedia.org/"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1893,
+    "period_to": null,
+    "date_text": "1893",
+    "event_type": "economic",
+    "slug": "grozny-oil-industry-1893",
+    "name_ru": "Начало промышленной нефтедобычи в Грозном",
+    "description": "В 1893 году были открыты Старые нефтяные промыслы. Со второй половины 1890-х годов Грозный стал одним из крупных центров нефтедобычи Российской империи",
+    "place": "Грозный",
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "bigenc_chechnya"
+    ],
+    "provenance": {
+      "record_url": "https://old.bigenc.ru/geography/text/5453415"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1917,
+    "period_to": 1920,
+    "date_text": "ноябрь 1917 — 1920",
+    "event_type": "statehood",
+    "slug": "mountain-republic-1917",
+    "name_ru": "Вхождение чеченских округов в Горскую республику",
+    "description": "В ноябре 1917 года Веденский и Грозненский округа вошли в Горскую республику, правительство которой возглавил Тапа Чермоев. Период сопровождался борьбой нескольких политических центров за власть на Северном Кавказе",
+    "place": null,
+    "participants": [
+      "Чермоев, Тапа Арцуевич"
+    ],
+    "photo": null,
+    "sources": [
+      "bigenc_chechnya"
+    ],
+    "provenance": {
+      "record_url": "https://old.bigenc.ru/geography/text/5453415"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1918,
+    "period_to": 1918,
+    "date_text": null,
+    "event_type": "battle",
+    "slug": "wd-q4329633",
+    "name_ru": "Стодневные бои",
+    "description": "Оборона Грозного в августе — ноябре 1918 года в ходе Гражданской войны. Терские казаки под командованием Георгия Бичерахова (до 12 тысяч человек) осадили город — центр советской власти в Терской области. Грозный защищали рабочие отряды Николая Гикало и Чеченская Красная армия под командованием Асланбека Шерипова. 12 ноября 1918 года длившаяся более трёх месяцев осада была снята",
+    "place": "Грозный",
+    "participants": [
+      "Асланбек Джемалдинович Шерипов"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/For_the_power_of_the_soviets.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:For_the_power_of_the_soviets.jpg",
+      "license": "Public domain",
+      "license_url": null,
+      "author": "СССР"
+    },
+    "sources": [
+      "wikidata",
+      "ru_wikipedia",
+      "grozny_inform"
+    ],
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4329633"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1919,
+    "period_to": 1919,
+    "date_text": null,
+    "event_type": "battle",
+    "slug": "wd-q113410690",
+    "name_ru": "Гойтинское сражение",
+    "description": "Историческое событие; сведения требуют проверки",
+    "place": "Гойты",
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "wikidata"
+    ],
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q113410690"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1920,
+    "period_to": null,
+    "date_text": "март 1920",
+    "event_type": "political",
+    "slug": "red-army-control-chechnya-1920",
+    "name_ru": "Установление контроля РККА над территорией Чечни",
+    "description": "К концу марта 1920 года территория современной Чечни в целом перешла под контроль Красной армии, что завершило основной этап Гражданской войны в регионе",
+    "place": null,
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "bigenc_chechnya"
+    ],
+    "provenance": {
+      "record_url": "https://old.bigenc.ru/geography/text/5453415"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1921,
+    "period_to": null,
+    "date_text": "20 января 1921",
+    "event_type": "administrative_change",
+    "slug": "chechen-district-mountain-assr-1921",
+    "name_ru": "Создание Чеченского округа Горской АССР",
+    "description": "После провозглашения Горской АССР 17 ноября 1920 года и её юридического оформления декретом ВЦИК 20 января 1921 года в составе автономии был образован Чеченский округ",
+    "place": null,
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "bigenc_chechnya"
+    ],
+    "provenance": {
+      "record_url": "https://old.bigenc.ru/geography/text/5453415"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1922,
+    "period_to": null,
+    "date_text": "30 ноября 1922",
+    "event_type": "administrative_change",
+    "slug": "chechen-autonomous-oblast-1922",
+    "name_ru": "Образование Чеченской автономной области",
+    "description": "30 ноября 1922 года Чеченский округ был выделен из Горской АССР и преобразован в Чеченскую автономную область. Её центром стал Грозный, первоначально не входивший в состав области",
+    "place": null,
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "bigenc_chechnya"
+    ],
+    "provenance": {
+      "record_url": "https://old.bigenc.ru/geography/text/5453415"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1934,
+    "period_to": null,
+    "date_text": "15 января 1934",
+    "event_type": "administrative_change",
+    "slug": "chechen-ingush-autonomous-oblast-1934",
+    "name_ru": "Образование Чечено-Ингушской автономной области",
+    "description": "15 января 1934 года Чеченская и Ингушская автономные области были объединены в Чечено-Ингушскую автономную область Северо-Кавказского края",
+    "place": null,
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "bigenc_chechnya"
+    ],
+    "provenance": {
+      "record_url": "https://old.bigenc.ru/geography/text/5453415"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1936,
+    "period_to": null,
+    "date_text": "5 декабря 1936",
+    "event_type": "administrative_change",
+    "slug": "chechen-ingush-assr-1936",
+    "name_ru": "Преобразование в Чечено-Ингушскую АССР",
+    "description": "После принятия Конституции СССР 5 декабря 1936 года Чечено-Ингушская автономная область была преобразована в Чечено-Ингушскую Автономную Советскую Социалистическую Республику",
+    "place": null,
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "bigenc_chechnya"
+    ],
+    "provenance": {
+      "record_url": "https://old.bigenc.ru/geography/text/5453415"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1941,
+    "period_to": null,
+    "date_text": null,
+    "event_type": "battle",
+    "slug": "brest-defense",
+    "name_ru": "Оборона Брестской крепости",
+    "description": "Оборона Брестской крепости летом 1941 года; среди защитников были уроженцы Чечено-Ингушетии",
+    "place": null,
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "wiki_general"
+    ],
+    "provenance": {
+      "record_url": "https://ru.wikipedia.org/"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1941,
+    "period_to": 1945,
+    "date_text": null,
+    "event_type": "war",
+    "slug": "wwii",
+    "name_ru": "Великая Отечественная война",
+    "description": "Война СССР против нацистской Германии; тысячи чеченцев — её участники",
+    "place": null,
+    "participants": [
+      "Ирбайхан Адельханович Бейбулатов",
+      "Хансултан Чапаевич Дачиев",
+      "Абухаджи Идрисов",
+      "Хаваджи Магомед-Мирзоев",
+      "Ханпаша Нурадилович Нурадилов",
+      "Мовлид (Мавлид) Алероевич Висаитов"
+    ],
+    "photo": null,
+    "sources": [
+      "wiki_general"
+    ],
+    "provenance": {
+      "record_url": "https://ru.wikipedia.org/"
+    },
+    "status": "verified"
+  },
+  {
+    "period_from": 1942,
+    "period_to": 1943,
+    "date_text": null,
+    "event_type": "battle",
+    "slug": "battle-stalingrad",
+    "name_ru": "Сталинградская битва",
+    "description": "Переломное сражение Великой Отечественной войны",
+    "place": null,
+    "participants": [
+      "Маташ Мазаев",
+      "Ханпаша Нурадилович Нурадилов"
+    ],
+    "photo": null,
+    "sources": [
+      "wiki_general"
+    ],
+    "provenance": {
+      "record_url": "https://ru.wikipedia.org/"
+    },
+    "status": "verified"
+  },
+  {
+    "period_from": 1944,
+    "period_to": null,
+    "date_text": "7 марта 1944",
+    "event_type": "administrative_change",
+    "slug": "abolition-chechen-ingush-assr-1944",
+    "name_ru": "Ликвидация Чечено-Ингушской АССР",
+    "description": "Указом Президиума Верховного Совета СССР от 7 марта 1944 года Чечено-Ингушская АССР была упразднена, а её территория разделена между вновь созданной Грозненской областью и соседними административными единицами",
+    "place": null,
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "historyrussia_abolition",
+      "bigenc_chechnya"
+    ],
+    "provenance": {
+      "record_url": "https://docs.historyrussia.org/ru/nodes/49440"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1944,
+    "period_to": null,
+    "date_text": "1944-02-23",
+    "event_type": "deportation",
+    "slug": "deportation-1944",
+    "name_ru": "Депортация чеченцев и ингушей («Чечевица»)",
+    "description": "Насильственная депортация чеченского и ингушского народов в Среднюю Азию и Казахстан, начатая 23 февраля 1944 года",
+    "place": null,
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "wiki_general"
+    ],
+    "provenance": {
+      "record_url": "https://ru.wikipedia.org/"
+    },
+    "status": "verified"
+  },
+  {
+    "period_from": 1945,
+    "period_to": null,
+    "date_text": "1945-05",
+    "event_type": "battle",
+    "slug": "elbe-meeting",
+    "name_ru": "Встреча на Эльбе",
+    "description": "Соединение советских и американских войск на Эльбе в мае 1945 года",
+    "place": null,
+    "participants": [
+      "Мовлид (Мавлид) Алероевич Висаитов"
+    ],
+    "photo": null,
+    "sources": [
+      "wiki_general"
+    ],
+    "provenance": {
+      "record_url": "https://ru.wikipedia.org/"
+    },
+    "status": "verified"
+  },
+  {
+    "period_from": 1956,
+    "period_to": null,
+    "date_text": "16 июля 1956",
+    "event_type": "legal",
+    "slug": "special-settlement-restrictions-lifted-1956",
+    "name_ru": "Снятие ограничений спецпоселения",
+    "description": "16 июля 1956 года с чеченцев и ингушей были сняты ограничения по спецпоселению. Сам указ ещё не возвращал имущество и первоначально не разрешал возвращение на прежние места жительства",
+    "place": null,
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "bigenc_chechnya"
+    ],
+    "provenance": {
+      "record_url": "https://old.bigenc.ru/geography/text/5453415"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1957,
+    "period_to": null,
+    "date_text": "9 января 1957",
+    "event_type": "administrative_change",
+    "slug": "restoration-chechen-ingush-assr-1957",
+    "name_ru": "Восстановление Чечено-Ингушской АССР",
+    "description": "9 января 1957 года Чечено-Ингушская АССР была восстановлена в составе РСФСР, а Грозненская область упразднена. После этого началось массовое возвращение чеченцев и ингушей из мест депортации",
+    "place": null,
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "historyrussia_restoration",
+      "bigenc_chechnya"
+    ],
+    "provenance": {
+      "record_url": "https://docs.historyrussia.org/ru/nodes/298913-ukaz-prezidiuma-verhovnogo-soveta-rsfsr-o-vosstanovlenii-checheno-ingushskoy-assr-i-uprazdnenii-groznenskoy-oblasti-9-yanvarya-1957-g-moskva"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1958,
+    "period_to": null,
+    "date_text": "25–26 августа 1958",
+    "event_type": "civil_unrest",
+    "slug": "grozny-unrest-1958",
+    "name_ru": "Массовые беспорядки в Грозном 1958 года",
+    "description": "25–26 августа 1958 года в Грозном произошли массовые беспорядки на фоне возвращения чеченцев и ингушей из депортации. Участники захватывали общественные здания и выдвигали требование ограничить возвращение репрессированных народов",
+    "place": "Грозный",
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "bigenc_chechnya"
+    ],
+    "provenance": {
+      "record_url": "https://old.bigenc.ru/geography/text/5453415"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1990,
+    "period_to": null,
+    "date_text": "27 ноября 1990",
+    "event_type": "political",
+    "slug": "sovereignty-declaration-1990",
+    "name_ru": "Декларация о государственном суверенитете Чечено-Ингушетии",
+    "description": "27 ноября 1990 года Верховный Совет Чечено-Ингушской АССР принял декларацию о государственном суверенитете Чечено-Ингушской Республики",
+    "place": null,
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "bigenc_chechnya"
+    ],
+    "provenance": {
+      "record_url": "https://old.bigenc.ru/geography/text/5453415"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1991,
+    "period_to": null,
+    "date_text": "июнь–ноябрь 1991",
+    "event_type": "political",
+    "slug": "chechen-political-crisis-1991",
+    "name_ru": "Смена власти и провозглашение суверенитета Чеченской Республики",
+    "description": "В июне–ноябре 1991 года Общенациональный конгресс чеченского народа отстранил прежний Верховный Совет, провёл выборы президента и парламента, а Джохар Дудаев подписал указ о государственном суверенитете Чеченской Республики",
+    "place": null,
+    "participants": [
+      "Джохар Дудаев"
+    ],
+    "photo": null,
+    "sources": [
+      "bigenc_chechnya"
+    ],
+    "provenance": {
+      "record_url": "https://old.bigenc.ru/geography/text/5453415"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1992,
+    "period_to": null,
+    "date_text": "4 июня 1992",
+    "event_type": "administrative_change",
+    "slug": "chechen-ingush-separation-1992",
+    "name_ru": "Разделение Чечни и Ингушетии",
+    "description": "Законом Российской Федерации от 4 июня 1992 года была образована самостоятельная Ингушская Республика. Это юридически закрепило разделение бывшей Чечено-Ингушской республики",
+    "place": null,
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "bigenc_chechnya"
+    ],
+    "provenance": {
+      "record_url": "https://old.bigenc.ru/geography/text/5453415"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1994,
+    "period_to": 1995,
+    "date_text": null,
+    "event_type": "battle",
+    "slug": "wd-q1028296",
+    "name_ru": "Штурм Грозного (1994—1995)",
+    "description": "операция во время Первой чеченской войны",
+    "place": "Грозный",
+    "participants": [
+      "Шамиль Салманович Басаев",
+      "Турпал-Али Аладиевич Атгериев",
+      "Руслан Германович Гелаев",
+      "Салман Бетырович Радуев"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Evstafiev-Chechnya-BURNED.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Evstafiev-Chechnya-BURNED.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Photo: Mikhail Evstafiev"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q1028296"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1994,
+    "period_to": 1994,
+    "date_text": null,
+    "event_type": "battle",
+    "slug": "wd-q2026919",
+    "name_ru": "Штурм Грозного силами Временного совета",
+    "description": "событие 26 ноября 1994 года",
+    "place": "Грозный",
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "wikidata"
+    ],
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q2026919"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1994,
+    "period_to": 1996,
+    "date_text": null,
+    "event_type": "war",
+    "slug": "wd-q29269",
+    "name_ru": "Первая чеченская война",
+    "description": "вооружённый конфликт между Россией и Чеченской Республикой Ичкерией (1994—1996)",
+    "place": null,
+    "participants": [
+      "Джохар Дудаев",
+      "Шамиль Салманович Басаев"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Collage_the_First_Chechen_War.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Collage_the_First_Chechen_War.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Derivative work: Ostrovsky Gregory"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q29269"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1994,
+    "period_to": 1994,
+    "date_text": null,
+    "event_type": "battle",
+    "slug": "wd-q3649860",
+    "name_ru": "Битва за Ханкалу",
+    "description": "Историческое событие; сведения требуют проверки",
+    "place": "Ханкала",
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "wikidata"
+    ],
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q3649860"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1994,
+    "period_to": 1994,
+    "date_text": null,
+    "event_type": "battle",
+    "slug": "wd-q4870889",
+    "name_ru": "Битва за Долинское",
+    "description": "Историческое событие; сведения требуют проверки",
+    "place": "Долинский",
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "wikidata"
+    ],
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4870889"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1994,
+    "period_to": 1995,
+    "date_text": null,
+    "event_type": "battle",
+    "slug": "wd-q55659093",
+    "name_ru": "Пленение аксайского спецназа",
+    "description": "Историческое событие; сведения требуют проверки",
+    "place": "Алхазурово",
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "wikidata"
+    ],
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q55659093"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1995,
+    "period_to": 1995,
+    "date_text": null,
+    "event_type": "battle",
+    "slug": "wd-q4312945",
+    "name_ru": "Нападение боевиков на Гудермес (декабрь 1995)",
+    "description": "Историческое событие; сведения требуют проверки",
+    "place": "Гудермес",
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "wikidata"
+    ],
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4312945"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1995,
+    "period_to": 1995,
+    "date_text": null,
+    "event_type": "battle",
+    "slug": "wd-q85858691",
+    "name_ru": "Взятие Ведено",
+    "description": "Историческое событие; сведения требуют проверки",
+    "place": "Ведено",
+    "participants": [],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/%D0%9E%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8C%D1%81%D0%BA%D0%BE%D0%B5_20220710_163458.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9E%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8C%D1%81%D0%BA%D0%BE%D0%B5_20220710_163458.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Lesless"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q85858691"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1996,
+    "period_to": null,
+    "date_text": "31 августа 1996",
+    "event_type": "peace_agreement",
+    "slug": "khasavyurt-accords-1996",
+    "name_ru": "Подписание Хасавюртовских соглашений",
+    "description": "31 августа 1996 года Александр Лебедь и Аслан Масхадов подписали в Хасавюрте принципы урегулирования. Соглашения закрепили прекращение боевых действий, вывод федеральных сил и перенос решения о политическом статусе Чечни",
+    "place": null,
+    "participants": [
+      "Аслан Алиевич Масхадов"
+    ],
+    "photo": null,
+    "sources": [
+      "un_khasavyurt",
+      "un_chechnya_1997"
+    ],
+    "provenance": {
+      "record_url": "https://peacemaker.un.org/sites/default/files/document/files/2024/05/ru960831khasavyourt20joint20declaration20and20principles20for20mutual20relations.pdf"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1996,
+    "period_to": 1996,
+    "date_text": null,
+    "event_type": "battle",
+    "slug": "wd-q2395246",
+    "name_ru": "Операция «Джихад»",
+    "description": "штурм Грозного отрядами сил ЧРИ в августе 1996 года",
+    "place": "Грозный",
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "wikidata"
+    ],
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q2395246"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1996,
+    "period_to": 1996,
+    "date_text": null,
+    "event_type": "battle",
+    "slug": "wd-q4312942",
+    "name_ru": "Нападение боевиков на Грозный (март 1996)",
+    "description": "Историческое событие; сведения требуют проверки",
+    "place": "Грозный",
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "wikidata"
+    ],
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4312942"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1997,
+    "period_to": null,
+    "date_text": "27 января 1997",
+    "event_type": "election",
+    "slug": "chechen-election-1997",
+    "name_ru": "Президентские и парламентские выборы 1997 года",
+    "description": "27 января 1997 года в Чечне прошли президентские и парламентские выборы под международным наблюдением. Президентом был избран Аслан Масхадов",
+    "place": null,
+    "participants": [
+      "Аслан Алиевич Масхадов"
+    ],
+    "photo": null,
+    "sources": [
+      "un_chechnya_1997",
+      "bigenc_chechnya"
+    ],
+    "provenance": {
+      "record_url": "https://digitallibrary.un.org/record/238724/files/E_CN.4_1997_10-EN.pdf"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1997,
+    "period_to": null,
+    "date_text": "12 мая 1997",
+    "event_type": "peace_agreement",
+    "slug": "russia-chechnya-peace-treaty-1997",
+    "name_ru": "Российско-чеченский договор о мире",
+    "description": "12 мая 1997 года Борис Ельцин и Аслан Масхадов подписали в Москве договор о мире и принципах взаимоотношений между Российской Федерацией и Чеченской Республикой Ичкерия",
+    "place": null,
+    "participants": [
+      "Аслан Алиевич Масхадов"
+    ],
+    "photo": null,
+    "sources": [
+      "un_peace_treaty_1997",
+      "bigenc_chechnya"
+    ],
+    "provenance": {
+      "record_url": "https://documents.un.org/doc/undoc/gen/n97/138/91/pdf/n9713891.pdf"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1999,
+    "period_to": 2000,
+    "date_text": "август 1999 — 2000",
+    "event_type": "war",
+    "slug": "renewed-hostilities-1999",
+    "name_ru": "Возобновление крупномасштабных боевых действий",
+    "description": "После вторжения вооружённых отрядов из Чечни в Дагестан в августе 1999 года федеральные власти начали новую военную кампанию и контртеррористическую операцию на Северном Кавказе",
+    "place": null,
+    "participants": [
+      "Шамиль Салманович Басаев"
+    ],
+    "photo": null,
+    "sources": [
+      "bigenc_chechnya"
+    ],
+    "provenance": {
+      "record_url": "https://old.bigenc.ru/geography/text/5453415"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1999,
+    "period_to": 2000,
+    "date_text": null,
+    "event_type": "battle",
+    "slug": "wd-q1972096",
+    "name_ru": "Битва за Грозный",
+    "description": "событие Второй чеченской войны",
+    "place": "Грозный",
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "wikidata"
+    ],
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q1972096"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 1999,
+    "period_to": 1999,
+    "date_text": null,
+    "event_type": "battle",
+    "slug": "wd-q21636234",
+    "name_ru": "Бой под Дуба-Юртом",
+    "description": "Историческое событие; сведения требуют проверки",
+    "place": "Дуба-Юрт",
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "wikidata"
+    ],
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q21636234"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 2000,
+    "period_to": null,
+    "date_text": "12 июня 2000",
+    "event_type": "political",
+    "slug": "akhmat-kadyrov-administration-2000",
+    "name_ru": "Назначение Ахмата Кадырова главой администрации Чечни",
+    "description": "12 июня 2000 года указом Президента Российской Федерации Ахмат Кадыров был назначен главой администрации Чеченской Республики",
+    "place": null,
+    "participants": [
+      "Ахмат-Хаджи Абдулхамидович Кадыров"
+    ],
+    "photo": null,
+    "sources": [
+      "bigenc_akhmat_kadyrov",
+      "bigenc_chechnya"
+    ],
+    "provenance": {
+      "record_url": "https://bigenc.ru/c/kadyrov-akhmat-abdulkhamidovich-6b14ad"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 2000,
+    "period_to": 2000,
+    "date_text": null,
+    "event_type": "battle",
+    "slug": "wd-q1530585",
+    "name_ru": "Бой у высоты 776",
+    "description": "эпизод Второй чеченской войны",
+    "place": "Река Аргун",
+    "participants": [],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/776-Battle-DE.svg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:776-Battle-DE.svg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Alexpl"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q1530585"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 2000,
+    "period_to": 2000,
+    "date_text": null,
+    "event_type": "battle",
+    "slug": "wd-q4090262",
+    "name_ru": "Бои за Аргун (1999—2000)",
+    "description": "Историческое событие; сведения требуют проверки",
+    "place": "Аргун",
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "wikidata"
+    ],
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4090262"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 2003,
+    "period_to": null,
+    "date_text": "23 марта 2003",
+    "event_type": "referendum",
+    "slug": "chechen-constitution-referendum-2003",
+    "name_ru": "Принятие Конституции Чеченской Республики",
+    "description": "23 марта 2003 года на республиканском референдуме была принята Конституция Чеченской Республики, определившая её современную систему органов власти и статус субъекта Российской Федерации",
+    "place": null,
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "chechen_constitution",
+      "kremlin_chechen_referendum",
+      "bigenc_chechnya"
+    ],
+    "provenance": {
+      "record_url": "https://constitution.garant.ru/region/cons_chech/"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 2004,
+    "period_to": null,
+    "date_text": "9 мая 2004",
+    "event_type": "terrorist_attack",
+    "slug": "akhmat-kadyrov-assassination-2004",
+    "name_ru": "Гибель Ахмата Кадырова",
+    "description": "9 мая 2004 года президент Чеченской Республики Ахмат Кадыров погиб в результате взрыва на стадионе «Динамо» в Грозном",
+    "place": "Грозный",
+    "participants": [
+      "Ахмат-Хаджи Абдулхамидович Кадыров"
+    ],
+    "photo": null,
+    "sources": [
+      "bigenc_akhmat_kadyrov"
+    ],
+    "provenance": {
+      "record_url": "https://bigenc.ru/c/kadyrov-akhmat-abdulkhamidovich-6b14ad"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 2007,
+    "period_to": null,
+    "date_text": "5 апреля 2007",
+    "event_type": "political",
+    "slug": "ramzan-kadyrov-head-2007",
+    "name_ru": "Вступление Рамзана Кадырова в должность президента Чечни",
+    "description": "5 апреля 2007 года Рамзан Кадыров вступил в должность президента Чеченской Республики. С 2010 года должность называется «Глава Чеченской Республики»",
+    "place": null,
+    "participants": [
+      "Рамзан Ахматович Кадыров"
+    ],
+    "photo": null,
+    "sources": [
+      "bigenc_ramzan_kadyrov",
+      "bigenc_chechnya"
+    ],
+    "provenance": {
+      "record_url": "https://old.bigenc.ru/domestic_history/text/3939593"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 2008,
+    "period_to": null,
+    "date_text": null,
+    "event_type": "construction",
+    "slug": "mosque-heart-2008",
+    "name_ru": "Открытие мечети «Сердце Чечни»",
+    "description": "В 2008 году в Грозном открыта мечеть «Сердце Чечни»",
+    "place": "Мечеть «Сердце Чечни» им. А. А. Кадырова",
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "travel_guide"
+    ],
+    "provenance": {
+      "record_url": "https://bolshayastrana.com/blog/dostoprimechatelnosti-chechenskoj-respubliki-314"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 2009,
+    "period_to": null,
+    "date_text": "16 апреля 2009",
+    "event_type": "political",
+    "slug": "end-cto-chechnya-2009",
+    "name_ru": "Отмена режима контртеррористической операции",
+    "description": "С 00:00 16 апреля 2009 года Национальный антитеррористический комитет отменил приказ, объявлявший территорию Чеченской Республики зоной проведения контртеррористической операции",
+    "place": null,
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "rg_end_cto",
+      "bigenc_chechnya"
+    ],
+    "provenance": {
+      "record_url": "https://rg.ru/2009/04/16/chechnja-terror-anons.html"
+    },
+    "status": "needs_review"
+  },
+  {
+    "period_from": 2019,
+    "period_to": null,
+    "date_text": null,
+    "event_type": "construction",
+    "slug": "mosque-shali-2019",
+    "name_ru": "Открытие мечети «Гордость мусульман»",
+    "description": "В 2019 году в Шали открыта одна из крупнейших мечетей Европы",
+    "place": "Мечеть «Гордость мусульман» им. Пророка Мухаммада",
+    "participants": [],
+    "photo": null,
+    "sources": [
+      "travel_guide"
+    ],
+    "provenance": {
+      "record_url": "https://bolshayastrana.com/blog/dostoprimechatelnosti-chechenskoj-respubliki-314"
+    },
+    "status": "needs_review"
+  }
+]

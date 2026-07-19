@@ -1,0 +1,284 @@
+{
+  "districts": [
+    {
+      "id": "17bba85b-98e6-58c4-af00-393bfabb4a36",
+      "slug": "kurchaloevsky",
+      "title_ce": null,
+      "title_ru": "Курчалоевский район"
+    },
+    {
+      "id": "2098f4cd-9738-5bf1-987a-7ba84b2f3da1",
+      "slug": "shelkovskoy",
+      "title_ce": null,
+      "title_ru": "Шелковской район"
+    },
+    {
+      "id": "2aeef331-d67d-5ce4-b705-25c9d40e8050",
+      "slug": "itum-kalinsky",
+      "title_ce": null,
+      "title_ru": "Итум-Калинский район"
+    },
+    {
+      "id": "3d7155c8-b548-5c63-b9a3-93de9ed03aef",
+      "slug": "achkhoy-martanovsky",
+      "title_ce": null,
+      "title_ru": "Ачхой-Мартановский район"
+    },
+    {
+      "id": "50d57d87-285f-51e3-b538-4443c4b6e91b",
+      "slug": "shatoysky",
+      "title_ce": null,
+      "title_ru": "Шатойский район"
+    },
+    {
+      "id": "6c8ffd36-524d-53e9-8c72-58ca5974911a",
+      "slug": "naursky",
+      "title_ce": null,
+      "title_ru": "Наурский район"
+    },
+    {
+      "id": "a1991fb6-c898-5952-8192-efb26a820be9",
+      "slug": "nadterechny",
+      "title_ce": null,
+      "title_ru": "Надтеречный район"
+    },
+    {
+      "id": "abeb92f7-da72-5c2d-8d4a-be371e24653d",
+      "slug": "shalinsky",
+      "title_ce": null,
+      "title_ru": "Шалинский район"
+    },
+    {
+      "id": "bfd5e3f3-0f6a-543d-9190-9926ec858d5b",
+      "slug": "vedensky",
+      "title_ce": null,
+      "title_ru": "Веденский район"
+    },
+    {
+      "id": "ce7a00f3-9091-5c0e-b207-4880075ff0e9",
+      "slug": "groznensky",
+      "title_ce": null,
+      "title_ru": "Грозненский район"
+    },
+    {
+      "id": "d2fb7f9a-8f54-5903-82c9-74f025e1b362",
+      "slug": "sharoysky",
+      "title_ce": null,
+      "title_ru": "Шаройский район"
+    },
+    {
+      "id": "e4ebc05b-d7d3-5267-98e6-3d0ed937f5db",
+      "slug": "gudermessky",
+      "title_ce": null,
+      "title_ru": "Гудермесский район"
+    },
+    {
+      "id": "e8d9a7e9-6724-5344-bf06-84c0ca8101ac",
+      "slug": "nozhay-yurtovsky",
+      "title_ce": null,
+      "title_ru": "Ножай-Юртовский район"
+    },
+    {
+      "id": "ea3cd6c4-8c42-50f4-b07e-1daa3aa52038",
+      "slug": "urus-martanovsky",
+      "title_ce": null,
+      "title_ru": "Урус-Мартановский район"
+    },
+    {
+      "id": "f6a461ca-e36b-5d05-80c1-170f88534442",
+      "slug": "sunzhensky",
+      "title_ce": null,
+      "title_ru": "Серноводский район"
+    }
+  ],
+  "entities": [],
+  "entity_names": [],
+  "entity_sources": [],
+  "entity_texts": [],
+  "relation_sources": [],
+  "relations": [],
+  "sources": [
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Источник исследовательского набора.",
+      "id": "04b166a7-3f65-5e7b-b1ba-a2568f26dde9",
+      "is_verified": false,
+      "publication_year": null,
+      "publisher": "warheroes.ru",
+      "status": "draft",
+      "title": "Герои страны — патриотический интернет-проект",
+      "type": "web_resource",
+      "url": "https://warheroes.ru/"
+    },
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Перед публикацией проверить изображённый объект, автора и актуальную лицензию.",
+      "id": "383a43ea-ebcc-5c1a-87cb-0928fa70da84",
+      "is_verified": false,
+      "publication_year": null,
+      "publisher": "Wikimedia Foundation community",
+      "status": "draft",
+      "title": "Wikimedia Commons: изображения и лицензионные метаданные",
+      "type": "web_resource",
+      "url": "https://commons.wikimedia.org/"
+    },
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Источник исследовательского набора.",
+      "id": "3e8565d9-d522-5e73-aa0e-bd5c2ed7c5a4",
+      "is_verified": false,
+      "publication_year": null,
+      "publisher": "bolshayastrana.com / places.moscow",
+      "status": "draft",
+      "title": "Путеводители по достопримечательностям Чечни",
+      "type": "web_resource",
+      "url": "https://bolshayastrana.com/blog/dostoprimechatelnosti-chechenskoj-respubliki-314"
+    },
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Источник исследовательского набора.",
+      "id": "534b44c2-9320-55e7-9108-032bf243c8b3",
+      "is_verified": false,
+      "publication_year": null,
+      "publisher": "Википедия",
+      "status": "draft",
+      "title": "Список Героев Российской Федерации (Чечня)",
+      "type": "web_resource",
+      "url": "https://ru.wikipedia.org/wiki/Список_Героев_Российской_Федерации_(Чечня)"
+    },
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Источник исследовательского набора.",
+      "id": "6687cc19-8ad5-5e98-90a7-bd3f4d42f307",
+      "is_verified": false,
+      "publication_year": null,
+      "publisher": "Nohchalla.com",
+      "status": "draft",
+      "title": "Nohchalla.com — история, личности и традиции чеченцев",
+      "type": "web_resource",
+      "url": "https://nohchalla.com/"
+    },
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Источник исследовательского набора.",
+      "id": "6b9024f2-fd28-5c65-a256-e9773ac77891",
+      "is_verified": false,
+      "publication_year": null,
+      "publisher": "ТАСС",
+      "status": "draft",
+      "title": "Герои Чечни на фронтах Великой Отечественной войны",
+      "type": "web_resource",
+      "url": "https://spec.tass.ru/geroipobedy/chechnya"
+    },
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Официальный источник для проверки районов и муниципальных образований.",
+      "id": "7ba0d1ef-4215-515b-9bc2-3a9017374081",
+      "is_verified": false,
+      "publication_year": null,
+      "publisher": "Территориальный орган Росстата по Чеченской Республике",
+      "status": "draft",
+      "title": "Перечень муниципальных образований Чеченской Республики",
+      "type": "official_publication",
+      "url": "https://95.rosstat.gov.ru/folder/208692"
+    },
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Источник исследовательского набора.",
+      "id": "8601b5ff-7d0f-5f45-a35d-3b10362f12c3",
+      "is_verified": false,
+      "publication_year": null,
+      "publisher": "checheninfo.ru",
+      "status": "draft",
+      "title": "ИА Чеченинфо — историко-краеведческие материалы",
+      "type": "web_resource",
+      "url": "https://checheninfo.ru/"
+    },
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Источник исследовательского набора.",
+      "id": "a7d477d1-bbe3-54c4-9b5d-4f921bc20dc0",
+      "is_verified": false,
+      "publication_year": null,
+      "publisher": "АН ЧР",
+      "status": "draft",
+      "title": "Академия наук Чеченской Республики — исторические публикации",
+      "type": "scientific_article",
+      "url": "https://anchr.ru/"
+    },
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Источник исследовательского набора.",
+      "id": "b249b182-a230-54de-a53d-4aaae0271b35",
+      "is_verified": false,
+      "publication_year": null,
+      "publisher": "Wikipedia",
+      "status": "draft",
+      "title": "Wikipedia — English articles (settlements)",
+      "type": "web_resource",
+      "url": "https://en.wikipedia.org/"
+    },
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Источник исследовательского набора.",
+      "id": "bea2d9a0-2862-5607-b477-8f18ab253028",
+      "is_verified": false,
+      "publication_year": null,
+      "publisher": "Википедия",
+      "status": "draft",
+      "title": "Список Героев Советского Союза (Чечено-Ингушетия)",
+      "type": "web_resource",
+      "url": "https://ru.wikipedia.org/wiki/Список_Героев_Советского_Союза_(Чечено-Ингушетия)"
+    },
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Источник исследовательского набора.",
+      "id": "e727d0e6-0482-5c07-b947-cc21568e6981",
+      "is_verified": false,
+      "publication_year": null,
+      "publisher": "Википедия",
+      "status": "draft",
+      "title": "Административно-территориальное деление Чечни",
+      "type": "web_resource",
+      "url": "https://ru.wikipedia.org/wiki/Административно-территориальное_деление_Чечни"
+    },
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Источник исследовательского набора.",
+      "id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7",
+      "is_verified": false,
+      "publication_year": null,
+      "publisher": "Википедия",
+      "status": "draft",
+      "title": "Википедия — тематические статьи (личности, места, события)",
+      "type": "web_resource",
+      "url": "https://ru.wikipedia.org/"
+    },
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Массовый discovery-источник; каждое утверждение проверяется по ссылкам элемента.",
+      "id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a",
+      "is_verified": false,
+      "publication_year": null,
+      "publisher": "Wikimedia Foundation community",
+      "status": "draft",
+      "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+      "type": "web_resource",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page"
+    }
+  ]
+}

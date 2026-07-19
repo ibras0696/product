@@ -1,0 +1,224 @@
+.entity-page,
+.entity-state-page {
+  min-height: 100dvh;
+  color: var(--color-text);
+  background:
+    radial-gradient(
+      circle at 82% 8%,
+      color-mix(in srgb, var(--color-focus) 10%, transparent),
+      transparent 28rem
+    ),
+    var(--color-bg);
+}
+
+.entity-state-page {
+  display: grid;
+  place-items: center;
+  padding: var(--space-4);
+}
+
+.entity-button,
+.entity-back {
+  min-height: 44px;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-sm);
+  color: var(--color-text);
+  background: var(--color-interactive);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  transition:
+    border-color var(--motion-fast) var(--ease-out),
+    background var(--motion-fast) var(--ease-out);
+}
+
+.entity-button {
+  padding: 0 var(--space-4);
+}
+
+.entity-button:hover,
+.entity-back:hover {
+  border-color: var(--color-focus);
+  background: var(--color-surface-raised);
+}
+
+.entity-hero {
+  display: grid;
+  min-height: min(760px, 82dvh);
+  border-bottom: 1px solid var(--color-line);
+}
+
+.entity-hero-media {
+  position: relative;
+  min-height: 42dvh;
+  overflow: hidden;
+  background: var(--color-surface);
+}
+
+.entity-hero-media::after {
+  position: absolute;
+  inset: auto 0 0;
+  height: 44%;
+  background: linear-gradient(transparent, var(--color-bg));
+  content: "";
+  pointer-events: none;
+}
+
+.entity-hero-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(0.8) contrast(1.08);
+}
+
+.entity-hero-media .entity-image-fallback {
+  height: 100%;
+  min-height: 42dvh;
+}
+
+.entity-cover-empty {
+  display: grid;
+  height: 100%;
+  min-height: 42dvh;
+  place-items: center;
+  color: var(--color-text-muted);
+}
+
+.entity-hero-copy {
+  display: grid;
+  align-content: center;
+  gap: var(--space-3);
+  padding: var(--space-6) var(--space-4) var(--space-8);
+}
+
+.entity-back {
+  justify-self: start;
+  padding: 0 var(--space-3);
+}
+
+.entity-eyebrow,
+.entity-section-index {
+  margin: 0;
+  color: var(--color-place);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.entity-hero-labels {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.entity-hero-labels > span {
+  padding: 0.3rem 0.65rem;
+  border: 1px solid color-mix(in srgb, var(--color-place) 55%, transparent);
+  border-radius: 999px;
+  color: var(--color-place);
+  background: color-mix(in srgb, var(--color-place) 9%, transparent);
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.entity-hero-labels > span[data-status="needs_review"] {
+  border-color: color-mix(in srgb, var(--color-event) 60%, transparent);
+  color: var(--color-event);
+  background: color-mix(in srgb, var(--color-event) 10%, transparent);
+}
+
+.entity-hero h1 {
+  max-width: 14ch;
+  margin: 0;
+  font-family: var(--font-editorial);
+  font-size: clamp(2.8rem, 12vw, 6.8rem);
+  font-weight: 500;
+  line-height: 0.92;
+  text-wrap: balance;
+}
+
+.entity-native-title,
+.entity-lead {
+  margin: 0;
+}
+
+.entity-native-title {
+  color: var(--color-focus);
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+}
+
+.entity-lead {
+  max-width: 52ch;
+  color: var(--color-text-muted);
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+
+.entity-facts,
+.entity-metrics {
+  display: grid;
+  gap: var(--space-3);
+  margin: var(--space-2) 0 0;
+}
+
+.entity-facts {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.entity-facts div,
+.entity-metrics div {
+  display: grid;
+  gap: var(--space-1);
+}
+
+.entity-facts dt,
+.entity-metrics dt,
+.entity-source-card dt {
+  color: var(--color-text-muted);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
+
+.entity-facts dd,
+.entity-metrics dd,
+.entity-source-card dd {
+  margin: 0;
+}
+
+.entity-metrics {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--color-line);
+}
+
+.entity-metrics dd {
+  grid-row: 1;
+  font-family: var(--font-editorial);
+  font-size: 1.8rem;
+}
+
+@media (min-width: 768px) {
+  .entity-hero {
+    grid-template-columns: minmax(0, 1.25fr) minmax(400px, 0.75fr);
+    min-height: 760px;
+  }
+
+  .entity-hero-media,
+  .entity-cover-empty {
+    min-height: 760px;
+  }
+
+  .entity-hero-copy {
+    padding: clamp(32px, 5vw, 80px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .entity-button,
+  .entity-back {
+    transition: none;
+  }
+}

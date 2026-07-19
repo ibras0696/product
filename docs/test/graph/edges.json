@@ -1,0 +1,6650 @@
+[
+  {
+    "type": "born_in",
+    "from": "baysangur",
+    "to": "benoy",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.01
+    },
+    "confidence": "high",
+    "sources": [
+      "wiki_general"
+    ],
+    "status": "verified"
+  },
+  {
+    "type": "born_in",
+    "from": "esambaev",
+    "to": "starye-atagi",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.82
+    },
+    "confidence": "medium",
+    "sources": [
+      "wiki_general"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "gataev-ibragim",
+    "to": "nozhay-yurt",
+    "title_ru": "Родом из",
+    "evidence": {
+      "method": "self_reported",
+      "source": "project_team"
+    },
+    "confidence": "high",
+    "sources": [
+      "project_team"
+    ],
+    "status": "verified"
+  },
+  {
+    "type": "born_in",
+    "from": "idrisov",
+    "to": "berdykel",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 2.47
+    },
+    "confidence": "high",
+    "sources": [
+      "warheroes",
+      "checheninfo"
+    ],
+    "status": "verified"
+  },
+  {
+    "type": "born_in",
+    "from": "kadyrov-ramzan",
+    "to": "tsentaroy",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 6.85
+    },
+    "confidence": "medium",
+    "sources": [
+      "wiki_hrf_chechnya",
+      "parlament_chr",
+      "checheninfo"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "khutsaev-islam",
+    "to": "achkhoy-martan",
+    "title_ru": "Родом из",
+    "evidence": {
+      "method": "self_reported",
+      "source": "project_team"
+    },
+    "confidence": "high",
+    "sources": [
+      "project_team"
+    ],
+    "status": "verified"
+  },
+  {
+    "type": "born_in",
+    "from": "musalatov-khasan",
+    "to": "wd-q4515305",
+    "title_ru": "Родился в",
+    "evidence": {
+      "method": "biography",
+      "source": "sechenov_university"
+    },
+    "confidence": "high",
+    "sources": [
+      "sechenov_university"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "nuradilov",
+    "to": "gamiyah",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id"
+    },
+    "confidence": "high",
+    "sources": [
+      "warheroes",
+      "checheninfo"
+    ],
+    "status": "verified"
+  },
+  {
+    "type": "born_in",
+    "from": "sheikh-mansur",
+    "to": "aldy",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.92
+    },
+    "confidence": "high",
+    "sources": [
+      "anchr"
+    ],
+    "status": "verified"
+  },
+  {
+    "type": "born_in",
+    "from": "sheripov-aslanbek",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wiki_general"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "tashu-hadzhi",
+    "to": "sayasan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "biography_text",
+      "source": "biography",
+      "osm_distance_km": 0.35
+    },
+    "confidence": "low",
+    "sources": [
+      "checheninfo"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "uma-duev",
+    "to": "zumsoy",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 1.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wiki_general"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "visaitov",
+    "to": "nadterechnoye",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.09
+    },
+    "confidence": "high",
+    "sources": [
+      "warheroes",
+      "checheninfo"
+    ],
+    "status": "verified"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q105357188",
+    "to": "shali",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.61
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q106571742",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q107064733",
+    "to": "avtury",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.12
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q108198569",
+    "to": "gudermes",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.36
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q109224596",
+    "to": "wd-q4496565",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.79
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q109229051",
+    "to": "wd-q4333196",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q109321837",
+    "to": "wd-q4289200",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.28
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q109485158",
+    "to": "urus-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.47
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q109485169",
+    "to": "wd-q4137186",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.16
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q109485237",
+    "to": "wd-q4063184",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.34
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q109485248",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q109489977",
+    "to": "wd-q4135204",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.03
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q109490545",
+    "to": "wd-q4143793",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.26
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q109490808",
+    "to": "urus-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.47
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q109887736",
+    "to": "achkhoy-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.19
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q110619745",
+    "to": "starye-atagi",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.82
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q110626583",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q110895694",
+    "to": "wd-q4155037",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.03
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q110915983",
+    "to": "wd-q6698235",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.28
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q111364556",
+    "to": "wd-q4155037",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.03
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q111550843",
+    "to": "wd-q4217549",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.17
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q111659598",
+    "to": "wd-q4063183",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.34
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q111849358",
+    "to": "benoy",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.01
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q111908023",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q112135265",
+    "to": "urus-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.47
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q112468766",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q112992104",
+    "to": "urus-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.47
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q112993147",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q114840861",
+    "to": "wd-q4102840",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.11
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q115805247",
+    "to": "wd-q4083843",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.08
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q11710905",
+    "to": "urus-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.47
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q118259845",
+    "to": "wd-q6698235",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.28
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q118810872",
+    "to": "wd-q4108711",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.52
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q119011901",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q120264194",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q120278590",
+    "to": "wd-q4063183",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.34
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q12089437",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q12100268",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q122841363",
+    "to": "wd-q4319022",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.28
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q123342575",
+    "to": "wd-q4111688",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.17
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q124562611",
+    "to": "wd-q97821676",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.06
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q124604985",
+    "to": "wd-q4531766",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.13
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q124770811",
+    "to": "urus-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.47
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q12478192",
+    "to": "wd-q4141272",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.07
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q125178192",
+    "to": "wd-q4495230",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.22
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q126969655",
+    "to": "shali",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.61
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q131185035",
+    "to": "wd-q4451090",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.28
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q131381091",
+    "to": "wd-q4230262",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.85
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q131540262",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q131607207",
+    "to": "wd-q4456311",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.18
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q132855578",
+    "to": "wd-q4152165",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.12
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q136816472",
+    "to": "wd-q4519632",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.14
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q136816855",
+    "to": "urus-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.47
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q137166899",
+    "to": "wd-q4496565",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.79
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q137187831",
+    "to": "itum-kali",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.46
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q137359731",
+    "to": "vedeno",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.81
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q137380480",
+    "to": "wd-q4230262",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.85
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q137425041",
+    "to": "wd-q4520640",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.25
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q137460763",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q137513463",
+    "to": "urus-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.47
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q139388017",
+    "to": "wd-q4141272",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.07
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q1396260",
+    "to": "argun",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 1.2
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q139921680",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q140058339",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q14490365",
+    "to": "wd-q4496072",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.23
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q14626721",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q14915642",
+    "to": "wd-q4519632",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.14
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q14950647",
+    "to": "starye-atagi",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.82
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q15064343",
+    "to": "wd-q4141250",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.37
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q15064372",
+    "to": "starye-atagi",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.82
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q15064405",
+    "to": "wd-q4515305",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.4
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q15064918",
+    "to": "wd-q4063183",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.34
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q15065738",
+    "to": "urus-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.47
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q15066655",
+    "to": "wd-q4171747",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.5
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q15067108",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q15067420",
+    "to": "novye-atagi",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.16
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q15068390",
+    "to": "itum-kali",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.46
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q15071327",
+    "to": "wd-q12238451",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.04
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q15081350",
+    "to": "wd-q4063183",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.34
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q15110841",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q15686395",
+    "to": "wd-q4518276",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.13
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q15829799",
+    "to": "starye-atagi",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.82
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q15934675",
+    "to": "wd-q6698235",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.28
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q15945058",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q15976208",
+    "to": "gudermes",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.36
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q16166764",
+    "to": "wd-q4083843",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.08
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q16335716",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q16495380",
+    "to": "avtury",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.12
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q16654721",
+    "to": "shali",
+    "title_ru": "Родился в",
+    "evidence": {
+      "method": "biography",
+      "source": "ru_wikipedia"
+    },
+    "confidence": "high",
+    "sources": [
+      "ru_wikipedia",
+      "wikidata",
+      "checheninfo"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q16656800",
+    "to": "wd-q4141272",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.07
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q16673192",
+    "to": "kurchaloy",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.16
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q16706351",
+    "to": "chervlyonnaya",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.29
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q16713080",
+    "to": "wd-q4515305",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.4
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q16735693",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q16831686",
+    "to": "achkhoy-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.19
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q17154772",
+    "to": "urus-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.47
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q17426744",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q17617583",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q17617592",
+    "to": "shali",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.61
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q17619586",
+    "to": "wd-q4155037",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.03
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q17627412",
+    "to": "alkhan-kala",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.21
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q179846",
+    "to": "wd-q4537488",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.7
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q18014902",
+    "to": "nadterechnoye",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.09
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q18044055",
+    "to": "wd-q4515305",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.4
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q18237799",
+    "to": "wd-q4102840",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.11
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q18242695",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q18544824",
+    "to": "nadterechnoye",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.09
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q18560230",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q18574733",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q18577595",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q18600866",
+    "to": "wd-q4102840",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.11
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q18634011",
+    "to": "starye-atagi",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.82
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q18669885",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q18670374",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q18674959",
+    "to": "wd-q4285717",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.43
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q18681390",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q18712063",
+    "to": "wd-q4081691",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.33
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q18729401",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q18786025",
+    "to": "wd-q4171747",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.5
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q18805529",
+    "to": "kurchaloy",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.16
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q18888780",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "biography_text",
+      "source": "biography",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "low",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q18907917",
+    "to": "urus-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.47
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q18961072",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q19004101",
+    "to": "wd-q4449733",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.32
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q19006887",
+    "to": "shali",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.61
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q190731",
+    "to": "wd-q4171747",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.5
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q1950361",
+    "to": "wd-q4408841",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.36
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q19742740",
+    "to": "samashki",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.35
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q19908549",
+    "to": "starye-atagi",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.82
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q19909940",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q19915346",
+    "to": "urus-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.47
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q19916472",
+    "to": "wd-q4522674",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.03
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q19944617",
+    "to": "wd-q4095985",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.41
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q19979396",
+    "to": "shali",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.61
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q20054285",
+    "to": "wd-q4326325",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id"
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q20086473",
+    "to": "starye-atagi",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.82
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q20088143",
+    "to": "urus-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.47
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q20233148",
+    "to": "shali",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.61
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q20247198",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q2027014",
+    "to": "gudermes",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.36
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q20509788",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q2065147",
+    "to": "gudermes",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.36
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q20679646",
+    "to": "wd-q4063184",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.34
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q20730420",
+    "to": "wd-q6698235",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.28
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q21004447",
+    "to": "wd-q4081691",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.33
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q21104597",
+    "to": "wd-q4519632",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.14
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q2118101",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q21183574",
+    "to": "wd-q6698235",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.28
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q21500716",
+    "to": "wd-q4495230",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.22
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q21540963",
+    "to": "shali",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.61
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q21667631",
+    "to": "wd-q4531251",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.23
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q2179301",
+    "to": "wd-q2066502",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.09
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q22056321",
+    "to": "wd-q4135204",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.03
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q22918452",
+    "to": "avtury",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.12
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q22918498",
+    "to": "wd-q4153996",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id"
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q22918639",
+    "to": "wd-q4105539",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.11
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q22918696",
+    "to": "vedeno",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.81
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q22918708",
+    "to": "urus-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.47
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q22919443",
+    "to": "urus-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.47
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q22919500",
+    "to": "znamenskoye",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.44
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q2292237",
+    "to": "alkhan-kala",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.21
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q2362198",
+    "to": "novye-atagi",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.16
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q24018195",
+    "to": "avtury",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.12
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q2414302",
+    "to": "wd-q4141250",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.37
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q24289604",
+    "to": "gekhi",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.18
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q247083",
+    "to": "argun",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 1.2
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q24846630",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q2499809",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q25272177",
+    "to": "vedeno",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.81
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q25496198",
+    "to": "wd-q4135204",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.03
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q26212540",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q2622561",
+    "to": "gudermes",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.36
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q28027558",
+    "to": "shatoy",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.55
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q28098774",
+    "to": "urus-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.47
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q28355425",
+    "to": "novye-atagi",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.16
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q28664816",
+    "to": "wd-q4143793",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.26
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q28664839",
+    "to": "wd-q4155037",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.03
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q28664841",
+    "to": "wd-q4186184",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.03
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q28664886",
+    "to": "wd-q4155037",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.03
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q28667144",
+    "to": "wd-q4456466",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.26
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q28793529",
+    "to": "wd-q4148265",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.02
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q28867782",
+    "to": "chervlyonnaya",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.29
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q29359628",
+    "to": "wd-q4440750",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.1
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q2979775",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q30246071",
+    "to": "achkhoy-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.19
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q30346645",
+    "to": "urus-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.47
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q31202797",
+    "to": "wd-q4141272",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.07
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q357985",
+    "to": "wd-q4404762",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.23
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q39382556",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q39386194",
+    "to": "urus-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.47
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4054616",
+    "to": "wd-q4137310",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.12
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4054638",
+    "to": "shali",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.61
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4055276",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4055569",
+    "to": "wd-q4062597",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.21
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4055572",
+    "to": "wd-q4062597",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.21
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4056588",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4058787",
+    "to": "wd-q4291262",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.16
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4062328",
+    "to": "starye-atagi",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.82
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4062459",
+    "to": "shali",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.61
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4063189",
+    "to": "wd-q4134447",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.19
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4063881",
+    "to": "khimoy",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.23
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4069909",
+    "to": "wd-q4190076",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.16
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4069913",
+    "to": "wd-q4171747",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.5
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4069914",
+    "to": "novye-atagi",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.16
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4069915",
+    "to": "naurskaya",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.03
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4073175",
+    "to": "wd-q4105539",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.11
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4073192",
+    "to": "znamenskoye",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.44
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4074999",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4075068",
+    "to": "achkhoy-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.19
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4075731",
+    "to": "wd-q4366203",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.08
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4079998",
+    "to": "gudermes",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.36
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q40908363",
+    "to": "gekhi",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.18
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4100101",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4101527",
+    "to": "achkhoy-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.19
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4132090",
+    "to": "wd-q4102840",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.11
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4132107",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4153093",
+    "to": "urus-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.47
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4157125",
+    "to": "wd-q4451090",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.28
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4159583",
+    "to": "achkhoy-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.19
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4159652",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4159799",
+    "to": "nadterechnoye",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.09
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4161646",
+    "to": "urus-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.47
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4170094",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4170095",
+    "to": "wd-q4531251",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.23
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4183376",
+    "to": "wd-q4171747",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.5
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4198823",
+    "to": "wd-q4449736",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.12
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4202589",
+    "to": "chervlyonnaya",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.29
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4204091",
+    "to": "shali",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.61
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4209167",
+    "to": "samashki",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.35
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4218790",
+    "to": "vedeno",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.81
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4221017",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q42295587",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4248966",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4253044",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4265100",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4274147",
+    "to": "wd-q4071342",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.15
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4279774",
+    "to": "nadterechnoye",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.09
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4279775",
+    "to": "achkhoy-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.19
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4285889",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4313132",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4314438",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4333288",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4334523",
+    "to": "serzhen-yurt",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 5.77
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4405115",
+    "to": "shali",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.61
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4408301",
+    "to": "vedeno",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.81
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4408304",
+    "to": "vedeno",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.81
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4409274",
+    "to": "wd-q4205757",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.28
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4446867",
+    "to": "wd-q4440176",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.1
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4452363",
+    "to": "starye-atagi",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.82
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4465322",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4466478",
+    "to": "urus-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.47
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4490681",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4494545",
+    "to": "shali",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.61
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata",
+      "grozny_inform",
+      "checheninfo"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4495490",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4498847",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4503614",
+    "to": "wd-q4285717",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.43
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata",
+      "ru_wikipedia",
+      "checheninfo"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4514854",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4521165",
+    "to": "urus-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.47
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4531891",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4538581",
+    "to": "wd-q4246029",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.37
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q4699415",
+    "to": "urus-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.47
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q47452907",
+    "to": "wd-q4137310",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.12
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q48956684",
+    "to": "wd-q4520694",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.12
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q51670768",
+    "to": "urus-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.47
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q52557538",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q537251",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q55962417",
+    "to": "wd-q4134978",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.17
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q58813",
+    "to": "wd-q4496072",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.23
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q60694916",
+    "to": "wd-q4451090",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.28
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q60836503",
+    "to": "kurchaloy",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.16
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q610557",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q62989733",
+    "to": "urus-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.47
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q6402705",
+    "to": "wd-q12238451",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.04
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q65156051",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q6939911",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q71167923",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q718173",
+    "to": "benoy",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.01
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q7339122",
+    "to": "shali",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.61
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q73688543",
+    "to": "wd-q4081691",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.33
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q7399884",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q84724491",
+    "to": "wd-q4063178",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.12
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q84725571",
+    "to": "wd-q2066502",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.09
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q85987536",
+    "to": "urus-martan",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.47
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q88441706",
+    "to": "grozny",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.24
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q97013523",
+    "to": "argun",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 1.2
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q97659428",
+    "to": "shali",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.61
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q97659429",
+    "to": "shali",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.61
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "wd-q97659656",
+    "to": "shatoy",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 0.55
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "born_in",
+    "from": "zelimkhan",
+    "to": "kharachoy",
+    "title_ru": "Родился в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "birthplace_id",
+      "source": "birthplace_id",
+      "osm_distance_km": 8.56
+    },
+    "confidence": "high",
+    "sources": [
+      "wiki_general"
+    ],
+    "status": "verified"
+  },
+  {
+    "type": "connected_with",
+    "from": "baysangur",
+    "to": "khasavyurt",
+    "title_ru": "Умер в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "residences",
+      "source": "residences"
+    },
+    "confidence": "high",
+    "sources": [
+      "wiki_general"
+    ],
+    "status": "verified"
+  },
+  {
+    "type": "connected_with",
+    "from": "kadyrov-akhmat",
+    "to": "grozny",
+    "title_ru": "Умер в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "residences",
+      "source": "residences"
+    },
+    "confidence": "medium",
+    "sources": [
+      "wiki_hrf_chechnya"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "connected_with",
+    "from": "nuradilov",
+    "to": "grozny",
+    "title_ru": "Увековечен в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "residences",
+      "source": "residences"
+    },
+    "confidence": "high",
+    "sources": [
+      "warheroes"
+    ],
+    "status": "verified"
+  },
+  {
+    "type": "connected_with",
+    "from": "tashu-hadzhi",
+    "to": "sayasan",
+    "title_ru": "Похоронен в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "residences",
+      "source": "residences"
+    },
+    "confidence": "medium",
+    "sources": [
+      "checheninfo"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "connected_with",
+    "from": "visaitov",
+    "to": "grozny",
+    "title_ru": "Умер в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "residences",
+      "source": "residences"
+    },
+    "confidence": "high",
+    "sources": [
+      "warheroes"
+    ],
+    "status": "verified"
+  },
+  {
+    "type": "created_by",
+    "from": "discovery-avalanche-transit-diode",
+    "to": "wd-q4503614",
+    "title_ru": "Открыл (в составе группы)",
+    "evidence": {
+      "method": "source",
+      "source": "ru_wikipedia"
+    },
+    "confidence": "high",
+    "sources": [
+      "ru_wikipedia",
+      "abrek_org"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "created_by",
+    "from": "invention-bone-tissue-conservation",
+    "to": "musalatov-khasan",
+    "title_ru": "Автор",
+    "evidence": {
+      "method": "source",
+      "source": "famous_chechens"
+    },
+    "confidence": "high",
+    "sources": [
+      "famous_chechens",
+      "sechenov_university"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "created_by",
+    "from": "invention-construction-composites",
+    "to": "bataev-dena",
+    "title_ru": "Автор",
+    "evidence": {
+      "method": "source",
+      "source": "ru_wikipedia"
+    },
+    "confidence": "high",
+    "sources": [
+      "ru_wikipedia",
+      "checheninfo"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "created_by",
+    "from": "invention-demercurization-methods",
+    "to": "wd-q16654721",
+    "title_ru": "Автор",
+    "evidence": {
+      "method": "source",
+      "source": "ru_wikipedia"
+    },
+    "confidence": "high",
+    "sources": [
+      "ru_wikipedia",
+      "checheninfo"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "created_by",
+    "from": "invention-zeolite-petrochemistry-catalysts",
+    "to": "wd-q4494545",
+    "title_ru": "Автор",
+    "evidence": {
+      "method": "source",
+      "source": "ru_wikipedia"
+    },
+    "confidence": "high",
+    "sources": [
+      "ru_wikipedia",
+      "grozny_inform"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "lived_in",
+    "from": "kadyrov-akhmat",
+    "to": "tsentaroy",
+    "title_ru": "Жил в",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "residences",
+      "source": "residences"
+    },
+    "confidence": "medium",
+    "sources": [
+      "wiki_hrf_chechnya"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "located_in",
+    "from": "akhmat-kadyrov-assassination-2004",
+    "to": "grozny",
+    "title_ru": "Произошло в",
+    "period_from": 2004,
+    "evidence": {
+      "method": "source",
+      "source": "bigenc_akhmat_kadyrov"
+    },
+    "confidence": "high",
+    "sources": [
+      "bigenc_akhmat_kadyrov"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "located_in",
+    "from": "battle-aldy-1785",
+    "to": "aldy",
+    "title_ru": "Произошло в",
+    "period_from": 1785,
+    "period_to": null,
+    "evidence": {
+      "method": "events.place_id",
+      "source": "events"
+    },
+    "confidence": "high",
+    "sources": [
+      "anchr"
+    ],
+    "status": "verified"
+  },
+  {
+    "type": "located_in",
+    "from": "founding-grozny",
+    "to": "grozny",
+    "title_ru": "Произошло в",
+    "period_from": 1818,
+    "period_to": null,
+    "evidence": {
+      "method": "events.place_id",
+      "source": "events"
+    },
+    "confidence": "high",
+    "sources": [
+      "wiki_general"
+    ],
+    "status": "verified"
+  },
+  {
+    "type": "located_in",
+    "from": "grozny-oil-industry-1893",
+    "to": "grozny",
+    "title_ru": "Произошло в",
+    "period_from": 1893,
+    "evidence": {
+      "method": "source",
+      "source": "bigenc_chechnya"
+    },
+    "confidence": "high",
+    "sources": [
+      "bigenc_chechnya"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "located_in",
+    "from": "grozny-unrest-1958",
+    "to": "grozny",
+    "title_ru": "Произошло в",
+    "period_from": 1958,
+    "evidence": {
+      "method": "source",
+      "source": "bigenc_chechnya"
+    },
+    "confidence": "high",
+    "sources": [
+      "bigenc_chechnya"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "located_in",
+    "from": "mansur-uprising",
+    "to": "aldy",
+    "title_ru": "Произошло в",
+    "period_from": 1785,
+    "period_to": 1791,
+    "evidence": {
+      "method": "events.place_id",
+      "source": "events"
+    },
+    "confidence": "high",
+    "sources": [
+      "anchr"
+    ],
+    "status": "verified"
+  },
+  {
+    "type": "located_in",
+    "from": "mosque-heart-2008",
+    "to": "heart-of-chechnya",
+    "title_ru": "Произошло в",
+    "period_from": 2008,
+    "period_to": null,
+    "evidence": {
+      "method": "events.place_id",
+      "source": "events"
+    },
+    "confidence": "medium",
+    "sources": [
+      "travel_guide"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "located_in",
+    "from": "mosque-shali-2019",
+    "to": "pride-of-muslims",
+    "title_ru": "Произошло в",
+    "period_from": 2019,
+    "period_to": null,
+    "evidence": {
+      "method": "events.place_id",
+      "source": "events"
+    },
+    "confidence": "medium",
+    "sources": [
+      "travel_guide"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "located_in",
+    "from": "shamil-imamate-vedeno",
+    "to": "vedeno",
+    "title_ru": "Произошло в",
+    "period_from": 1845,
+    "period_to": 1859,
+    "evidence": {
+      "method": "events.place_id",
+      "source": "events"
+    },
+    "confidence": "high",
+    "sources": [
+      "wiki_general"
+    ],
+    "status": "verified"
+  },
+  {
+    "type": "located_in",
+    "from": "wd-q1028296",
+    "to": "grozny",
+    "title_ru": "Произошло в",
+    "period_from": 1994,
+    "period_to": 1995,
+    "evidence": {
+      "method": "events.place_id",
+      "source": "events"
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "located_in",
+    "from": "wd-q113017198",
+    "to": "wd-q4515305",
+    "title_ru": "Произошло в",
+    "period_from": 1732,
+    "period_to": 1732,
+    "evidence": {
+      "method": "source",
+      "source": "ru_wikipedia"
+    },
+    "confidence": "high",
+    "sources": [
+      "ru_wikipedia",
+      "wikidata",
+      "checheninfo"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "located_in",
+    "from": "wd-q113256568",
+    "to": "wd-q4137310",
+    "title_ru": "Произошло в",
+    "period_from": 1832,
+    "period_to": 1832,
+    "evidence": {
+      "method": "events.place_id",
+      "source": "events"
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "located_in",
+    "from": "wd-q113410690",
+    "to": "wd-q4141272",
+    "title_ru": "Произошло в",
+    "period_from": 1919,
+    "period_to": 1919,
+    "evidence": {
+      "method": "events.place_id",
+      "source": "events"
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "located_in",
+    "from": "wd-q115299524",
+    "to": "wd-q4495489",
+    "title_ru": "Произошло в",
+    "period_from": 1807,
+    "period_to": 1807,
+    "evidence": {
+      "method": "source",
+      "source": "ru_wikipedia"
+    },
+    "confidence": "high",
+    "sources": [
+      "ru_wikipedia",
+      "wikidata",
+      "checheninfo"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "located_in",
+    "from": "wd-q125658233",
+    "to": "wd-q738408",
+    "title_ru": "Произошло в",
+    "period_from": 1830,
+    "period_to": 1830,
+    "evidence": {
+      "method": "events.place_id",
+      "source": "events"
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "located_in",
+    "from": "wd-q1530585",
+    "to": "argun-river",
+    "title_ru": "Произошло в",
+    "period_from": 2000,
+    "period_to": 2000,
+    "evidence": {
+      "method": "events.place_id",
+      "source": "events"
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "located_in",
+    "from": "wd-q16630155",
+    "to": "vedeno",
+    "title_ru": "Произошло в",
+    "period_from": 1859,
+    "period_to": 1859,
+    "evidence": {
+      "method": "source",
+      "source": "ru_wikipedia"
+    },
+    "confidence": "high",
+    "sources": [
+      "ru_wikipedia",
+      "wikidata",
+      "checheninfo"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "located_in",
+    "from": "wd-q1972096",
+    "to": "grozny",
+    "title_ru": "Произошло в",
+    "period_from": 1999,
+    "period_to": 2000,
+    "evidence": {
+      "method": "events.place_id",
+      "source": "events"
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "located_in",
+    "from": "wd-q2026919",
+    "to": "grozny",
+    "title_ru": "Произошло в",
+    "period_from": 1994,
+    "period_to": 1994,
+    "evidence": {
+      "method": "events.place_id",
+      "source": "events"
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "located_in",
+    "from": "wd-q21636234",
+    "to": "duba-yurt",
+    "title_ru": "Произошло в",
+    "period_from": 1999,
+    "period_to": 1999,
+    "evidence": {
+      "method": "events.place_id",
+      "source": "events"
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "located_in",
+    "from": "wd-q2395246",
+    "to": "grozny",
+    "title_ru": "Произошло в",
+    "period_from": 1996,
+    "period_to": 1996,
+    "evidence": {
+      "method": "events.place_id",
+      "source": "events"
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "located_in",
+    "from": "wd-q3649860",
+    "to": "wd-q4495489",
+    "title_ru": "Произошло в",
+    "period_from": 1994,
+    "period_to": 1994,
+    "evidence": {
+      "method": "events.place_id",
+      "source": "events"
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "located_in",
+    "from": "wd-q4090262",
+    "to": "argun",
+    "title_ru": "Произошло в",
+    "period_from": 2000,
+    "period_to": 2000,
+    "evidence": {
+      "method": "events.place_id",
+      "source": "events"
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "located_in",
+    "from": "wd-q4312942",
+    "to": "grozny",
+    "title_ru": "Произошло в",
+    "period_from": 1996,
+    "period_to": 1996,
+    "evidence": {
+      "method": "events.place_id",
+      "source": "events"
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "located_in",
+    "from": "wd-q4312945",
+    "to": "gudermes",
+    "title_ru": "Произошло в",
+    "period_from": 1995,
+    "period_to": 1995,
+    "evidence": {
+      "method": "events.place_id",
+      "source": "events"
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "located_in",
+    "from": "wd-q4329633",
+    "to": "grozny",
+    "title_ru": "Произошло в",
+    "period_from": 1918,
+    "period_to": 1918,
+    "evidence": {
+      "method": "source",
+      "source": "ru_wikipedia"
+    },
+    "confidence": "high",
+    "sources": [
+      "ru_wikipedia",
+      "wikidata",
+      "grozny_inform"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "located_in",
+    "from": "wd-q4527033",
+    "to": "wd-q4153996",
+    "title_ru": "Произошло в",
+    "period_from": 1819,
+    "period_to": 1819,
+    "evidence": {
+      "method": "source",
+      "source": "ru_wikipedia"
+    },
+    "confidence": "high",
+    "sources": [
+      "ru_wikipedia",
+      "wikidata",
+      "checheninfo"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "located_in",
+    "from": "wd-q4870889",
+    "to": "wd-q4165018",
+    "title_ru": "Произошло в",
+    "period_from": 1994,
+    "period_to": 1994,
+    "evidence": {
+      "method": "events.place_id",
+      "source": "events"
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "located_in",
+    "from": "wd-q55659093",
+    "to": "wd-q4063184",
+    "title_ru": "Произошло в",
+    "period_from": 1994,
+    "period_to": 1995,
+    "evidence": {
+      "method": "events.place_id",
+      "source": "events"
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "located_in",
+    "from": "wd-q85858691",
+    "to": "vedeno",
+    "title_ru": "Произошло в",
+    "period_from": 1995,
+    "period_to": 1995,
+    "evidence": {
+      "method": "events.place_id",
+      "source": "events"
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "participated_in",
+    "from": "baysangur",
+    "to": "caucasian-war",
+    "title_ru": "Наиб, командир отряда",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "person_events",
+      "source": "person_events"
+    },
+    "confidence": "high",
+    "sources": [
+      "wiki_general"
+    ],
+    "status": "verified"
+  },
+  {
+    "type": "participated_in",
+    "from": "baysangur",
+    "to": "uprising-1860-1861",
+    "title_ru": "Воевал, несмотря на тяжёлые увечья",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "deeds",
+      "source": "deeds"
+    },
+    "confidence": "high",
+    "sources": [
+      "wiki_general"
+    ],
+    "status": "verified"
+  },
+  {
+    "type": "participated_in",
+    "from": "beybulat-taimiev",
+    "to": "caucasian-war",
+    "title_ru": "Предводитель восстания",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "person_events",
+      "source": "person_events"
+    },
+    "confidence": "high",
+    "sources": [
+      "wiki_general"
+    ],
+    "status": "verified"
+  },
+  {
+    "type": "participated_in",
+    "from": "beybulatov",
+    "to": "wwii",
+    "title_ru": "Командир батальона",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "person_events",
+      "source": "person_events"
+    },
+    "confidence": "high",
+    "sources": [
+      "wiki_general",
+      "tass_geroi"
+    ],
+    "status": "verified"
+  },
+  {
+    "type": "participated_in",
+    "from": "dachiev",
+    "to": "wwii",
+    "title_ru": "Участник",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "person_events",
+      "source": "person_events"
+    },
+    "confidence": "high",
+    "sources": [
+      "wiki_general",
+      "wiki_hsu_ci"
+    ],
+    "status": "verified"
+  },
+  {
+    "type": "participated_in",
+    "from": "idrisov",
+    "to": "wwii",
+    "title_ru": "Снайпер",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "person_events",
+      "source": "person_events"
+    },
+    "confidence": "high",
+    "sources": [
+      "wiki_general",
+      "warheroes"
+    ],
+    "status": "verified"
+  },
+  {
+    "type": "participated_in",
+    "from": "kadyrov-akhmat",
+    "to": "akhmat-kadyrov-administration-2000",
+    "title_ru": "Назначен главой администрации",
+    "evidence": {
+      "method": "source",
+      "source": "bigenc_akhmat_kadyrov"
+    },
+    "confidence": "high",
+    "sources": [
+      "bigenc_akhmat_kadyrov"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "participated_in",
+    "from": "kadyrov-akhmat",
+    "to": "akhmat-kadyrov-assassination-2004",
+    "title_ru": "Погиб в результате теракта",
+    "evidence": {
+      "method": "source",
+      "source": "bigenc_akhmat_kadyrov"
+    },
+    "confidence": "high",
+    "sources": [
+      "bigenc_akhmat_kadyrov"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "participated_in",
+    "from": "kadyrov-ramzan",
+    "to": "ramzan-kadyrov-head-2007",
+    "title_ru": "Вступил в должность",
+    "evidence": {
+      "method": "source",
+      "source": "bigenc_ramzan_kadyrov"
+    },
+    "confidence": "high",
+    "sources": [
+      "bigenc_ramzan_kadyrov"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "participated_in",
+    "from": "magomed-mirzoev",
+    "to": "wwii",
+    "title_ru": "Снайпер",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "person_events",
+      "source": "person_events"
+    },
+    "confidence": "high",
+    "sources": [
+      "wiki_general",
+      "wiki_hsu_ci"
+    ],
+    "status": "verified"
+  },
+  {
+    "type": "participated_in",
+    "from": "maskhadov-aslan",
+    "to": "chechen-election-1997",
+    "title_ru": "Избран президентом",
+    "evidence": {
+      "method": "source",
+      "source": "un_chechnya_1997"
+    },
+    "confidence": "high",
+    "sources": [
+      "un_chechnya_1997",
+      "bigenc_maskhadov"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "participated_in",
+    "from": "maskhadov-aslan",
+    "to": "khasavyurt-accords-1996",
+    "title_ru": "Подписал соглашения со стороны ЧРИ",
+    "evidence": {
+      "method": "primary_document",
+      "source": "un_khasavyurt"
+    },
+    "confidence": "high",
+    "sources": [
+      "un_khasavyurt",
+      "bigenc_maskhadov"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "participated_in",
+    "from": "maskhadov-aslan",
+    "to": "russia-chechnya-peace-treaty-1997",
+    "title_ru": "Подписал договор со стороны ЧРИ",
+    "evidence": {
+      "method": "primary_document",
+      "source": "un_peace_treaty_1997"
+    },
+    "confidence": "high",
+    "sources": [
+      "un_peace_treaty_1997",
+      "bigenc_maskhadov"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "participated_in",
+    "from": "mazaev",
+    "to": "battle-stalingrad",
+    "title_ru": "Танкист",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "person_events",
+      "source": "person_events"
+    },
+    "confidence": "high",
+    "sources": [
+      "wiki_general",
+      "checheninfo"
+    ],
+    "status": "verified"
+  },
+  {
+    "type": "participated_in",
+    "from": "nuradilov",
+    "to": "battle-stalingrad",
+    "title_ru": "Командир пулемётного взвода",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "person_events",
+      "source": "person_events"
+    },
+    "confidence": "high",
+    "sources": [
+      "wiki_general",
+      "warheroes"
+    ],
+    "status": "verified"
+  },
+  {
+    "type": "participated_in",
+    "from": "nuradilov",
+    "to": "wwii",
+    "title_ru": "Участник",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "person_events",
+      "source": "person_events"
+    },
+    "confidence": "high",
+    "sources": [
+      "wiki_general"
+    ],
+    "status": "verified"
+  },
+  {
+    "type": "participated_in",
+    "from": "sheikh-mansur",
+    "to": "battle-aldy-1785",
+    "title_ru": "Предводитель ополчения",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "person_events",
+      "source": "person_events"
+    },
+    "confidence": "high",
+    "sources": [
+      "anchr"
+    ],
+    "status": "verified"
+  },
+  {
+    "type": "participated_in",
+    "from": "sheikh-mansur",
+    "to": "mansur-uprising",
+    "title_ru": "Предводитель",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "person_events",
+      "source": "person_events"
+    },
+    "confidence": "high",
+    "sources": [
+      "anchr"
+    ],
+    "status": "verified"
+  },
+  {
+    "type": "participated_in",
+    "from": "sheripov-aslanbek",
+    "to": "wd-q4329633",
+    "title_ru": "Командир Чеченской Красной армии",
+    "evidence": {
+      "method": "source",
+      "source": "ru_wikipedia"
+    },
+    "confidence": "high",
+    "sources": [
+      "ru_wikipedia"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "participated_in",
+    "from": "uma-duev",
+    "to": "uprising-1877",
+    "title_ru": "Один из вождей",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "person_events",
+      "source": "person_events"
+    },
+    "confidence": "medium",
+    "sources": [
+      "wiki_general"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "participated_in",
+    "from": "visaitov",
+    "to": "elbe-meeting",
+    "title_ru": "Командир кавалерийского полка",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "person_events",
+      "source": "person_events"
+    },
+    "confidence": "high",
+    "sources": [
+      "wiki_general",
+      "warheroes"
+    ],
+    "status": "verified"
+  },
+  {
+    "type": "participated_in",
+    "from": "visaitov",
+    "to": "wwii",
+    "title_ru": "Участник",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "person_events",
+      "source": "person_events"
+    },
+    "confidence": "high",
+    "sources": [
+      "wiki_general"
+    ],
+    "status": "verified"
+  },
+  {
+    "type": "participated_in",
+    "from": "wd-q179846",
+    "to": "chechen-political-crisis-1991",
+    "title_ru": "Избран президентом",
+    "evidence": {
+      "method": "source",
+      "source": "bigenc_chechnya"
+    },
+    "confidence": "high",
+    "sources": [
+      "bigenc_chechnya"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "participated_in",
+    "from": "wd-q179846",
+    "to": "wd-q29269",
+    "title_ru": "Участие указано в Wikidata; роль требует проверки.",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "person_events",
+      "source": "person_events"
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "participated_in",
+    "from": "wd-q190731",
+    "to": "renewed-hostilities-1999",
+    "title_ru": "Один из руководителей вторжения в Дагестан",
+    "evidence": {
+      "method": "source",
+      "source": "rg_end_cto"
+    },
+    "confidence": "high",
+    "sources": [
+      "rg_end_cto"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "participated_in",
+    "from": "wd-q190731",
+    "to": "wd-q1028296",
+    "title_ru": "Участие указано в Wikidata; роль требует проверки.",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "person_events",
+      "source": "person_events"
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "participated_in",
+    "from": "wd-q190731",
+    "to": "wd-q29269",
+    "title_ru": "Участие указано в Wikidata; роль требует проверки.",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "person_events",
+      "source": "person_events"
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "participated_in",
+    "from": "wd-q2179301",
+    "to": "wd-q1028296",
+    "title_ru": "Участие указано в Wikidata; роль требует проверки.",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "person_events",
+      "source": "person_events"
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "participated_in",
+    "from": "wd-q2414302",
+    "to": "wd-q1028296",
+    "title_ru": "Участие указано в Wikidata; роль требует проверки.",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "person_events",
+      "source": "person_events"
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "participated_in",
+    "from": "wd-q2622561",
+    "to": "wd-q1028296",
+    "title_ru": "Участие указано в Wikidata; роль требует проверки.",
+    "period_from": null,
+    "period_to": null,
+    "evidence": {
+      "method": "person_events",
+      "source": "person_events"
+    },
+    "confidence": "medium",
+    "sources": [
+      "wikidata"
+    ],
+    "status": "needs_review"
+  },
+  {
+    "type": "participated_in",
+    "from": "wd-q2979775",
+    "to": "mountain-republic-1917",
+    "title_ru": "Председатель правительства",
+    "evidence": {
+      "method": "source",
+      "source": "bigenc_chechnya"
+    },
+    "confidence": "high",
+    "sources": [
+      "bigenc_chechnya"
+    ],
+    "status": "needs_review"
+  }
+]

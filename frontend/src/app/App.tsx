@@ -1,6 +1,5 @@
-import { AuthControls } from "@/modules/auth";
-import { LandingShowcase } from "@/modules/landing-showcase";
+import { AppRouter } from "./router";
 
 export function App() {
-  return <LandingShowcase accountSlot={<AuthControls />} />;
+  return <AppRouter />;
 }

@@ -29,7 +29,7 @@ ignore_missing_imports = true
 [tool.pytest.ini_options]
 addopts = "-q --strict-markers --strict-config"
 asyncio_mode = "auto"
-pythonpath = ["src"]
+pythonpath = ["src", "."]
 testpaths = ["src/modules"]
 
 [tool.importlinter]
@@ -39,7 +39,7 @@ include_external_packages = true
 [[tool.importlinter.contracts]]
 name = "Domain must not depend on frameworks or infrastructure"
 type = "forbidden"
-source_modules = ["modules.health.domain", "modules.auth.domain"]
+source_modules = ["modules.health.domain", "modules.auth.domain", "modules.catalog.domain"]
 forbidden_modules = [
   "fastapi",
   "pydantic",

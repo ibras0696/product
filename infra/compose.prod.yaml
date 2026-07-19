@@ -1,9 +1,21 @@
 services:
+  migrate:
+    environment:
+      APP_ENVIRONMENT: production
+
+  bootstrap-admin:
+    environment:
+      APP_ENVIRONMENT: production
+
   api:
     restart: always
+    environment:
+      APP_ENVIRONMENT: production
 
   worker:
     restart: always
+    environment:
+      APP_ENVIRONMENT: production
 
   frontend:
     restart: always
@@ -21,4 +33,4 @@ services:
       - "443:8443"
 
   certbot-renew:
-    restart: always
+    restart: "no"

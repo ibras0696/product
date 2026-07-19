@@ -50,15 +50,21 @@ EXCLUDED_PATH_SEQUENCES = {
     ("shared", "api", "generated"),
     ("src", "generated"),
 }
+GENERATED_FILES = {Path("frontend/src/shared/api/schema.d.ts")}
 
 
 def is_source_file(path: Path) -> bool:
     relative = path.relative_to(ROOT)
+    if relative in GENERATED_FILES:
+        return False
     if any(part in EXCLUDED_PARTS for part in relative.parts):
         return False
     for sequence in EXCLUDED_PATH_SEQUENCES:
         width = len(sequence)
-        if any(tuple(relative.parts[index : index + width]) == sequence for index in range(len(relative.parts) - width + 1)):
+        if any(
+            tuple(relative.parts[index : index + width]) == sequence
+            for index in range(len(relative.parts) - width + 1)
+        ):
             return False
     return path.suffix in SOURCE_SUFFIXES or path.name.startswith("Dockerfile")
 

@@ -1,0 +1,33 @@
+.state-panel {
+  display: grid;
+  gap: var(--space-2);
+  width: min(100%, 620px);
+  padding: var(--space-6);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  color: var(--color-text);
+  background: var(--color-surface);
+}
+
+.state-panel h1 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.state-panel p {
+  margin: 0;
+  color: var(--color-text-muted);
+  line-height: 1.55;
+}
+
+.state-panel-danger {
+  border-color: color-mix(in srgb, var(--color-danger) 60%, transparent);
+}
+
+.state-panel-warning {
+  border-color: color-mix(in srgb, var(--color-warning) 60%, transparent);
+}
+
+.state-panel-action {
+  margin-top: var(--space-2);
+}

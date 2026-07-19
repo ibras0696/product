@@ -1,0 +1,257 @@
+[
+  {
+    "slug": "abrek_org",
+    "title": "Абрек — историко-биографический портал",
+    "publisher": "abrek.org",
+    "url": "http://abrek.org",
+    "type": "media",
+    "reliability": "low"
+  },
+  {
+    "slug": "anchr",
+    "title": "Академия наук Чеченской Республики — исторические публикации",
+    "publisher": "АН ЧР",
+    "url": "https://anchr.ru/",
+    "type": "academic",
+    "reliability": "high"
+  },
+  {
+    "slug": "bigenc_akhmat_kadyrov",
+    "title": "Кадыров Ахмат Абдулхамидович",
+    "publisher": "Большая российская энциклопедия",
+    "url": "https://bigenc.ru/c/kadyrov-akhmat-abdulkhamidovich-6b14ad",
+    "type": "encyclopedia",
+    "reliability": "high"
+  },
+  {
+    "slug": "bigenc_chechnya",
+    "title": "Чеченская Республика",
+    "publisher": "Большая российская энциклопедия",
+    "url": "https://old.bigenc.ru/geography/text/5453415",
+    "type": "encyclopedia",
+    "reliability": "high"
+  },
+  {
+    "slug": "bigenc_maskhadov",
+    "title": "Масхадов Аслан Алиевич",
+    "publisher": "Большая российская энциклопедия",
+    "url": "https://bigenc.ru/c/maskhadov-aslan-alievich-b8ea66",
+    "type": "encyclopedia",
+    "reliability": "high"
+  },
+  {
+    "slug": "bigenc_ramzan_kadyrov",
+    "title": "Кадыров Рамзан Ахматович",
+    "publisher": "Большая российская энциклопедия",
+    "url": "https://old.bigenc.ru/domestic_history/text/3939593",
+    "type": "encyclopedia",
+    "reliability": "high"
+  },
+  {
+    "slug": "chechen_constitution",
+    "title": "Конституция Чеченской Республики",
+    "publisher": "Гарант",
+    "url": "https://constitution.garant.ru/region/cons_chech/",
+    "type": "legal_document",
+    "reliability": "high"
+  },
+  {
+    "slug": "checheninfo",
+    "title": "ИА Чеченинфо — историко-краеведческие материалы",
+    "publisher": "checheninfo.ru",
+    "url": "https://checheninfo.ru/",
+    "type": "media",
+    "reliability": "medium"
+  },
+  {
+    "slug": "en_wiki",
+    "title": "Wikipedia — English articles (settlements)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/",
+    "type": "encyclopedia",
+    "reliability": "medium"
+  },
+  {
+    "slug": "famous_chechens",
+    "title": "Знаменитые чеченцы",
+    "publisher": "famous-chechens.livejournal.com",
+    "url": "https://famous-chechens.livejournal.com",
+    "type": "media",
+    "reliability": "low"
+  },
+  {
+    "slug": "grozny_inform",
+    "title": "ИА «Грозный-информ»",
+    "publisher": "grozny-inform.ru",
+    "url": "https://www.grozny-inform.ru",
+    "type": "media",
+    "reliability": "medium"
+  },
+  {
+    "slug": "historyrussia_abolition",
+    "title": "Указ о ликвидации Чечено-Ингушской АССР от 7 марта 1944 года",
+    "publisher": "Электронная библиотека исторических документов",
+    "url": "https://docs.historyrussia.org/ru/nodes/49440",
+    "type": "archive",
+    "reliability": "high"
+  },
+  {
+    "slug": "historyrussia_restoration",
+    "title": "Указ о восстановлении Чечено-Ингушской АССР от 9 января 1957 года",
+    "publisher": "Электронная библиотека исторических документов",
+    "url": "https://docs.historyrussia.org/ru/nodes/298913",
+    "type": "archive",
+    "reliability": "high"
+  },
+  {
+    "slug": "kremlin_chechen_referendum",
+    "title": "Указ Президента РФ о референдуме Чеченской Республики",
+    "publisher": "Президент России",
+    "url": "https://special.kremlin.ru/acts/bank/18943",
+    "type": "official",
+    "reliability": "high"
+  },
+  {
+    "slug": "nohchalla",
+    "title": "Nohchalla.com — история, личности и традиции чеченцев",
+    "publisher": "Nohchalla.com",
+    "url": "https://nohchalla.com/",
+    "type": "media",
+    "reliability": "medium"
+  },
+  {
+    "slug": "osm",
+    "title": "OpenStreetMap",
+    "publisher": "OpenStreetMap contributors",
+    "url": "https://www.openstreetmap.org/",
+    "type": "dataset",
+    "reliability": "medium"
+  },
+  {
+    "slug": "parlament_chr",
+    "title": "Парламент Чеченской Республики",
+    "publisher": "Парламент ЧР",
+    "url": "https://parlamentchr.ru",
+    "type": "official",
+    "reliability": "high"
+  },
+  {
+    "slug": "project_team",
+    "title": "Команда проекта",
+    "publisher": "Разработчики проекта",
+    "type": "official",
+    "reliability": "high"
+  },
+  {
+    "slug": "rg_end_cto",
+    "title": "С 16 апреля 2009 года в Чечне отменён режим КТО",
+    "publisher": "Российская газета",
+    "url": "https://rg.ru/2009/04/16/chechnja-terror-anons.html",
+    "type": "official_media",
+    "reliability": "high"
+  },
+  {
+    "slug": "ru_wikipedia",
+    "title": "Русская Википедия",
+    "publisher": "Wikimedia",
+    "url": "https://ru.wikipedia.org",
+    "type": "encyclopedia",
+    "reliability": "medium"
+  },
+  {
+    "slug": "sechenov_university",
+    "title": "Сеченовский Университет",
+    "publisher": "Первый МГМУ им. И. М. Сеченова",
+    "url": "https://www.sechenov.ru",
+    "type": "official",
+    "reliability": "high"
+  },
+  {
+    "slug": "tass_geroi",
+    "title": "Герои Чечни на фронтах Великой Отечественной войны",
+    "publisher": "ТАСС",
+    "url": "https://spec.tass.ru/geroipobedy/chechnya",
+    "type": "media",
+    "reliability": "high"
+  },
+  {
+    "slug": "travel_guide",
+    "title": "Путеводители по достопримечательностям Чечни",
+    "publisher": "bolshayastrana.com / places.moscow",
+    "url": "https://bolshayastrana.com/blog/dostoprimechatelnosti-chechenskoj-respubliki-314",
+    "type": "media",
+    "reliability": "medium"
+  },
+  {
+    "slug": "un_chechnya_1997",
+    "title": "Доклад о положении в Чечне, 1997",
+    "publisher": "Организация Объединённых Наций",
+    "url": "https://digitallibrary.un.org/record/238724/files/E_CN.4_1997_10-EN.pdf",
+    "type": "intergovernmental_report",
+    "reliability": "high"
+  },
+  {
+    "slug": "un_khasavyurt",
+    "title": "Хасавюртовские соглашения от 31 августа 1996 года",
+    "publisher": "United Nations Peacemaker",
+    "url": "https://peacemaker.un.org/sites/default/files/document/files/2024/05/ru960831khasavyourt20joint20declaration20and20principles20for20mutual20relations.pdf",
+    "type": "primary_document",
+    "reliability": "high"
+  },
+  {
+    "slug": "un_peace_treaty_1997",
+    "title": "Заявление о российско-чеченском мирном договоре",
+    "publisher": "Организация Объединённых Наций",
+    "url": "https://documents.un.org/doc/undoc/gen/n97/138/91/pdf/n9713891.pdf",
+    "type": "intergovernmental_report",
+    "reliability": "high"
+  },
+  {
+    "slug": "warheroes",
+    "title": "Герои страны — патриотический интернет-проект",
+    "publisher": "warheroes.ru",
+    "url": "https://warheroes.ru/",
+    "type": "encyclopedia",
+    "reliability": "medium"
+  },
+  {
+    "slug": "wiki_atd",
+    "title": "Административно-территориальное деление Чечни",
+    "publisher": "Википедия",
+    "url": "https://ru.wikipedia.org/wiki/Административно-территориальное_деление_Чечни",
+    "type": "encyclopedia",
+    "reliability": "medium"
+  },
+  {
+    "slug": "wiki_general",
+    "title": "Википедия — тематические статьи (личности, места, события)",
+    "publisher": "Википедия",
+    "url": "https://ru.wikipedia.org/",
+    "type": "encyclopedia",
+    "reliability": "medium"
+  },
+  {
+    "slug": "wiki_hrf_chechnya",
+    "title": "Список Героев Российской Федерации (Чечня)",
+    "publisher": "Википедия",
+    "url": "https://ru.wikipedia.org/wiki/Список_Героев_Российской_Федерации_(Чечня)",
+    "type": "encyclopedia",
+    "reliability": "medium"
+  },
+  {
+    "slug": "wiki_hsu_ci",
+    "title": "Список Героев Советского Союза (Чечено-Ингушетия)",
+    "publisher": "Википедия",
+    "url": "https://ru.wikipedia.org/wiki/Список_Героев_Советского_Союза_(Чечено-Ингушетия)",
+    "type": "encyclopedia",
+    "reliability": "medium"
+  },
+  {
+    "slug": "wikidata",
+    "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+    "publisher": "Wikimedia Foundation community",
+    "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+    "type": "dataset",
+    "reliability": "medium"
+  }
+]

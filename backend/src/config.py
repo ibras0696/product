@@ -1,4 +1,5 @@
 from functools import lru_cache
+from pathlib import Path
 
 from pydantic import PositiveInt
 from pydantic_settings import BaseSettings, SettingsConfigDict
@@ -17,6 +18,7 @@ class Settings(BaseSettings):
     auth_session_absolute_days: PositiveInt = 30
     auth_rate_limit_attempts: PositiveInt = 5
     auth_rate_limit_window_seconds: PositiveInt = 900
+    media_storage_root: Path = Path("/var/lib/product/media")
 
 
 @lru_cache

@@ -4,7 +4,15 @@ import reactRefresh from "eslint-plugin-react-refresh";
 import tseslint from "typescript-eslint";
 
 export default tseslint.config(
-  { ignores: ["dist", "coverage", "playwright-report", "test-results"] },
+  {
+    ignores: [
+      "dist",
+      "coverage",
+      "playwright-report",
+      "references",
+      "test-results",
+    ],
+  },
   js.configs.recommended,
   {
     files: ["scripts/**/*.mjs"],
@@ -44,5 +52,9 @@ export default tseslint.config(
       "@typescript-eslint/no-explicit-any": "error",
       "@typescript-eslint/no-non-null-assertion": "error",
     },
+  },
+  {
+    files: ["src/shared/api/schema.d.ts"],
+    rules: { "max-lines": "off" },
   },
 );

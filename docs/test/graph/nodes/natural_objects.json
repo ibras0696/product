@@ -1,0 +1,4774 @@
+[
+  {
+    "slug": "argun-river",
+    "type": "natural_object",
+    "name_ru": "Река Аргун",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Крупный приток Сунжи, формирует Аргунское ущелье",
+    "district": "shatoysky",
+    "coordinate": {
+      "lat": 43.0,
+      "lon": 45.7
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": null,
+    "external_id": "Q652052",
+    "provenance": {
+      "record_url": "https://ru.wikipedia.org/"
+    },
+    "sources": [
+      "wiki_general"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Argun_River_Valley_2%2C_Georgia.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Argun_River_Valley_2,_Georgia.jpg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "author": "Vyacheslav Argenberg"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "kezenoy-am",
+    "type": "natural_object",
+    "name_ru": "Озеро Кезеной-Ам",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "lake",
+    "description": "Крупнейшее и глубочайшее высокогорное озеро Северного Кавказа; площадь ~2,5 км²",
+    "district": "vedensky",
+    "coordinate": {
+      "lat": 42.77,
+      "lon": 46.28
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": null,
+    "external_id": "Q1739762",
+    "provenance": {
+      "record_url": "https://bolshayastrana.com/blog/dostoprimechatelnosti-chechenskoj-respubliki-314"
+    },
+    "sources": [
+      "travel_guide"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/%D0%9A%D0%B5%D0%B7%D0%B5%D0%BD%D0%BE%D0%B9%D0%B0%D0%BC.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%B5%D0%B7%D0%B5%D0%BD%D0%BE%D0%B9%D0%B0%D0%BC.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Ras.sham"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "tebulosmta",
+    "type": "natural_object",
+    "name_ru": "Гора Тебулосмта",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "Высочайшая вершина Чечни (4492 м)",
+    "district": "itum-kalinsky",
+    "coordinate": {
+      "lat": 42.5544,
+      "lon": 45.2864
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": null,
+    "external_id": "Q768463",
+    "provenance": {
+      "record_url": "https://ru.wikipedia.org/",
+      "osm_evidence": {
+        "lat": 42.5739678,
+        "lon": 45.3146885,
+        "distance_m": 235.5,
+        "url": "https://www.openstreetmap.org/node/4953120160"
+      }
+    },
+    "sources": [
+      "wiki_general",
+      "osm"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Tebulosmta_viewed_from_main_ridge_near_%E1%83%93%E1%83%90%E1%83%97%E1%83%95%E1%83%98%E1%83%A1%E1%83%AF%E1%83%95%E1%83%90%E1%83%A0%E1%83%98_%E1%83%A3%E1%83%A6.JPG",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tebulosmta_viewed_from_main_ridge_near_%E1%83%93%E1%83%90%E1%83%97%E1%83%95%E1%83%98%E1%83%A1%E1%83%AF%E1%83%95%E1%83%90%E1%83%A0%E1%83%98_%E1%83%A3%E1%83%A6.JPG",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Karel61"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q110393695",
+    "type": "natural_object",
+    "name_ru": "Никорой",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.810612,
+      "lon": 45.368542
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 0.11,
+    "external_id": "Q110393695",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q110393695"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q12871444",
+    "type": "natural_object",
+    "name_ru": "Пшав-Хевсуретский хребет",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "хребет в Грузии и России",
+    "district": null,
+    "coordinate": {
+      "lat": 42.63333,
+      "lon": 45.0
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 1.11,
+    "external_id": "Q12871444",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q12871444"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q21645627",
+    "type": "natural_object",
+    "name_ru": "Чернореченское водохранилище",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "lake",
+    "description": "Озеро, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.2647,
+      "lon": 45.6664
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 13732.65,
+    "external_id": "Q21645627",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q21645627",
+      "osm_evidence": {
+        "lat": 43.261798,
+        "lon": 45.6676044,
+        "distance_m": 337.1,
+        "url": "https://www.openstreetmap.org/relation/11655166"
+      }
+    },
+    "sources": [
+      "wikidata",
+      "osm"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Grozny_sea_1.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Grozny_sea_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Simba16"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q21965880",
+    "type": "natural_object",
+    "name_ru": "Качкалыковский хребет",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "Гора, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.26423,
+      "lon": 46.188431
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 0.11,
+    "external_id": "Q21965880",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q21965880"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/%D0%9A%D0%B0%D1%87%D0%BA%D0%B0%D0%BB%D1%8B%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D1%85%D1%80%D0%B5%D0%B1%D0%B5%D1%82.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%B0%D1%87%D0%BA%D0%B0%D0%BB%D1%8B%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D1%85%D1%80%D0%B5%D0%B1%D0%B5%D1%82.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Товболатов"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q2381540",
+    "type": "natural_object",
+    "name_ru": "Аксай",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "река, приток Акташа, Чечня/Дагестан",
+    "district": null,
+    "coordinate": {
+      "lat": 42.849722222,
+      "lon": 46.323055555
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 0.11,
+    "external_id": "Q2381540",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q2381540"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/%D0%AF%D1%81%D1%81%D0%B8%D0%B9-%D0%A5%D0%B8.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%AF%D1%81%D1%81%D0%B8%D0%B9-%D0%A5%D0%B8.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Flandria12"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q2639417",
+    "type": "natural_object",
+    "name_ru": "Диклосмта",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "гора в Грузии и России",
+    "district": null,
+    "coordinate": {
+      "lat": 42.488333333,
+      "lon": 45.775277777
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q2639417",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q2639417"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Diklo_2684_m1010053_%281%29.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Diklo_2684_m1010053_(1).jpg",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "author": "Kakha Kakhidze"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q28545215",
+    "type": "natural_object",
+    "name_ru": "Ачалой-ахк",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.7593,
+      "lon": 45.9442
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q28545215",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q28545215"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q28656904",
+    "type": "natural_object",
+    "name_ru": "Безином",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "lake",
+    "description": "Озеро, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.73,
+      "lon": 45.9195
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 1361.37,
+    "external_id": "Q28656904",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q28656904"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q28666820",
+    "type": "natural_object",
+    "name_ru": "Ишхой-Лам",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "Гора, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.8975,
+      "lon": 46.449166666
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q28666820",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q28666820"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/%D0%98%D1%88%D1%85%D0%BE%D0%B9-%D0%9B%D0%B0%D0%BC_%282_%D1%84%D0%B0%D0%B9%D0%BB%29.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%98%D1%88%D1%85%D0%BE%D0%B9-%D0%9B%D0%B0%D0%BC_(2_%D1%84%D0%B0%D0%B9%D0%BB).jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "https://www.facebook.com/photo.php?fbid=1861077954125059&set=a.1389980897901436.1073741828.100006686164700&type=3&theater"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q28667251",
+    "type": "natural_object",
+    "name_ru": "Нашахалам",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Ачхой-Мартановском районе Чечни",
+    "district": "achkhoy-martanovsky",
+    "coordinate": {
+      "lat": 42.898611111,
+      "lon": 45.418888888
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q28667251",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q28667251"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/%D0%A7%D0%BB%D0%B5%D0%BD%D1%8B_%D0%9D%D0%B0%D1%83%D1%87%D0%BD%D0%BE-%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B9_%D1%8D%D0%BA%D1%81%D0%BF%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%B8_%22_%D0%9D%D0%B5%D0%B8%D0%B7%D0%B2%D0%B5%D1%81%D1%82%D0%BD%D0%B0%D1%8F_%D0%A7%D0%B5%D1%87%D0%BD%D1%8F%22.JPG",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%A7%D0%BB%D0%B5%D0%BD%D1%8B_%D0%9D%D0%B0%D1%83%D1%87%D0%BD%D0%BE-%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B9_%D1%8D%D0%BA%D1%81%D0%BF%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%B8_%22_%D0%9D%D0%B5%D0%B8%D0%B7%D0%B2%D0%B5%D1%81%D1%82%D0%BD%D0%B0%D1%8F_%D0%A7%D0%B5%D1%87%D0%BD%D1%8F%22.JPG",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Боршигов Мурад"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q28667335",
+    "type": "natural_object",
+    "name_ru": "Джалкинское водохранилище",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "lake",
+    "description": "Озеро, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.3465,
+      "lon": 45.9909
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 13751.14,
+    "external_id": "Q28667335",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q28667335"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q30890475",
+    "type": "natural_object",
+    "name_ru": "Карьерное",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "lake",
+    "description": "Озеро, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.4781,
+      "lon": 46.254
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 13781.05,
+    "external_id": "Q30890475",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q30890475"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q31558113",
+    "type": "natural_object",
+    "name_ru": "Варанды-Корт",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "гора в Чечне",
+    "district": "shatoysky",
+    "coordinate": {
+      "lat": 42.9058,
+      "lon": 45.7017
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 1.11,
+    "external_id": "Q31558113",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q31558113"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q31560276",
+    "type": "natural_object",
+    "name_ru": "Ястребиная",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "Гора, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.4367,
+      "lon": 45.6754
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 1.11,
+    "external_id": "Q31560276",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q31560276"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q31570481",
+    "type": "natural_object",
+    "name_ru": "Брагунский Хребет",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "Гора, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.411666666,
+      "lon": 45.923611111
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q31570481",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q31570481"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q31664424",
+    "type": "natural_object",
+    "name_ru": "Гора Караилтюбе",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "Гора, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.4369,
+      "lon": 45.8714
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 1.11,
+    "external_id": "Q31664424",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q31664424"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q31664459",
+    "type": "natural_object",
+    "name_ru": "Гора Чармоилам",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "Гора, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.861666666,
+      "lon": 46.094444444
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q31664459",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q31664459"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q32464180",
+    "type": "natural_object",
+    "name_ru": "Басс",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.98,
+      "lon": 45.89
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 1113.2,
+    "external_id": "Q32464180",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q32464180"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q32464188",
+    "type": "natural_object",
+    "name_ru": "Басс",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.09,
+      "lon": 45.890277777
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q32464188",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q32464188"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q32477200",
+    "type": "natural_object",
+    "name_ru": "Белая Шалажа",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.054444444,
+      "lon": 45.336666666
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q32477200",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q32477200"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q32480482",
+    "type": "natural_object",
+    "name_ru": "Бенойясси",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.945,
+      "lon": 46.331111111
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q32480482",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q32480482"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q32481310",
+    "type": "natural_object",
+    "name_ru": "Берем Ин",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.026944444,
+      "lon": 45.882777777
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q32481310",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q32481310"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q32486133",
+    "type": "natural_object",
+    "name_ru": "Бежиак",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.953888888,
+      "lon": 45.591111111
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q32486133",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q32486133"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q32501461",
+    "type": "natural_object",
+    "name_ru": "Блухапего",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.6962,
+      "lon": 45.25203
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 1.11,
+    "external_id": "Q32501461",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q32501461"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q32548898",
+    "type": "natural_object",
+    "name_ru": "Булк",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.99328,
+      "lon": 45.80466
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 1.11,
+    "external_id": "Q32548898",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q32548898"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q32548907",
+    "type": "natural_object",
+    "name_ru": "Булк",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.015,
+      "lon": 46.06389
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 1.11,
+    "external_id": "Q32548907",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q32548907"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q32548917",
+    "type": "natural_object",
+    "name_ru": "Булк",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.068055555,
+      "lon": 46.135277777
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q32548917",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q32548917"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q32638955",
+    "type": "natural_object",
+    "name_ru": "Черноречка",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.359166666,
+      "lon": 45.911666666
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q32638955",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q32638955"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q32655314",
+    "type": "natural_object",
+    "name_ru": "Чёрная Шалажа",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.019444444,
+      "lon": 45.321666666
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q32655314",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q32655314"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q32720305",
+    "type": "natural_object",
+    "name_ru": "Данейламхи",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.544566,
+      "lon": 45.661965
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q32720305",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q32720305"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q32723673",
+    "type": "natural_object",
+    "name_ru": "Даттах",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.975,
+      "lon": 46.424722222
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q32723673",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q32723673"
+    },
+    "sources": [
+      "wikidata",
+      "osm"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q32750486",
+    "type": "natural_object",
+    "name_ru": "Экхечу",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.004444444,
+      "lon": 46.443055555
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q32750486",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q32750486"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q3387392",
+    "type": "natural_object",
+    "name_ru": "Мешехи",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.716944444,
+      "lon": 45.116388888
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q3387392",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q3387392"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q34850906",
+    "type": "natural_object",
+    "name_ru": "Сураты",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.965457,
+      "lon": 45.577576
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q34850906",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q34850906"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q34919754",
+    "type": "natural_object",
+    "name_ru": "Гора Кереикау",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "Гора, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.6064,
+      "lon": 45.6926
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 1.11,
+    "external_id": "Q34919754",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q34919754"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q35400373",
+    "type": "natural_object",
+    "name_ru": "Кенхи",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.675555555,
+      "lon": 45.901666666
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q35400373",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q35400373"
+    },
+    "sources": [
+      "wikidata",
+      "osm"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Kenkhi04.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kenkhi04.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Brainwashing"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q3730127",
+    "type": "natural_object",
+    "name_ru": "Шондон",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.6308,
+      "lon": 44.8116
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q3730127",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q3730127"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q3730715",
+    "type": "natural_object",
+    "name_ru": "Нефтянка",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.4106,
+      "lon": 45.4771
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q3730715",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q3730715"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q37753371",
+    "type": "natural_object",
+    "name_ru": "Искерк",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.286944444,
+      "lon": 46.1875
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q37753371",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q37753371"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q37753373",
+    "type": "natural_object",
+    "name_ru": "Гумс",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.246388888,
+      "lon": 46.081111111
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q37753373",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q37753373"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q37753375",
+    "type": "natural_object",
+    "name_ru": "Куру-Чубутла",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.771944444,
+      "lon": 46.393888888
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q37753375",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q37753375"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q37753381",
+    "type": "natural_object",
+    "name_ru": "Варанды",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.857222222,
+      "lon": 45.673055555
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q37753381",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q37753381"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q37753386",
+    "type": "natural_object",
+    "name_ru": "Сал-Али",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.114722222,
+      "lon": 45.198611111
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q37753386",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q37753386"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q37753389",
+    "type": "natural_object",
+    "name_ru": "Тонгхойарк",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.71351,
+      "lon": 45.46005
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 1.11,
+    "external_id": "Q37753389",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q37753389"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q37753394",
+    "type": "natural_object",
+    "name_ru": "Похмерка",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.80506,
+      "lon": 45.62678
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 1.11,
+    "external_id": "Q37753394",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q37753394"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q37753396",
+    "type": "natural_object",
+    "name_ru": "Сунхаяхк",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.80985,
+      "lon": 45.81176
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 1.11,
+    "external_id": "Q37753396",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q37753396"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q37753397",
+    "type": "natural_object",
+    "name_ru": "Сухое Русло Старая Прорва",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.78167,
+      "lon": 46.61861
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 1.11,
+    "external_id": "Q37753397",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q37753397"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q37753398",
+    "type": "natural_object",
+    "name_ru": "Старое Русло Реки Прорва",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.82111,
+      "lon": 46.62
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 1.11,
+    "external_id": "Q37753398",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q37753398"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q37753401",
+    "type": "natural_object",
+    "name_ru": "Охолитлай",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.910555555,
+      "lon": 46.146944444
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q37753401",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q37753401"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q37753402",
+    "type": "natural_object",
+    "name_ru": "Инзахк",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.783888888,
+      "lon": 45.825
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q37753402",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q37753402"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q37753405",
+    "type": "natural_object",
+    "name_ru": "Овухи",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.919166666,
+      "lon": 45.350555555
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q37753405",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q37753405"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q37753406",
+    "type": "natural_object",
+    "name_ru": "Нефтянка",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.649166666,
+      "lon": 45.185277777
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q37753406",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q37753406"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4064340",
+    "type": "natural_object",
+    "name_ru": "Амир-Корт",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "Гора, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.031944,
+      "lon": 46.517778
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 0.11,
+    "external_id": "Q4064340",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4064340"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/%D0%90%D0%BC%D0%B8%D1%80-%D0%9A%D0%BE%D1%80%D1%82_%282%29.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%90%D0%BC%D0%B8%D1%80-%D0%9A%D0%BE%D1%80%D1%82_(2).jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Дагиров Умар"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4066903",
+    "type": "natural_object",
+    "name_ru": "Ансалта",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.776944444,
+      "lon": 46.039722222
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 0.11,
+    "external_id": "Q4066903",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4066903"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/%D0%90%D0%BD%D1%81%D0%B0%D0%BB%D1%82-%D0%A5%D0%B8%2C_%D0%9C%D0%B0%D0%BA%D0%B0%D0%B6%D0%B5%D1%85%D1%8C.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%90%D0%BD%D1%81%D0%B0%D0%BB%D1%82-%D0%A5%D0%B8,_%D0%9C%D0%B0%D0%BA%D0%B0%D0%B6%D0%B5%D1%85%D1%8C.png",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "author": "Flandria12"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4069135",
+    "type": "natural_object",
+    "name_ru": "Аржи-Ахк",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.0306,
+      "lon": 46.0256
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q4069135",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4069135"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/%D0%90%D1%80%D0%B6%D0%B8_%D0%90%D1%85%D0%BA.jpeg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%90%D1%80%D0%B6%D0%B8_%D0%90%D1%85%D0%BA.jpeg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Азамат Эрзанукаев"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4072973",
+    "type": "natural_object",
+    "name_ru": "Ахкете",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.729444444,
+      "lon": 46.054166666
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4072973",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4072973"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/%D0%90%D1%85%D0%BA%D0%B5%D1%82%D0%B5-%D1%85%D0%B8.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%90%D1%85%D0%BA%D0%B5%D1%82%D0%B5-%D1%85%D0%B8.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Flandria12"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4072976",
+    "type": "natural_object",
+    "name_ru": "Ахкичу",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.9075,
+      "lon": 46.12
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4072976",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4072976"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/%D0%90%D1%85%D0%BA%D0%B8%D1%87%D1%83_20220710_164013.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%90%D1%85%D0%BA%D0%B8%D1%87%D1%83_20220710_164013.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Lesless"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4072978",
+    "type": "natural_object",
+    "name_ru": "Ахко",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.119,
+      "lon": 46.0324
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q4072978",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4072978"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4073399",
+    "type": "natural_object",
+    "name_ru": "Ачху",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.17111,
+      "lon": 45.28722
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 1.11,
+    "external_id": "Q4073399",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4073399"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/I%D0%B0%D1%88%D1%85%D0%B8_I%D0%B0%D1%88%D1%85%D0%BE%D0%B9-%D0%9AI%D0%BE%D1%82%D0%B0%D1%80%D0%B0%D1%85%D1%8C.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:I%D0%B0%D1%88%D1%85%D0%B8_I%D0%B0%D1%88%D1%85%D0%BE%D0%B9-%D0%9AI%D0%BE%D1%82%D0%B0%D1%80%D0%B0%D1%85%D1%8C.jpg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "author": "Flandria12"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4073444",
+    "type": "natural_object",
+    "name_ru": "Ашенете",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Ножай-Юртовском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.93,
+      "lon": 46.302222222
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4073444",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4073444"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4077281",
+    "type": "natural_object",
+    "name_ru": "Бандук",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Шатойском районе Чеченской республики",
+    "district": null,
+    "coordinate": {
+      "lat": 42.947777777,
+      "lon": 45.745833333
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4077281",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4077281"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4078196",
+    "type": "natural_object",
+    "name_ru": "Барзиарлам",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Шатойском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.860555555,
+      "lon": 45.913333333
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4078196",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4078196"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4079174",
+    "type": "natural_object",
+    "name_ru": "Бастыхи",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.798055555,
+      "lon": 45.186388888
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4079174",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4079174"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4079209",
+    "type": "natural_object",
+    "name_ru": "Бастылам",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Итум-Калинском районе Чеченской республики",
+    "district": null,
+    "coordinate": {
+      "lat": 42.747777777,
+      "lon": 45.306388888
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4079209",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4079209",
+      "osm_evidence": {
+        "lat": 42.7481262,
+        "lon": 45.3057977,
+        "distance_m": 61.9,
+        "url": "https://www.openstreetmap.org/node/10271433289"
+      }
+    },
+    "sources": [
+      "wikidata",
+      "osm"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4079228",
+    "type": "natural_object",
+    "name_ru": "Басхойлам",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина на границе Шатойского и Веденского районов Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.716388888,
+      "lon": 45.947222222
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4079228",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4079228",
+      "osm_evidence": {
+        "lat": 42.7168542,
+        "lon": 45.9475654,
+        "distance_m": 58.8,
+        "url": "https://www.openstreetmap.org/node/7548619049"
+      }
+    },
+    "sources": [
+      "wikidata",
+      "osm"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4079702",
+    "type": "natural_object",
+    "name_ru": "Баумкорт",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Шаройском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.602777777,
+      "lon": 45.881944444
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4079702",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4079702",
+      "osm_evidence": {
+        "lat": 42.6028148,
+        "lon": 45.8820114,
+        "distance_m": 6.9,
+        "url": "https://www.openstreetmap.org/node/2939258404"
+      }
+    },
+    "sources": [
+      "wikidata",
+      "osm"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4079757",
+    "type": "natural_object",
+    "name_ru": "Бох-Джага",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.0978,
+      "lon": 46.0882
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4079757",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4079757"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4081742",
+    "type": "natural_object",
+    "name_ru": "Ункубутли",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.924722222,
+      "lon": 46.232222222
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4081742",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4081742"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4082028",
+    "type": "natural_object",
+    "name_ru": "Белка",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "приток Сунжи",
+    "district": null,
+    "coordinate": {
+      "lat": 42.9006,
+      "lon": 46.1942
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q4082028",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4082028"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/%D0%A0%D0%B5%D0%BA%D0%B0_%D0%93%D1%83%D0%BC%D1%81_%D0%B2_%D0%9A%D1%83%D1%80%D1%87%D0%B0%D0%BB%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%BC_%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%D0%B5.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%A0%D0%B5%D0%BA%D0%B0_%D0%93%D1%83%D0%BC%D1%81_%D0%B2_%D0%9A%D1%83%D1%80%D1%87%D0%B0%D0%BB%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%BC_%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%D0%B5.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Товболатов"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4083849",
+    "type": "natural_object",
+    "name_ru": "Бенойлам",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Ножай-Юртовском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.901111111,
+      "lon": 46.337777777
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4083849",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4083849"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/%D0%91%D0%B5%D0%BD%D0%BE%D0%B9%D0%BB%D0%B0%D0%BC_%281_%D1%84%D0%B0%D0%B9%D0%BB%29.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%B5%D0%BD%D0%BE%D0%B9%D0%BB%D0%B0%D0%BC_(1_%D1%84%D0%B0%D0%B9%D0%BB).jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Джалвади Малаев"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4090233",
+    "type": "natural_object",
+    "name_ru": "Бозгенты",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Ачхой-Мартановском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.975,
+      "lon": 45.215555555
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4090233",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4090233"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4090682",
+    "type": "natural_object",
+    "name_ru": "Болги",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Итум-Калинском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.739166666,
+      "lon": 45.783333333
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4090682",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4090682"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4090850",
+    "type": "natural_object",
+    "name_ru": "Болойлам",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Ачхой-Мартановском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.969166666,
+      "lon": 45.31
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4090850",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4090850"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4091633",
+    "type": "natural_object",
+    "name_ru": "Большая Рошня",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.892777777,
+      "lon": 45.421111111
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4091633",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4091633"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4092960",
+    "type": "natural_object",
+    "name_ru": "Черная",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "приток Сунжи",
+    "district": null,
+    "coordinate": {
+      "lat": 43.2182,
+      "lon": 45.9255
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q4092960",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4092960"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4102843",
+    "type": "natural_object",
+    "name_ru": "Валерик",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "река в Чечне",
+    "district": null,
+    "coordinate": {
+      "lat": 43.016944444,
+      "lon": 45.341666666
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4102843",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4102843"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/%D0%92%D0%B0%D0%BB%D0%B0%D1%80%D0%B3-%D0%A5%D0%B8.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%B0%D0%BB%D0%B0%D1%80%D0%B3-%D0%A5%D0%B8.jpg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "author": "Flandria12"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4103674",
+    "type": "natural_object",
+    "name_ru": "Варгилам",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Ачхой-Мартановском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.873591,
+      "lon": 45.332723
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 0.11,
+    "external_id": "Q4103674",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4103674",
+      "osm_evidence": {
+        "lat": 42.8720642,
+        "lon": 45.3302765,
+        "distance_m": 261.9,
+        "url": "https://www.openstreetmap.org/node/5971684871"
+      }
+    },
+    "sources": [
+      "wikidata",
+      "osm"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4107604",
+    "type": "natural_object",
+    "name_ru": "Вердыэрк",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.759166666,
+      "lon": 45.745277777
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4107604",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4107604"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/%D0%92%D0%B0%D1%8C%D1%80%D0%B4-%D0%90%D1%8C%D1%85%D0%BA.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%B0%D1%8C%D1%80%D0%B4-%D0%90%D1%8C%D1%85%D0%BA.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Flandria12"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4110277",
+    "type": "natural_object",
+    "name_ru": "Абазулгол",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Абазулгол - это Ваштар",
+    "district": null,
+    "coordinate": {
+      "lat": 42.8908,
+      "lon": 45.8728
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q4110277",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4110277"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/%D0%A0._%D0%92%D0%B0%D1%88%D1%82%D0%B0%D1%80_%282020_%D0%B3%29.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%A0._%D0%92%D0%B0%D1%88%D1%82%D0%B0%D1%80_(2020_%D0%B3).jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "author": "Takhirgeran Umar"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4133145",
+    "type": "natural_object",
+    "name_ru": "Гамырберт",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Урус-Мартановском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.981111111,
+      "lon": 45.664722222
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4133145",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4133145"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4133357",
+    "type": "natural_object",
+    "name_ru": "Гансол",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.099722222,
+      "lon": 46.253888888
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4133357",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4133357"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/%D0%93l%D0%B0%D0%BD%D1%81%D0%BE%D0%BB-%D0%A5%D0%B8%2C_%D0%91I%D0%B0%D1%87%D0%B8-%D0%AE%D1%80%D1%82%D0%B0%D1%85%D1%8C.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%93l%D0%B0%D0%BD%D1%81%D0%BE%D0%BB-%D0%A5%D0%B8,_%D0%91I%D0%B0%D1%87%D0%B8-%D0%AE%D1%80%D1%82%D0%B0%D1%85%D1%8C.jpg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "author": "Flandria12"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4134770",
+    "type": "natural_object",
+    "name_ru": "Гезлам",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "гора в России",
+    "district": "itum-kalinsky",
+    "coordinate": {
+      "lat": 42.748055555,
+      "lon": 45.418611111
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4134770",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4134770"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4137845",
+    "type": "natural_object",
+    "name_ru": "Гешичу",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.7169,
+      "lon": 45.365
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q4137845",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4137845"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4141255",
+    "type": "natural_object",
+    "name_ru": "Гойчу",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.9664,
+      "lon": 45.6536
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q4141255",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4141255"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/%D0%93I%D0%BE%D0%B9-%D0%A7%D1%83_%D1%85%D0%B8%2C_%D0%9E%D1%80%D0%B3%D0%B0_%D1%87%D1%83%D0%BA%D1%85%D0%B5%D1%82%D0%B0%D1%87%D0%BE%D1%85%D1%8C._%D0%A7I%D0%B8%D1%88%D0%BA%D0%B0_%D0%B1%D0%BE%D1%8C%D0%B4%D1%83_%D0%BD%D0%B5%D0%BA%D1%8A%D0%B0_%D1%82I%D0%B5%D1%80%D0%B0_%D1%82I%D0%B0%D0%B9.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%93I%D0%BE%D0%B9-%D0%A7%D1%83_%D1%85%D0%B8,_%D0%9E%D1%80%D0%B3%D0%B0_%D1%87%D1%83%D0%BA%D1%85%D0%B5%D1%82%D0%B0%D1%87%D0%BE%D1%85%D1%8C._%D0%A7I%D0%B8%D1%88%D0%BA%D0%B0_%D0%B1%D0%BE%D1%8C%D0%B4%D1%83_%D0%BD%D0%B5%D0%BA%D1%8A%D0%B0_%D1%82I%D0%B5%D1%80%D0%B0_%D1%82I%D0%B0%D0%B9.jpg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "author": "Flandria12"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4141267",
+    "type": "natural_object",
+    "name_ru": "Гойта",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.9725,
+      "lon": 45.607
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q4141267",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4141267"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/%D0%A0%D0%B5%D0%BA%D0%B0_%D0%93%D0%BE%D0%B9%D1%82%D0%B0_%D0%B2_%D0%9C%D0%B0%D0%BB%D0%BE%D0%B9_%D0%A7%D0%B5%D1%87%D0%BD%D0%B5.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%A0%D0%B5%D0%BA%D0%B0_%D0%93%D0%BE%D0%B9%D1%82%D0%B0_%D0%B2_%D0%9C%D0%B0%D0%BB%D0%BE%D0%B9_%D0%A7%D0%B5%D1%87%D0%BD%D0%B5.jpg",
+      "license": "Public domain",
+      "license_url": null,
+      "author": "Unknown author Unknown author"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4152484",
+    "type": "natural_object",
+    "name_ru": "Малый Мичик",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.2146,
+      "lon": 46.2864
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q4152484",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4152484"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4155545",
+    "type": "natural_object",
+    "name_ru": "Дзиуах",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.8297,
+      "lon": 45.9712
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q4155545",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4155545"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4159766",
+    "type": "natural_object",
+    "name_ru": "Джалдыр",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Ножай-Юртовском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.864722222,
+      "lon": 46.437222222
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4159766",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4159766"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4159774",
+    "type": "natural_object",
+    "name_ru": "Джалка",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "река в Чечне",
+    "district": null,
+    "coordinate": {
+      "lat": 43.3456,
+      "lon": 45.9778
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q4159774",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4159774"
+    },
+    "sources": [
+      "wikidata",
+      "osm"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/%D0%A0%D0%B5%D0%BA%D0%B0_%D0%91%D0%B0%D1%81%D1%81.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%A0%D0%B5%D0%BA%D0%B0_%D0%91%D0%B0%D1%81%D1%81.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Джалвади Малаев"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4160391",
+    "type": "natural_object",
+    "name_ru": "Джил-Джоль",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.9498,
+      "lon": 45.1979
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q4160391",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4160391"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/%D0%94%D0%B6%D0%BE%D0%BB-%D1%85%D0%B8._%D0%9C%D0%B0%D1%80%D1%82%D0%B5%D1%85%D1%8C_%D0%B4I%D0%B0%D0%BA%D1%85%D0%B5%D1%82%D0%B0%D1%87%D1%83_%D0%BC%D0%B5%D1%82%D1%82%D0%B5%D1%85%D1%8C.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%94%D0%B6%D0%BE%D0%BB-%D1%85%D0%B8._%D0%9C%D0%B0%D1%80%D1%82%D0%B5%D1%85%D1%8C_%D0%B4I%D0%B0%D0%BA%D1%85%D0%B5%D1%82%D0%B0%D1%87%D1%83_%D0%BC%D0%B5%D1%82%D1%82%D0%B5%D1%85%D1%8C.jpg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "author": "Flandria12"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4160898",
+    "type": "natural_object",
+    "name_ru": "Дзумсэрк",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.7802,
+      "lon": 45.6082
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 1.11,
+    "external_id": "Q4160898",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4160898"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/%D0%A3%D1%88%D0%BA%D0%B0%D0%BB%D0%BE%D0%B9_%D0%94%D0%B7%D1%83%D0%BC%D1%81-%D0%AD%D1%80%D0%BA.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%A3%D1%88%D0%BA%D0%B0%D0%BB%D0%BE%D0%B9_%D0%94%D0%B7%D1%83%D0%BC%D1%81-%D0%AD%D1%80%D0%BA.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Flandria12"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4166325",
+    "type": "natural_object",
+    "name_ru": "Доносмта",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "гора в Грузии и России, вершина в Главном Кавказском хребте",
+    "district": null,
+    "coordinate": {
+      "lat": 42.504444444,
+      "lon": 45.686944444
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4166325",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4166325",
+      "osm_evidence": {
+        "lat": 42.5047502,
+        "lon": 45.6882233,
+        "distance_m": 110.2,
+        "url": "https://www.openstreetmap.org/node/5911604337"
+      }
+    },
+    "sources": [
+      "wikidata",
+      "osm"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/P1100548a_Danosmta_2016.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:P1100548a_Danosmta_2016.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Karel61"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4170088",
+    "type": "natural_object",
+    "name_ru": "Дугонькорт",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Итум-Калинском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.759444444,
+      "lon": 45.527777777
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4170088",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4170088",
+      "osm_evidence": {
+        "lat": 42.7593372,
+        "lon": 45.5270764,
+        "distance_m": 58.5,
+        "url": "https://www.openstreetmap.org/node/10271480635"
+      }
+    },
+    "sources": [
+      "wikidata",
+      "osm"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4174477",
+    "type": "natural_object",
+    "name_ru": "Еккыркорт",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "гора в Ачхой-Мартановском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.873611111,
+      "lon": 45.448611111
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4174477",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4174477"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4187134",
+    "type": "natural_object",
+    "name_ru": "Заргайлам",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Веденском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.873611111,
+      "lon": 46.153888888
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4187134",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4187134"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4194696",
+    "type": "natural_object",
+    "name_ru": "Зумс-Лам",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Итум-Калинском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.7361111,
+      "lon": 45.7652778
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 0.01,
+    "external_id": "Q4194696",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4194696"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4204124",
+    "type": "natural_object",
+    "name_ru": "Иснерк",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.2178,
+      "lon": 46.1254
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q4204124",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4204124"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/%D0%98%D1%81%D0%BA%D0%B0%D1%8C%D1%80%D0%B3_%28%D0%98%D1%81%D0%BA%D1%8F%D1%80%D0%B3%29_-_%D1%80%D0%B5%D1%87%D0%BA%D0%B0%2C_%D1%82%D0%B5%D1%87%D0%B5%D1%82_%D0%BF%D0%BE_%D1%86%D0%B5%D0%BD%D1%82%D1%80%D1%83_%D1%81%D0%B5%D0%BB%D0%B0_%D0%9C%D0%B0%D0%B9%D1%80%D1%82%D1%83%D0%BF%2C_%D0%BB%D0%B5%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%B8%D1%82%D0%BE%D0%BA_%D1%80%D0%B5%D0%BA%D0%B8_%D0%93%D1%83%D1%8C%D0%BC%D1%81.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%98%D1%81%D0%BA%D0%B0%D1%8C%D1%80%D0%B3_(%D0%98%D1%81%D0%BA%D1%8F%D1%80%D0%B3)_-_%D1%80%D0%B5%D1%87%D0%BA%D0%B0,_%D1%82%D0%B5%D1%87%D0%B5%D1%82_%D0%BF%D0%BE_%D1%86%D0%B5%D0%BD%D1%82%D1%80%D1%83_%D1%81%D0%B5%D0%BB%D0%B0_%D0%9C%D0%B0%D0%B9%D1%80%D1%82%D1%83%D0%BF,_%D0%BB%D0%B5%D0%B2%D1%8B%D0%B9_%D0%BF%D1%80%D0%B8%D1%82%D0%BE%D0%BA_%D1%80%D0%B5%D0%BA%D0%B8_%D0%93%D1%83%D1%8C%D0%BC%D1%81.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Sasan700"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4214420",
+    "type": "natural_object",
+    "name_ru": "Карах",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Грозненском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 43.427222222,
+      "lon": 45.910277777
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4214420",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4214420"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4218212",
+    "type": "natural_object",
+    "name_ru": "Кашкерлам",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Веденском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.801944444,
+      "lon": 46.072777777
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4218212",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4218212",
+      "osm_evidence": {
+        "lat": 42.7983835,
+        "lon": 46.0700575,
+        "distance_m": 453.9,
+        "url": "https://www.openstreetmap.org/node/10271683190"
+      }
+    },
+    "sources": [
+      "wikidata",
+      "osm"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4219148",
+    "type": "natural_object",
+    "name_ru": "Келойахк",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.7527,
+      "lon": 45.888
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q4219148",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4219148"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4219582",
+    "type": "natural_object",
+    "name_ru": "Кериго",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.5464,
+      "lon": 45.5143
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q4219582",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4219582"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4219793",
+    "type": "natural_object",
+    "name_ru": "Кестинкорт",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Итум-Калинском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.63,
+      "lon": 45.526111111
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4219793",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4219793"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4221301",
+    "type": "natural_object",
+    "name_ru": "Кирилам",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Чечне",
+    "district": null,
+    "coordinate": {
+      "lat": 42.693888888,
+      "lon": 45.854166666
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4221301",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4221301",
+      "osm_evidence": {
+        "lat": 42.6931213,
+        "lon": 45.8537323,
+        "distance_m": 92.4,
+        "url": "https://www.openstreetmap.org/node/6959239195"
+      }
+    },
+    "sources": [
+      "wikidata",
+      "osm"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4229747",
+    "type": "natural_object",
+    "name_ru": "Комито",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "гора в Грузии и России",
+    "district": null,
+    "coordinate": {
+      "lat": 42.532778,
+      "lon": 45.599722
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 0.11,
+    "external_id": "Q4229747",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4229747",
+      "osm_evidence": {
+        "lat": 42.5332152,
+        "lon": 45.598239,
+        "distance_m": 130.9,
+        "url": "https://www.openstreetmap.org/node/427975937"
+      }
+    },
+    "sources": [
+      "wikidata",
+      "osm"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Comito.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Comito.jpg",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "Дагиров Умар"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4236557",
+    "type": "natural_object",
+    "name_ru": "Кокичуах",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.8015,
+      "lon": 46.07
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q4236557",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4236557"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4251255",
+    "type": "natural_object",
+    "name_ru": "Кюрелам",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Итум-Калинском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.779444444,
+      "lon": 45.174444444
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4251255",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4251255",
+      "osm_evidence": {
+        "lat": 42.7808081,
+        "lon": 45.1718237,
+        "distance_m": 262.2,
+        "url": "https://www.openstreetmap.org/node/10271433290"
+      }
+    },
+    "sources": [
+      "wikidata",
+      "osm"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4252948",
+    "type": "natural_object",
+    "name_ru": "Лазарчу",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Итум-Калинском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.615,
+      "lon": 45.375555555
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4252948",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4252948",
+      "osm_evidence": {
+        "lat": 42.6149491,
+        "lon": 45.37552,
+        "distance_m": 6.4,
+        "url": "https://www.openstreetmap.org/node/11505439561"
+      }
+    },
+    "sources": [
+      "wikidata",
+      "osm"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4258036",
+    "type": "natural_object",
+    "name_ru": "Леникорт",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Шатойском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.784166666,
+      "lon": 45.93
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4258036",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4258036"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4274668",
+    "type": "natural_object",
+    "name_ru": "Маистисмта",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "гора на границе Грузии и России",
+    "district": null,
+    "coordinate": {
+      "lat": 42.605833,
+      "lon": 45.285278
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 0.11,
+    "external_id": "Q4274668",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4274668",
+      "osm_evidence": {
+        "lat": 42.6060344,
+        "lon": 45.2834773,
+        "distance_m": 149.1,
+        "url": "https://www.openstreetmap.org/node/6959307347"
+      }
+    },
+    "sources": [
+      "wikidata",
+      "osm"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Maistismta_%28%E1%83%9B%E1%83%90%E1%83%98%E1%83%A1%E1%83%A2%E1%83%98%E1%83%A1%E1%83%9B%E1%83%90%E1%83%A6%E1%83%90%E1%83%9A%E1%83%98%29_viewed_from_the_main_ridge_near_%E1%83%93%E1%83%90%E1%83%97%E1%83%95%E1%83%98%E1%83%A1%E1%83%AF%E1%83%95%E1%83%90%E1%83%A0%E1%83%98_%E1%83%A3%E1%83%A6._2015.JPG",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Maistismta_(%E1%83%9B%E1%83%90%E1%83%98%E1%83%A1%E1%83%A2%E1%83%98%E1%83%A1%E1%83%9B%E1%83%90%E1%83%A6%E1%83%90%E1%83%9A%E1%83%98)_viewed_from_the_main_ridge_near_%E1%83%93%E1%83%90%E1%83%97%E1%83%95%E1%83%98%E1%83%A1%E1%83%AF%E1%83%95%E1%83%90%E1%83%A0%E1%83%98_%E1%83%A3%E1%83%A6._2015.JPG",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Karel61"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4274669",
+    "type": "natural_object",
+    "name_ru": "Маистихи",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.588611111,
+      "lon": 45.294444444
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4274669",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4274669"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4277287",
+    "type": "natural_object",
+    "name_ru": "Малая Рошня",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.961944444,
+      "lon": 45.411666666
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4277287",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4277287"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4277551",
+    "type": "natural_object",
+    "name_ru": "Малый Ярыксу",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.9255,
+      "lon": 46.5304
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q4277551",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4277551"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4279017",
+    "type": "natural_object",
+    "name_ru": "Малый Мартан",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.8836,
+      "lon": 45.4653
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4279017",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4279017"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4279209",
+    "type": "natural_object",
+    "name_ru": "Черная",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "приток Белки",
+    "district": null,
+    "coordinate": {
+      "lat": 43.272,
+      "lon": 45.9825
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q4279209",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4279209"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4279560",
+    "type": "natural_object",
+    "name_ru": "Мальч-Ахка",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.138611111,
+      "lon": 45.918333333
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4279560",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4279560"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4282484",
+    "type": "natural_object",
+    "name_ru": "Мартан",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.818333333,
+      "lon": 45.445833333
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4282484",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4282484"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4285719",
+    "type": "natural_object",
+    "name_ru": "Алакская река",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "река в Чеченской Республике",
+    "district": null,
+    "coordinate": {
+      "lat": 42.8742,
+      "lon": 45.907
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q4285719",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4285719"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4292895",
+    "type": "natural_object",
+    "name_ru": "Мизеркорт",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Ачхой-Мартановском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.851111111,
+      "lon": 45.307222222
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4292895",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4292895",
+      "osm_evidence": {
+        "lat": 42.8515986,
+        "lon": 45.3075837,
+        "distance_m": 61.7,
+        "url": "https://www.openstreetmap.org/node/5226038899"
+      }
+    },
+    "sources": [
+      "wikidata",
+      "osm"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mizerkort.jpeg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mizerkort.jpeg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Шамиль Умхаев"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4298263",
+    "type": "natural_object",
+    "name_ru": "Мичик",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.284444444,
+      "lon": 46.072222222
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4298263",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4298263"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/%D0%A0%D0%B5%D0%BA%D0%B0_%D0%9C%D0%B8%D1%87%D0%B8%D0%BA_%D0%B2_%D0%A7%D0%B5%D1%87%D0%B5%D0%BD%D1%81%D0%BA%D0%BE%D0%B9_%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B5.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%A0%D0%B5%D0%BA%D0%B0_%D0%9C%D0%B8%D1%87%D0%B8%D0%BA_%D0%B2_%D0%A7%D0%B5%D1%87%D0%B5%D0%BD%D1%81%D0%BA%D0%BE%D0%B9_%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B5.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Товболатов"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4306894",
+    "type": "natural_object",
+    "name_ru": "Мулканэка",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.78048,
+      "lon": 45.60753
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q4306894",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4306894"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/%D0%9C%D0%A3%D0%BB%D0%BA%D1%8A%D0%BE-%D1%8D%D0%BA%D1%85_%D0%9E%D1%80%D0%B3%D0%B0%D0%BD_%D1%87%D1%83_%D0%BA%D1%85%D0%B5%D1%82%D0%B0%D1%87%D0%BE%D1%85%D1%8C.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%A3%D0%BB%D0%BA%D1%8A%D0%BE-%D1%8D%D0%BA%D1%85_%D0%9E%D1%80%D0%B3%D0%B0%D0%BD_%D1%87%D1%83_%D0%BA%D1%85%D0%B5%D1%82%D0%B0%D1%87%D0%BE%D1%85%D1%8C.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Flandria12"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4313507",
+    "type": "natural_object",
+    "name_ru": "Нархиях",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Итум-Калинском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.573055555,
+      "lon": 45.511111111
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4313507",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4313507",
+      "osm_evidence": {
+        "lat": 42.5724255,
+        "lon": 45.5103077,
+        "distance_m": 96.1,
+        "url": "https://www.openstreetmap.org/node/6959238306"
+      }
+    },
+    "sources": [
+      "wikidata",
+      "osm"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4316189",
+    "type": "natural_object",
+    "name_ru": "Нежилойахк",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.836545,
+      "lon": 45.830749
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q4316189",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4316189"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4317957",
+    "type": "natural_object",
+    "name_ru": "Нетхой",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.936832,
+      "lon": 45.279094
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 0.11,
+    "external_id": "Q4317957",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4317957"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/%D0%9D%D0%B8%D1%82%D1%85%D0%B8%2C_%D0%AF%D0%BD%D0%B4%D0%B8-%D0%9AI%D0%BE%D1%82%D0%B0%D1%80.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9D%D0%B8%D1%82%D1%85%D0%B8,_%D0%AF%D0%BD%D0%B4%D0%B8-%D0%9AI%D0%BE%D1%82%D0%B0%D1%80.jpg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "author": "Flandria12"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4319644",
+    "type": "natural_object",
+    "name_ru": "Бара",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "приток Аргуна",
+    "district": null,
+    "coordinate": {
+      "lat": 42.7148,
+      "lon": 45.4018
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4319644",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4319644"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4337217",
+    "type": "natural_object",
+    "name_ru": "Орумкорт",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Ножай-Юртовском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.993056,
+      "lon": 46.468611
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 0.11,
+    "external_id": "Q4337217",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4337217"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4339192",
+    "type": "natural_object",
+    "name_ru": "Осухи",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.918833,
+      "lon": 45.350149
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 0.11,
+    "external_id": "Q4339192",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4339192"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/%D0%9E%D1%81%D1%83-%D1%85%D0%B8%2C_%D0%93%D0%B0%D0%BB%D0%B0%D0%BD%D1%87%D0%BE%D0%B6_%D1%83%D0%BB%D0%BB%D0%B5%D1%85%D1%8C.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9E%D1%81%D1%83-%D1%85%D0%B8,_%D0%93%D0%B0%D0%BB%D0%B0%D0%BD%D1%87%D0%BE%D0%B6_%D1%83%D0%BB%D0%BB%D0%B5%D1%85%D1%8C.jpg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "author": "Flandria12"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4398804",
+    "type": "natural_object",
+    "name_ru": "Рошня",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.8933,
+      "lon": 45.4197
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4398804",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4398804"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/%D0%A0%D0%BE%D1%8C%D1%88%D0%BD%D0%B8-%D0%A5%D0%B8._%D0%A0%D0%BE%D1%8C%D1%88%D0%BD%D0%B8-%D0%A7%D1%83.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%A0%D0%BE%D1%8C%D1%88%D0%BD%D0%B8-%D0%A5%D0%B8._%D0%A0%D0%BE%D1%8C%D1%88%D0%BD%D0%B8-%D0%A7%D1%83.jpg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "author": "Flandria12"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4413454",
+    "type": "natural_object",
+    "name_ru": "Селеды",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Итум-Калинском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.682777777,
+      "lon": 45.518888888
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4413454",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4413454"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4417858",
+    "type": "natural_object",
+    "name_ru": "Серчихи",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Шаройском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.554444,
+      "lon": 45.715
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 0.11,
+    "external_id": "Q4417858",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4417858",
+      "osm_evidence": {
+        "lat": 42.5547874,
+        "lon": 45.7144117,
+        "distance_m": 61.5,
+        "url": "https://www.openstreetmap.org/node/9401074060"
+      }
+    },
+    "sources": [
+      "wikidata",
+      "osm"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4428461",
+    "type": "natural_object",
+    "name_ru": "Солотыкорт",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Ачхой-Мартановском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.858333,
+      "lon": 45.264722
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 0.11,
+    "external_id": "Q4428461",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4428461",
+      "osm_evidence": {
+        "lat": 42.8579881,
+        "lon": 45.2643478,
+        "distance_m": 49.0,
+        "url": "https://www.openstreetmap.org/node/5971684858"
+      }
+    },
+    "sources": [
+      "wikidata",
+      "osm"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4448473",
+    "type": "natural_object",
+    "name_ru": "Сюжи",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.850555555,
+      "lon": 45.564444444
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4448473",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4448473"
+    },
+    "sources": [
+      "wikidata",
+      "osm"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/%D0%A1%D1%83%D1%8C%D0%B6%D0%B0-%D1%85%D0%B8._%D0%9B%D0%B0%D0%BA%D1%85%D0%B0_%D0%92%D0%B0%D1%80%D0%B0%D0%BD%D0%B4%D0%B0_%D1%83%D0%BB%D0%BB%D0%B5%D1%85%D1%8C.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%A1%D1%83%D1%8C%D0%B6%D0%B0-%D1%85%D0%B8._%D0%9B%D0%B0%D0%BA%D1%85%D0%B0_%D0%92%D0%B0%D1%80%D0%B0%D0%BD%D0%B4%D0%B0_%D1%83%D0%BB%D0%BB%D0%B5%D1%85%D1%8C.jpg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "author": "Flandria12"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4450048",
+    "type": "natural_object",
+    "name_ru": "Тайсун-Эн-Ахки",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.165277777,
+      "lon": 45.915277777
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4450048",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4450048"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4451094",
+    "type": "natural_object",
+    "name_ru": "Танги",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "приток Мартана",
+    "district": null,
+    "coordinate": {
+      "lat": 42.946651,
+      "lon": 45.482338
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 0.11,
+    "external_id": "Q4451094",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4451094"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/%D0%A2%D0%B0%D1%8C%D0%BD%D0%B3%D0%B0_%D0%9C%D0%B0%D1%80%D1%82%D0%B0_%D1%87%D1%83_%D0%BA%D1%85%D0%B5%D1%82%D1%82%D0%B0_%D0%BC%D0%B5%D1%82%D1%82%D0%B8%D0%B3_%28cropped%29.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%A2%D0%B0%D1%8C%D0%BD%D0%B3%D0%B0_%D0%9C%D0%B0%D1%80%D1%82%D0%B0_%D1%87%D1%83_%D0%BA%D1%85%D0%B5%D1%82%D1%82%D0%B0_%D0%BC%D0%B5%D1%82%D1%82%D0%B8%D0%B3_(cropped).jpg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "author": "Flandria12"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4452951",
+    "type": "natural_object",
+    "name_ru": "Таши-Корт",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Ачхой-Мартановском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.966944444,
+      "lon": 45.310555555
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4452951",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4452951"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4454237",
+    "type": "natural_object",
+    "name_ru": "Хумыс",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.171111111,
+      "lon": 46.085833333
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4454237",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4454237"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/%D0%93._%D0%9A%D1%83%D1%80%D1%87%D0%B0%D0%BB%D0%BE%D0%B9_%D1%80%D0%B5%D1%87%D0%BA%D0%B0_%D0%A2%D0%B5%D1%80%D0%BB%D0%B8%D0%BD%D0%B3.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%93._%D0%9A%D1%83%D1%80%D1%87%D0%B0%D0%BB%D0%BE%D0%B9_%D1%80%D0%B5%D1%87%D0%BA%D0%B0_%D0%A2%D0%B5%D1%80%D0%BB%D0%B8%D0%BD%D0%B3.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Товболатов"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4456306",
+    "type": "natural_object",
+    "name_ru": "Терский хребет",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "Горный хребет на Северном Кавказе",
+    "district": null,
+    "coordinate": {
+      "lat": 43.5,
+      "lon": 45.167
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4456306",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4456306"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4457996",
+    "type": "natural_object",
+    "name_ru": "Типиш-Джага",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.0669,
+      "lon": 46.0658
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q4457996",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4457996"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4465430",
+    "type": "natural_object",
+    "name_ru": "Тумсой-Лам",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "Гора, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.83963,
+      "lon": 45.54703
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 1.11,
+    "external_id": "Q4465430",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4465430"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/%D0%A2%D1%83%D0%BC%D1%81%D0%BE%D0%B9_%D0%BB%D0%B0%D0%BC%2C_%D0%A2%D1%83%D0%BC%D1%81%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D1%82%D0%B5%D0%B9%D0%BF%D0%BE%D0%B2%D0%B0%D1%8F_%D0%B3%D0%BE%D1%80%D0%B0.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%A2%D1%83%D0%BC%D1%81%D0%BE%D0%B9_%D0%BB%D0%B0%D0%BC,_%D0%A2%D1%83%D0%BC%D1%81%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D1%82%D0%B5%D0%B9%D0%BF%D0%BE%D0%B2%D0%B0%D1%8F_%D0%B3%D0%BE%D1%80%D0%B0.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Anzor dolaev"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4466775",
+    "type": "natural_object",
+    "name_ru": "Тушетский хребет",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "хребет на границе Грузии и России",
+    "district": null,
+    "coordinate": {
+      "lat": 42.543888888,
+      "lon": 45.527222222
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4466775",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4466775"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Tebulosmta_viewed_from_main_ridge_near_%E1%83%93%E1%83%90%E1%83%97%E1%83%95%E1%83%98%E1%83%A1%E1%83%AF%E1%83%95%E1%83%90%E1%83%A0%E1%83%98_%E1%83%A3%E1%83%A6.JPG",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tebulosmta_viewed_from_main_ridge_near_%E1%83%93%E1%83%90%E1%83%97%E1%83%95%E1%83%98%E1%83%A1%E1%83%AF%E1%83%95%E1%83%90%E1%83%A0%E1%83%98_%E1%83%A3%E1%83%A6.JPG",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Karel61"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4467340",
+    "type": "natural_object",
+    "name_ru": "Тюалой",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "река в Чеченской Республике России",
+    "district": null,
+    "coordinate": {
+      "lat": 42.565,
+      "lon": 45.3433
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q4467340",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4467340"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4492036",
+    "type": "natural_object",
+    "name_ru": "Фортанга",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.8639,
+      "lon": 45.0246
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q4492036",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4492036"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/%D0%9C%D0%B0%D1%80%D1%82%D0%B0_%28%D3%80%D0%B0%D1%8C%D1%81-%D1%85%D0%B8%D0%BD_%D0%B3%D0%B0%29_%283%29.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B0%D1%80%D1%82%D0%B0_(%D3%80%D0%B0%D1%8C%D1%81-%D1%85%D0%B8%D0%BD_%D0%B3%D0%B0)_(3).jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Takhirgeran Umar"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4496526",
+    "type": "natural_object",
+    "name_ru": "Хелдихойэрк",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.7317,
+      "lon": 45.5693
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4496526",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4496526"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4496780",
+    "type": "natural_object",
+    "name_ru": "Хашелдойахк",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.603611111,
+      "lon": 45.790277777
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q4496780",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4496780"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4499921",
+    "type": "natural_object",
+    "name_ru": "Хориэлк",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.8867,
+      "lon": 46.3257
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4499921",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4499921"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4500600",
+    "type": "natural_object",
+    "name_ru": "Хочаройахк",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.711944444,
+      "lon": 45.543888888
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4500600",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4500600"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4502266",
+    "type": "natural_object",
+    "name_ru": "Хуландойахк",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "река в Чеченской Республике, правый приток реки Шароаргун",
+    "district": null,
+    "coordinate": {
+      "lat": 42.5321,
+      "lon": 45.8497
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4502266",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4502266"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/%D0%A5%D1%83%D0%BB%D0%B0%D0%BD%D0%B4%D0%BE%D0%B9-%D0%90%D1%85%D0%BA.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%A5%D1%83%D0%BB%D0%B0%D0%BD%D0%B4%D0%BE%D0%B9-%D0%90%D1%85%D0%BA.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "author": "Товболатов"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4502289",
+    "type": "natural_object",
+    "name_ru": "Хулхулау",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.910833333,
+      "lon": 46.145833333
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4502289",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4502289"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/%D0%A0%D0%B5%D0%BA%D0%B0_%D0%A5%D1%83%D0%BB%D1%85%D1%83%D0%BB%D0%B0%D1%83.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%A0%D0%B5%D0%BA%D0%B0_%D0%A5%D1%83%D0%BB%D1%85%D1%83%D0%BB%D0%B0%D1%83.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Товболатов"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4502330",
+    "type": "natural_object",
+    "name_ru": "Хумык",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.091944444,
+      "lon": 46.1225
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4502330",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4502330"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4506115",
+    "type": "natural_object",
+    "name_ru": "Цузункорт",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "Гора, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.708333,
+      "lon": 45.160278
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 0.11,
+    "external_id": "Q4506115",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4506115"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4506703",
+    "type": "natural_object",
+    "name_ru": "Чадыри",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "река в России",
+    "district": null,
+    "coordinate": {
+      "lat": 42.5585,
+      "lon": 45.9218
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q4506703",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4506703"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4506837",
+    "type": "natural_object",
+    "name_ru": "Чайляхканчи",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Веденском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.912222222,
+      "lon": 46.272222222
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4506837",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4506837"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4506899",
+    "type": "natural_object",
+    "name_ru": "Чал-Гамми-Корт",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Ачхой-Мартановском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 43.072778,
+      "lon": 45.306667
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 0.0,
+    "external_id": "Q4506899",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4506899"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4506984",
+    "type": "natural_object",
+    "name_ru": "Чамгой",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Итум-Калинском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.658888888,
+      "lon": 45.379166666
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4506984",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4506984",
+      "osm_evidence": {
+        "lat": 42.657902,
+        "lon": 45.378685,
+        "distance_m": 116.6,
+        "url": "https://www.openstreetmap.org/node/11505905407"
+      }
+    },
+    "sources": [
+      "wikidata",
+      "osm"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4507511",
+    "type": "natural_object",
+    "name_ru": "Чархунышкорт",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Чечне",
+    "district": null,
+    "coordinate": {
+      "lat": 42.639444444,
+      "lon": 45.700277777
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4507511",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4507511",
+      "osm_evidence": {
+        "lat": 42.6393769,
+        "lon": 45.7005498,
+        "distance_m": 23.5,
+        "url": "https://www.openstreetmap.org/node/6959238443"
+      }
+    },
+    "sources": [
+      "wikidata",
+      "osm"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4517052",
+    "type": "natural_object",
+    "name_ru": "Чож",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.9837,
+      "lon": 45.2256
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q4517052",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4517052"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4519409",
+    "type": "natural_object",
+    "name_ru": "Шаихкорт",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Шаройском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.555,
+      "lon": 45.573888888
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4519409",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4519409"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4519634",
+    "type": "natural_object",
+    "name_ru": "Шалажа",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.0545,
+      "lon": 45.3372
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q4519634",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4519634"
+    },
+    "sources": [
+      "wikidata",
+      "osm"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/%D0%A8%D0%B0%D0%BB%D0%B0%D0%B6-%D0%A5%D0%B8_%D0%9A%D0%BE%D1%82%D0%B0%D1%80-%D0%AE%D1%80%D1%82%D0%B0%D1%85.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%A8%D0%B0%D0%BB%D0%B0%D0%B6-%D0%A5%D0%B8_%D0%9A%D0%BE%D1%82%D0%B0%D1%80-%D0%AE%D1%80%D1%82%D0%B0%D1%85.jpg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "author": "Flandria12"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4520641",
+    "type": "natural_object",
+    "name_ru": "Шароаргун",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "река в Чеченской Республике, правый приток Аргуна",
+    "district": null,
+    "coordinate": {
+      "lat": 42.5678,
+      "lon": 45.4903
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4520641",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4520641"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Sharoargun.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sharoargun.jpg",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "Дагиров Умар"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4522735",
+    "type": "natural_object",
+    "name_ru": "Шель-Ахки",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река в Чечне",
+    "district": null,
+    "coordinate": {
+      "lat": 43.03,
+      "lon": 45.825
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4522735",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4522735"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4523993",
+    "type": "natural_object",
+    "name_ru": "Шимерой",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Веденском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.766944444,
+      "lon": 46.164722222
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4523993",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4523993",
+      "osm_evidence": {
+        "lat": 42.7636019,
+        "lon": 46.1585811,
+        "distance_m": 624.1,
+        "url": "https://www.openstreetmap.org/node/10271683186"
+      }
+    },
+    "sources": [
+      "wikidata",
+      "osm"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4531254",
+    "type": "natural_object",
+    "name_ru": "Элистанжи",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.9142,
+      "lon": 46.0233
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4531254",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4531254"
+    },
+    "sources": [
+      "wikidata",
+      "osm"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/%D0%AD%D0%BB%D0%B8%D1%81%D1%82%D0%B0%D0%BD%D0%B6%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%B1%D0%B0%D0%BB%D0%BA%D0%B0_%D0%B2_%D0%A7%D0%B5%D1%87%D0%BD%D0%B5._%D0%94%D0%B5%D0%BB%D0%B0_%D0%B2_1859_%D0%B8_1877_%D0%B3%D0%B3.png",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%AD%D0%BB%D0%B8%D1%81%D1%82%D0%B0%D0%BD%D0%B6%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%B1%D0%B0%D0%BB%D0%BA%D0%B0_%D0%B2_%D0%A7%D0%B5%D1%87%D0%BD%D0%B5._%D0%94%D0%B5%D0%BB%D0%B0_%D0%B2_1859_%D0%B8_1877_%D0%B3%D0%B3.png",
+      "license": "Public domain",
+      "license_url": null,
+      "author": "ФОТОГРАФИИ 79-ГО КУРИНСКОГО ПЕХОТНОГО ПОЛКА второй половины XIX века"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4532632",
+    "type": "natural_object",
+    "name_ru": "Эртен-Корт",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Веденском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 43.062222222,
+      "lon": 46.073333333
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4532632",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4532632"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/%D0%93%D0%BE%D1%80%D0%B0_%D0%AD%D1%80%D1%82%D0%B5%D0%BD-%D0%BA%D0%BE%D1%80%D1%82.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%93%D0%BE%D1%80%D0%B0_%D0%AD%D1%80%D1%82%D0%B5%D0%BD-%D0%BA%D0%BE%D1%80%D1%82.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Товболатов"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4539112",
+    "type": "natural_object",
+    "name_ru": "Ярыксу",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.9103,
+      "lon": 46.4678
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 11.13,
+    "external_id": "Q4539112",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4539112"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/%D0%98%D0%B2%D0%B3%D0%B8-%D0%A5%D0%B8%2C_%D0%A1%D0%B8%D0%BC%D1%81%D0%B0%D1%80%D0%B0%D0%BD_%D1%83%D0%BB%D0%BB%D0%B5%D1%85.jpg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%98%D0%B2%D0%B3%D0%B8-%D0%A5%D0%B8,_%D0%A1%D0%B8%D0%BC%D1%81%D0%B0%D1%80%D0%B0%D0%BD_%D1%83%D0%BB%D0%BB%D0%B5%D1%85.jpg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "author": "Flandria12"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4539554",
+    "type": "natural_object",
+    "name_ru": "Ясы-Дук",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 43.111388888,
+      "lon": 45.807777777
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4539554",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4539554"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q4539764",
+    "type": "natural_object",
+    "name_ru": "Яцебкорт",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горная вершина в Галанчожском районе Чечни",
+    "district": null,
+    "coordinate": {
+      "lat": 42.829166666,
+      "lon": 45.393888888
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q4539764",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q4539764",
+      "osm_evidence": {
+        "lat": 42.8292889,
+        "lon": 45.3936276,
+        "distance_m": 25.3,
+        "url": "https://www.openstreetmap.org/node/6959306792"
+      }
+    },
+    "sources": [
+      "wikidata",
+      "osm"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q65649347",
+    "type": "natural_object",
+    "name_ru": "Гудермесский хребет",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "mountain",
+    "description": "горный хребет в Чечне",
+    "district": null,
+    "coordinate": {
+      "lat": 43.260277777,
+      "lon": 46.212222222
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q65649347",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q65649347"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q738408",
+    "type": "natural_object",
+    "name_ru": "Асса",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "река в Грузии и России, приток Сунжи",
+    "district": null,
+    "coordinate": {
+      "lat": 42.658277777,
+      "lon": 44.908041666
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 0.31,
+    "external_id": "Q738408",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q738408"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Ingushetia_-_Assin_Valley.jpeg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ingushetia_-_Assin_Valley.jpeg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Тимур Зиев/Timur Ziev"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q911339",
+    "type": "natural_object",
+    "name_ru": "Сунжа",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "река в восточной части Северного Кавказа, правый приток Терека",
+    "district": null,
+    "coordinate": {
+      "lat": 42.926944444,
+      "lon": 44.881666666
+    },
+    "coordinate_accuracy": "approximate",
+    "coordinate_precision_m": 30.92,
+    "external_id": "Q911339",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q911339"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/%D0%93%D1%80%D0%BE%D0%B7%D0%BD%D1%8B%D0%B9_%D1%80%D0%B5%D0%BA%D0%B0_%D0%A1%D1%83%D0%BD%D0%B6%D0%B0.JPG",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%93%D1%80%D0%BE%D0%B7%D0%BD%D1%8B%D0%B9_%D1%80%D0%B5%D0%BA%D0%B0_%D0%A1%D1%83%D0%BD%D0%B6%D0%B0.JPG",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Салман Д"
+    },
+    "status": "needs_review"
+  },
+  {
+    "slug": "wd-q97206084",
+    "type": "natural_object",
+    "name_ru": "Тумсой-Эрк",
+    "name_ce": null,
+    "aliases": [],
+    "place_type": "river",
+    "description": "Река, Чеченская Республика.",
+    "district": null,
+    "coordinate": {
+      "lat": 42.822933,
+      "lon": 45.607271
+    },
+    "coordinate_accuracy": "exact",
+    "coordinate_precision_m": 0.11,
+    "external_id": "Q97206084",
+    "provenance": {
+      "record_url": "https://www.wikidata.org/wiki/Q97206084"
+    },
+    "sources": [
+      "wikidata"
+    ],
+    "photo": null,
+    "status": "needs_review"
+  }
+]

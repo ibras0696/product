@@ -1,0 +1,212 @@
+{
+  "_comment": "Курируемая хронология истории Чечни: новые события, обогащение существующих записей и связи с местами/участниками. Для опорных дат используются энциклопедические, архивные, правовые и межгосударственные документы.",
+  "sources": [
+    {"slug": "bigenc_chechnya", "title": "Чеченская Республика", "publisher": "Большая российская энциклопедия", "url": "https://old.bigenc.ru/geography/text/5453415", "type": "encyclopedia", "reliability": "high"},
+    {"slug": "historyrussia_deportation", "title": "Постановление ГОКО № 5073 сс от 31 января 1944 года", "publisher": "Электронная библиотека исторических документов", "url": "https://docs.historyrussia.org/ru/nodes/298743", "type": "archive", "reliability": "high"},
+    {"slug": "historyrussia_abolition", "title": "Указ о ликвидации Чечено-Ингушской АССР от 7 марта 1944 года", "publisher": "Электронная библиотека исторических документов", "url": "https://docs.historyrussia.org/ru/nodes/49440", "type": "archive", "reliability": "high"},
+    {"slug": "historyrussia_restoration", "title": "Указ о восстановлении Чечено-Ингушской АССР от 9 января 1957 года", "publisher": "Электронная библиотека исторических документов", "url": "https://docs.historyrussia.org/ru/nodes/298913", "type": "archive", "reliability": "high"},
+    {"slug": "un_khasavyurt", "title": "Хасавюртовские соглашения от 31 августа 1996 года", "publisher": "United Nations Peacemaker", "url": "https://peacemaker.un.org/sites/default/files/document/files/2024/05/ru960831khasavyourt20joint20declaration20and20principles20for20mutual20relations.pdf", "type": "primary_document", "reliability": "high"},
+    {"slug": "un_chechnya_1997", "title": "Доклад о положении в Чечне, 1997", "publisher": "Организация Объединённых Наций", "url": "https://digitallibrary.un.org/record/238724/files/E_CN.4_1997_10-EN.pdf", "type": "intergovernmental_report", "reliability": "high"},
+    {"slug": "un_peace_treaty_1997", "title": "Заявление о российско-чеченском мирном договоре", "publisher": "Организация Объединённых Наций", "url": "https://documents.un.org/doc/undoc/gen/n97/138/91/pdf/n9713891.pdf", "type": "intergovernmental_report", "reliability": "high"},
+    {"slug": "kremlin_chechen_referendum", "title": "Указ Президента РФ о референдуме Чеченской Республики", "publisher": "Президент России", "url": "https://special.kremlin.ru/acts/bank/18943", "type": "official", "reliability": "high"},
+    {"slug": "chechen_constitution", "title": "Конституция Чеченской Республики", "publisher": "Гарант", "url": "https://constitution.garant.ru/region/cons_chech/", "type": "legal_document", "reliability": "high"},
+    {"slug": "bigenc_akhmat_kadyrov", "title": "Кадыров Ахмат Абдулхамидович", "publisher": "Большая российская энциклопедия", "url": "https://bigenc.ru/c/kadyrov-akhmat-abdulkhamidovich-6b14ad", "type": "encyclopedia", "reliability": "high"},
+    {"slug": "bigenc_ramzan_kadyrov", "title": "Кадыров Рамзан Ахматович", "publisher": "Большая российская энциклопедия", "url": "https://old.bigenc.ru/domestic_history/text/3939593", "type": "encyclopedia", "reliability": "high"},
+    {"slug": "bigenc_maskhadov", "title": "Масхадов Аслан Алиевич", "publisher": "Большая российская энциклопедия", "url": "https://bigenc.ru/c/maskhadov-aslan-alievich-b8ea66", "type": "encyclopedia", "reliability": "high"},
+    {"slug": "rg_end_cto", "title": "С 16 апреля 2009 года в Чечне отменён режим КТО", "publisher": "Российская газета", "url": "https://rg.ru/2009/04/16/chechnja-terror-anons.html", "type": "official_media", "reliability": "high"}
+  ],
+  "people": [
+    {
+      "slug": "maskhadov-aslan", "name_ru": "Аслан Алиевич Масхадов",
+      "description": "Чеченский военный и политический деятель. Подписал Хасавюртовские соглашения со стороны Чеченской Республики Ичкерия, 27 января 1997 года был избран её президентом, 12 мая 1997 года подписал договор о мире и принципах взаимоотношений с Российской Федерацией.",
+      "category": "political", "title": "Президент Чеченской Республики Ичкерия (1997–2005)",
+      "period_from": 1951, "period_to": 2005, "birth_date": "1951-09-21", "death_date": "2005-03-08",
+      "provenance": {"record_url": "https://bigenc.ru/c/maskhadov-aslan-alievich-b8ea66"},
+      "sources": ["bigenc_maskhadov", "un_chechnya_1997"], "status": "needs_review"
+    }
+  ],
+  "events": [
+    {
+      "slug": "fortress-terki-1567", "name_ru": "Возведение крепости Терки", "event_type": "foundation",
+      "description": "В 1567 году на границе расселения вайнахов была возведена русская крепость Терки. Её появление сопровождалось установлением политических связей Русского государства с Окоцким владением.",
+      "period_from": 1567, "date_text": "1567", "provenance": {"record_url": "https://old.bigenc.ru/geography/text/5453415"}, "sources": ["bigenc_chechnya"], "status": "needs_review"
+    },
+    {
+      "slug": "chechnya-terek-oblast-1860", "name_ru": "Включение территории Чечни в Терскую область", "event_type": "administrative_change",
+      "description": "С 1860 года территория современной Чеченской Республики вошла в состав Терской области Российской империи. Это закрепило новое административное устройство после основной фазы Кавказской войны.",
+      "period_from": 1860, "date_text": "1860", "provenance": {"record_url": "https://old.bigenc.ru/geography/text/5453415"}, "sources": ["bigenc_chechnya"], "status": "needs_review"
+    },
+    {
+      "slug": "grozny-oil-industry-1893", "name_ru": "Начало промышленной нефтедобычи в Грозном", "event_type": "economic",
+      "description": "В 1893 году были открыты Старые нефтяные промыслы. Со второй половины 1890-х годов Грозный стал одним из крупных центров нефтедобычи Российской империи.",
+      "period_from": 1893, "date_text": "1893", "provenance": {"record_url": "https://old.bigenc.ru/geography/text/5453415"}, "sources": ["bigenc_chechnya"], "status": "needs_review"
+    },
+    {
+      "slug": "mountain-republic-1917", "name_ru": "Вхождение чеченских округов в Горскую республику", "event_type": "statehood",
+      "description": "В ноябре 1917 года Веденский и Грозненский округа вошли в Горскую республику, правительство которой возглавил Тапа Чермоев. Период сопровождался борьбой нескольких политических центров за власть на Северном Кавказе.",
+      "period_from": 1917, "period_to": 1920, "date_text": "ноябрь 1917 — 1920", "provenance": {"record_url": "https://old.bigenc.ru/geography/text/5453415"}, "sources": ["bigenc_chechnya"], "status": "needs_review"
+    },
+    {
+      "slug": "red-army-control-chechnya-1920", "name_ru": "Установление контроля РККА над территорией Чечни", "event_type": "political",
+      "description": "К концу марта 1920 года территория современной Чечни в целом перешла под контроль Красной армии, что завершило основной этап Гражданской войны в регионе.",
+      "period_from": 1920, "date_text": "март 1920", "provenance": {"record_url": "https://old.bigenc.ru/geography/text/5453415"}, "sources": ["bigenc_chechnya"], "status": "needs_review"
+    },
+    {
+      "slug": "chechen-district-mountain-assr-1921", "name_ru": "Создание Чеченского округа Горской АССР", "event_type": "administrative_change",
+      "description": "После провозглашения Горской АССР 17 ноября 1920 года и её юридического оформления декретом ВЦИК 20 января 1921 года в составе автономии был образован Чеченский округ.",
+      "period_from": 1921, "date_text": "20 января 1921", "provenance": {"record_url": "https://old.bigenc.ru/geography/text/5453415"}, "sources": ["bigenc_chechnya"], "status": "needs_review"
+    },
+    {
+      "slug": "chechen-autonomous-oblast-1922", "name_ru": "Образование Чеченской автономной области", "event_type": "administrative_change",
+      "description": "30 ноября 1922 года Чеченский округ был выделен из Горской АССР и преобразован в Чеченскую автономную область. Её центром стал Грозный, первоначально не входивший в состав области.",
+      "period_from": 1922, "date_text": "30 ноября 1922", "provenance": {"record_url": "https://old.bigenc.ru/geography/text/5453415"}, "sources": ["bigenc_chechnya"], "status": "needs_review"
+    },
+    {
+      "slug": "chechen-ingush-autonomous-oblast-1934", "name_ru": "Образование Чечено-Ингушской автономной области", "event_type": "administrative_change",
+      "description": "15 января 1934 года Чеченская и Ингушская автономные области были объединены в Чечено-Ингушскую автономную область Северо-Кавказского края.",
+      "period_from": 1934, "date_text": "15 января 1934", "provenance": {"record_url": "https://old.bigenc.ru/geography/text/5453415"}, "sources": ["bigenc_chechnya"], "status": "needs_review"
+    },
+    {
+      "slug": "chechen-ingush-assr-1936", "name_ru": "Преобразование в Чечено-Ингушскую АССР", "event_type": "administrative_change",
+      "description": "После принятия Конституции СССР 5 декабря 1936 года Чечено-Ингушская автономная область была преобразована в Чечено-Ингушскую Автономную Советскую Социалистическую Республику.",
+      "period_from": 1936, "date_text": "5 декабря 1936", "provenance": {"record_url": "https://old.bigenc.ru/geography/text/5453415"}, "sources": ["bigenc_chechnya"], "status": "needs_review"
+    },
+    {
+      "slug": "abolition-chechen-ingush-assr-1944", "name_ru": "Ликвидация Чечено-Ингушской АССР", "event_type": "administrative_change",
+      "description": "Указом Президиума Верховного Совета СССР от 7 марта 1944 года Чечено-Ингушская АССР была упразднена, а её территория разделена между вновь созданной Грозненской областью и соседними административными единицами.",
+      "period_from": 1944, "date_text": "7 марта 1944", "provenance": {"record_url": "https://docs.historyrussia.org/ru/nodes/49440"}, "sources": ["historyrussia_abolition", "bigenc_chechnya"], "status": "needs_review"
+    },
+    {
+      "slug": "special-settlement-restrictions-lifted-1956", "name_ru": "Снятие ограничений спецпоселения", "event_type": "legal",
+      "description": "16 июля 1956 года с чеченцев и ингушей были сняты ограничения по спецпоселению. Сам указ ещё не возвращал имущество и первоначально не разрешал возвращение на прежние места жительства.",
+      "period_from": 1956, "date_text": "16 июля 1956", "provenance": {"record_url": "https://old.bigenc.ru/geography/text/5453415"}, "sources": ["bigenc_chechnya"], "status": "needs_review"
+    },
+    {
+      "slug": "restoration-chechen-ingush-assr-1957", "name_ru": "Восстановление Чечено-Ингушской АССР", "event_type": "administrative_change",
+      "description": "9 января 1957 года Чечено-Ингушская АССР была восстановлена в составе РСФСР, а Грозненская область упразднена. После этого началось массовое возвращение чеченцев и ингушей из мест депортации.",
+      "period_from": 1957, "date_text": "9 января 1957", "provenance": {"record_url": "https://docs.historyrussia.org/ru/nodes/298913-ukaz-prezidiuma-verhovnogo-soveta-rsfsr-o-vosstanovlenii-checheno-ingushskoy-assr-i-uprazdnenii-groznenskoy-oblasti-9-yanvarya-1957-g-moskva"}, "sources": ["historyrussia_restoration", "bigenc_chechnya"], "status": "needs_review"
+    },
+    {
+      "slug": "grozny-unrest-1958", "name_ru": "Массовые беспорядки в Грозном 1958 года", "event_type": "civil_unrest",
+      "description": "25–26 августа 1958 года в Грозном произошли массовые беспорядки на фоне возвращения чеченцев и ингушей из депортации. Участники захватывали общественные здания и выдвигали требование ограничить возвращение репрессированных народов.",
+      "period_from": 1958, "date_text": "25–26 августа 1958", "provenance": {"record_url": "https://old.bigenc.ru/geography/text/5453415"}, "sources": ["bigenc_chechnya"], "status": "needs_review"
+    },
+    {
+      "slug": "sovereignty-declaration-1990", "name_ru": "Декларация о государственном суверенитете Чечено-Ингушетии", "event_type": "political",
+      "description": "27 ноября 1990 года Верховный Совет Чечено-Ингушской АССР принял декларацию о государственном суверенитете Чечено-Ингушской Республики.",
+      "period_from": 1990, "date_text": "27 ноября 1990", "provenance": {"record_url": "https://old.bigenc.ru/geography/text/5453415"}, "sources": ["bigenc_chechnya"], "status": "needs_review"
+    },
+    {
+      "slug": "chechen-political-crisis-1991", "name_ru": "Смена власти и провозглашение суверенитета Чеченской Республики", "event_type": "political",
+      "description": "В июне–ноябре 1991 года Общенациональный конгресс чеченского народа отстранил прежний Верховный Совет, провёл выборы президента и парламента, а Джохар Дудаев подписал указ о государственном суверенитете Чеченской Республики.",
+      "period_from": 1991, "date_text": "июнь–ноябрь 1991", "provenance": {"record_url": "https://old.bigenc.ru/geography/text/5453415"}, "sources": ["bigenc_chechnya"], "status": "needs_review"
+    },
+    {
+      "slug": "chechen-ingush-separation-1992", "name_ru": "Разделение Чечни и Ингушетии", "event_type": "administrative_change",
+      "description": "Законом Российской Федерации от 4 июня 1992 года была образована самостоятельная Ингушская Республика. Это юридически закрепило разделение бывшей Чечено-Ингушской республики.",
+      "period_from": 1992, "date_text": "4 июня 1992", "provenance": {"record_url": "https://old.bigenc.ru/geography/text/5453415"}, "sources": ["bigenc_chechnya"], "status": "needs_review"
+    },
+    {
+      "slug": "khasavyurt-accords-1996", "name_ru": "Подписание Хасавюртовских соглашений", "event_type": "peace_agreement",
+      "description": "31 августа 1996 года Александр Лебедь и Аслан Масхадов подписали в Хасавюрте принципы урегулирования. Соглашения закрепили прекращение боевых действий, вывод федеральных сил и перенос решения о политическом статусе Чечни.",
+      "period_from": 1996, "date_text": "31 августа 1996", "provenance": {"record_url": "https://peacemaker.un.org/sites/default/files/document/files/2024/05/ru960831khasavyourt20joint20declaration20and20principles20for20mutual20relations.pdf"}, "sources": ["un_khasavyurt", "un_chechnya_1997"], "status": "needs_review"
+    },
+    {
+      "slug": "chechen-election-1997", "name_ru": "Президентские и парламентские выборы 1997 года", "event_type": "election",
+      "description": "27 января 1997 года в Чечне прошли президентские и парламентские выборы под международным наблюдением. Президентом был избран Аслан Масхадов.",
+      "period_from": 1997, "date_text": "27 января 1997", "provenance": {"record_url": "https://digitallibrary.un.org/record/238724/files/E_CN.4_1997_10-EN.pdf"}, "sources": ["un_chechnya_1997", "bigenc_chechnya"], "status": "needs_review"
+    },
+    {
+      "slug": "russia-chechnya-peace-treaty-1997", "name_ru": "Российско-чеченский договор о мире", "event_type": "peace_agreement",
+      "description": "12 мая 1997 года Борис Ельцин и Аслан Масхадов подписали в Москве договор о мире и принципах взаимоотношений между Российской Федерацией и Чеченской Республикой Ичкерия.",
+      "period_from": 1997, "date_text": "12 мая 1997", "provenance": {"record_url": "https://documents.un.org/doc/undoc/gen/n97/138/91/pdf/n9713891.pdf"}, "sources": ["un_peace_treaty_1997", "bigenc_chechnya"], "status": "needs_review"
+    },
+    {
+      "slug": "renewed-hostilities-1999", "name_ru": "Возобновление крупномасштабных боевых действий", "event_type": "war",
+      "description": "После вторжения вооружённых отрядов из Чечни в Дагестан в августе 1999 года федеральные власти начали новую военную кампанию и контртеррористическую операцию на Северном Кавказе.",
+      "period_from": 1999, "period_to": 2000, "date_text": "август 1999 — 2000", "provenance": {"record_url": "https://old.bigenc.ru/geography/text/5453415"}, "sources": ["bigenc_chechnya"], "status": "needs_review"
+    },
+    {
+      "slug": "akhmat-kadyrov-administration-2000", "name_ru": "Назначение Ахмата Кадырова главой администрации Чечни", "event_type": "political",
+      "description": "12 июня 2000 года указом Президента Российской Федерации Ахмат Кадыров был назначен главой администрации Чеченской Республики.",
+      "period_from": 2000, "date_text": "12 июня 2000", "provenance": {"record_url": "https://bigenc.ru/c/kadyrov-akhmat-abdulkhamidovich-6b14ad"}, "sources": ["bigenc_akhmat_kadyrov", "bigenc_chechnya"], "status": "needs_review"
+    },
+    {
+      "slug": "chechen-constitution-referendum-2003", "name_ru": "Принятие Конституции Чеченской Республики", "event_type": "referendum",
+      "description": "23 марта 2003 года на республиканском референдуме была принята Конституция Чеченской Республики, определившая её современную систему органов власти и статус субъекта Российской Федерации.",
+      "period_from": 2003, "date_text": "23 марта 2003", "provenance": {"record_url": "https://constitution.garant.ru/region/cons_chech/"}, "sources": ["chechen_constitution", "kremlin_chechen_referendum", "bigenc_chechnya"], "status": "needs_review"
+    },
+    {
+      "slug": "akhmat-kadyrov-assassination-2004", "name_ru": "Гибель Ахмата Кадырова", "event_type": "terrorist_attack",
+      "description": "9 мая 2004 года президент Чеченской Республики Ахмат Кадыров погиб в результате взрыва на стадионе «Динамо» в Грозном.",
+      "period_from": 2004, "date_text": "9 мая 2004", "provenance": {"record_url": "https://bigenc.ru/c/kadyrov-akhmat-abdulkhamidovich-6b14ad"}, "sources": ["bigenc_akhmat_kadyrov"], "status": "needs_review"
+    },
+    {
+      "slug": "ramzan-kadyrov-head-2007", "name_ru": "Вступление Рамзана Кадырова в должность президента Чечни", "event_type": "political",
+      "description": "5 апреля 2007 года Рамзан Кадыров вступил в должность президента Чеченской Республики. С 2010 года должность называется «Глава Чеченской Республики».",
+      "period_from": 2007, "date_text": "5 апреля 2007", "provenance": {"record_url": "https://old.bigenc.ru/domestic_history/text/3939593"}, "sources": ["bigenc_ramzan_kadyrov", "bigenc_chechnya"], "status": "needs_review"
+    },
+    {
+      "slug": "end-cto-chechnya-2009", "name_ru": "Отмена режима контртеррористической операции", "event_type": "political",
+      "description": "С 00:00 16 апреля 2009 года Национальный антитеррористический комитет отменил приказ, объявлявший территорию Чеченской Республики зоной проведения контртеррористической операции.",
+      "period_from": 2009, "date_text": "16 апреля 2009", "provenance": {"record_url": "https://rg.ru/2009/04/16/chechnja-terror-anons.html"}, "sources": ["rg_end_cto", "bigenc_chechnya"], "status": "needs_review"
+    }
+  ],
+  "overrides": [
+    {
+      "slug": "wd-q113017198",
+      "description": "Сражение 7 июля 1732 года у села Чечен-Аул: чеченские ополченцы под предводительством Айдемира Бардыханова устроили засаду отступающему русскому отряду полковника Коха. Бой завершился крупной победой чеченцев и разгромом отряда. С этим сражением ряд историков связывает закрепление за краем и народом названия «Чечня».",
+      "period_from": 1732,
+      "period_to": 1732,
+      "sources": ["ru_wikipedia", "checheninfo"]
+    },
+    {
+      "slug": "wd-q115299524",
+      "description": "Сражение 1 марта 1807 года в Ханкальском ущелье под Грозным. Четырёхтысячный отряд генерала Булгакова штурмовал ущелье, которое обороняли чеченцы вместе с пришедшими на помощь лезгинами и карабулаками. Русские войска заняли ущелье, но понесли большие потери, что лишь укрепило горцев в уверенности в неприступности их края.",
+      "period_from": 1807,
+      "period_to": 1807,
+      "sources": ["ru_wikipedia", "checheninfo"]
+    },
+    {
+      "slug": "wd-q4527033",
+      "description": "Чеченское селение на Тереке (до 200 домов), полностью уничтоженное русскими войсками 15 (28) сентября 1819 года в ходе карательной экспедиции генерала А. П. Ермолова. Штурм отличался ожесточённостью — бой шёл за каждый дом. На следующий день при переправе через Терек 46 пленных девушек, не желая позора, бросились в воду, увлекая за собой конвоиров. Событие стало символом сопротивления горцев.",
+      "period_from": 1819,
+      "period_to": 1819,
+      "sources": ["ru_wikipedia", "checheninfo"]
+    },
+    {
+      "slug": "wd-q16630155",
+      "description": "Взятие русскими войсками аула Ведено — столицы имамата Шамиля — в 1859 году. Падение Ведено стало решающим этапом завершающей фазы Кавказской войны и предопределило скорое пленение Шамиля в том же году.",
+      "period_from": 1859,
+      "period_to": 1859,
+      "sources": ["ru_wikipedia", "checheninfo"]
+    },
+    {
+      "slug": "wd-q4329633",
+      "description": "Оборона Грозного в августе — ноябре 1918 года в ходе Гражданской войны. Терские казаки под командованием Георгия Бичерахова (до 12 тысяч человек) осадили город — центр советской власти в Терской области. Грозный защищали рабочие отряды Николая Гикало и Чеченская Красная армия под командованием Асланбека Шерипова. 12 ноября 1918 года длившаяся более трёх месяцев осада была снята.",
+      "period_from": 1918,
+      "period_to": 1918,
+      "sources": ["ru_wikipedia", "grozny_inform"]
+    }
+  ],
+  "relations": [
+    {"type": "located_in", "from": "grozny-oil-industry-1893", "to": "grozny", "title_ru": "Произошло в", "period_from": 1893, "evidence": {"method": "source", "source": "bigenc_chechnya"}, "confidence": "high", "sources": ["bigenc_chechnya"], "status": "needs_review"},
+    {"type": "participated_in", "from": "wd-q2979775", "to": "mountain-republic-1917", "title_ru": "Председатель правительства", "evidence": {"method": "source", "source": "bigenc_chechnya"}, "confidence": "high", "sources": ["bigenc_chechnya"], "status": "needs_review"},
+    {"type": "located_in", "from": "grozny-unrest-1958", "to": "grozny", "title_ru": "Произошло в", "period_from": 1958, "evidence": {"method": "source", "source": "bigenc_chechnya"}, "confidence": "high", "sources": ["bigenc_chechnya"], "status": "needs_review"},
+    {"type": "participated_in", "from": "wd-q179846", "to": "chechen-political-crisis-1991", "title_ru": "Избран президентом", "evidence": {"method": "source", "source": "bigenc_chechnya"}, "confidence": "high", "sources": ["bigenc_chechnya"], "status": "needs_review"},
+    {"type": "participated_in", "from": "maskhadov-aslan", "to": "khasavyurt-accords-1996", "title_ru": "Подписал соглашения со стороны ЧРИ", "evidence": {"method": "primary_document", "source": "un_khasavyurt"}, "confidence": "high", "sources": ["un_khasavyurt", "bigenc_maskhadov"], "status": "needs_review"},
+    {"type": "participated_in", "from": "maskhadov-aslan", "to": "chechen-election-1997", "title_ru": "Избран президентом", "evidence": {"method": "source", "source": "un_chechnya_1997"}, "confidence": "high", "sources": ["un_chechnya_1997", "bigenc_maskhadov"], "status": "needs_review"},
+    {"type": "participated_in", "from": "maskhadov-aslan", "to": "russia-chechnya-peace-treaty-1997", "title_ru": "Подписал договор со стороны ЧРИ", "evidence": {"method": "primary_document", "source": "un_peace_treaty_1997"}, "confidence": "high", "sources": ["un_peace_treaty_1997", "bigenc_maskhadov"], "status": "needs_review"},
+    {"type": "participated_in", "from": "wd-q190731", "to": "renewed-hostilities-1999", "title_ru": "Один из руководителей вторжения в Дагестан", "evidence": {"method": "source", "source": "rg_end_cto"}, "confidence": "high", "sources": ["rg_end_cto"], "status": "needs_review"},
+    {"type": "participated_in", "from": "kadyrov-akhmat", "to": "akhmat-kadyrov-administration-2000", "title_ru": "Назначен главой администрации", "evidence": {"method": "source", "source": "bigenc_akhmat_kadyrov"}, "confidence": "high", "sources": ["bigenc_akhmat_kadyrov"], "status": "needs_review"},
+    {"type": "located_in", "from": "akhmat-kadyrov-assassination-2004", "to": "grozny", "title_ru": "Произошло в", "period_from": 2004, "evidence": {"method": "source", "source": "bigenc_akhmat_kadyrov"}, "confidence": "high", "sources": ["bigenc_akhmat_kadyrov"], "status": "needs_review"},
+    {"type": "participated_in", "from": "kadyrov-akhmat", "to": "akhmat-kadyrov-assassination-2004", "title_ru": "Погиб в результате теракта", "evidence": {"method": "source", "source": "bigenc_akhmat_kadyrov"}, "confidence": "high", "sources": ["bigenc_akhmat_kadyrov"], "status": "needs_review"},
+    {"type": "participated_in", "from": "kadyrov-ramzan", "to": "ramzan-kadyrov-head-2007", "title_ru": "Вступил в должность", "evidence": {"method": "source", "source": "bigenc_ramzan_kadyrov"}, "confidence": "high", "sources": ["bigenc_ramzan_kadyrov"], "status": "needs_review"},
+    {"type": "located_in", "from": "wd-q113017198", "to": "wd-q4515305", "title_ru": "Произошло в", "period_from": 1732, "period_to": 1732, "evidence": {"method": "source", "source": "ru_wikipedia"}, "confidence": "high", "sources": ["ru_wikipedia"], "status": "needs_review"},
+    {"type": "located_in", "from": "wd-q115299524", "to": "wd-q4495489", "title_ru": "Произошло в", "period_from": 1807, "period_to": 1807, "evidence": {"method": "source", "source": "ru_wikipedia"}, "confidence": "high", "sources": ["ru_wikipedia"], "status": "needs_review"},
+    {"type": "located_in", "from": "wd-q4527033", "to": "wd-q4153996", "title_ru": "Произошло в", "period_from": 1819, "period_to": 1819, "evidence": {"method": "source", "source": "ru_wikipedia"}, "confidence": "high", "sources": ["ru_wikipedia"], "status": "needs_review"},
+    {"type": "located_in", "from": "wd-q16630155", "to": "vedeno", "title_ru": "Произошло в", "period_from": 1859, "period_to": 1859, "evidence": {"method": "source", "source": "ru_wikipedia"}, "confidence": "high", "sources": ["ru_wikipedia"], "status": "needs_review"},
+    {"type": "located_in", "from": "wd-q4329633", "to": "grozny", "title_ru": "Произошло в", "period_from": 1918, "period_to": 1918, "evidence": {"method": "source", "source": "ru_wikipedia"}, "confidence": "high", "sources": ["ru_wikipedia"], "status": "needs_review"},
+    {"type": "participated_in", "from": "sheripov-aslanbek", "to": "wd-q4329633", "title_ru": "Командир Чеченской Красной армии", "evidence": {"method": "source", "source": "ru_wikipedia"}, "confidence": "high", "sources": ["ru_wikipedia"], "status": "needs_review"}
+  ]
+}

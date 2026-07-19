@@ -1,0 +1,387 @@
+{
+  "category": "source",
+  "title_ru": "Источники",
+  "count": 5,
+  "items": [
+    {
+      "slug": "discovery-avalanche-transit-diode",
+      "type": "artifact",
+      "name_ru": "Открытие лавинно-пролётного диода",
+      "name_ce": null,
+      "description": "Установлено ранее неизвестное явление генерации сверхвысокочастотных колебаний полупроводниковым диодом при напряжении, близком к пробивному. Открытие легло в основу лавинно-пролётных диодов, применяемых в радиолокации, связи, навигации и телеметрии. Внесено в Государственный реестр открытий СССР под № 24 (приоритет 27 октября 1959 года). Сделано группой физиков, среди которых А. С. Тагер, А. И. Мельников, Г. П. Кобельков и А. М. Цебиев",
+      "field": "Физика, радиоэлектроника",
+      "kind": "Открытие",
+      "period_from": 1959,
+      "period_to": null,
+      "external_id": null,
+      "provenance": {},
+      "sources": [
+        "ru_wikipedia",
+        "abrek_org"
+      ],
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "ru_wikipedia",
+          "title": "Русская Википедия",
+          "publisher": "Wikimedia",
+          "url": "https://ru.wikipedia.org",
+          "type": "encyclopedia",
+          "reliability": "medium"
+        },
+        {
+          "slug": "abrek_org",
+          "title": "Абрек — историко-биографический портал",
+          "publisher": "abrek.org",
+          "url": "http://abrek.org",
+          "type": "media",
+          "reliability": "low"
+        }
+      ],
+      "relations": [
+        {
+          "type": "created_by",
+          "from": "discovery-avalanche-transit-diode",
+          "to": "wd-q4503614",
+          "title_ru": "Открыл (в составе группы)",
+          "evidence": {
+            "method": "source",
+            "source": "ru_wikipedia"
+          },
+          "confidence": "high",
+          "sources": [
+            "ru_wikipedia",
+            "abrek_org"
+          ],
+          "status": "needs_review",
+          "direction": "outgoing",
+          "related_slug": "wd-q4503614",
+          "related_name_ru": "Цебиев, Ахмед Магомедович",
+          "related_type": "person",
+          "source_details": [
+            {
+              "slug": "ru_wikipedia",
+              "title": "Русская Википедия",
+              "publisher": "Wikimedia",
+              "url": "https://ru.wikipedia.org",
+              "type": "encyclopedia",
+              "reliability": "medium"
+            },
+            {
+              "slug": "abrek_org",
+              "title": "Абрек — историко-биографический портал",
+              "publisher": "abrek.org",
+              "url": "http://abrek.org",
+              "type": "media",
+              "reliability": "low"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "invention-bone-tissue-conservation",
+      "type": "artifact",
+      "name_ru": "Изобретения в травматологии и ортопедии",
+      "name_ce": null,
+      "description": "Серия из 37 авторских свидетельств и патентов в области травматологии и ортопедии, в том числе методы консервации костной ткани. Разработки сопровождаются более чем 300 научными работами и 4 монографиями и внедрены в клиническую практику ведущих ортопедических центров",
+      "field": "Медицина, травматология и ортопедия",
+      "kind": "Изобретения",
+      "period_from": null,
+      "period_to": null,
+      "external_id": null,
+      "provenance": {},
+      "sources": [
+        "famous_chechens",
+        "sechenov_university"
+      ],
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "famous_chechens",
+          "title": "Знаменитые чеченцы",
+          "publisher": "famous-chechens.livejournal.com",
+          "url": "https://famous-chechens.livejournal.com",
+          "type": "media",
+          "reliability": "low"
+        },
+        {
+          "slug": "sechenov_university",
+          "title": "Сеченовский Университет",
+          "publisher": "Первый МГМУ им. И. М. Сеченова",
+          "url": "https://www.sechenov.ru",
+          "type": "official",
+          "reliability": "high"
+        }
+      ],
+      "relations": [
+        {
+          "type": "created_by",
+          "from": "invention-bone-tissue-conservation",
+          "to": "musalatov-khasan",
+          "title_ru": "Автор",
+          "evidence": {
+            "method": "source",
+            "source": "famous_chechens"
+          },
+          "confidence": "high",
+          "sources": [
+            "famous_chechens",
+            "sechenov_university"
+          ],
+          "status": "needs_review",
+          "direction": "outgoing",
+          "related_slug": "musalatov-khasan",
+          "related_name_ru": "Хасан Мусалатов",
+          "related_type": "person",
+          "source_details": [
+            {
+              "slug": "famous_chechens",
+              "title": "Знаменитые чеченцы",
+              "publisher": "famous-chechens.livejournal.com",
+              "url": "https://famous-chechens.livejournal.com",
+              "type": "media",
+              "reliability": "low"
+            },
+            {
+              "slug": "sechenov_university",
+              "title": "Сеченовский Университет",
+              "publisher": "Первый МГМУ им. И. М. Сеченова",
+              "url": "https://www.sechenov.ru",
+              "type": "official",
+              "reliability": "high"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "invention-construction-composites",
+      "type": "artifact",
+      "name_ru": "Строительные композиты из техногенного сырья",
+      "name_ce": null,
+      "description": "Материалы и технологии для ремонтно-восстановительных работ в строительстве и повышения сейсмостойкости зданий, основанные на использовании техногенного сырья. Подтверждены 35 авторскими свидетельствами и патентами; автору принадлежат около 500 научных работ и 20 монографий",
+      "field": "Строительные материалы и композиты",
+      "kind": "Изобретения",
+      "period_from": null,
+      "period_to": null,
+      "external_id": null,
+      "provenance": {},
+      "sources": [
+        "ru_wikipedia",
+        "checheninfo"
+      ],
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "ru_wikipedia",
+          "title": "Русская Википедия",
+          "publisher": "Wikimedia",
+          "url": "https://ru.wikipedia.org",
+          "type": "encyclopedia",
+          "reliability": "medium"
+        },
+        {
+          "slug": "checheninfo",
+          "title": "ИА Чеченинфо — историко-краеведческие материалы",
+          "publisher": "checheninfo.ru",
+          "url": "https://checheninfo.ru/",
+          "type": "media",
+          "reliability": "medium"
+        }
+      ],
+      "relations": [
+        {
+          "type": "created_by",
+          "from": "invention-construction-composites",
+          "to": "bataev-dena",
+          "title_ru": "Автор",
+          "evidence": {
+            "method": "source",
+            "source": "ru_wikipedia"
+          },
+          "confidence": "high",
+          "sources": [
+            "ru_wikipedia",
+            "checheninfo"
+          ],
+          "status": "needs_review",
+          "direction": "outgoing",
+          "related_slug": "bataev-dena",
+          "related_name_ru": "Дена Карим-Султанович Батаев",
+          "related_type": "person",
+          "source_details": [
+            {
+              "slug": "ru_wikipedia",
+              "title": "Русская Википедия",
+              "publisher": "Wikimedia",
+              "url": "https://ru.wikipedia.org",
+              "type": "encyclopedia",
+              "reliability": "medium"
+            },
+            {
+              "slug": "checheninfo",
+              "title": "ИА Чеченинфо — историко-краеведческие материалы",
+              "publisher": "checheninfo.ru",
+              "url": "https://checheninfo.ru/",
+              "type": "media",
+              "reliability": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "invention-demercurization-methods",
+      "type": "artifact",
+      "name_ru": "Методы демеркуризации аэропортов",
+      "name_ce": null,
+      "description": "Разработка методов демеркуризации — обезвреживания ртутного загрязнения, — применённых в аэропортах Москвы, Ташкента и Еревана. Основаны на исследованиях поверхностного натяжения и адсорбции в двойных железных системах и влияния ртути и амальгам на авиационные материалы. Всего у автора 8 авторских свидетельств и свыше 200 научных работ",
+      "field": "Химия, физическая химия и материаловедение",
+      "kind": "Изобретения",
+      "period_from": 1980,
+      "period_to": null,
+      "external_id": null,
+      "provenance": {},
+      "sources": [
+        "ru_wikipedia",
+        "checheninfo"
+      ],
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "ru_wikipedia",
+          "title": "Русская Википедия",
+          "publisher": "Wikimedia",
+          "url": "https://ru.wikipedia.org",
+          "type": "encyclopedia",
+          "reliability": "medium"
+        },
+        {
+          "slug": "checheninfo",
+          "title": "ИА Чеченинфо — историко-краеведческие материалы",
+          "publisher": "checheninfo.ru",
+          "url": "https://checheninfo.ru/",
+          "type": "media",
+          "reliability": "medium"
+        }
+      ],
+      "relations": [
+        {
+          "type": "created_by",
+          "from": "invention-demercurization-methods",
+          "to": "wd-q16654721",
+          "title_ru": "Автор",
+          "evidence": {
+            "method": "source",
+            "source": "ru_wikipedia"
+          },
+          "confidence": "high",
+          "sources": [
+            "ru_wikipedia",
+            "checheninfo"
+          ],
+          "status": "needs_review",
+          "direction": "outgoing",
+          "related_slug": "wd-q16654721",
+          "related_name_ru": "Ибрагимов, Хамзат Исмаилович",
+          "related_type": "person",
+          "source_details": [
+            {
+              "slug": "ru_wikipedia",
+              "title": "Русская Википедия",
+              "publisher": "Wikimedia",
+              "url": "https://ru.wikipedia.org",
+              "type": "encyclopedia",
+              "reliability": "medium"
+            },
+            {
+              "slug": "checheninfo",
+              "title": "ИА Чеченинфо — историко-краеведческие материалы",
+              "publisher": "checheninfo.ru",
+              "url": "https://checheninfo.ru/",
+              "type": "media",
+              "reliability": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "invention-zeolite-petrochemistry-catalysts",
+      "type": "artifact",
+      "name_ru": "Цеолитные катализаторы нефтехимии",
+      "name_ce": null,
+      "description": "Разработки в области превращения углеводородов на цеолитсодержащих катализаторах и производства низкозастывающих высокоплотных нефтяных топлив. Автору принадлежат 163 патента и авторских свидетельства и свыше 400 научных работ. Академик РАН, директор Института нефтехимического синтеза имени А. В. Топчиева РАН",
+      "field": "Химия, нефтехимия и катализ",
+      "kind": "Изобретения и разработки",
+      "period_from": 1967,
+      "period_to": null,
+      "external_id": null,
+      "provenance": {},
+      "sources": [
+        "ru_wikipedia",
+        "grozny_inform"
+      ],
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "ru_wikipedia",
+          "title": "Русская Википедия",
+          "publisher": "Wikimedia",
+          "url": "https://ru.wikipedia.org",
+          "type": "encyclopedia",
+          "reliability": "medium"
+        },
+        {
+          "slug": "grozny_inform",
+          "title": "ИА «Грозный-информ»",
+          "publisher": "grozny-inform.ru",
+          "url": "https://www.grozny-inform.ru",
+          "type": "media",
+          "reliability": "medium"
+        }
+      ],
+      "relations": [
+        {
+          "type": "created_by",
+          "from": "invention-zeolite-petrochemistry-catalysts",
+          "to": "wd-q4494545",
+          "title_ru": "Автор",
+          "evidence": {
+            "method": "source",
+            "source": "ru_wikipedia"
+          },
+          "confidence": "high",
+          "sources": [
+            "ru_wikipedia",
+            "grozny_inform"
+          ],
+          "status": "needs_review",
+          "direction": "outgoing",
+          "related_slug": "wd-q4494545",
+          "related_name_ru": "Саламбек Наибович Хаджиев",
+          "related_type": "person",
+          "source_details": [
+            {
+              "slug": "ru_wikipedia",
+              "title": "Русская Википедия",
+              "publisher": "Wikimedia",
+              "url": "https://ru.wikipedia.org",
+              "type": "encyclopedia",
+              "reliability": "medium"
+            },
+            {
+              "slug": "grozny_inform",
+              "title": "ИА «Грозный-информ»",
+              "publisher": "grozny-inform.ru",
+              "url": "https://www.grozny-inform.ru",
+              "type": "media",
+              "reliability": "medium"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

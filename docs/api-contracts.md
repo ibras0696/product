@@ -140,6 +140,19 @@ SubmissionMedia = {
   source_description: string, related_entity_id: UUID | null, status: pending
 }
 
+ModerationMedia = {
+  id: UUID, original_name: string, mime_type: string, size_bytes: integer,
+  width: integer, height: integer, preview_url: string,
+  caption: string, author: string, approximate_date: string | null,
+  source_description: string, related_entity_id: UUID | null, status: pending
+}
+
+SubmissionDetails = QueueItem & {
+  related_entity_id: UUID | null, description: string, source_description: string,
+  author_name: string, contact: string, consent: boolean, updated_at: datetime,
+  media: ModerationMedia[]
+}
+
 PublishResult = {
   submission_id: UUID, status: published, action: PublishAction,
   published_entity_ids: UUID[], published_relation_ids: UUID[],
@@ -155,8 +168,7 @@ EntityInput = {
 
 AdminEntity = EntityInput & {
   id: UUID, status: draft | published | archived, version: integer,
-  relations_count: integer, sources_count: integer, media_count: integer,
-  created_at: datetime, updated_at: datetime
+  relations_count: integer, sources_count: integer, media_count: integer
 }
 
 EntityPatch = partial EntityInput without `type`; `slug` and localized/period/location fields
@@ -243,11 +255,19 @@ Query:
 bbox=min_lon,min_lat,max_lon,max_lat (required)
 zoom=integer 5..18 (required)
 types=EntityType[]
+research_statuses=verified|needs_review[]
 district_id=UUID
 period_from=integer
 period_to=integer
-limit=1..500 (default 200)
+limit=1..1000 (default 200)
 ```
+
+`types` и `research_statuses` передаются повторяемыми query-параметрами. Исследовательский
+статус не совпадает с публикационным: `verified` означает «Проверено», `needs_review` —
+«Требует проверки». Bbox включает границы и не поддерживает
+переход через антимеридиан: `min_lon <= max_lon`, `min_lat <= max_lat`. Фильтр периода
+использует пересечение интервалов; открытая граница entity пересекается с соответствующей
+стороной фильтра. Результат сортируется по UUID для стабильной пагинации.
 
 ```json
 {
@@ -258,11 +278,24 @@ limit=1..500 (default 200)
     "coordinates": { "latitude": 43.092, "longitude": 46.378 },
     "relations_count": 24,
     "cover_url": "/media/entities/cover.webp",
-    "district_id": "district-uuid"
+    "district_id": "district-uuid",
+    "research_status": "verified"
   }],
-  "truncated": false
+  "relations": [{
+    "id": "relation-uuid",
+    "source_id": "source-entity-uuid",
+    "target_id": "target-entity-uuid",
+    "type": "connected_with"
+  }],
+  "truncated": false,
+  "relations_truncated": false
 }
 ```
+
+`relations` содержит опубликованные семантические связи для общей паутины карты независимо
+от наличия координат у их сторон. Связи выбираются одним bounded query, сортируются по UUID
+и ограничены 5000 элементами; при превышении `relations_truncated=true`. Поэтому клиент
+сразу рисует реальную паутину без N+1-запросов и без выбора отдельного объекта.
 
 Неверный bbox/period — `bad_request`; превышение server maximum не приводит к unbounded
 query, а возвращает `truncated=true`.
@@ -274,10 +307,18 @@ query, а возвращает `truncated=true`.
 | `GET /api/v1/entities/{entity_id}` | `EntityDetails` |
 | `GET /api/v1/entities/{entity_id}/sources?limit&offset` | `Page[Source]` |
 | `GET /api/v1/entities/{entity_id}/media?limit&offset` | `Page[PublishedMedia]` |
+| `GET /api/v1/media/{media_id}/original` | published media binary |
+| `GET /api/v1/media/{media_id}/preview` | published WebP preview binary |
 | `GET /api/v1/relations/{relation_id}/sources?limit&offset` | `Page[Source]` |
 
+Для дочерних списков `limit=1..100` (default 20), `offset=0..1000` (default 0).
+Публичные списки источников содержат только связанные `published` и `verified` источники;
+родитель со статусом draft/archived неотличим от отсутствующего и возвращает `not_found`.
+Элементы сортируются по `created_at`, затем UUID.
+
 `EntityDetails` содержит `id`, `type`, `slug`, `title`, localized short/full description,
-coordinates, period, cover URL, counts и `status=published`.
+coordinates, period, cover URL, counts, `status=published` и `research_status`. Служебные
+идентификаторы и внутренние заметки исследования не включаются в пользовательское описание.
 
 `Source` содержит `id`, `title`, `type`, author, publisher, publication year, URL,
 archive reference, description и verification status. Устное свидетельство всегда имеет
@@ -338,11 +379,37 @@ CatalogOptions = {
   districts: { id: UUID, title: LocalizedText }[],
   periods: { id: string, title: LocalizedText, period_from: integer | null,
              period_to: integer | null }[],
-  entity_types: EntityType[]
+  entity_types: EntityType[],
+  research_statuses: (verified | needs_review)[]
 }
 ```
 
 Ответ versioned через `ETag`; frontend не придумывает district IDs и границы периодов.
+Используется strong ETag от канонического JSON. Совпавший `If-None-Match` возвращает стандартный
+пустой `304`; при изменении справочника ETag меняется. Районы сортируются по RU title и UUID,
+периоды — по `period_from`, `period_to`, `id`; неизвестный `district_id` отклоняется как
+`bad_request` потребляющими endpoints.
+
+### 5.6. Хронология событий
+
+`GET /api/v1/timeline/events?q&district_id&period_from&period_to&limit&offset`
+возвращает только
+опубликованные сущности типа `event`, включая события без координат. `limit=1..100`
+(default 100), `offset=0..1000`; фильтр периода использует пересечение интервалов.
+Опциональный `q` после trim содержит 2–100 символов и ищет по локализованным title и
+short description; `district_id` берётся только из catalog options. Результат стабильно
+сортируется по `period_from`, `period_to`, UUID, а неизвестные даты
+следуют последними. Обратный интервал возвращает `bad_request`.
+
+```text
+TimelineEvent = {
+  id: UUID, title: LocalizedText, short_description: LocalizedText,
+  period_from: integer | null, period_to: integer | null,
+  coordinates: Coordinates | null
+}
+```
+
+Ответ: `Page[TimelineEvent]` в стандартном `ApiResponse` envelope.
 
 ## 6. Публичные заявки
 
@@ -412,10 +479,17 @@ Queue и details доступны moderator; публикация требует
 | --- | --- |
 | `GET /api/v1/admin/submissions?status&type&settlement_id&created_from&created_to&limit&offset` | bounded page |
 | `GET /api/v1/admin/submissions/{id}` | полная заявка с media и контактами |
+| `GET /api/v1/admin/submissions/{id}/media/{media_id}/preview` | закрытый WebP preview |
 | `POST /api/v1/admin/submissions/{id}/claim` | `pending→in_review` |
 | `POST /api/v1/admin/submissions/{id}/publish` | атомарный `PublishResult` |
 | `POST /api/v1/admin/submissions/{id}/reject` | `in_review→rejected` |
 | `POST /api/v1/admin/submissions/{id}/request-revision` | `in_review→needs_revision` |
+
+`SubmissionDetails.media` содержит не более 10 элементов и сортируется по времени создания,
+затем UUID. `preview_url` указывает на закрытый admin endpoint с тем же
+`moderation:read` и `Cache-Control: private, no-store`; preview не становится публичным до
+publish. В ответ не входят checksum,
+срок orphan cleanup и никакие storage keys. Пустая заявка возвращает `media: []`.
 
 Publish request:
 

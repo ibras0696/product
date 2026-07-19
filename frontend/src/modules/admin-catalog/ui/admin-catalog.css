@@ -1,0 +1,280 @@
+.admin-catalog {
+  display: grid;
+  gap: var(--space-6);
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: var(--space-6);
+  color: var(--color-text);
+}
+.admin-catalog__hero {
+  display: grid;
+  gap: var(--space-2);
+  padding: var(--space-6);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  background: linear-gradient(
+    135deg,
+    var(--color-surface-raised),
+    var(--color-surface)
+  );
+}
+.admin-catalog__hero p,
+.admin-catalog__hero h1,
+.admin-catalog__hero span {
+  margin: 0;
+}
+.admin-catalog__hero p {
+  color: var(--color-focus);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.catalog-filters,
+.catalog-editor,
+.catalog-audit,
+.catalog-export,
+.catalog-resource {
+  display: grid;
+  gap: var(--space-4);
+  padding: var(--space-4);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+  background: var(--color-surface-raised);
+}
+.catalog-resource__filters {
+  display: grid;
+  grid-template-columns: minmax(220px, 2fr) minmax(180px, 1fr) auto;
+  gap: var(--space-3);
+  align-items: end;
+}
+.catalog-resource__list {
+  display: grid;
+  gap: var(--space-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.catalog-resource__list li {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-4);
+  padding: var(--space-3);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface);
+}
+.catalog-resource__list li > div:first-child {
+  display: grid;
+  gap: var(--space-1);
+  min-width: 0;
+}
+.catalog-resource__list small {
+  overflow-wrap: anywhere;
+  color: var(--color-text-muted);
+}
+.catalog-check {
+  grid-template-columns: 44px 1fr;
+  align-items: center;
+}
+.catalog-check input {
+  width: 44px;
+}
+.catalog-contract-gap {
+  padding: var(--space-3);
+  border-inline-start: 4px solid var(--color-focus);
+  background: var(--color-surface);
+}
+.catalog-filters {
+  grid-template-columns: minmax(180px, 2fr) repeat(2, minmax(150px, 1fr)) auto;
+  align-items: end;
+}
+.admin-catalog label {
+  display: grid;
+  gap: var(--space-2);
+  font-weight: 600;
+}
+.admin-catalog input,
+.admin-catalog textarea,
+.admin-catalog select,
+.admin-catalog button {
+  min-height: 44px;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-sm);
+  padding: var(--space-2) var(--space-3);
+  font: inherit;
+}
+.admin-catalog input,
+.admin-catalog textarea,
+.admin-catalog select {
+  width: 100%;
+  background: var(--color-surface);
+  color: var(--color-text);
+}
+.admin-catalog textarea {
+  min-height: 96px;
+  resize: vertical;
+}
+.admin-catalog button {
+  cursor: pointer;
+  background: var(--color-interactive);
+  color: var(--color-text);
+}
+.admin-catalog button:hover:not(:disabled) {
+  border-color: var(--color-focus);
+}
+.admin-catalog button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.admin-catalog :focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 2px;
+}
+.catalog-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+}
+.catalog-heading h2 {
+  margin: 0;
+}
+.catalog-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-md);
+}
+.catalog-table-wrap table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--color-surface);
+}
+.catalog-table-wrap th,
+.catalog-table-wrap td {
+  padding: var(--space-3);
+  border-bottom: 1px solid var(--color-line);
+  text-align: left;
+  vertical-align: top;
+}
+.catalog-table-wrap tbody th {
+  display: grid;
+  gap: var(--space-1);
+}
+.catalog-table-wrap small {
+  color: var(--color-text-muted);
+  font-weight: 400;
+}
+.catalog-actions,
+.catalog-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+}
+.catalog-pagination {
+  justify-content: center;
+}
+.catalog-secondary {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: var(--space-4);
+}
+.catalog-audit ol {
+  display: grid;
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.catalog-audit li {
+  display: grid;
+  grid-template-columns: minmax(140px, auto) 1fr auto;
+  gap: var(--space-3);
+  padding-block: var(--space-2);
+  border-bottom: 1px solid var(--color-line);
+}
+.catalog-audit li span {
+  overflow-wrap: anywhere;
+  color: var(--color-text-muted);
+}
+.catalog-editor {
+  position: sticky;
+  bottom: var(--space-4);
+  box-shadow: 0 16px 48px rgb(0 0 0 / 0.35);
+}
+.catalog-editor__fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-4);
+}
+.catalog-editor small,
+.catalog-editor [role="alert"] {
+  color: var(--color-danger);
+}
+.catalog-state {
+  padding: var(--space-8);
+}
+@media (max-width: 800px) {
+  .catalog-filters,
+  .catalog-resource__filters,
+  .catalog-secondary,
+  .catalog-editor__fields {
+    grid-template-columns: 1fr;
+  }
+  .catalog-audit li {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .admin-catalog {
+    padding: var(--space-3);
+  }
+  .catalog-table-wrap {
+    overflow: visible;
+    border: 0;
+  }
+  .catalog-table-wrap thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+  }
+  .catalog-table-wrap table,
+  .catalog-table-wrap tbody,
+  .catalog-table-wrap tr,
+  .catalog-table-wrap th,
+  .catalog-table-wrap td {
+    display: block;
+    width: 100%;
+  }
+  .catalog-table-wrap tr {
+    margin-bottom: var(--space-3);
+    padding: var(--space-3);
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius-md);
+    background: var(--color-surface);
+  }
+  .catalog-table-wrap td {
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    gap: var(--space-2);
+    border: 0;
+  }
+  .catalog-table-wrap td::before {
+    content: attr(data-label);
+    color: var(--color-text-muted);
+  }
+  .catalog-editor {
+    position: static;
+  }
+  .catalog-resource__list li {
+    flex-direction: column;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .admin-catalog * {
+    scroll-behavior: auto;
+    transition: none !important;
+  }
+}

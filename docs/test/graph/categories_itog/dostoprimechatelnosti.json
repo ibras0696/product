@@ -1,0 +1,2699 @@
+{
+  "category": "landmark",
+  "title_ru": "Достопримечательности",
+  "count": 64,
+  "items": [
+    {
+      "slug": "argun-museum-reserve",
+      "type": "cultural_object",
+      "name_ru": "Аргунский государственный музей-заповедник",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "museum",
+      "description": "Музей-заповедник с более чем 600 памятниками истории и культуры",
+      "district": "shatoysky",
+      "coordinate": {
+        "lat": 42.8375,
+        "lon": 45.6659
+      },
+      "coordinate_accuracy": "approximate",
+      "coordinate_precision_m": null,
+      "external_id": null,
+      "provenance": {
+        "record_url": "https://bolshayastrana.com/blog/dostoprimechatelnosti-chechenskoj-respubliki-314"
+      },
+      "sources": [
+        "travel_guide"
+      ],
+      "photo": null,
+      "status": "verified",
+      "source_details": [
+        {
+          "slug": "travel_guide",
+          "title": "Путеводители по достопримечательностям Чечни",
+          "publisher": "bolshayastrana.com / places.moscow",
+          "url": "https://bolshayastrana.com/blog/dostoprimechatelnosti-chechenskoj-respubliki-314",
+          "type": "media",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "heart-of-chechnya",
+      "type": "cultural_object",
+      "name_ru": "Мечеть «Сердце Чечни» им. А. А. Кадырова",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "mosque",
+      "description": "Мечеть имени Ахмат-Хаджи Кадырова в центре Грозного — одна из крупнейших в России и Европе. Открыта 17 октября 2008 года. Возведена в классическом османском стиле по образцу Голубой мечети в Стамбуле: четыре минарета высотой 63 метра и главный купол высотой 32 метра. Молитвенный зал вмещает 10 тысяч человек, ещё около 20 тысяч — прилегающий двор. Стоит на берегу реки Сунжа в исламском центре площадью 14 гектаров",
+      "district": "groznensky",
+      "coordinate": {
+        "lat": 43.3186,
+        "lon": 45.6931
+      },
+      "coordinate_accuracy": "approximate",
+      "coordinate_precision_m": null,
+      "external_id": "Q340549",
+      "provenance": {
+        "record_url": "https://bolshayastrana.com/blog/dostoprimechatelnosti-chechenskoj-respubliki-314"
+      },
+      "sources": [
+        "travel_guide",
+        "ru_wikipedia",
+        "checheninfo"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/%D0%93%D1%80%D0%BE%D0%B7%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D1%8C_2011.JPG",
+        "source_page": "https://commons.wikimedia.org/wiki/File:%D0%93%D1%80%D0%BE%D0%B7%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D1%8C_2011.JPG",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Салман Д"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "travel_guide",
+          "title": "Путеводители по достопримечательностям Чечни",
+          "publisher": "bolshayastrana.com / places.moscow",
+          "url": "https://bolshayastrana.com/blog/dostoprimechatelnosti-chechenskoj-respubliki-314",
+          "type": "media",
+          "reliability": "medium"
+        },
+        {
+          "slug": "ru_wikipedia",
+          "title": "Русская Википедия",
+          "publisher": "Wikimedia",
+          "url": "https://ru.wikipedia.org",
+          "type": "encyclopedia",
+          "reliability": "medium"
+        },
+        {
+          "slug": "checheninfo",
+          "title": "ИА Чеченинфо — историко-краеведческие материалы",
+          "publisher": "checheninfo.ru",
+          "url": "https://checheninfo.ru/",
+          "type": "media",
+          "reliability": "medium"
+        }
+      ],
+      "relations": [
+        {
+          "type": "located_in",
+          "from": "mosque-heart-2008",
+          "to": "heart-of-chechnya",
+          "title_ru": "Произошло в",
+          "period_from": 2008,
+          "period_to": null,
+          "evidence": {
+            "method": "events.place_id",
+            "source": "events"
+          },
+          "confidence": "medium",
+          "sources": [
+            "travel_guide"
+          ],
+          "status": "needs_review",
+          "direction": "incoming",
+          "related_slug": "mosque-heart-2008",
+          "related_name_ru": "Открытие мечети «Сердце Чечни»",
+          "related_type": "event",
+          "source_details": [
+            {
+              "slug": "travel_guide",
+              "title": "Путеводители по достопримечательностям Чечни",
+              "publisher": "bolshayastrana.com / places.moscow",
+              "url": "https://bolshayastrana.com/blog/dostoprimechatelnosti-chechenskoj-respubliki-314",
+              "type": "media",
+              "reliability": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "khoy",
+      "type": "landmark",
+      "name_ru": "Хой",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "tower_complex",
+      "description": "Древний горный город-крепость рядом с озером Кезеной-Ам",
+      "district": "vedensky",
+      "coordinate": {
+        "lat": 42.78,
+        "lon": 46.25
+      },
+      "coordinate_accuracy": "approximate",
+      "coordinate_precision_m": null,
+      "external_id": "Q4498895",
+      "provenance": {
+        "record_url": "https://bolshayastrana.com/blog/dostoprimechatelnosti-chechenskoj-respubliki-314",
+        "osm_evidence": {
+          "lat": 42.7533862,
+          "lon": 46.1321729,
+          "distance_m": 484.5,
+          "url": "https://www.openstreetmap.org/node/4299987242"
+        }
+      },
+      "sources": [
+        "travel_guide",
+        "osm"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/%D0%A5%D0%BE%D0%B9.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:%D0%A5%D0%BE%D0%B9.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Майрбек-Н"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "travel_guide",
+          "title": "Путеводители по достопримечательностям Чечни",
+          "publisher": "bolshayastrana.com / places.moscow",
+          "url": "https://bolshayastrana.com/blog/dostoprimechatelnosti-chechenskoj-respubliki-314",
+          "type": "media",
+          "reliability": "medium"
+        },
+        {
+          "slug": "osm",
+          "title": "OpenStreetMap",
+          "publisher": "OpenStreetMap contributors",
+          "url": "https://www.openstreetmap.org/",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "national-museum",
+      "type": "cultural_object",
+      "name_ru": "Национальный музей Чеченской Республики",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "museum",
+      "description": "Главный музей республики в Грозном",
+      "district": "groznensky",
+      "coordinate": {
+        "lat": 43.312,
+        "lon": 45.691
+      },
+      "coordinate_accuracy": "approximate",
+      "coordinate_precision_m": null,
+      "external_id": "Q16679941",
+      "provenance": {
+        "record_url": "https://ru.wikipedia.org/"
+      },
+      "sources": [
+        "wiki_general"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/%D0%9D%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BC%D1%83%D0%B7%D0%B5%D0%B9_%D0%A7%D0%B5%D1%87%D0%B5%D0%BD%D1%81%D0%BA%D0%BE%D0%B9_%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B8_%28%D1%84%D0%B0%D0%B9%D0%BB_2%29.JPG",
+        "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9D%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BC%D1%83%D0%B7%D0%B5%D0%B9_%D0%A7%D0%B5%D1%87%D0%B5%D0%BD%D1%81%D0%BA%D0%BE%D0%B9_%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B8_(%D1%84%D0%B0%D0%B9%D0%BB_2).JPG",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Салман Д"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wiki_general",
+          "title": "Википедия — тематические статьи (личности, места, события)",
+          "publisher": "Википедия",
+          "url": "https://ru.wikipedia.org/",
+          "type": "encyclopedia",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "nikaroy",
+      "type": "landmark",
+      "name_ru": "Никарой",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "tower_complex",
+      "description": "Древний каменный город над Терлойским ущельем (~1800 м), 17 сооружений",
+      "district": "itum-kalinsky",
+      "coordinate": {
+        "lat": 42.8,
+        "lon": 45.45
+      },
+      "coordinate_accuracy": "approximate",
+      "coordinate_precision_m": null,
+      "external_id": "Q4319643",
+      "provenance": {
+        "record_url": "https://bolshayastrana.com/blog/dostoprimechatelnosti-chechenskoj-respubliki-314"
+      },
+      "sources": [
+        "travel_guide",
+        "osm"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Nikar.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Nikar.jpg",
+        "license": "Public domain",
+        "license_url": null,
+        "author": "Фото И.Пальмина"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "travel_guide",
+          "title": "Путеводители по достопримечательностям Чечни",
+          "publisher": "bolshayastrana.com / places.moscow",
+          "url": "https://bolshayastrana.com/blog/dostoprimechatelnosti-chechenskoj-respubliki-314",
+          "type": "media",
+          "reliability": "medium"
+        },
+        {
+          "slug": "osm",
+          "title": "OpenStreetMap",
+          "publisher": "OpenStreetMap contributors",
+          "url": "https://www.openstreetmap.org/",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "pkhakoch",
+      "type": "landmark",
+      "name_ru": "Башенный комплекс Пхакоч",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "tower_complex",
+      "description": "Средневековый боевой и жилой башенный комплекс в Итум-Кали",
+      "district": "itum-kalinsky",
+      "coordinate": {
+        "lat": 42.7367,
+        "lon": 45.5697
+      },
+      "coordinate_accuracy": "approximate",
+      "coordinate_precision_m": null,
+      "external_id": null,
+      "provenance": {
+        "record_url": "https://bolshayastrana.com/blog/dostoprimechatelnosti-chechenskoj-respubliki-314"
+      },
+      "sources": [
+        "travel_guide"
+      ],
+      "photo": null,
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "travel_guide",
+          "title": "Путеводители по достопримечательностям Чечни",
+          "publisher": "bolshayastrana.com / places.moscow",
+          "url": "https://bolshayastrana.com/blog/dostoprimechatelnosti-chechenskoj-respubliki-314",
+          "type": "media",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "pride-of-muslims",
+      "type": "cultural_object",
+      "name_ru": "Мечеть «Гордость мусульман» им. Пророка Мухаммада",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "mosque",
+      "description": "Мечеть имени Пророка Мухаммада в центре города Шали — крупнейшая в Европе, вмещает до 30 тысяч человек, а прилегающая территория — до 70 тысяч. Открыта 23 августа 2019 года. Построена в архитектурном стиле «четырёх айванов» с четырьмя симметричными порталами по проекту узбекского архитектора Абдулкаххара Турдиева",
+      "district": "shalinsky",
+      "coordinate": {
+        "lat": 43.1486,
+        "lon": 45.92
+      },
+      "coordinate_accuracy": "approximate",
+      "coordinate_precision_m": null,
+      "external_id": "Q75043630",
+      "provenance": {
+        "record_url": "https://bolshayastrana.com/blog/dostoprimechatelnosti-chechenskoj-respubliki-314"
+      },
+      "sources": [
+        "travel_guide",
+        "ru_wikipedia",
+        "grozny_inform"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Pride_of_Muslims_mosque_Shali.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Pride_of_Muslims_mosque_Shali.jpg",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Шалинское телевидение"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "travel_guide",
+          "title": "Путеводители по достопримечательностям Чечни",
+          "publisher": "bolshayastrana.com / places.moscow",
+          "url": "https://bolshayastrana.com/blog/dostoprimechatelnosti-chechenskoj-respubliki-314",
+          "type": "media",
+          "reliability": "medium"
+        },
+        {
+          "slug": "ru_wikipedia",
+          "title": "Русская Википедия",
+          "publisher": "Wikimedia",
+          "url": "https://ru.wikipedia.org",
+          "type": "encyclopedia",
+          "reliability": "medium"
+        },
+        {
+          "slug": "grozny_inform",
+          "title": "ИА «Грозный-информ»",
+          "publisher": "grozny-inform.ru",
+          "url": "https://www.grozny-inform.ru",
+          "type": "media",
+          "reliability": "medium"
+        }
+      ],
+      "relations": [
+        {
+          "type": "located_in",
+          "from": "mosque-shali-2019",
+          "to": "pride-of-muslims",
+          "title_ru": "Произошло в",
+          "period_from": 2019,
+          "period_to": null,
+          "evidence": {
+            "method": "events.place_id",
+            "source": "events"
+          },
+          "confidence": "medium",
+          "sources": [
+            "travel_guide"
+          ],
+          "status": "needs_review",
+          "direction": "incoming",
+          "related_slug": "mosque-shali-2019",
+          "related_name_ru": "Открытие мечети «Гордость мусульман»",
+          "related_type": "event",
+          "source_details": [
+            {
+              "slug": "travel_guide",
+              "title": "Путеводители по достопримечательностям Чечни",
+              "publisher": "bolshayastrana.com / places.moscow",
+              "url": "https://bolshayastrana.com/blog/dostoprimechatelnosti-chechenskoj-respubliki-314",
+              "type": "media",
+              "reliability": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "wd-q106785105",
+      "type": "landmark",
+      "name_ru": "Саттойская боевая башня",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "tower_complex",
+      "description": "Башенный комплекс, Шатойский район, Чеченская Республика.",
+      "district": "shatoysky",
+      "coordinate": {
+        "lat": 42.849288,
+        "lon": 45.724302
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 0.11,
+      "external_id": "Q106785105",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q106785105"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Yukerch-Keloi_combat_tower.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Yukerch-Keloi_combat_tower.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Товболатов"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q106785746",
+      "type": "landmark",
+      "name_ru": "Цой-Педе (боевая башня)",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "tower_complex",
+      "description": "Башенный комплекс, Итум-Калинский район, Чеченская Республика.",
+      "district": "itum-kalinsky",
+      "coordinate": {
+        "lat": 42.7059,
+        "lon": 45.2591
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 11.13,
+      "external_id": "Q106785746",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q106785746"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/%D0%A6%D0%BE%D0%B9-%D0%9F%D0%B5%D0%B4%D0%B5_%D0%B1%D0%BE%D0%B5%D0%B2%D0%B0%D1%8F_%D0%B1%D0%B0%D1%88%D0%BD%D1%8F_%281%29.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:%D0%A6%D0%BE%D0%B9-%D0%9F%D0%B5%D0%B4%D0%B5_%D0%B1%D0%BE%D0%B5%D0%B2%D0%B0%D1%8F_%D0%B1%D0%B0%D1%88%D0%BD%D1%8F_(1).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Takhirgeran Umar"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q106939306",
+      "type": "landmark",
+      "name_ru": "Стела «Город воинской славы» (Грозный)",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "memorial",
+      "description": "Мемориал, Чеченская Республика.",
+      "district": null,
+      "coordinate": {
+        "lat": 43.31908,
+        "lon": 45.692897
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 0.11,
+      "external_id": "Q106939306",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q106939306"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": null,
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q108934583",
+      "type": "landmark",
+      "name_ru": "Памятная стела, посвящённая Николаю Анисимову",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "memorial",
+      "description": "Мемориал, Чеченская Республика.",
+      "district": null,
+      "coordinate": {
+        "lat": 43.31972,
+        "lon": 45.69528
+      },
+      "coordinate_accuracy": "approximate",
+      "coordinate_precision_m": 30.92,
+      "external_id": "Q108934583",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q108934583"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": null,
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q108934584",
+      "type": "landmark",
+      "name_ru": "Памятник студентам, сотрудникам и преподавателям Грозненского нефтяного института, павшим в боях за Родину в 1941-1945 годах",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "memorial",
+      "description": "Мемориал, Чеченская Республика.",
+      "district": null,
+      "coordinate": {
+        "lat": 43.3175,
+        "lon": 45.6971
+      },
+      "coordinate_accuracy": "approximate",
+      "coordinate_precision_m": 30.92,
+      "external_id": "Q108934584",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q108934584"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": null,
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q111287135",
+      "type": "landmark",
+      "name_ru": "Химойская жилая башня",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "tower_complex",
+      "description": "Башенный комплекс, Шаройский район, Чеченская Республика.",
+      "district": "sharoysky",
+      "coordinate": {
+        "lat": 42.65544,
+        "lon": 45.85113
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 1.11,
+      "external_id": "Q111287135",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q111287135"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": null,
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q113332355",
+      "type": "landmark",
+      "name_ru": "Терти (полубоевая башня)",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "tower_complex",
+      "description": "Башенный комплекс, Итум-Калинский район, Чеченская Республика.",
+      "district": "itum-kalinsky",
+      "coordinate": {
+        "lat": 42.74829,
+        "lon": 45.19554
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 1.11,
+      "external_id": "Q113332355",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q113332355"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/%D0%A2%D0%B5%D1%80%D1%82%D0%B0.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:%D0%A2%D0%B5%D1%80%D1%82%D0%B0.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Takhirgeran Umar"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q129167472",
+      "type": "landmark",
+      "name_ru": "Братская могила двух советских лётчиков 219-й авиадивизии",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "memorial",
+      "description": "Братская могила двух советских летчиков 219-й авиадивизии",
+      "district": "urus-martanovsky",
+      "coordinate": {
+        "lat": 43.123009,
+        "lon": 45.741438
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 0.11,
+      "external_id": "Q129167472",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q129167472"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Mass_grave_of_pilots_%28Chechnya%29_01.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Mass_grave_of_pilots_(Chechnya)_01.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Simba16"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q129730784",
+      "type": "cultural_object",
+      "name_ru": "Мечеть имени Пророка Исы",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "mosque",
+      "description": "Мечеть, Чеченская Республика.",
+      "district": null,
+      "coordinate": {
+        "lat": 43.298093813,
+        "lon": 45.710553483
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 0.0,
+      "external_id": "Q129730784",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q129730784"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/%D0%9C%D0%B5%D1%87%D0%B5%D1%82%D1%8C_%D0%B2_%D0%93%D1%80%D0%BE%D0%B7%D0%BD%D0%BE%D0%BC._%28%D0%BF%D0%BB._%D0%BC%D0%B8%D0%BD%D1%83%D1%82%D0%BA%D0%B0%29.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B5%D1%87%D0%B5%D1%82%D1%8C_%D0%B2_%D0%93%D1%80%D0%BE%D0%B7%D0%BD%D0%BE%D0%BC._(%D0%BF%D0%BB._%D0%BC%D0%B8%D0%BD%D1%83%D1%82%D0%BA%D0%B0).jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Товболатов"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q137755222",
+      "type": "landmark",
+      "name_ru": "Башня боевая (Саканхойская)",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "tower_complex",
+      "description": "Башенный комплекс, Итум-Калинский район, Чеченская Республика.",
+      "district": "itum-kalinsky",
+      "coordinate": {
+        "lat": 42.707692,
+        "lon": 45.450136
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 0.11,
+      "external_id": "Q137755222",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q137755222"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": null,
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q16665819",
+      "type": "landmark",
+      "name_ru": "Мемориал жертвам депортации 1944 года (Грозный)",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "memorial",
+      "description": "Мемориал, Чеченская Республика.",
+      "district": null,
+      "coordinate": {
+        "lat": 43.32,
+        "lon": 45.7
+      },
+      "coordinate_accuracy": "approximate",
+      "coordinate_precision_m": 1374.51,
+      "external_id": "Q16665819",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q16665819"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/M%C3%A9morial_%28recto%29.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:M%C3%A9morial_(recto).jpg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Deniev Dagun"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q18785975",
+      "type": "cultural_object",
+      "name_ru": "Литературно-мемориальный музей А. Айдамирова",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "museum",
+      "description": "Музей, Ножай-Юртовский район, Чеченская Республика.",
+      "district": "nozhay-yurtovsky",
+      "coordinate": {
+        "lat": 43.160194444,
+        "lon": 46.365305555
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 3.09,
+      "external_id": "Q18785975",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q18785975"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%BD%D0%BE-%D0%BC%D0%B5%D0%BC%D0%BE%D1%80%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BC%D1%83%D0%B7%D0%B5%D0%B9_%D0%90._%D0%90%D0%B9%D0%B4%D0%B0%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0_%285%29.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%BD%D0%BE-%D0%BC%D0%B5%D0%BC%D0%BE%D1%80%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BC%D1%83%D0%B7%D0%B5%D0%B9_%D0%90._%D0%90%D0%B9%D0%B4%D0%B0%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0_(5).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Дагиров Умар"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q18785976",
+      "type": "cultural_object",
+      "name_ru": "Литературно-мемориальный музей Арби Мамакаева",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "museum",
+      "description": "Музей об жизни и творчестве чеченского писателя Арби Мамакаева",
+      "district": "nadterechny",
+      "coordinate": {
+        "lat": 43.6209,
+        "lon": 45.3254
+      },
+      "coordinate_accuracy": "approximate",
+      "coordinate_precision_m": 276.27,
+      "external_id": "Q18785976",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q18785976"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": null,
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q18785977",
+      "type": "cultural_object",
+      "name_ru": "Литературно-этнографический музей Л. Н. Толстого",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "museum",
+      "description": "Музей, Шелковской район, Чеченская Республика.",
+      "district": "shelkovskoy",
+      "coordinate": {
+        "lat": 43.6358,
+        "lon": 46.4244
+      },
+      "coordinate_accuracy": "approximate",
+      "coordinate_precision_m": 276.34,
+      "external_id": "Q18785977",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q18785977"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Lev-tolstoy-chechnya3.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Lev-tolstoy-chechnya3.jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Станислав Гайдук"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q18785981",
+      "type": "cultural_object",
+      "name_ru": "Музей Лермонтова",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "museum",
+      "description": "Музей, Шелковской район, Чеченская Республика.",
+      "district": "shelkovskoy",
+      "coordinate": {
+        "lat": 43.472222222,
+        "lon": 46.293333333
+      },
+      "coordinate_accuracy": "approximate",
+      "coordinate_precision_m": 30.92,
+      "external_id": "Q18785981",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q18785981"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": null,
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q19910074",
+      "type": "cultural_object",
+      "name_ru": "Мечеть имени Аймани Кадыровой",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "mosque",
+      "description": "Мечеть в городе Аргун, открытая 16 мая 2014 года и названная в честь Аймани Кадыровой — вдовы первого президента Чечни Ахмат-Хаджи Кадырова. Единственная в России мечеть, выполненная в стиле «хай-тек»; спроектирована турецким архитектором Денизом Байканом и построена в центре города на месте прежней городской мечети",
+      "district": null,
+      "coordinate": {
+        "lat": 43.293333333,
+        "lon": 45.883333333
+      },
+      "coordinate_accuracy": "approximate",
+      "coordinate_precision_m": 30.92,
+      "external_id": "Q19910074",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q19910074"
+      },
+      "sources": [
+        "wikidata",
+        "ru_wikipedia",
+        "checheninfo"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Mosque_in_Argun.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Mosque_in_Argun.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Argunoy"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        },
+        {
+          "slug": "ru_wikipedia",
+          "title": "Русская Википедия",
+          "publisher": "Wikimedia",
+          "url": "https://ru.wikipedia.org",
+          "type": "encyclopedia",
+          "reliability": "medium"
+        },
+        {
+          "slug": "checheninfo",
+          "title": "ИА Чеченинфо — историко-краеведческие материалы",
+          "publisher": "checheninfo.ru",
+          "url": "https://checheninfo.ru/",
+          "type": "media",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q28332753",
+      "type": "landmark",
+      "name_ru": "Ушкалойские башни",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "tower_complex",
+      "description": "Башенный комплекс, Итум-Калинский район, Чеченская Республика.",
+      "district": "itum-kalinsky",
+      "coordinate": {
+        "lat": 42.787938,
+        "lon": 45.618772
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 0.11,
+      "external_id": "Q28332753",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q28332753"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/%D0%91%D0%B0%D1%88%D0%BD%D0%B8_%D0%B2_%D0%A7%D0%B5%D1%87%D0%BD%D0%B5.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%B0%D1%88%D0%BD%D0%B8_%D0%B2_%D0%A7%D0%B5%D1%87%D0%BD%D0%B5.jpg",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Олег Шеин"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q4290178",
+      "type": "landmark",
+      "name_ru": "Мемориал павшим в Великой Отечественной войне (Грозный, Центральное кладбище)",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "memorial",
+      "description": "Мемориал, Чеченская Республика.",
+      "district": null,
+      "coordinate": {
+        "lat": 43.347777777,
+        "lon": 45.706111111
+      },
+      "coordinate_accuracy": "approximate",
+      "coordinate_precision_m": 30.92,
+      "external_id": "Q4290178",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q4290178"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": null,
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q4343264",
+      "type": "landmark",
+      "name_ru": "Памятник Михаилу Лермонтову (Грозный)",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "memorial",
+      "description": "Мемориал, Чеченская Республика.",
+      "district": null,
+      "coordinate": {
+        "lat": 43.3189,
+        "lon": 45.72172
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 1.11,
+      "external_id": "Q4343264",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q4343264"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": null,
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q4343281",
+      "type": "landmark",
+      "name_ru": "Памятник Николаю Гикало, Асланбеку Шерипову и Гапуру Ахриеву (Грозный, площадь Дружбы Народов)",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "memorial",
+      "description": "Мемориал, Чеченская Республика.",
+      "district": null,
+      "coordinate": {
+        "lat": 43.32455,
+        "lon": 45.679387
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 0.11,
+      "external_id": "Q4343281",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q4343281"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": null,
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q4343507",
+      "type": "landmark",
+      "name_ru": "Памятник журналистам, погибшим за свободу слова",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "memorial",
+      "description": "Мемориал, Чеченская Республика.",
+      "district": null,
+      "coordinate": {
+        "lat": 43.324722222,
+        "lon": 45.679722222
+      },
+      "coordinate_accuracy": "approximate",
+      "coordinate_precision_m": 30.92,
+      "external_id": "Q4343507",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q4343507"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Pam-zhurnalist2.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Pam-zhurnalist2.jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Станислав Гайдук"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q4343566",
+      "type": "landmark",
+      "name_ru": "Памятник пожарным, погибшим при тушении пожаров от налётов фашистской авиации на Грозный",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "memorial",
+      "description": "Мемориал, Чеченская Республика.",
+      "district": null,
+      "coordinate": {
+        "lat": 43.314,
+        "lon": 45.666
+      },
+      "coordinate_accuracy": "approximate",
+      "coordinate_precision_m": 111.32,
+      "external_id": "Q4343566",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q4343566"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": null,
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q60850769",
+      "type": "landmark",
+      "name_ru": "Памятник А. П. Ермолову",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "memorial",
+      "description": "Памятник в городе Грозный",
+      "district": null,
+      "coordinate": {
+        "lat": 43.316923,
+        "lon": 45.688248
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 0.11,
+      "external_id": "Q60850769",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q60850769"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D0%BB%D1%83_%D0%95%D1%80%D0%BC%D0%BE%D0%BB%D0%BE%D0%B2%D1%83_%281888%2C_%D0%93%D1%80%D0%BE%D0%B7%D0%BD%D1%8B%D0%B9%29.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D0%BB%D1%83_%D0%95%D1%80%D0%BC%D0%BE%D0%BB%D0%BE%D0%B2%D1%83_(1888,_%D0%93%D1%80%D0%BE%D0%B7%D0%BD%D1%8B%D0%B9).jpg",
+        "license": "Public domain",
+        "license_url": null,
+        "author": "Unknown author Unknown author"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q60851276",
+      "type": "cultural_object",
+      "name_ru": "Литературно-мемориальный музей А. С. Сулейманова",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "museum",
+      "description": "Музей, Урус-Мартановский район, Чеченская Республика.",
+      "district": "urus-martanovsky",
+      "coordinate": null,
+      "coordinate_accuracy": "unknown",
+      "coordinate_precision_m": null,
+      "external_id": "Q60851276",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q60851276"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/%D0%9E%D0%BB%D1%85%D0%B0%D0%B7%D0%B0%D1%80-%D0%9AI%D0%BE%D1%82%D0%B0%D1%80._%D0%90%D1%85%D1%8C%D0%BC%D0%B0%D0%B4_%D0%A1%D1%83%D0%BB%D0%B5%D0%B9%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9E%D0%BB%D1%85%D0%B0%D0%B7%D0%B0%D1%80-%D0%9AI%D0%BE%D1%82%D0%B0%D1%80._%D0%90%D1%85%D1%8C%D0%BC%D0%B0%D0%B4_%D0%A1%D1%83%D0%BB%D0%B5%D0%B9%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2.jpg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Flandria12"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q85379063",
+      "type": "landmark",
+      "name_ru": "Мемориал памяти погибших в борьбе с терроризмом",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "memorial",
+      "description": "Мемориал, Чеченская Республика.",
+      "district": null,
+      "coordinate": {
+        "lat": 43.31665,
+        "lon": 45.692394
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 0.11,
+      "external_id": "Q85379063",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q85379063"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Memorial_to_the_victims_of_the_fight_against_terrorism_38.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Memorial_to_the_victims_of_the_fight_against_terrorism_38.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Simba16"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q86107900",
+      "type": "landmark",
+      "name_ru": "Хаскалинская боевая башня",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "tower_complex",
+      "description": "Башенный комплекс, Итум-Калинский район, Чеченская Республика.",
+      "district": "itum-kalinsky",
+      "coordinate": {
+        "lat": 42.712569,
+        "lon": 45.579394
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 0.11,
+      "external_id": "Q86107900",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q86107900"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Tazbichi_tower.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Tazbichi_tower.jpg",
+        "license": "Public domain",
+        "license_url": null,
+        "author": "Noxchiy"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q86449386",
+      "type": "landmark",
+      "name_ru": "Памятник Ленину (Грозный, Ленинский район)",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "memorial",
+      "description": "Мемориал, Чеченская Республика.",
+      "district": null,
+      "coordinate": {
+        "lat": 43.3191,
+        "lon": 45.6929
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 11.13,
+      "external_id": "Q86449386",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q86449386"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": null,
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q86529307",
+      "type": "landmark",
+      "name_ru": "Хой (башня)",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "tower_complex",
+      "description": "Башенный комплекс, Веденский район, Чеченская Республика.",
+      "district": "vedensky",
+      "coordinate": {
+        "lat": 42.7530771,
+        "lon": 46.131922
+      },
+      "coordinate_accuracy": "approximate",
+      "coordinate_precision_m": 30.92,
+      "external_id": "Q86529307",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q86529307"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/%D0%A5%D0%BE%D0%B9_%D0%B1%D0%BE%D0%B5%D0%B2%D0%B0%D1%8F_%D0%B1%D0%B0%D1%88%D0%BD%D1%8F.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:%D0%A5%D0%BE%D0%B9_%D0%B1%D0%BE%D0%B5%D0%B2%D0%B0%D1%8F_%D0%B1%D0%B0%D1%88%D0%BD%D1%8F.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Товболатов"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q86646619",
+      "type": "landmark",
+      "name_ru": "Дисхи (башня)",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "tower_complex",
+      "description": "Башенный комплекс, Чеченская Республика.",
+      "district": null,
+      "coordinate": {
+        "lat": 42.890681,
+        "lon": 45.264778
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 0.11,
+      "external_id": "Q86646619",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q86646619"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/%D0%91%D0%B0%D1%88%D0%BD%D1%8F_%D0%94%D0%B8%D1%81%D1%85%D0%B8_%D0%B8_%D1%81%D0%BA%D0%BB%D0%B5%D0%BF_%28%D1%83%D1%80%D0%BE%D1%87%D0%B8%D1%89%D0%B5_%D0%94%D0%BE%D0%B9%D0%BD%D0%B8%D1%87%D1%83%2C_%D0%BD%D0%B0_%D0%BC%D0%B5%D1%81%D1%82%D0%B5_%D0%B4%D1%80%D0%B5%D0%B2%D0%BD%D0%B5%D0%B3%D0%BE_%D0%B0%D1%83%D0%BB%D0%B0_%D0%9C%D0%BB%D0%B7%D0%B0%D1%80%D0%B3%D0%B0%29.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%B0%D1%88%D0%BD%D1%8F_%D0%94%D0%B8%D1%81%D1%85%D0%B8_%D0%B8_%D1%81%D0%BA%D0%BB%D0%B5%D0%BF_(%D1%83%D1%80%D0%BE%D1%87%D0%B8%D1%89%D0%B5_%D0%94%D0%BE%D0%B9%D0%BD%D0%B8%D1%87%D1%83,_%D0%BD%D0%B0_%D0%BC%D0%B5%D1%81%D1%82%D0%B5_%D0%B4%D1%80%D0%B5%D0%B2%D0%BD%D0%B5%D0%B3%D0%BE_%D0%B0%D1%83%D0%BB%D0%B0_%D0%9C%D0%BB%D0%B7%D0%B0%D1%80%D0%B3%D0%B0).jpg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Абдуллах Берсаев"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q86661838",
+      "type": "landmark",
+      "name_ru": "Памятник Ленину",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "memorial",
+      "description": "Мемориал, Чеченская Республика.",
+      "district": null,
+      "coordinate": {
+        "lat": 43.3165,
+        "lon": 45.6637
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 11.13,
+      "external_id": "Q86661838",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q86661838"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": null,
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q86676411",
+      "type": "landmark",
+      "name_ru": "Памятник Зелимхану Харачоевскому",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "memorial",
+      "description": "Памятник абреку Зелимхану Харачоевскому в Ца-Ведено",
+      "district": "vedensky",
+      "coordinate": null,
+      "coordinate_accuracy": "unknown",
+      "coordinate_precision_m": null,
+      "external_id": "Q86676411",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q86676411"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": null,
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q86723569",
+      "type": "landmark",
+      "name_ru": "Памятник на месте расстрела рабочих 2 июля 1907 года",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "memorial",
+      "description": "Мемориал, Чеченская Республика.",
+      "district": null,
+      "coordinate": {
+        "lat": 43.376083,
+        "lon": 45.575694
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 0.11,
+      "external_id": "Q86723569",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q86723569"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": null,
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q86723766",
+      "type": "landmark",
+      "name_ru": "Хайбах",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "tower_complex",
+      "description": "Часть средневекового крепостного комплекса Чеченской Республики",
+      "district": "urus-martanovsky",
+      "coordinate": {
+        "lat": 42.875525,
+        "lon": 45.359703
+      },
+      "coordinate_accuracy": "approximate",
+      "coordinate_precision_m": 30.92,
+      "external_id": "Q86723766",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q86723766",
+        "osm_evidence": {
+          "lat": 42.8756653,
+          "lon": 45.3605747,
+          "distance_m": 72.7,
+          "url": "https://www.openstreetmap.org/node/12102854632"
+        }
+      },
+      "sources": [
+        "wikidata",
+        "osm"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/%D0%91%D0%B0%D1%88%D0%BD%D1%8F_%D0%B2_%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B8_%D0%A5%D0%B0%D0%B9%D0%B1%D0%B0%D1%85._%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA_%D0%92%D1%81._%D0%9C%D0%B8%D0%BB%D0%BB%D0%B5%D1%80%D0%B0%2C_1888_%D0%B3%D0%BE%D0%B4.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%B0%D1%88%D0%BD%D1%8F_%D0%B2_%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B8_%D0%A5%D0%B0%D0%B9%D0%B1%D0%B0%D1%85._%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA_%D0%92%D1%81._%D0%9C%D0%B8%D0%BB%D0%BB%D0%B5%D1%80%D0%B0,_1888_%D0%B3%D0%BE%D0%B4.jpg",
+        "license": "Public domain",
+        "license_url": null,
+        "author": "Миллер"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        },
+        {
+          "slug": "osm",
+          "title": "OpenStreetMap",
+          "publisher": "OpenStreetMap contributors",
+          "url": "https://www.openstreetmap.org/",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q86723889",
+      "type": "landmark",
+      "name_ru": "Памятник Ленину",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "memorial",
+      "description": "Мемориал, Чеченская Республика.",
+      "district": null,
+      "coordinate": {
+        "lat": 43.319785,
+        "lon": 45.693083
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 0.11,
+      "external_id": "Q86723889",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q86723889"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/%D0%9B%D0%B5%D0%BD%D0%B8%D0%BD.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9B%D0%B5%D0%BD%D0%B8%D0%BD.jpg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Nomak one"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q96626836",
+      "type": "landmark",
+      "name_ru": "Памятник адмиралу Угрюмову",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "memorial",
+      "description": "Мемориал, Чеченская Республика.",
+      "district": null,
+      "coordinate": {
+        "lat": 43.324165,
+        "lon": 45.684798
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 0.11,
+      "external_id": "Q96626836",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q96626836"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B0%D0%B4%D0%BC%D0%B8%D1%80%D0%B0%D0%BB%D1%83_%D0%A3%D0%B3%D1%80%D1%8E%D0%BC%D0%BE%D0%B2%D1%83.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B0%D0%B4%D0%BC%D0%B8%D1%80%D0%B0%D0%BB%D1%83_%D0%A3%D0%B3%D1%80%D1%8E%D0%BC%D0%BE%D0%B2%D1%83.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Simba16"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q96626863",
+      "type": "landmark",
+      "name_ru": "Братская могила пожарных (Грозный)",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "memorial",
+      "description": "Мемориал, Чеченская Республика.",
+      "district": null,
+      "coordinate": {
+        "lat": 43.313998,
+        "lon": 45.66599
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 0.11,
+      "external_id": "Q96626863",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q96626863"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": null,
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q97159864",
+      "type": "cultural_object",
+      "name_ru": "Белгатойская мечеть",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "mosque",
+      "description": "Мечеть, Веденский район, Чеченская Республика.",
+      "district": "vedensky",
+      "coordinate": {
+        "lat": 42.982866,
+        "lon": 46.235973
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 0.11,
+      "external_id": "Q97159864",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q97159864"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": null,
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q97164423",
+      "type": "landmark",
+      "name_ru": "Памятник Гейдару Алиеву",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "memorial",
+      "description": "Мемориал, Чеченская Республика.",
+      "district": null,
+      "coordinate": {
+        "lat": 43.32389,
+        "lon": 45.67889
+      },
+      "coordinate_accuracy": "approximate",
+      "coordinate_precision_m": 30.92,
+      "external_id": "Q97164423",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q97164423"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%93%D0%B5%D0%B9%D0%B4%D0%B0%D1%80%D1%83_%D0%90%D0%BB%D0%B8%D0%B5%D0%B2%D1%83_01.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%93%D0%B5%D0%B9%D0%B4%D0%B0%D1%80%D1%83_%D0%90%D0%BB%D0%B8%D0%B5%D0%B2%D1%83_01.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Simba16"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q97180003",
+      "type": "landmark",
+      "name_ru": "Харкаройская боевая башня",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "tower_complex",
+      "description": "Башенный комплекс, Веденский район, Чеченская Республика.",
+      "district": "vedensky",
+      "coordinate": {
+        "lat": 42.724291,
+        "lon": 46.068087
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 0.11,
+      "external_id": "Q97180003",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q97180003"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/%D0%A5%D1%8C%D0%B0%D1%80%D0%BA%D1%8A%D0%B0%D1%80%D0%BE%D0%B9_16.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:%D0%A5%D1%8C%D0%B0%D1%80%D0%BA%D1%8A%D0%B0%D1%80%D0%BE%D0%B9_16.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "1temur"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q97182206",
+      "type": "landmark",
+      "name_ru": "Хуландойская боевая башня",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "tower_complex",
+      "description": "Башенный комплекс, Шаройский район, Чеченская Республика.",
+      "district": "sharoysky",
+      "coordinate": {
+        "lat": 42.553998,
+        "lon": 45.752805
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 0.11,
+      "external_id": "Q97182206",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q97182206"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": null,
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q97189023",
+      "type": "landmark",
+      "name_ru": "Памятник юному разведчику Володе Мордвинову",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "memorial",
+      "description": "Мемориал, Чеченская Республика.",
+      "district": null,
+      "coordinate": {
+        "lat": 43.3195,
+        "lon": 45.6935
+      },
+      "coordinate_accuracy": "approximate",
+      "coordinate_precision_m": 30.92,
+      "external_id": "Q97189023",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q97189023"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": null,
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q97190860",
+      "type": "landmark",
+      "name_ru": "Братская могила лётчиков Гурина и Закревского",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "memorial",
+      "description": "Мемориал, Чеченская Республика.",
+      "district": null,
+      "coordinate": {
+        "lat": 43.347759,
+        "lon": 45.706348
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 0.11,
+      "external_id": "Q97190860",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q97190860"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": null,
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q97191527",
+      "type": "landmark",
+      "name_ru": "Гучан-Кале",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "tower_complex",
+      "description": "Башенный комплекс, Итум-Калинский район, Чеченская Республика.",
+      "district": "itum-kalinsky",
+      "coordinate": null,
+      "coordinate_accuracy": "unknown",
+      "coordinate_precision_m": null,
+      "external_id": "Q97191527",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q97191527"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": null,
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q97206138",
+      "type": "landmark",
+      "name_ru": "Тичча-гала",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "tower_complex",
+      "description": "Башенный комплекс, Итум-Калинский район, Чеченская Республика.",
+      "district": "itum-kalinsky",
+      "coordinate": {
+        "lat": 42.724848,
+        "lon": 45.598879
+      },
+      "coordinate_accuracy": "approximate",
+      "coordinate_precision_m": 111.32,
+      "external_id": "Q97206138",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q97206138"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": null,
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q97209150",
+      "type": "landmark",
+      "name_ru": "Харачойская башня",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "tower_complex",
+      "description": "Башенный комплекс, Веденский район, Чеченская Республика.",
+      "district": "vedensky",
+      "coordinate": {
+        "lat": 42.91042,
+        "lon": 46.14566
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 1.11,
+      "external_id": "Q97209150",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q97209150"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": null,
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q97211847",
+      "type": "landmark",
+      "name_ru": "Шатоевская башня",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "tower_complex",
+      "description": "Башенный комплекс, Шатойский район, Чеченская Республика.",
+      "district": "shatoysky",
+      "coordinate": {
+        "lat": 42.882641,
+        "lon": 45.69015
+      },
+      "coordinate_accuracy": "approximate",
+      "coordinate_precision_m": 111.32,
+      "external_id": "Q97211847",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q97211847"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Storojevie_bashni_u_seleniya_Hakkoy_do_1868_goda.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Storojevie_bashni_u_seleniya_Hakkoy_do_1868_goda.jpg",
+        "license": "Public domain",
+        "license_url": null,
+        "author": "Unknown author Unknown author"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q97314526",
+      "type": "landmark",
+      "name_ru": "Башен-Калинская боевая башня",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "tower_complex",
+      "description": "Башенный комплекс, Итум-Калинский район, Чеченская Республика.",
+      "district": "itum-kalinsky",
+      "coordinate": {
+        "lat": 42.806697,
+        "lon": 45.62448
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 0.11,
+      "external_id": "Q97314526",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q97314526"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": null,
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q97314943",
+      "type": "landmark",
+      "name_ru": "Братская могила партийных и советских работников",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "memorial",
+      "description": "Мемориал, Чеченская Республика.",
+      "district": null,
+      "coordinate": {
+        "lat": 43.318524,
+        "lon": 45.695729
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 0.11,
+      "external_id": "Q97314943",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q97314943"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": null,
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q97315284",
+      "type": "landmark",
+      "name_ru": "Ачало",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "tower_complex",
+      "description": "Башенный комплекс, Шатойский район, Чеченская Республика.",
+      "district": "shatoysky",
+      "coordinate": {
+        "lat": 42.78275,
+        "lon": 45.9716
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 1.11,
+      "external_id": "Q97315284",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q97315284"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/%D0%90%D1%87%D0%B0%D0%BB%D0%BE_%D0%B1%D0%B0%D1%88%D0%BD%D1%8F.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:%D0%90%D1%87%D0%B0%D0%BB%D0%BE_%D0%B1%D0%B0%D1%88%D0%BD%D1%8F.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Товболатов"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q97316032",
+      "type": "landmark",
+      "name_ru": "Терта",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "tower_complex",
+      "description": "Башенный комплекс, Итум-Калинский район, Чеченская Республика.",
+      "district": "itum-kalinsky",
+      "coordinate": {
+        "lat": 42.74829,
+        "lon": 45.19554
+      },
+      "coordinate_accuracy": "approximate",
+      "coordinate_precision_m": 30.92,
+      "external_id": "Q97316032",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q97316032",
+        "osm_evidence": {
+          "lat": 42.7482202,
+          "lon": 45.1955873,
+          "distance_m": 8.7,
+          "url": "https://www.openstreetmap.org/node/1821181139"
+        }
+      },
+      "sources": [
+        "wikidata",
+        "osm"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/%D0%A2%D0%B5%D1%80%D1%82%D0%B8_1.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:%D0%A2%D0%B5%D1%80%D1%82%D0%B8_1.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Дагиров Умар"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        },
+        {
+          "slug": "osm",
+          "title": "OpenStreetMap",
+          "publisher": "OpenStreetMap contributors",
+          "url": "https://www.openstreetmap.org/",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q97317018",
+      "type": "landmark",
+      "name_ru": "Памятник Мовлиду Висаитову",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "memorial",
+      "description": "Мемориал, Чеченская Республика.",
+      "district": null,
+      "coordinate": {
+        "lat": 43.3271,
+        "lon": 45.6796
+      },
+      "coordinate_accuracy": "approximate",
+      "coordinate_precision_m": 30.92,
+      "external_id": "Q97317018",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q97317018",
+        "osm_evidence": {
+          "lat": 43.3271016,
+          "lon": 45.6796161,
+          "distance_m": 1.3,
+          "url": "https://www.openstreetmap.org/node/4040634634"
+        }
+      },
+      "sources": [
+        "wikidata",
+        "osm"
+      ],
+      "photo": null,
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        },
+        {
+          "slug": "osm",
+          "title": "OpenStreetMap",
+          "publisher": "OpenStreetMap contributors",
+          "url": "https://www.openstreetmap.org/",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q97343814",
+      "type": "landmark",
+      "name_ru": "Пкиерская башня",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "tower_complex",
+      "description": "Башенный комплекс, Итум-Калинский район, Чеченская Республика.",
+      "district": "itum-kalinsky",
+      "coordinate": {
+        "lat": 42.694432,
+        "lon": 45.456601
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 0.11,
+      "external_id": "Q97343814",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q97343814"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": null,
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q97369297",
+      "type": "cultural_object",
+      "name_ru": "Гудермесская соборная мечеть",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "mosque",
+      "description": "Главная (соборная) мечеть города Гудермес, открытая 23 августа 2011 года. Архитектура сочетает классический османский и византийский стили; за образец взята Голубая мечеть в Стамбуле",
+      "district": "gudermessky",
+      "coordinate": {
+        "lat": 43.3481,
+        "lon": 46.1027
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 11.13,
+      "external_id": "Q97369297",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q97369297"
+      },
+      "sources": [
+        "wikidata",
+        "ru_wikipedia",
+        "checheninfo"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/%D0%9C%D0%B5%D1%87%D0%B5%D1%82%D1%8C_%D0%B2_%D0%93%D1%83%D0%B4%D0%B5%D1%80%D0%BC%D0%B5%D1%81%D0%B5.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B5%D1%87%D0%B5%D1%82%D1%8C_%D0%B2_%D0%93%D1%83%D0%B4%D0%B5%D1%80%D0%BC%D0%B5%D1%81%D0%B5.jpg",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Олег Шеин"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        },
+        {
+          "slug": "ru_wikipedia",
+          "title": "Русская Википедия",
+          "publisher": "Wikimedia",
+          "url": "https://ru.wikipedia.org",
+          "type": "encyclopedia",
+          "reliability": "medium"
+        },
+        {
+          "slug": "checheninfo",
+          "title": "ИА Чеченинфо — историко-краеведческие материалы",
+          "publisher": "checheninfo.ru",
+          "url": "https://checheninfo.ru/",
+          "type": "media",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q97577550",
+      "type": "cultural_object",
+      "name_ru": "Урус-Мартановская соборная мечеть",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "mosque",
+      "description": "Мечеть, Урус-Мартановский район, Чеченская Республика.",
+      "district": "urus-martanovsky",
+      "coordinate": {
+        "lat": 43.1234,
+        "lon": 45.5448
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 11.13,
+      "external_id": "Q97577550",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q97577550"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%87%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D1%8C_%D0%B3._%D0%A3%D1%80%D1%83%D1%81-%D0%9C%D0%B0%D1%80%D1%82%D0%B0%D0%BD.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%87%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D1%8C_%D0%B3._%D0%A3%D1%80%D1%83%D1%81-%D0%9C%D0%B0%D1%80%D1%82%D0%B0%D0%BD.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Товбулатов"
+      },
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q97662711",
+      "type": "landmark",
+      "name_ru": "Памятник Калинину",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "memorial",
+      "description": "Мемориал, Чеченская Республика.",
+      "district": null,
+      "coordinate": {
+        "lat": 43.3817,
+        "lon": 45.5267
+      },
+      "coordinate_accuracy": "approximate",
+      "coordinate_precision_m": 30.92,
+      "external_id": "Q97662711",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q97662711"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": null,
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q97662716",
+      "type": "landmark",
+      "name_ru": "Памятник на братской могиле у дворца культуры железнодорожников",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "memorial",
+      "description": "Мемориал, Чеченская Республика.",
+      "district": null,
+      "coordinate": {
+        "lat": 43.30496,
+        "lon": 45.69065
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 1.11,
+      "external_id": "Q97662716",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q97662716"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": null,
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "wd-q98123554",
+      "type": "cultural_object",
+      "name_ru": "Хайбахская мечеть",
+      "name_ce": null,
+      "aliases": [],
+      "place_type": "mosque",
+      "description": "Мечеть в селении Хайбах",
+      "district": "urus-martanovsky",
+      "coordinate": {
+        "lat": 42.87556,
+        "lon": 45.361
+      },
+      "coordinate_accuracy": "exact",
+      "coordinate_precision_m": 1.11,
+      "external_id": "Q98123554",
+      "provenance": {
+        "record_url": "https://www.wikidata.org/wiki/Q98123554"
+      },
+      "sources": [
+        "wikidata"
+      ],
+      "photo": null,
+      "status": "needs_review",
+      "source_details": [
+        {
+          "slug": "wikidata",
+          "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+          "publisher": "Wikimedia Foundation community",
+          "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+          "type": "dataset",
+          "reliability": "medium"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

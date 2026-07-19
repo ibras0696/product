@@ -1,8 +1,9 @@
 COMPOSE = docker compose -f infra/compose.yaml
 COMPOSE_DEV = $(COMPOSE) -f infra/compose.dev.yaml
 COMPOSE_PROD = $(COMPOSE) -f infra/compose.prod.yaml
+PYTHON ?= python3.12
 
-.PHONY: up up-dev down logs ps build test quality migration prod-config prod-up tls-init
+.PHONY: up up-dev down logs ps build test quality seed-research seed-research-demo seed-research-check migration prod-config prod-up tls-init
 
 up:
 	$(COMPOSE) up -d --build
@@ -24,6 +25,18 @@ build:
 
 quality:
 	./scripts/quality_gate.sh
+
+seed-research:
+	$(PYTHON) scripts/build_catalog_seed.py
+	$(COMPOSE_DEV) run --rm --build api python scripts/seed_catalog.py seeds/research_batches --preserve-existing
+
+seed-research-demo:
+	$(PYTHON) scripts/build_catalog_seed.py --demo
+	$(COMPOSE_DEV) run --rm --build api python scripts/seed_catalog.py seeds/research_demo_batches --preserve-existing
+
+seed-research-check:
+	$(PYTHON) scripts/build_catalog_seed.py --check
+	$(PYTHON) scripts/build_catalog_seed.py --demo --check
 
 test:
 	docker build --target quality -t product-hackathon-backend-quality ./backend

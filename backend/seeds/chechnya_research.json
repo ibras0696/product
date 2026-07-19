@@ -1,0 +1,4037 @@
+{
+  "districts": [
+    {
+      "id": "ce7a00f3-9091-5c0e-b207-4880075ff0e9",
+      "slug": "groznensky",
+      "title_ce": null,
+      "title_ru": "Грозненский район"
+    },
+    {
+      "id": "e4ebc05b-d7d3-5267-98e6-3d0ed937f5db",
+      "slug": "gudermessky",
+      "title_ce": null,
+      "title_ru": "Гудермесский район"
+    },
+    {
+      "id": "abeb92f7-da72-5c2d-8d4a-be371e24653d",
+      "slug": "shalinsky",
+      "title_ce": null,
+      "title_ru": "Шалинский район"
+    },
+    {
+      "id": "ea3cd6c4-8c42-50f4-b07e-1daa3aa52038",
+      "slug": "urus-martanovsky",
+      "title_ce": null,
+      "title_ru": "Урус-Мартановский район"
+    },
+    {
+      "id": "3d7155c8-b548-5c63-b9a3-93de9ed03aef",
+      "slug": "achkhoy-martanovsky",
+      "title_ce": null,
+      "title_ru": "Ачхой-Мартановский район"
+    },
+    {
+      "id": "bfd5e3f3-0f6a-543d-9190-9926ec858d5b",
+      "slug": "vedensky",
+      "title_ce": null,
+      "title_ru": "Веденский район"
+    },
+    {
+      "id": "2aeef331-d67d-5ce4-b705-25c9d40e8050",
+      "slug": "itum-kalinsky",
+      "title_ce": null,
+      "title_ru": "Итум-Калинский район"
+    },
+    {
+      "id": "17bba85b-98e6-58c4-af00-393bfabb4a36",
+      "slug": "kurchaloevsky",
+      "title_ce": null,
+      "title_ru": "Курчалоевский район"
+    },
+    {
+      "id": "a1991fb6-c898-5952-8192-efb26a820be9",
+      "slug": "nadterechny",
+      "title_ce": null,
+      "title_ru": "Надтеречный район"
+    },
+    {
+      "id": "6c8ffd36-524d-53e9-8c72-58ca5974911a",
+      "slug": "naursky",
+      "title_ce": null,
+      "title_ru": "Наурский район"
+    },
+    {
+      "id": "e8d9a7e9-6724-5344-bf06-84c0ca8101ac",
+      "slug": "nozhay-yurtovsky",
+      "title_ce": null,
+      "title_ru": "Ножай-Юртовский район"
+    },
+    {
+      "id": "f6a461ca-e36b-5d05-80c1-170f88534442",
+      "slug": "sunzhensky",
+      "title_ce": null,
+      "title_ru": "Сунженский район"
+    },
+    {
+      "id": "d2fb7f9a-8f54-5903-82c9-74f025e1b362",
+      "slug": "sharoysky",
+      "title_ce": null,
+      "title_ru": "Шаройский район"
+    },
+    {
+      "id": "50d57d87-285f-51e3-b538-4443c4b6e91b",
+      "slug": "shatoysky",
+      "title_ce": null,
+      "title_ru": "Шатойский район"
+    },
+    {
+      "id": "2098f4cd-9738-5bf1-987a-7ba84b2f3da1",
+      "slug": "shelkovskoy",
+      "title_ce": null,
+      "title_ru": "Шелковской район"
+    }
+  ],
+  "entities": [
+    {
+      "district_id": "ce7a00f3-9091-5c0e-b207-4880075ff0e9",
+      "id": "50e46161-a47c-5d57-a889-345afe07de6b",
+      "latitude": 43.3178,
+      "longitude": 45.6949,
+      "period_from": null,
+      "period_to": null,
+      "slug": "grozny",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "e4ebc05b-d7d3-5267-98e6-3d0ed937f5db",
+      "id": "c102599a-8ccf-5142-abbb-2b3014e67b07",
+      "latitude": 43.35,
+      "longitude": 46.1039,
+      "period_from": null,
+      "period_to": null,
+      "slug": "gudermes",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "abeb92f7-da72-5c2d-8d4a-be371e24653d",
+      "id": "06a852b0-4446-5fbf-ade6-d6f5f790c3b5",
+      "latitude": 43.2939,
+      "longitude": 45.8836,
+      "period_from": null,
+      "period_to": null,
+      "slug": "argun",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "abeb92f7-da72-5c2d-8d4a-be371e24653d",
+      "id": "f9075823-f2af-5a73-9f62-a88edf4e03b2",
+      "latitude": 43.1486,
+      "longitude": 45.8994,
+      "period_from": null,
+      "period_to": null,
+      "slug": "shali",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "ea3cd6c4-8c42-50f4-b07e-1daa3aa52038",
+      "id": "6187ad82-0751-5ef0-9baf-179b6bd1a577",
+      "latitude": 43.1281,
+      "longitude": 45.5364,
+      "period_from": null,
+      "period_to": null,
+      "slug": "urus-martan",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "17bba85b-98e6-58c4-af00-393bfabb4a36",
+      "id": "e6aa00d6-6605-5a90-9192-4085d62cbda3",
+      "latitude": 43.2039,
+      "longitude": 46.0894,
+      "period_from": null,
+      "period_to": null,
+      "slug": "kurchaloy",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "3d7155c8-b548-5c63-b9a3-93de9ed03aef",
+      "id": "b62834ea-e611-5a4d-91bb-521df2ec0e4c",
+      "latitude": 43.1958,
+      "longitude": 45.2842,
+      "period_from": null,
+      "period_to": null,
+      "slug": "achkhoy-martan",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "bfd5e3f3-0f6a-543d-9190-9926ec858d5b",
+      "id": "1f7c2436-2332-514c-82fb-9d21fccd9218",
+      "latitude": 42.9614,
+      "longitude": 46.1006,
+      "period_from": null,
+      "period_to": null,
+      "slug": "vedeno",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "2aeef331-d67d-5ce4-b705-25c9d40e8050",
+      "id": "dec0456d-9c8f-5479-b3e8-1d42c70a2d1a",
+      "latitude": 42.7367,
+      "longitude": 45.5697,
+      "period_from": null,
+      "period_to": null,
+      "slug": "itum-kali",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "e8d9a7e9-6724-5344-bf06-84c0ca8101ac",
+      "id": "0cd7c570-2858-5c31-a5e8-fde67ed3f4cb",
+      "latitude": 43.1394,
+      "longitude": 46.3781,
+      "period_from": null,
+      "period_to": null,
+      "slug": "nozhay-yurt",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "e8d9a7e9-6724-5344-bf06-84c0ca8101ac",
+      "id": "fbef07c3-05c6-52d8-accf-f47601778d94",
+      "latitude": 43.04,
+      "longitude": 46.43,
+      "period_from": null,
+      "period_to": null,
+      "slug": "benoy",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "50d57d87-285f-51e3-b538-4443c4b6e91b",
+      "id": "46ca7c1e-2d91-516a-b256-332f36908c5c",
+      "latitude": 42.8517,
+      "longitude": 45.6817,
+      "period_from": null,
+      "period_to": null,
+      "slug": "shatoy",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "2098f4cd-9738-5bf1-987a-7ba84b2f3da1",
+      "id": "97c82c71-005f-5ccd-b758-3c626ed51e69",
+      "latitude": 43.5289,
+      "longitude": 46.3453,
+      "period_from": null,
+      "period_to": null,
+      "slug": "shelkovskaya",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "6c8ffd36-524d-53e9-8c72-58ca5974911a",
+      "id": "0117b4d4-83e0-50b6-a0a7-3a53cfa42f1c",
+      "latitude": 43.68,
+      "longitude": 45.9903,
+      "period_from": null,
+      "period_to": null,
+      "slug": "naurskaya",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "a1991fb6-c898-5952-8192-efb26a820be9",
+      "id": "82f32365-65f0-5d37-9d94-50748fc91fd7",
+      "latitude": 43.4239,
+      "longitude": 45.0956,
+      "period_from": null,
+      "period_to": null,
+      "slug": "znamenskoye",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "f6a461ca-e36b-5d05-80c1-170f88534442",
+      "id": "4bb10e37-1463-5634-a095-dac5943be3aa",
+      "latitude": 43.31,
+      "longitude": 45.16,
+      "period_from": null,
+      "period_to": null,
+      "slug": "sernovodskoye",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "d2fb7f9a-8f54-5903-82c9-74f025e1b362",
+      "id": "5ff9ea66-a4ac-5826-b07e-63181274d6ae",
+      "latitude": 42.83,
+      "longitude": 45.9,
+      "period_from": null,
+      "period_to": null,
+      "slug": "khimoy",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "17bba85b-98e6-58c4-af00-393bfabb4a36",
+      "id": "faf5f3f9-abf1-5ed8-a05c-3c41f3ebfef1",
+      "latitude": 43.16,
+      "longitude": 46.22,
+      "period_from": null,
+      "period_to": null,
+      "slug": "tsentaroy",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "ce7a00f3-9091-5c0e-b207-4880075ff0e9",
+      "id": "81242eaf-1654-5f3a-9a99-004a663b6165",
+      "latitude": 43.1667,
+      "longitude": 45.75,
+      "period_from": null,
+      "period_to": null,
+      "slug": "starye-atagi",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "abeb92f7-da72-5c2d-8d4a-be371e24653d",
+      "id": "1b4d638b-849c-536e-9fa6-0d4a5e8bccc0",
+      "latitude": 43.13,
+      "longitude": 45.77,
+      "period_from": null,
+      "period_to": null,
+      "slug": "novye-atagi",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "ce7a00f3-9091-5c0e-b207-4880075ff0e9",
+      "id": "770c442f-a6e9-5f35-94b4-42a99ae80135",
+      "latitude": 43.25,
+      "longitude": 45.83,
+      "period_from": null,
+      "period_to": null,
+      "slug": "berdykel",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "a1991fb6-c898-5952-8192-efb26a820be9",
+      "id": "7c7c0092-f017-5e23-a9ae-157309002046",
+      "latitude": 43.42,
+      "longitude": 45.29,
+      "period_from": null,
+      "period_to": null,
+      "slug": "nadterechnoye",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "ce7a00f3-9091-5c0e-b207-4880075ff0e9",
+      "id": "80eb0068-56cd-543d-ae23-1adc1392c89e",
+      "latitude": 43.28,
+      "longitude": 45.68,
+      "period_from": null,
+      "period_to": null,
+      "slug": "aldy",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "bfd5e3f3-0f6a-543d-9190-9926ec858d5b",
+      "id": "bfd219bc-3b28-516f-ba24-6a504c7e0e32",
+      "latitude": 42.95,
+      "longitude": 46.05,
+      "period_from": null,
+      "period_to": null,
+      "slug": "kharachoy",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "e8d9a7e9-6724-5344-bf06-84c0ca8101ac",
+      "id": "b319196a-7306-54b4-ae1d-8790c4e83869",
+      "latitude": 43.05,
+      "longitude": 46.3,
+      "period_from": null,
+      "period_to": null,
+      "slug": "sayasan",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "2aeef331-d67d-5ce4-b705-25c9d40e8050",
+      "id": "adfb8c72-c79e-5bdc-9c72-804c6d1c21f0",
+      "latitude": 42.8,
+      "longitude": 45.5,
+      "period_from": null,
+      "period_to": null,
+      "slug": "zumsoy",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "abeb92f7-da72-5c2d-8d4a-be371e24653d",
+      "id": "c6d74983-b432-5e81-af6e-3607884ae663",
+      "latitude": 43.1,
+      "longitude": 46.05,
+      "period_from": null,
+      "period_to": null,
+      "slug": "serzhen-yurt",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "abeb92f7-da72-5c2d-8d4a-be371e24653d",
+      "id": "34ccf634-6f7f-5ae4-abff-a3b6d75e14b6",
+      "latitude": 43.16,
+      "longitude": 46.0,
+      "period_from": null,
+      "period_to": null,
+      "slug": "avtury",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "abeb92f7-da72-5c2d-8d4a-be371e24653d",
+      "id": "11c7c5e9-b708-5de3-aa86-0c608495b320",
+      "latitude": 43.23,
+      "longitude": 45.94,
+      "period_from": null,
+      "period_to": null,
+      "slug": "mesker-yurt",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "abeb92f7-da72-5c2d-8d4a-be371e24653d",
+      "id": "db2a73f0-4dad-5f61-92b8-b4eefbef10ed",
+      "latitude": 43.05,
+      "longitude": 45.8,
+      "period_from": null,
+      "period_to": null,
+      "slug": "chiri-yurt",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "abeb92f7-da72-5c2d-8d4a-be371e24653d",
+      "id": "44c79bd3-8160-508a-bca5-b378a12b9c91",
+      "latitude": 43.05,
+      "longitude": 45.77,
+      "period_from": null,
+      "period_to": null,
+      "slug": "duba-yurt",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "17bba85b-98e6-58c4-af00-393bfabb4a36",
+      "id": "db42c867-eb89-5573-9cb3-af5fec328674",
+      "latitude": 43.18,
+      "longitude": 46.03,
+      "period_from": null,
+      "period_to": null,
+      "slug": "geldagan",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "17bba85b-98e6-58c4-af00-393bfabb4a36",
+      "id": "4ef627fc-9aa9-542b-bfce-2780f286f789",
+      "latitude": 43.19,
+      "longitude": 46.15,
+      "period_from": null,
+      "period_to": null,
+      "slug": "mayrtup",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "17bba85b-98e6-58c4-af00-393bfabb4a36",
+      "id": "92a20491-816d-5abf-951a-fe7bef05e2ab",
+      "latitude": 43.22,
+      "longitude": 46.0,
+      "period_from": null,
+      "period_to": null,
+      "slug": "tsotsi-yurt",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "e4ebc05b-d7d3-5267-98e6-3d0ed937f5db",
+      "id": "2cb6f51d-a06d-5d58-be47-43b9fa0323d6",
+      "latitude": 43.28,
+      "longitude": 46.03,
+      "period_from": null,
+      "period_to": null,
+      "slug": "oyskhara",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "2098f4cd-9738-5bf1-987a-7ba84b2f3da1",
+      "id": "1d2a9799-6d60-547d-a6d7-6a67c582d756",
+      "latitude": 43.47,
+      "longitude": 45.93,
+      "period_from": null,
+      "period_to": null,
+      "slug": "chervlyonnaya",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "ea3cd6c4-8c42-50f4-b07e-1daa3aa52038",
+      "id": "9e5fdb39-de72-5ff4-9863-04f32686f05c",
+      "latitude": 43.18,
+      "longitude": 45.48,
+      "period_from": null,
+      "period_to": null,
+      "slug": "gekhi",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "ce7a00f3-9091-5c0e-b207-4880075ff0e9",
+      "id": "29a49a6e-b6e7-5fca-90fc-8c1ade684d8c",
+      "latitude": 43.28,
+      "longitude": 45.55,
+      "period_from": null,
+      "period_to": null,
+      "slug": "alkhan-kala",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "3d7155c8-b548-5c63-b9a3-93de9ed03aef",
+      "id": "25ef393a-02a2-579a-be76-d5bbe879722c",
+      "latitude": 43.3,
+      "longitude": 45.31,
+      "period_from": null,
+      "period_to": null,
+      "slug": "samashki",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "f6a461ca-e36b-5d05-80c1-170f88534442",
+      "id": "76a95fe9-ce5e-5c0f-ac3c-91225530cfa9",
+      "latitude": 43.23,
+      "longitude": 45.19,
+      "period_from": null,
+      "period_to": null,
+      "slug": "assinovskaya",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "f6a461ca-e36b-5d05-80c1-170f88534442",
+      "id": "90278fee-1f67-5c14-b00b-f8a440e64931",
+      "latitude": 43.15,
+      "longitude": 45.1,
+      "period_from": null,
+      "period_to": null,
+      "slug": "bamut",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "bfd5e3f3-0f6a-543d-9190-9926ec858d5b",
+      "id": "bb7b55b7-3be8-55f3-951f-b6096a2b93ac",
+      "latitude": 42.77,
+      "longitude": 46.28,
+      "period_from": null,
+      "period_to": null,
+      "slug": "kezenoy-am",
+      "status": "draft",
+      "type": "natural_object"
+    },
+    {
+      "district_id": "50d57d87-285f-51e3-b538-4443c4b6e91b",
+      "id": "968618e9-460e-526a-8caa-9772838f7dcf",
+      "latitude": 43.0,
+      "longitude": 45.7,
+      "period_from": null,
+      "period_to": null,
+      "slug": "argun-river",
+      "status": "draft",
+      "type": "natural_object"
+    },
+    {
+      "district_id": "2aeef331-d67d-5ce4-b705-25c9d40e8050",
+      "id": "306b4eec-28d1-5942-a4f4-a7ccc9cb2ccb",
+      "latitude": 42.85,
+      "longitude": 45.66,
+      "period_from": null,
+      "period_to": null,
+      "slug": "argun-gorge",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "2aeef331-d67d-5ce4-b705-25c9d40e8050",
+      "id": "b6c41f17-6048-5418-bb5f-d4d63a5424cf",
+      "latitude": 42.5544,
+      "longitude": 45.2864,
+      "period_from": null,
+      "period_to": null,
+      "slug": "tebulosmta",
+      "status": "draft",
+      "type": "natural_object"
+    },
+    {
+      "district_id": "ce7a00f3-9091-5c0e-b207-4880075ff0e9",
+      "id": "dd14bb59-72b5-53b3-9c7d-29609fa0bbda",
+      "latitude": 43.3186,
+      "longitude": 45.6931,
+      "period_from": null,
+      "period_to": null,
+      "slug": "heart-of-chechnya",
+      "status": "draft",
+      "type": "cultural_object"
+    },
+    {
+      "district_id": "abeb92f7-da72-5c2d-8d4a-be371e24653d",
+      "id": "ecc9a72e-f2af-5470-a224-17e81193767b",
+      "latitude": 43.1486,
+      "longitude": 45.92,
+      "period_from": null,
+      "period_to": null,
+      "slug": "pride-of-muslims",
+      "status": "draft",
+      "type": "cultural_object"
+    },
+    {
+      "district_id": "2aeef331-d67d-5ce4-b705-25c9d40e8050",
+      "id": "f388dc31-e2f3-57aa-871d-a2d3249faf14",
+      "latitude": 42.7367,
+      "longitude": 45.5697,
+      "period_from": null,
+      "period_to": null,
+      "slug": "pkhakoch",
+      "status": "draft",
+      "type": "landmark"
+    },
+    {
+      "district_id": "2aeef331-d67d-5ce4-b705-25c9d40e8050",
+      "id": "3aee2921-6eba-5a0d-aea9-37916ba5236e",
+      "latitude": 42.8,
+      "longitude": 45.45,
+      "period_from": null,
+      "period_to": null,
+      "slug": "nikaroy",
+      "status": "draft",
+      "type": "landmark"
+    },
+    {
+      "district_id": "bfd5e3f3-0f6a-543d-9190-9926ec858d5b",
+      "id": "bcec174d-867e-5c20-bcd1-7cabc0053f4c",
+      "latitude": 42.78,
+      "longitude": 46.25,
+      "period_from": null,
+      "period_to": null,
+      "slug": "khoy",
+      "status": "draft",
+      "type": "landmark"
+    },
+    {
+      "district_id": "50d57d87-285f-51e3-b538-4443c4b6e91b",
+      "id": "7d26c677-b004-5706-8105-a25dbd4e63d6",
+      "latitude": 42.8375,
+      "longitude": 45.6659,
+      "period_from": null,
+      "period_to": null,
+      "slug": "argun-museum-reserve",
+      "status": "draft",
+      "type": "cultural_object"
+    },
+    {
+      "district_id": "2aeef331-d67d-5ce4-b705-25c9d40e8050",
+      "id": "b8df28ef-15f4-5843-ac38-4f3c04956df1",
+      "latitude": 42.75,
+      "longitude": 45.62,
+      "period_from": null,
+      "period_to": null,
+      "slug": "veduchi",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": "ce7a00f3-9091-5c0e-b207-4880075ff0e9",
+      "id": "90deb7b1-d12a-505a-b2c9-b9556234a219",
+      "latitude": 43.312,
+      "longitude": 45.691,
+      "period_from": null,
+      "period_to": null,
+      "slug": "national-museum",
+      "status": "draft",
+      "type": "cultural_object"
+    },
+    {
+      "district_id": "ce7a00f3-9091-5c0e-b207-4880075ff0e9",
+      "id": "ef78ce84-cb9b-5b45-abb2-3eda27fdaa9c",
+      "latitude": 43.323,
+      "longitude": 45.697,
+      "period_from": null,
+      "period_to": null,
+      "slug": "grozny-city",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "01548aec-caf4-5b53-98fe-59c44f742c0f",
+      "latitude": 43.3,
+      "longitude": 46.6,
+      "period_from": null,
+      "period_to": null,
+      "slug": "gamiyah",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "2fdc5777-eed5-53a6-8183-f82c9ef58390",
+      "latitude": 43.25,
+      "longitude": 46.587,
+      "period_from": null,
+      "period_to": null,
+      "slug": "khasavyurt",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "537c420f-e5f6-528f-ade9-cd31474e727f",
+      "latitude": 59.9535,
+      "longitude": 31.038,
+      "period_from": null,
+      "period_to": null,
+      "slug": "shlisselburg",
+      "status": "draft",
+      "type": "landmark"
+    },
+    {
+      "district_id": null,
+      "id": "3285f1c3-e32e-5e0b-b14d-3282893b754f",
+      "latitude": 49.8047,
+      "longitude": 73.1094,
+      "period_from": null,
+      "period_to": null,
+      "slug": "karaganda",
+      "status": "draft",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "1aa88c22-d98a-58d1-b228-94dee4a2422b",
+      "latitude": 52.0826,
+      "longitude": 23.6553,
+      "period_from": null,
+      "period_to": null,
+      "slug": "brest-fortress",
+      "status": "draft",
+      "type": "landmark"
+    },
+    {
+      "district_id": null,
+      "id": "fad4d1cf-8e91-5f3a-8865-e31f3ab17d40",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1760,
+      "period_to": 1794,
+      "slug": "sheikh-mansur",
+      "status": "draft",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "6185e98c-0240-5a08-9154-0fd39094b2d5",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1779,
+      "period_to": 1831,
+      "slug": "beybulat-taimiev",
+      "status": "draft",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "2ffdf017-8858-58f1-b941-5a74e2271ae8",
+      "latitude": null,
+      "longitude": null,
+      "period_from": null,
+      "period_to": 1843,
+      "slug": "tashu-hadzhi",
+      "status": "draft",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "aeb2d259-ecf0-5fc0-a0eb-59b1dba26b7d",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1794,
+      "period_to": 1861,
+      "slug": "baysangur",
+      "status": "draft",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "4ce10ba3-f686-5de4-9f1a-9278a3070965",
+      "latitude": null,
+      "longitude": null,
+      "period_from": null,
+      "period_to": 1878,
+      "slug": "uma-duev",
+      "status": "draft",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "d3356248-7684-54df-ba88-ee1dedc52d84",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1872,
+      "period_to": 1913,
+      "slug": "zelimkhan",
+      "status": "draft",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "da86a501-8b89-5671-b95a-62a3a7c221d9",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1897,
+      "period_to": 1919,
+      "slug": "sheripov-aslanbek",
+      "status": "draft",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "0df490d1-e9d1-5734-9758-94fd077967fb",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1920,
+      "period_to": 1942,
+      "slug": "nuradilov",
+      "status": "draft",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "afbaf789-32e2-59cb-920f-02619dabaffb",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1913,
+      "period_to": 1986,
+      "slug": "visaitov",
+      "status": "draft",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "46561d4c-c3b4-5401-8e06-8e9be1280028",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1918,
+      "period_to": 1983,
+      "slug": "idrisov",
+      "status": "draft",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "b65cd9da-9a60-5718-9e1e-62c87cc9ba11",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1912,
+      "period_to": 1943,
+      "slug": "beybulatov",
+      "status": "draft",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "ffcf0329-3c9b-5bcc-807e-148ae570b26b",
+      "latitude": null,
+      "longitude": null,
+      "period_from": null,
+      "period_to": null,
+      "slug": "magomed-mirzoev",
+      "status": "draft",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "ce825c4d-79ae-53c2-8d93-bde084c8d460",
+      "latitude": null,
+      "longitude": null,
+      "period_from": null,
+      "period_to": null,
+      "slug": "dachiev",
+      "status": "draft",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "21523908-cf55-5b52-b684-1d40c992185f",
+      "latitude": null,
+      "longitude": null,
+      "period_from": null,
+      "period_to": 1942,
+      "slug": "mazaev",
+      "status": "draft",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "c4b9c02c-59ce-5b93-8222-4572cbea16cb",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1951,
+      "period_to": 2004,
+      "slug": "kadyrov-akhmat",
+      "status": "draft",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "7242b00c-17c6-556e-a31f-7aa7d2840bfb",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1976,
+      "period_to": null,
+      "slug": "kadyrov-ramzan",
+      "status": "draft",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "08a704a1-1518-59a4-8257-8e278aa4c67b",
+      "latitude": null,
+      "longitude": null,
+      "period_from": null,
+      "period_to": 2001,
+      "slug": "gazimagomadov",
+      "status": "draft",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "303c5c66-a65b-57dd-afca-d66a06f5331f",
+      "latitude": null,
+      "longitude": null,
+      "period_from": null,
+      "period_to": 2000,
+      "slug": "tashukhadzhiev",
+      "status": "draft",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "f8682be9-f0f1-56d0-b910-67af50f61d5f",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1924,
+      "period_to": 2000,
+      "slug": "esambaev",
+      "status": "draft",
+      "type": "person"
+    },
+    {
+      "district_id": "ce7a00f3-9091-5c0e-b207-4880075ff0e9",
+      "id": "c7325552-1119-59d7-9dfc-b28337d04b49",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1785,
+      "period_to": 1791,
+      "slug": "mansur-uprising",
+      "status": "draft",
+      "type": "event"
+    },
+    {
+      "district_id": "ce7a00f3-9091-5c0e-b207-4880075ff0e9",
+      "id": "9aa14194-0b24-5a01-ae36-07767e8b4717",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1785,
+      "period_to": null,
+      "slug": "battle-aldy-1785",
+      "status": "draft",
+      "type": "event"
+    },
+    {
+      "district_id": "ce7a00f3-9091-5c0e-b207-4880075ff0e9",
+      "id": "3a4634bf-5721-5fff-94e7-763a8c596743",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1818,
+      "period_to": null,
+      "slug": "founding-grozny",
+      "status": "draft",
+      "type": "event"
+    },
+    {
+      "district_id": null,
+      "id": "2503b706-f407-5d94-817f-2a068379b72d",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1817,
+      "period_to": 1864,
+      "slug": "caucasian-war",
+      "status": "draft",
+      "type": "event"
+    },
+    {
+      "district_id": null,
+      "id": "f08da49d-96a7-5821-a08c-376b76903289",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1840,
+      "period_to": null,
+      "slug": "battle-valerik-1840",
+      "status": "draft",
+      "type": "event"
+    },
+    {
+      "district_id": "bfd5e3f3-0f6a-543d-9190-9926ec858d5b",
+      "id": "40bec69d-d29d-5c3b-865f-67f4727fcef7",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1845,
+      "period_to": 1859,
+      "slug": "shamil-imamate-vedeno",
+      "status": "draft",
+      "type": "event"
+    },
+    {
+      "district_id": null,
+      "id": "3c31b446-0e0c-51e6-884b-d3cb39e985f0",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1860,
+      "period_to": 1861,
+      "slug": "uprising-1860-1861",
+      "status": "draft",
+      "type": "event"
+    },
+    {
+      "district_id": null,
+      "id": "a2b93c68-26d6-5296-a301-e29a93764b46",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1877,
+      "period_to": 1878,
+      "slug": "uprising-1877",
+      "status": "draft",
+      "type": "event"
+    },
+    {
+      "district_id": null,
+      "id": "4d315a7f-feb4-54f6-8771-63f9b76cb23d",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1941,
+      "period_to": 1945,
+      "slug": "wwii",
+      "status": "draft",
+      "type": "event"
+    },
+    {
+      "district_id": null,
+      "id": "07cdd514-0a84-5082-95f4-51e327d07d67",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1941,
+      "period_to": null,
+      "slug": "brest-defense",
+      "status": "draft",
+      "type": "event"
+    },
+    {
+      "district_id": null,
+      "id": "ec87a297-0727-5020-a136-8f19205ab089",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1942,
+      "period_to": 1943,
+      "slug": "battle-stalingrad",
+      "status": "draft",
+      "type": "event"
+    },
+    {
+      "district_id": null,
+      "id": "ea954a6b-e2d6-5158-b39b-586809367e04",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1945,
+      "period_to": null,
+      "slug": "elbe-meeting",
+      "status": "draft",
+      "type": "event"
+    },
+    {
+      "district_id": null,
+      "id": "51151ac6-98cc-57e4-9fb0-d1d1a959ec90",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1944,
+      "period_to": null,
+      "slug": "deportation-1944",
+      "status": "draft",
+      "type": "event"
+    },
+    {
+      "district_id": "ce7a00f3-9091-5c0e-b207-4880075ff0e9",
+      "id": "90198017-06ff-5b33-a7c7-5feeed29f40f",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 2008,
+      "period_to": null,
+      "slug": "mosque-heart-2008",
+      "status": "draft",
+      "type": "event"
+    },
+    {
+      "district_id": "abeb92f7-da72-5c2d-8d4a-be371e24653d",
+      "id": "ad549745-a376-5a77-bdfb-93b767282699",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 2019,
+      "period_to": null,
+      "slug": "mosque-shali-2019",
+      "status": "draft",
+      "type": "event"
+    }
+  ],
+  "entity_names": [
+    {
+      "entity_id": "50e46161-a47c-5d57-a889-345afe07de6b",
+      "id": "8346d7d1-c863-54ba-ab25-e0eb9961196b",
+      "locale": "ru",
+      "name": "Грозный"
+    },
+    {
+      "entity_id": "50e46161-a47c-5d57-a889-345afe07de6b",
+      "id": "1358aa49-9192-5265-8c05-be4d4834fa0d",
+      "locale": "ce",
+      "name": "Соьлжа-ГӀала"
+    },
+    {
+      "entity_id": "c102599a-8ccf-5142-abbb-2b3014e67b07",
+      "id": "b7523aef-7115-5dd4-b5aa-b36c4b199f5d",
+      "locale": "ru",
+      "name": "Гудермес"
+    },
+    {
+      "entity_id": "06a852b0-4446-5fbf-ade6-d6f5f790c3b5",
+      "id": "bb1c44d8-29cd-5a23-a58f-5a7e82906642",
+      "locale": "ru",
+      "name": "Аргун"
+    },
+    {
+      "entity_id": "06a852b0-4446-5fbf-ade6-d6f5f790c3b5",
+      "id": "2436a376-26ad-5931-ae82-b758eea9dcea",
+      "locale": "ce",
+      "name": "Устрада-ГӀала"
+    },
+    {
+      "entity_id": "f9075823-f2af-5a73-9f62-a88edf4e03b2",
+      "id": "3a5baed2-3fb2-544b-b1ec-7c29be48f1a4",
+      "locale": "ru",
+      "name": "Шали"
+    },
+    {
+      "entity_id": "6187ad82-0751-5ef0-9baf-179b6bd1a577",
+      "id": "ac59825a-c4c8-5e5e-a9e8-17d52a06e0be",
+      "locale": "ru",
+      "name": "Урус-Мартан"
+    },
+    {
+      "entity_id": "e6aa00d6-6605-5a90-9192-4085d62cbda3",
+      "id": "8f256f26-dab1-5911-a3c3-c89cf853561b",
+      "locale": "ru",
+      "name": "Курчалой"
+    },
+    {
+      "entity_id": "b62834ea-e611-5a4d-91bb-521df2ec0e4c",
+      "id": "a722bd9d-0c02-59ec-8437-895f2432e676",
+      "locale": "ru",
+      "name": "Ачхой-Мартан"
+    },
+    {
+      "entity_id": "1f7c2436-2332-514c-82fb-9d21fccd9218",
+      "id": "ae879693-6ba3-5ba1-9159-f91ed77a84c7",
+      "locale": "ru",
+      "name": "Ведено"
+    },
+    {
+      "entity_id": "dec0456d-9c8f-5479-b3e8-1d42c70a2d1a",
+      "id": "e8be444c-090a-5bad-9861-9f71c4c29910",
+      "locale": "ru",
+      "name": "Итум-Кали"
+    },
+    {
+      "entity_id": "0cd7c570-2858-5c31-a5e8-fde67ed3f4cb",
+      "id": "acde8599-48bf-5ab9-97a8-02849d51b2ad",
+      "locale": "ru",
+      "name": "Ножай-Юрт"
+    },
+    {
+      "entity_id": "fbef07c3-05c6-52d8-accf-f47601778d94",
+      "id": "03dca45b-4c2b-51c0-ac7a-11cdc2803bc9",
+      "locale": "ru",
+      "name": "Беной"
+    },
+    {
+      "entity_id": "46ca7c1e-2d91-516a-b256-332f36908c5c",
+      "id": "fa54c617-199e-526a-974a-828606ffb88c",
+      "locale": "ru",
+      "name": "Шатой"
+    },
+    {
+      "entity_id": "46ca7c1e-2d91-516a-b256-332f36908c5c",
+      "id": "b975bac2-d77c-5996-bbfc-acae7ce3b463",
+      "locale": "ru",
+      "name": "Асланбек-Шерипово"
+    },
+    {
+      "entity_id": "97c82c71-005f-5ccd-b758-3c626ed51e69",
+      "id": "7bc3f37e-c887-5000-8c2d-a12fb3778d9e",
+      "locale": "ru",
+      "name": "Шелковская"
+    },
+    {
+      "entity_id": "0117b4d4-83e0-50b6-a0a7-3a53cfa42f1c",
+      "id": "09cc3771-c765-5d32-aa82-b4c1cf89b946",
+      "locale": "ru",
+      "name": "Наурская"
+    },
+    {
+      "entity_id": "82f32365-65f0-5d37-9d94-50748fc91fd7",
+      "id": "9f827264-4e10-5652-9d79-e287ffdea547",
+      "locale": "ru",
+      "name": "Знаменское"
+    },
+    {
+      "entity_id": "4bb10e37-1463-5634-a095-dac5943be3aa",
+      "id": "5cf778f4-e6ed-573f-942d-88391d60a42f",
+      "locale": "ru",
+      "name": "Серноводское"
+    },
+    {
+      "entity_id": "4bb10e37-1463-5634-a095-dac5943be3aa",
+      "id": "57692e66-2c31-58b1-9f51-0d8b3cd831c4",
+      "locale": "ru",
+      "name": "Серноводск"
+    },
+    {
+      "entity_id": "5ff9ea66-a4ac-5826-b07e-63181274d6ae",
+      "id": "fd570b59-7dbd-5276-823b-ec59d53cc1ef",
+      "locale": "ru",
+      "name": "Химой"
+    },
+    {
+      "entity_id": "faf5f3f9-abf1-5ed8-a05c-3c41f3ebfef1",
+      "id": "e44fb4a5-91b1-5fe3-a145-e63d8b50279b",
+      "locale": "ru",
+      "name": "Центарой (Ахмат-Юрт)"
+    },
+    {
+      "entity_id": "faf5f3f9-abf1-5ed8-a05c-3c41f3ebfef1",
+      "id": "75f17f1e-93f4-585c-b98d-afc798239b80",
+      "locale": "ru",
+      "name": "Хоси-Юрт"
+    },
+    {
+      "entity_id": "81242eaf-1654-5f3a-9a99-004a663b6165",
+      "id": "a4668000-958f-5e25-a75e-491bbb5da082",
+      "locale": "ru",
+      "name": "Старые Атаги"
+    },
+    {
+      "entity_id": "1b4d638b-849c-536e-9fa6-0d4a5e8bccc0",
+      "id": "32480ccc-4f50-5376-a11c-7b5380fd3167",
+      "locale": "ru",
+      "name": "Новые Атаги"
+    },
+    {
+      "entity_id": "770c442f-a6e9-5f35-94b4-42a99ae80135",
+      "id": "b449887d-e7a8-524f-93aa-3c3955c699bc",
+      "locale": "ru",
+      "name": "Бердыкель (Комсомольское)"
+    },
+    {
+      "entity_id": "770c442f-a6e9-5f35-94b4-42a99ae80135",
+      "id": "fb4e9a32-0e3d-5749-9443-a44d1422d29f",
+      "locale": "ru",
+      "name": "Комсомольское"
+    },
+    {
+      "entity_id": "7c7c0092-f017-5e23-a9ae-157309002046",
+      "id": "f48f62d2-9c0c-591f-8323-79287d8b3688",
+      "locale": "ru",
+      "name": "Надтеречное"
+    },
+    {
+      "entity_id": "80eb0068-56cd-543d-ae23-1adc1392c89e",
+      "id": "ecdef4c1-4e84-5a33-8084-730fb7fc9b11",
+      "locale": "ru",
+      "name": "Алды"
+    },
+    {
+      "entity_id": "bfd219bc-3b28-516f-ba24-6a504c7e0e32",
+      "id": "891ffc35-1cb5-56ab-b21c-fc06f37b25a8",
+      "locale": "ru",
+      "name": "Харачой"
+    },
+    {
+      "entity_id": "b319196a-7306-54b4-ae1d-8790c4e83869",
+      "id": "ce44d8e1-3f43-55dd-8095-da35f910e427",
+      "locale": "ru",
+      "name": "Саясан"
+    },
+    {
+      "entity_id": "adfb8c72-c79e-5bdc-9c72-804c6d1c21f0",
+      "id": "99247303-d4a8-5ccf-b215-0036bd994f64",
+      "locale": "ru",
+      "name": "Зумсой"
+    },
+    {
+      "entity_id": "c6d74983-b432-5e81-af6e-3607884ae663",
+      "id": "361b0211-2635-57fc-8eb2-9f534f10a584",
+      "locale": "ru",
+      "name": "Сержень-Юрт"
+    },
+    {
+      "entity_id": "34ccf634-6f7f-5ae4-abff-a3b6d75e14b6",
+      "id": "2e5cb0f2-6baf-5290-a9c6-ddbe16b98b0c",
+      "locale": "ru",
+      "name": "Автуры"
+    },
+    {
+      "entity_id": "11c7c5e9-b708-5de3-aa86-0c608495b320",
+      "id": "853dd9c0-c15d-584c-b840-03d164d1776c",
+      "locale": "ru",
+      "name": "Мескер-Юрт"
+    },
+    {
+      "entity_id": "db2a73f0-4dad-5f61-92b8-b4eefbef10ed",
+      "id": "31275135-4d47-589a-bdfb-23bb8b0eaedf",
+      "locale": "ru",
+      "name": "Чири-Юрт"
+    },
+    {
+      "entity_id": "44c79bd3-8160-508a-bca5-b378a12b9c91",
+      "id": "f6a0b6d0-0269-5bf7-bf95-bdb76ef32ce0",
+      "locale": "ru",
+      "name": "Дуба-Юрт"
+    },
+    {
+      "entity_id": "db42c867-eb89-5573-9cb3-af5fec328674",
+      "id": "ff19338c-30df-53f0-80cc-8060678814a1",
+      "locale": "ru",
+      "name": "Гелдаган"
+    },
+    {
+      "entity_id": "4ef627fc-9aa9-542b-bfce-2780f286f789",
+      "id": "2cd61776-5685-551b-a358-6a4bdef30ecb",
+      "locale": "ru",
+      "name": "Майртуп"
+    },
+    {
+      "entity_id": "92a20491-816d-5abf-951a-fe7bef05e2ab",
+      "id": "70e469ab-6a8a-57e4-b346-7ff57090329f",
+      "locale": "ru",
+      "name": "Цоци-Юрт"
+    },
+    {
+      "entity_id": "92a20491-816d-5abf-951a-fe7bef05e2ab",
+      "id": "62232b02-efba-556d-a89e-0a8bed56f3a1",
+      "locale": "ru",
+      "name": "Октябрьское"
+    },
+    {
+      "entity_id": "2cb6f51d-a06d-5d58-be47-43b9fa0323d6",
+      "id": "6127275e-b8a3-5dc9-9fb5-4e9bfb8fe6bb",
+      "locale": "ru",
+      "name": "Ойсхара"
+    },
+    {
+      "entity_id": "2cb6f51d-a06d-5d58-be47-43b9fa0323d6",
+      "id": "d89f03da-53b7-5ed5-8b19-8b6fcbb7a2c1",
+      "locale": "ru",
+      "name": "Новогрозненский"
+    },
+    {
+      "entity_id": "1d2a9799-6d60-547d-a6d7-6a67c582d756",
+      "id": "c1fcbda2-c209-5497-b3f9-224e604c2b66",
+      "locale": "ru",
+      "name": "Червлённая"
+    },
+    {
+      "entity_id": "9e5fdb39-de72-5ff4-9863-04f32686f05c",
+      "id": "b2fcf78f-f0c3-5afc-aed5-561059516627",
+      "locale": "ru",
+      "name": "Гехи"
+    },
+    {
+      "entity_id": "29a49a6e-b6e7-5fca-90fc-8c1ade684d8c",
+      "id": "7904f1e4-2451-502b-b263-e490b6cf73b5",
+      "locale": "ru",
+      "name": "Алхан-Кала"
+    },
+    {
+      "entity_id": "29a49a6e-b6e7-5fca-90fc-8c1ade684d8c",
+      "id": "60a24fa4-2947-5f16-80c0-f622c285866b",
+      "locale": "ru",
+      "name": "Ермоловка"
+    },
+    {
+      "entity_id": "25ef393a-02a2-579a-be76-d5bbe879722c",
+      "id": "bdd5958f-b191-51bb-aa8e-43dd91faa7d1",
+      "locale": "ru",
+      "name": "Самашки"
+    },
+    {
+      "entity_id": "76a95fe9-ce5e-5c0f-ac3c-91225530cfa9",
+      "id": "f917dca7-9bea-5059-93d3-abd10f0ab427",
+      "locale": "ru",
+      "name": "Ассиновская"
+    },
+    {
+      "entity_id": "90278fee-1f67-5c14-b00b-f8a440e64931",
+      "id": "54bc7e0d-039b-51be-bc10-8f5ef9d53100",
+      "locale": "ru",
+      "name": "Бамут"
+    },
+    {
+      "entity_id": "bb7b55b7-3be8-55f3-951f-b6096a2b93ac",
+      "id": "910f3448-0f5b-5c4e-84a2-c1d6e92886ab",
+      "locale": "ru",
+      "name": "Озеро Кезеной-Ам"
+    },
+    {
+      "entity_id": "968618e9-460e-526a-8caa-9772838f7dcf",
+      "id": "02aa2f8e-5e4e-5013-85ff-dcf13a07b5e7",
+      "locale": "ru",
+      "name": "Река Аргун"
+    },
+    {
+      "entity_id": "306b4eec-28d1-5942-a4f4-a7ccc9cb2ccb",
+      "id": "525618fd-816a-50be-96a8-91a45141776d",
+      "locale": "ru",
+      "name": "Аргунское ущелье"
+    },
+    {
+      "entity_id": "b6c41f17-6048-5418-bb5f-d4d63a5424cf",
+      "id": "0a315fb8-e771-576e-ba8f-dfbbb1c3599a",
+      "locale": "ru",
+      "name": "Гора Тебулосмта"
+    },
+    {
+      "entity_id": "dd14bb59-72b5-53b3-9c7d-29609fa0bbda",
+      "id": "f793ced4-ddae-5d9e-898e-339323173c54",
+      "locale": "ru",
+      "name": "Мечеть «Сердце Чечни» им. А. А. Кадырова"
+    },
+    {
+      "entity_id": "ecc9a72e-f2af-5470-a224-17e81193767b",
+      "id": "109fb0b9-df0f-565c-8092-132c62101a3a",
+      "locale": "ru",
+      "name": "Мечеть «Гордость мусульман» им. Пророка Мухаммада"
+    },
+    {
+      "entity_id": "f388dc31-e2f3-57aa-871d-a2d3249faf14",
+      "id": "b5f560ff-d44a-5b22-80fc-0634e985bb38",
+      "locale": "ru",
+      "name": "Башенный комплекс Пхакоч"
+    },
+    {
+      "entity_id": "3aee2921-6eba-5a0d-aea9-37916ba5236e",
+      "id": "bc70601b-955d-517e-917c-372aec1979b8",
+      "locale": "ru",
+      "name": "Никарой"
+    },
+    {
+      "entity_id": "bcec174d-867e-5c20-bcd1-7cabc0053f4c",
+      "id": "1a0f29ac-5ab5-595b-9872-d18f42bcef3d",
+      "locale": "ru",
+      "name": "Хой"
+    },
+    {
+      "entity_id": "7d26c677-b004-5706-8105-a25dbd4e63d6",
+      "id": "19e08057-c487-541d-bb08-01134dbd5357",
+      "locale": "ru",
+      "name": "Аргунский государственный музей-заповедник"
+    },
+    {
+      "entity_id": "b8df28ef-15f4-5843-ac38-4f3c04956df1",
+      "id": "6861f69f-3b80-5b85-a50a-188eaa544a28",
+      "locale": "ru",
+      "name": "Всесезонный курорт Ведучи"
+    },
+    {
+      "entity_id": "90deb7b1-d12a-505a-b2c9-b9556234a219",
+      "id": "8f28d7dd-1f57-529f-8776-f648f9a33cc3",
+      "locale": "ru",
+      "name": "Национальный музей Чеченской Республики"
+    },
+    {
+      "entity_id": "ef78ce84-cb9b-5b45-abb2-3eda27fdaa9c",
+      "id": "0b7e1f51-3315-5283-b7d7-bc88d9ca4eb1",
+      "locale": "ru",
+      "name": "Комплекс «Грозный-Сити»"
+    },
+    {
+      "entity_id": "01548aec-caf4-5b53-98fe-59c44f742c0f",
+      "id": "9f79331c-4162-5488-8327-9b61aca06d79",
+      "locale": "ru",
+      "name": "Гамиях (быв. Минай-Тогай)"
+    },
+    {
+      "entity_id": "01548aec-caf4-5b53-98fe-59c44f742c0f",
+      "id": "31712ab8-7444-5f45-97a3-6ecbff1f6b4d",
+      "locale": "ru",
+      "name": "Минай-Тогай"
+    },
+    {
+      "entity_id": "2fdc5777-eed5-53a6-8183-f82c9ef58390",
+      "id": "44704923-a6f2-5c85-8d45-f3e7752fe109",
+      "locale": "ru",
+      "name": "Хасавюрт"
+    },
+    {
+      "entity_id": "537c420f-e5f6-528f-ade9-cd31474e727f",
+      "id": "feab0e8e-6718-528c-a469-878263955698",
+      "locale": "ru",
+      "name": "Шлиссельбургская крепость"
+    },
+    {
+      "entity_id": "3285f1c3-e32e-5e0b-b14d-3282893b754f",
+      "id": "55cf0453-0faf-533c-ae60-611fc0e6d2ed",
+      "locale": "ru",
+      "name": "Караганда"
+    },
+    {
+      "entity_id": "1aa88c22-d98a-58d1-b228-94dee4a2422b",
+      "id": "31b7e09d-5266-5a6d-b50f-068b54b45068",
+      "locale": "ru",
+      "name": "Брестская крепость"
+    },
+    {
+      "entity_id": "fad4d1cf-8e91-5f3a-8865-e31f3ab17d40",
+      "id": "3b598381-a1b2-59fe-86b7-a6c0be1cd08b",
+      "locale": "ru",
+      "name": "Шейх Мансур (Ушурма)"
+    },
+    {
+      "entity_id": "fad4d1cf-8e91-5f3a-8865-e31f3ab17d40",
+      "id": "a2df1643-bab0-5bdb-9ce3-19ea08bf7e00",
+      "locale": "ru",
+      "name": "шайх Учерман"
+    },
+    {
+      "entity_id": "fad4d1cf-8e91-5f3a-8865-e31f3ab17d40",
+      "id": "9a7ee950-6015-58b4-b8ba-90881e89dafc",
+      "locale": "ru",
+      "name": "Ушурма Алдынский"
+    },
+    {
+      "entity_id": "6185e98c-0240-5a08-9154-0fd39094b2d5",
+      "id": "f7267e92-addf-58ad-bea4-46017dabbb9c",
+      "locale": "ru",
+      "name": "Бейбулат Таймиев"
+    },
+    {
+      "entity_id": "2ffdf017-8858-58f1-b941-5a74e2271ae8",
+      "id": "437216e0-2174-51b1-a1c6-bad163580ce9",
+      "locale": "ru",
+      "name": "Ташу-Хаджи Саясановский"
+    },
+    {
+      "entity_id": "aeb2d259-ecf0-5fc0-a0eb-59b1dba26b7d",
+      "id": "f34ffed7-48ab-5a98-8c4d-7af2e93fd399",
+      "locale": "ru",
+      "name": "Байсангур Беноевский"
+    },
+    {
+      "entity_id": "aeb2d259-ecf0-5fc0-a0eb-59b1dba26b7d",
+      "id": "64814f1f-e685-5173-a978-17de7cc21213",
+      "locale": "ru",
+      "name": "Байсунгур из Беноя"
+    },
+    {
+      "entity_id": "4ce10ba3-f686-5de4-9f1a-9278a3070965",
+      "id": "5f086ce6-1bb6-5bcc-97d1-cda9c393a575",
+      "locale": "ru",
+      "name": "Ума Дуев"
+    },
+    {
+      "entity_id": "d3356248-7684-54df-ba88-ee1dedc52d84",
+      "id": "c1d43f29-4e9b-5b19-aae4-a8daac60d682",
+      "locale": "ru",
+      "name": "Зелимхан Гушмазукаев (Харачоевский)"
+    },
+    {
+      "entity_id": "da86a501-8b89-5671-b95a-62a3a7c221d9",
+      "id": "1b73c1ee-a09e-5c34-be8d-d6f1367d8958",
+      "locale": "ru",
+      "name": "Асланбек Джемалдинович Шерипов"
+    },
+    {
+      "entity_id": "0df490d1-e9d1-5734-9758-94fd077967fb",
+      "id": "1154e509-60a3-5458-9fc9-7a48fbecd50d",
+      "locale": "ru",
+      "name": "Ханпаша Нурадилович Нурадилов"
+    },
+    {
+      "entity_id": "afbaf789-32e2-59cb-920f-02619dabaffb",
+      "id": "542a277c-5bc7-5bc4-9aee-ab72580cdd59",
+      "locale": "ru",
+      "name": "Мавлид (Мовлид) Алероевич Висаитов"
+    },
+    {
+      "entity_id": "46561d4c-c3b4-5401-8e06-8e9be1280028",
+      "id": "cd741ad9-8ab0-5e2a-a02c-97ea85f1b4df",
+      "locale": "ru",
+      "name": "Абухаджи Идрисов"
+    },
+    {
+      "entity_id": "b65cd9da-9a60-5718-9e1e-62c87cc9ba11",
+      "id": "ddff938d-51ff-5f47-8e9a-ff7eadbbb1f5",
+      "locale": "ru",
+      "name": "Ирбайхан Адельханович Бейбулатов"
+    },
+    {
+      "entity_id": "ffcf0329-3c9b-5bcc-807e-148ae570b26b",
+      "id": "04ca6ea8-3e3c-56fa-84e5-c4663bcbebe8",
+      "locale": "ru",
+      "name": "Хаваджи Магомед-Мирзоев"
+    },
+    {
+      "entity_id": "ce825c4d-79ae-53c2-8d93-bde084c8d460",
+      "id": "63a01e98-7ceb-5c8c-ae42-e0a9b3e17a91",
+      "locale": "ru",
+      "name": "Хансултан Чапаевич Дачиев"
+    },
+    {
+      "entity_id": "21523908-cf55-5b52-b684-1d40c992185f",
+      "id": "31c4fc46-382e-5197-9d72-a9985b50384e",
+      "locale": "ru",
+      "name": "Маташ Мазаев"
+    },
+    {
+      "entity_id": "c4b9c02c-59ce-5b93-8222-4572cbea16cb",
+      "id": "c0f90ac5-26fe-59de-8146-683a64e67089",
+      "locale": "ru",
+      "name": "Ахмат-Хаджи Абдулхамидович Кадыров"
+    },
+    {
+      "entity_id": "7242b00c-17c6-556e-a31f-7aa7d2840bfb",
+      "id": "2fe69ceb-45fe-50e2-8096-eb68304c6cac",
+      "locale": "ru",
+      "name": "Рамзан Ахматович Кадыров"
+    },
+    {
+      "entity_id": "08a704a1-1518-59a4-8257-8e278aa4c67b",
+      "id": "2b9fe5da-6e2d-5533-a123-0caa1730a2ae",
+      "locale": "ru",
+      "name": "Муса Газимагомадов"
+    },
+    {
+      "entity_id": "303c5c66-a65b-57dd-afca-d66a06f5331f",
+      "id": "43c227ab-8e54-520a-9ad1-0d350c51f66f",
+      "locale": "ru",
+      "name": "Магомед Сайдиевич Ташухаджиев"
+    },
+    {
+      "entity_id": "f8682be9-f0f1-56d0-b910-67af50f61d5f",
+      "id": "8e7ab3cb-c0ea-54f8-b9af-4d1c297ac967",
+      "locale": "ru",
+      "name": "Махмуд Алисултанович Эсамбаев"
+    },
+    {
+      "entity_id": "c7325552-1119-59d7-9dfc-b28337d04b49",
+      "id": "6238949d-339a-5d9c-ba3e-a842a887e5da",
+      "locale": "ru",
+      "name": "Восстание шейха Мансура"
+    },
+    {
+      "entity_id": "9aa14194-0b24-5a01-ae36-07767e8b4717",
+      "id": "ca68eaf6-3afe-5b7a-b26c-3e3bd9a26f14",
+      "locale": "ru",
+      "name": "Разгром отряда де Пьери у Алдов"
+    },
+    {
+      "entity_id": "3a4634bf-5721-5fff-94e7-763a8c596743",
+      "id": "1effd4e1-847c-5ba7-88cd-183684670569",
+      "locale": "ru",
+      "name": "Основание крепости Грозная"
+    },
+    {
+      "entity_id": "2503b706-f407-5d94-817f-2a068379b72d",
+      "id": "06efc1fb-2078-5225-ae52-428ebba6be17",
+      "locale": "ru",
+      "name": "Кавказская война"
+    },
+    {
+      "entity_id": "f08da49d-96a7-5821-a08c-376b76903289",
+      "id": "ef09693c-754a-5d59-8263-315d480e048b",
+      "locale": "ru",
+      "name": "Сражение на реке Валерик"
+    },
+    {
+      "entity_id": "40bec69d-d29d-5c3b-865f-67f4727fcef7",
+      "id": "6a899ab1-e8fd-5b36-879a-766ed9b1a29a",
+      "locale": "ru",
+      "name": "Столица имамата Шамиля в Ведено"
+    },
+    {
+      "entity_id": "3c31b446-0e0c-51e6-884b-d3cb39e985f0",
+      "id": "dd83be5f-d72c-51e4-a34c-d6aa4da90e52",
+      "locale": "ru",
+      "name": "Восстание в Чечне 1860–1861 годов"
+    },
+    {
+      "entity_id": "a2b93c68-26d6-5296-a301-e29a93764b46",
+      "id": "d04106e1-574c-58cb-a4fc-28144068fe5c",
+      "locale": "ru",
+      "name": "Восстание в Чечне 1877–1878 годов"
+    },
+    {
+      "entity_id": "4d315a7f-feb4-54f6-8771-63f9b76cb23d",
+      "id": "b57c2a0d-11b3-54ed-874f-1422f9d1f06f",
+      "locale": "ru",
+      "name": "Великая Отечественная война"
+    },
+    {
+      "entity_id": "07cdd514-0a84-5082-95f4-51e327d07d67",
+      "id": "12c6a90d-e608-544f-bb59-fbefec52bacf",
+      "locale": "ru",
+      "name": "Оборона Брестской крепости"
+    },
+    {
+      "entity_id": "ec87a297-0727-5020-a136-8f19205ab089",
+      "id": "6db3d7b6-01ed-5fc2-b432-c1d8ea5ac275",
+      "locale": "ru",
+      "name": "Сталинградская битва"
+    },
+    {
+      "entity_id": "ea954a6b-e2d6-5158-b39b-586809367e04",
+      "id": "56780244-0c4f-5b20-b6bc-d49e3e0d073a",
+      "locale": "ru",
+      "name": "Встреча на Эльбе"
+    },
+    {
+      "entity_id": "51151ac6-98cc-57e4-9fb0-d1d1a959ec90",
+      "id": "4a9ed8c7-131e-565d-8fe0-b4b3ed4842b2",
+      "locale": "ru",
+      "name": "Депортация чеченцев и ингушей («Чечевица»)"
+    },
+    {
+      "entity_id": "90198017-06ff-5b33-a7c7-5feeed29f40f",
+      "id": "49cba9cf-5fca-5708-bc05-be8d8959f1e6",
+      "locale": "ru",
+      "name": "Открытие мечети «Сердце Чечни»"
+    },
+    {
+      "entity_id": "ad549745-a376-5a77-bdfb-93b767282699",
+      "id": "fd3163f9-83c7-5033-b285-ab15ca67a37a",
+      "locale": "ru",
+      "name": "Открытие мечети «Гордость мусульман»"
+    }
+  ],
+  "entity_sources": [
+    {
+      "entity_id": "50e46161-a47c-5d57-a889-345afe07de6b",
+      "id": "a3607cb6-507d-5b81-8578-65191d169409",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "c102599a-8ccf-5142-abbb-2b3014e67b07",
+      "id": "2023d501-df5a-5a72-a688-8b48c16acad9",
+      "source_id": "e727d0e6-0482-5c07-b947-cc21568e6981"
+    },
+    {
+      "entity_id": "06a852b0-4446-5fbf-ade6-d6f5f790c3b5",
+      "id": "8c25e2b0-7ae3-5786-ad23-59f1cbd2ce65",
+      "source_id": "e727d0e6-0482-5c07-b947-cc21568e6981"
+    },
+    {
+      "entity_id": "f9075823-f2af-5a73-9f62-a88edf4e03b2",
+      "id": "030f714f-45af-54b2-9fae-98a71cca04f1",
+      "source_id": "e727d0e6-0482-5c07-b947-cc21568e6981"
+    },
+    {
+      "entity_id": "6187ad82-0751-5ef0-9baf-179b6bd1a577",
+      "id": "cbf300f8-9e27-582f-9842-8290feeefcfc",
+      "source_id": "e727d0e6-0482-5c07-b947-cc21568e6981"
+    },
+    {
+      "entity_id": "e6aa00d6-6605-5a90-9192-4085d62cbda3",
+      "id": "9bb19d71-bf7f-5e94-bf50-8aa6c5ac89ae",
+      "source_id": "e727d0e6-0482-5c07-b947-cc21568e6981"
+    },
+    {
+      "entity_id": "b62834ea-e611-5a4d-91bb-521df2ec0e4c",
+      "id": "03e0472d-b384-503a-96a9-c9be76db5891",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "1f7c2436-2332-514c-82fb-9d21fccd9218",
+      "id": "3e26b614-6e38-52ae-8e4e-5cf2de22a401",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "dec0456d-9c8f-5479-b3e8-1d42c70a2d1a",
+      "id": "f4fb5253-53d4-5fee-a70e-e6475962f168",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "0cd7c570-2858-5c31-a5e8-fde67ed3f4cb",
+      "id": "9ed686b7-f189-57c9-a02e-004348872b87",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "fbef07c3-05c6-52d8-accf-f47601778d94",
+      "id": "cddee7b3-fa4b-5115-9841-9dcbe37862e9",
+      "source_id": "6687cc19-8ad5-5e98-90a7-bd3f4d42f307"
+    },
+    {
+      "entity_id": "46ca7c1e-2d91-516a-b256-332f36908c5c",
+      "id": "bbdb4c41-483e-51c8-acb0-900c9f5de6ff",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "97c82c71-005f-5ccd-b758-3c626ed51e69",
+      "id": "feae1855-b5a8-5541-a926-f9d6a748ec88",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "0117b4d4-83e0-50b6-a0a7-3a53cfa42f1c",
+      "id": "84c67dca-8b65-55b3-80ed-e0273d69acc3",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "82f32365-65f0-5d37-9d94-50748fc91fd7",
+      "id": "b9497439-5913-50b7-8d34-f62bf771b415",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "4bb10e37-1463-5634-a095-dac5943be3aa",
+      "id": "90b63cad-ccab-56f6-9438-5c07ce4273c2",
+      "source_id": "b249b182-a230-54de-a53d-4aaae0271b35"
+    },
+    {
+      "entity_id": "5ff9ea66-a4ac-5826-b07e-63181274d6ae",
+      "id": "7e5db425-b350-56f4-b279-e7e8fbdc2e9b",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "faf5f3f9-abf1-5ed8-a05c-3c41f3ebfef1",
+      "id": "0e68d499-3850-5a05-8e7e-176ca19ac26c",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "81242eaf-1654-5f3a-9a99-004a663b6165",
+      "id": "628c2390-c01b-5f15-b34c-09212dde8ae8",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "1b4d638b-849c-536e-9fa6-0d4a5e8bccc0",
+      "id": "3e155862-d651-52df-8b8f-542c511cd5fa",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "770c442f-a6e9-5f35-94b4-42a99ae80135",
+      "id": "ffcd8d53-544c-53f0-b105-f823d27d4520",
+      "source_id": "8601b5ff-7d0f-5f45-a35d-3b10362f12c3"
+    },
+    {
+      "entity_id": "7c7c0092-f017-5e23-a9ae-157309002046",
+      "id": "8d5e22ef-8f35-5d20-8654-4f560e5e5796",
+      "source_id": "04b166a7-3f65-5e7b-b1ba-a2568f26dde9"
+    },
+    {
+      "entity_id": "80eb0068-56cd-543d-ae23-1adc1392c89e",
+      "id": "9ccdf647-b053-554d-91af-a3bfa4059b8d",
+      "source_id": "a7d477d1-bbe3-54c4-9b5d-4f921bc20dc0"
+    },
+    {
+      "entity_id": "bfd219bc-3b28-516f-ba24-6a504c7e0e32",
+      "id": "52dd6c92-a712-5faa-a4b6-60ea6b902257",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "b319196a-7306-54b4-ae1d-8790c4e83869",
+      "id": "0a0ac0d7-5120-5cbc-a3dc-21900d63e97f",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "adfb8c72-c79e-5bdc-9c72-804c6d1c21f0",
+      "id": "10e5d9a7-2db3-553a-aaa5-601f9a3c3799",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "c6d74983-b432-5e81-af6e-3607884ae663",
+      "id": "954b99a9-d82d-5bc1-8b6d-234bfbda5ac4",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "34ccf634-6f7f-5ae4-abff-a3b6d75e14b6",
+      "id": "80729506-8a05-5344-a436-d88b8709b261",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "11c7c5e9-b708-5de3-aa86-0c608495b320",
+      "id": "d1d83078-c1df-58b6-a66d-17cda7a5e8d9",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "db2a73f0-4dad-5f61-92b8-b4eefbef10ed",
+      "id": "5d5e295e-cd61-5322-a5c3-d929deb34a28",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "44c79bd3-8160-508a-bca5-b378a12b9c91",
+      "id": "51465774-1721-5b70-ac34-60d4904a7d12",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "db42c867-eb89-5573-9cb3-af5fec328674",
+      "id": "bddd054a-8ae6-5f61-bda6-2043497be6e6",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "4ef627fc-9aa9-542b-bfce-2780f286f789",
+      "id": "712ee1f7-66c8-55db-a05c-631ecae63d1b",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "92a20491-816d-5abf-951a-fe7bef05e2ab",
+      "id": "14e072c3-845f-57b0-aa6e-20ea724e2722",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "2cb6f51d-a06d-5d58-be47-43b9fa0323d6",
+      "id": "ff8fde44-21bf-5cf7-86da-0f6cb357aa0b",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "1d2a9799-6d60-547d-a6d7-6a67c582d756",
+      "id": "6fd74769-84fe-543b-ad22-3baea2924119",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "9e5fdb39-de72-5ff4-9863-04f32686f05c",
+      "id": "46b51fcf-9443-5792-ab14-849c31019225",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "29a49a6e-b6e7-5fca-90fc-8c1ade684d8c",
+      "id": "b6dd2fca-0c40-5f51-9865-b82aca9365fd",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "25ef393a-02a2-579a-be76-d5bbe879722c",
+      "id": "a39b0909-20c8-59d1-b504-10fdc31d9eba",
+      "source_id": "b249b182-a230-54de-a53d-4aaae0271b35"
+    },
+    {
+      "entity_id": "76a95fe9-ce5e-5c0f-ac3c-91225530cfa9",
+      "id": "9690e9e7-91c5-5d1f-a74b-a03adf82076e",
+      "source_id": "b249b182-a230-54de-a53d-4aaae0271b35"
+    },
+    {
+      "entity_id": "90278fee-1f67-5c14-b00b-f8a440e64931",
+      "id": "06b2f001-35e0-561d-bd73-45137bb44a63",
+      "source_id": "b249b182-a230-54de-a53d-4aaae0271b35"
+    },
+    {
+      "entity_id": "bb7b55b7-3be8-55f3-951f-b6096a2b93ac",
+      "id": "659a076f-6b43-52e6-b137-031994ca59ae",
+      "source_id": "3e8565d9-d522-5e73-aa0e-bd5c2ed7c5a4"
+    },
+    {
+      "entity_id": "968618e9-460e-526a-8caa-9772838f7dcf",
+      "id": "dd321bf3-8551-5b19-bdda-e73566b13409",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "306b4eec-28d1-5942-a4f4-a7ccc9cb2ccb",
+      "id": "1229f713-bd53-5fa8-aec4-0df966d3f3c1",
+      "source_id": "3e8565d9-d522-5e73-aa0e-bd5c2ed7c5a4"
+    },
+    {
+      "entity_id": "b6c41f17-6048-5418-bb5f-d4d63a5424cf",
+      "id": "12fff7ad-2d9e-5da6-a275-e63d2db852f8",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "dd14bb59-72b5-53b3-9c7d-29609fa0bbda",
+      "id": "dd064fe3-b03a-5c48-8edd-e781f92fe9b4",
+      "source_id": "3e8565d9-d522-5e73-aa0e-bd5c2ed7c5a4"
+    },
+    {
+      "entity_id": "ecc9a72e-f2af-5470-a224-17e81193767b",
+      "id": "0a9b9bb6-404c-5900-8535-ece8f565fa22",
+      "source_id": "3e8565d9-d522-5e73-aa0e-bd5c2ed7c5a4"
+    },
+    {
+      "entity_id": "f388dc31-e2f3-57aa-871d-a2d3249faf14",
+      "id": "cf8f7f2b-abc4-5f4e-a7a7-39712a83b2e1",
+      "source_id": "3e8565d9-d522-5e73-aa0e-bd5c2ed7c5a4"
+    },
+    {
+      "entity_id": "3aee2921-6eba-5a0d-aea9-37916ba5236e",
+      "id": "7d3096c4-cd68-5272-81d5-0661dd295400",
+      "source_id": "3e8565d9-d522-5e73-aa0e-bd5c2ed7c5a4"
+    },
+    {
+      "entity_id": "bcec174d-867e-5c20-bcd1-7cabc0053f4c",
+      "id": "438a55a0-de63-5452-9992-7cb5a8f95944",
+      "source_id": "3e8565d9-d522-5e73-aa0e-bd5c2ed7c5a4"
+    },
+    {
+      "entity_id": "7d26c677-b004-5706-8105-a25dbd4e63d6",
+      "id": "b66c5fa8-fd26-5b4b-96b5-6c29b7a080b3",
+      "source_id": "3e8565d9-d522-5e73-aa0e-bd5c2ed7c5a4"
+    },
+    {
+      "entity_id": "b8df28ef-15f4-5843-ac38-4f3c04956df1",
+      "id": "e00298c1-51e8-5ee0-8e66-4c505eb25f38",
+      "source_id": "3e8565d9-d522-5e73-aa0e-bd5c2ed7c5a4"
+    },
+    {
+      "entity_id": "90deb7b1-d12a-505a-b2c9-b9556234a219",
+      "id": "cc314f8b-a724-5fb5-91b1-fb6b46569025",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "ef78ce84-cb9b-5b45-abb2-3eda27fdaa9c",
+      "id": "809dd229-a9de-5950-b671-69af1be121d9",
+      "source_id": "3e8565d9-d522-5e73-aa0e-bd5c2ed7c5a4"
+    },
+    {
+      "entity_id": "01548aec-caf4-5b53-98fe-59c44f742c0f",
+      "id": "a9279efd-c489-5b9a-b92b-54c1c6f3239b",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "2fdc5777-eed5-53a6-8183-f82c9ef58390",
+      "id": "fc866824-c8e9-5830-8092-f13fa9f9da23",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "537c420f-e5f6-528f-ade9-cd31474e727f",
+      "id": "67a41795-e771-5818-8e7b-7323fa5d3ba4",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "3285f1c3-e32e-5e0b-b14d-3282893b754f",
+      "id": "9f7a453d-b943-5cce-8ae3-0fc98a376be2",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "1aa88c22-d98a-58d1-b228-94dee4a2422b",
+      "id": "f186371d-5847-5710-8c78-8e8dccd198b7",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "fad4d1cf-8e91-5f3a-8865-e31f3ab17d40",
+      "id": "00282dc4-6546-500c-a681-51bc0bc285b8",
+      "source_id": "a7d477d1-bbe3-54c4-9b5d-4f921bc20dc0"
+    },
+    {
+      "entity_id": "6185e98c-0240-5a08-9154-0fd39094b2d5",
+      "id": "047365d5-7051-5de8-ba41-d717d1f564f6",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "2ffdf017-8858-58f1-b941-5a74e2271ae8",
+      "id": "1ba3f101-6ff8-586a-bf98-24f0f63f971c",
+      "source_id": "8601b5ff-7d0f-5f45-a35d-3b10362f12c3"
+    },
+    {
+      "entity_id": "aeb2d259-ecf0-5fc0-a0eb-59b1dba26b7d",
+      "id": "98047288-23b3-50cd-bd9a-325d5fbe713f",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "4ce10ba3-f686-5de4-9f1a-9278a3070965",
+      "id": "5970af4c-5200-5e6e-9914-6a40f668e05b",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "d3356248-7684-54df-ba88-ee1dedc52d84",
+      "id": "875a1116-5ab4-5963-8566-5ba39c6b2188",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "da86a501-8b89-5671-b95a-62a3a7c221d9",
+      "id": "01fe0547-26b3-5dbd-a6ce-47d696cdf9d3",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "0df490d1-e9d1-5734-9758-94fd077967fb",
+      "id": "0e86d89a-3e9d-5563-9f4a-d89a16604103",
+      "source_id": "04b166a7-3f65-5e7b-b1ba-a2568f26dde9"
+    },
+    {
+      "entity_id": "afbaf789-32e2-59cb-920f-02619dabaffb",
+      "id": "132c441b-75da-5d1e-99b1-26f8fe86ea2f",
+      "source_id": "04b166a7-3f65-5e7b-b1ba-a2568f26dde9"
+    },
+    {
+      "entity_id": "46561d4c-c3b4-5401-8e06-8e9be1280028",
+      "id": "a12d8e4f-886c-5351-8660-37fe61763467",
+      "source_id": "04b166a7-3f65-5e7b-b1ba-a2568f26dde9"
+    },
+    {
+      "entity_id": "b65cd9da-9a60-5718-9e1e-62c87cc9ba11",
+      "id": "5ab90c1a-eb9c-5440-b69d-8d5646938753",
+      "source_id": "6b9024f2-fd28-5c65-a256-e9773ac77891"
+    },
+    {
+      "entity_id": "ffcf0329-3c9b-5bcc-807e-148ae570b26b",
+      "id": "d9e9d51a-d2d7-5dc0-a092-204f63bc8345",
+      "source_id": "bea2d9a0-2862-5607-b477-8f18ab253028"
+    },
+    {
+      "entity_id": "ce825c4d-79ae-53c2-8d93-bde084c8d460",
+      "id": "22acf8f0-ac58-52f7-9d04-5a8d58af1db3",
+      "source_id": "bea2d9a0-2862-5607-b477-8f18ab253028"
+    },
+    {
+      "entity_id": "21523908-cf55-5b52-b684-1d40c992185f",
+      "id": "9db2987d-9a31-5f44-864b-d028fb6c1831",
+      "source_id": "8601b5ff-7d0f-5f45-a35d-3b10362f12c3"
+    },
+    {
+      "entity_id": "c4b9c02c-59ce-5b93-8222-4572cbea16cb",
+      "id": "9f33323f-4d69-5e52-8451-c0122832acd0",
+      "source_id": "534b44c2-9320-55e7-9108-032bf243c8b3"
+    },
+    {
+      "entity_id": "7242b00c-17c6-556e-a31f-7aa7d2840bfb",
+      "id": "d5051f7b-a4c5-5396-a0ad-b18c74fd2560",
+      "source_id": "534b44c2-9320-55e7-9108-032bf243c8b3"
+    },
+    {
+      "entity_id": "08a704a1-1518-59a4-8257-8e278aa4c67b",
+      "id": "c8713465-b20a-5b0f-bf8e-aba9c3baa700",
+      "source_id": "534b44c2-9320-55e7-9108-032bf243c8b3"
+    },
+    {
+      "entity_id": "303c5c66-a65b-57dd-afca-d66a06f5331f",
+      "id": "e2c622a3-f532-5dfb-9605-3364bffa1481",
+      "source_id": "534b44c2-9320-55e7-9108-032bf243c8b3"
+    },
+    {
+      "entity_id": "f8682be9-f0f1-56d0-b910-67af50f61d5f",
+      "id": "43732326-501c-515f-9fcf-df7847dd9e2e",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "c7325552-1119-59d7-9dfc-b28337d04b49",
+      "id": "27fffc74-69aa-5c8f-acfa-344d1f4b9a6a",
+      "source_id": "a7d477d1-bbe3-54c4-9b5d-4f921bc20dc0"
+    },
+    {
+      "entity_id": "9aa14194-0b24-5a01-ae36-07767e8b4717",
+      "id": "36406e7e-edb1-5510-b2f3-d1a48ecaaaa4",
+      "source_id": "a7d477d1-bbe3-54c4-9b5d-4f921bc20dc0"
+    },
+    {
+      "entity_id": "3a4634bf-5721-5fff-94e7-763a8c596743",
+      "id": "3113b2a3-4a9d-5adf-a8e2-752cca1872c9",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "2503b706-f407-5d94-817f-2a068379b72d",
+      "id": "71197082-2175-54c9-a4fd-1e53614b46c5",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "f08da49d-96a7-5821-a08c-376b76903289",
+      "id": "7d4563e9-1de8-5826-9876-38a6c63ebc56",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "40bec69d-d29d-5c3b-865f-67f4727fcef7",
+      "id": "c5957628-ba61-56cd-8c5b-4d6e5dddc190",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "3c31b446-0e0c-51e6-884b-d3cb39e985f0",
+      "id": "c961c10c-ef0f-5d68-8ebd-e1b6d502bef0",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "a2b93c68-26d6-5296-a301-e29a93764b46",
+      "id": "77ccef98-66f7-5cb1-8b30-04c073aa3cab",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "4d315a7f-feb4-54f6-8771-63f9b76cb23d",
+      "id": "ddffa313-1710-5a68-9b3c-abbd699c395c",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "07cdd514-0a84-5082-95f4-51e327d07d67",
+      "id": "f309d29e-3020-52f7-8ccf-d14be2ab7c0c",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "ec87a297-0727-5020-a136-8f19205ab089",
+      "id": "20cfe62a-768b-564b-908f-2e00a1945d06",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "ea954a6b-e2d6-5158-b39b-586809367e04",
+      "id": "a272cfb5-ee28-5713-8e9d-d93dd32c4dde",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "51151ac6-98cc-57e4-9fb0-d1d1a959ec90",
+      "id": "ea16b282-97b0-5f9d-afba-f8d8bc286f4b",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "90198017-06ff-5b33-a7c7-5feeed29f40f",
+      "id": "45ceb1c9-229b-5d82-ace6-534912f95aae",
+      "source_id": "3e8565d9-d522-5e73-aa0e-bd5c2ed7c5a4"
+    },
+    {
+      "entity_id": "ad549745-a376-5a77-bdfb-93b767282699",
+      "id": "7e7f0576-37fb-5d0c-a9f8-7cc928bae781",
+      "source_id": "3e8565d9-d522-5e73-aa0e-bd5c2ed7c5a4"
+    }
+  ],
+  "entity_texts": [
+    {
+      "entity_id": "50e46161-a47c-5d57-a889-345afe07de6b",
+      "full_description": "Столица Чеченской Республики, крупнейший город региона.\n\nОснован в 1818 году как крепость Грозная в ходе Кавказской войны.\n\n1818\n\nСтатус исследования: verified.",
+      "id": "a11fee5e-39ed-556a-82c5-a6650e141867",
+      "locale": "ru",
+      "short_description": "Столица Чеченской Республики, крупнейший город региона.",
+      "title": "Грозный"
+    },
+    {
+      "entity_id": "c102599a-8ccf-5142-abbb-2b3014e67b07",
+      "full_description": "Второй по величине город республики, крупный транспортный узел.\n\nНаселение около 42 500 человек.\n\nпосёлок 1929, город 1941\n\nСтатус исследования: needs_review.",
+      "id": "d9c85479-34ac-5261-9b20-057833983e74",
+      "locale": "ru",
+      "short_description": "Второй по величине город республики, крупный транспортный узел.",
+      "title": "Гудермес"
+    },
+    {
+      "entity_id": "06a852b0-4446-5fbf-ade6-d6f5f790c3b5",
+      "full_description": "Город республиканского значения на реке Аргун рядом с Грозным.\n\nНаселение около 41 000 человек.\n\nпосёлок 1962, город 1967\n\nСтатус исследования: needs_review.",
+      "id": "f7a08598-dd6e-59df-814a-e5e2405d1c2d",
+      "locale": "ru",
+      "short_description": "Город республиканского значения на реке Аргун рядом с Грозным.",
+      "title": "Аргун"
+    },
+    {
+      "entity_id": "f9075823-f2af-5a73-9f62-a88edf4e03b2",
+      "full_description": "Один из крупнейших городов Чеченской равнины.\n\nНаселение около 45 000 человек.\n\nгород 2019\n\nСтатус исследования: needs_review.",
+      "id": "ff568576-4887-5790-9e0c-e134da9c4289",
+      "locale": "ru",
+      "short_description": "Один из крупнейших городов Чеченской равнины.",
+      "title": "Шали"
+    },
+    {
+      "entity_id": "6187ad82-0751-5ef0-9baf-179b6bd1a577",
+      "full_description": "Крупный город на западе Чеченской равнины.\n\nСтатус исследования: needs_review.",
+      "id": "2f25a4fe-3906-5015-a050-4a5afee4b674",
+      "locale": "ru",
+      "short_description": "Крупный город на западе Чеченской равнины.",
+      "title": "Урус-Мартан"
+    },
+    {
+      "entity_id": "e6aa00d6-6605-5a90-9192-4085d62cbda3",
+      "full_description": "Город (с 2019), административный центр Курчалоевского района.\n\nНаселение около 25 000 человек.\n\nгород 2019\n\nСтатус исследования: needs_review.",
+      "id": "b6c564bb-fae4-5c43-933b-4e606a352924",
+      "locale": "ru",
+      "short_description": "Город (с 2019), административный центр Курчалоевского района.",
+      "title": "Курчалой"
+    },
+    {
+      "entity_id": "b62834ea-e611-5a4d-91bb-521df2ec0e4c",
+      "full_description": "Административный центр Ачхой-Мартановского района.\n\nСтатус исследования: needs_review.",
+      "id": "c2ff23fe-4fa9-52b7-95f2-e5105c460934",
+      "locale": "ru",
+      "short_description": "Административный центр Ачхой-Мартановского района.",
+      "title": "Ачхой-Мартан"
+    },
+    {
+      "entity_id": "1f7c2436-2332-514c-82fb-9d21fccd9218",
+      "full_description": "Село в горной части республики, центр Веденского района.\n\nВ 1845–1859 годах — столица имамата Шамиля.\n\nСтатус исследования: verified.",
+      "id": "473e8434-64c0-5f7f-893a-9a1ef3a0c655",
+      "locale": "ru",
+      "short_description": "Село в горной части республики, центр Веденского района.",
+      "title": "Ведено"
+    },
+    {
+      "entity_id": "dec0456d-9c8f-5479-b3e8-1d42c70a2d1a",
+      "full_description": "Село в Аргунском ущелье, центр средневековой башенной архитектуры.\n\nСтатус исследования: needs_review.",
+      "id": "572583de-55ef-5e24-b417-d0c5d8571f5e",
+      "locale": "ru",
+      "short_description": "Село в Аргунском ущелье, центр средневековой башенной архитектуры.",
+      "title": "Итум-Кали"
+    },
+    {
+      "entity_id": "0cd7c570-2858-5c31-a5e8-fde67ed3f4cb",
+      "full_description": "Административный центр Ножай-Юртовского района.\n\nСтатус исследования: needs_review.",
+      "id": "c6e6f639-2d07-518b-915d-fc5b372aeadd",
+      "locale": "ru",
+      "short_description": "Административный центр Ножай-Юртовского района.",
+      "title": "Ножай-Юрт"
+    },
+    {
+      "entity_id": "fbef07c3-05c6-52d8-accf-f47601778d94",
+      "full_description": "Родовое село тайпа беной.\n\nРодина Байсангура Беноевского, узел местной истории.\n\nСтатус исследования: needs_review.",
+      "id": "6496f43e-870b-5eb9-a2fa-2758131a8e70",
+      "locale": "ru",
+      "short_description": "Родовое село тайпа беной.",
+      "title": "Беной"
+    },
+    {
+      "entity_id": "46ca7c1e-2d91-516a-b256-332f36908c5c",
+      "full_description": "Историческое село в Аргунском ущелье.\n\nСтатус исследования: needs_review.",
+      "id": "eb56c933-3475-5167-b999-12c80d9643c3",
+      "locale": "ru",
+      "short_description": "Историческое село в Аргунском ущелье.",
+      "title": "Шатой"
+    },
+    {
+      "entity_id": "97c82c71-005f-5ccd-b758-3c626ed51e69",
+      "full_description": "Станица на левобережье Терека.\n\nСтатус исследования: needs_review.",
+      "id": "fd9d9686-5fb2-54e3-af7e-0900c030ee52",
+      "locale": "ru",
+      "short_description": "Станица на левобережье Терека.",
+      "title": "Шелковская"
+    },
+    {
+      "entity_id": "0117b4d4-83e0-50b6-a0a7-3a53cfa42f1c",
+      "full_description": "Старинная станица, центр Наурского района.\n\nСтатус исследования: needs_review.",
+      "id": "c91f7315-2c32-5ee2-b4de-60f1cd30263b",
+      "locale": "ru",
+      "short_description": "Старинная станица, центр Наурского района.",
+      "title": "Наурская"
+    },
+    {
+      "entity_id": "82f32365-65f0-5d37-9d94-50748fc91fd7",
+      "full_description": "Административный центр Надтеречного района.\n\nСтатус исследования: needs_review.",
+      "id": "245f0228-552f-511f-8cd3-fcf6b3d934b9",
+      "locale": "ru",
+      "short_description": "Административный центр Надтеречного района.",
+      "title": "Знаменское"
+    },
+    {
+      "entity_id": "4bb10e37-1463-5634-a095-dac5943be3aa",
+      "full_description": "Центр Сунженского района; бальнеологический курорт «Серноводск-Кавказский».\n\nСтатус исследования: needs_review.",
+      "id": "d4b27302-91e5-5ffb-be70-a7780952ba21",
+      "locale": "ru",
+      "short_description": "Центр Сунженского района; бальнеологический курорт «Серноводск-Кавказский».",
+      "title": "Серноводское"
+    },
+    {
+      "entity_id": "5ff9ea66-a4ac-5826-b07e-63181274d6ae",
+      "full_description": "Административный центр Шаройского района.\n\nСтатус исследования: needs_review.",
+      "id": "fb6146be-ff91-56be-987e-ed97c1691a17",
+      "locale": "ru",
+      "short_description": "Административный центр Шаройского района.",
+      "title": "Химой"
+    },
+    {
+      "entity_id": "faf5f3f9-abf1-5ed8-a05c-3c41f3ebfef1",
+      "full_description": "Родовое село семьи Кадыровых.\n\nСтатус исследования: needs_review.",
+      "id": "6ae2f032-d7a9-5372-a33d-2d3a2781e47f",
+      "locale": "ru",
+      "short_description": "Родовое село семьи Кадыровых.",
+      "title": "Центарой (Ахмат-Юрт)"
+    },
+    {
+      "entity_id": "81242eaf-1654-5f3a-9a99-004a663b6165",
+      "full_description": "Крупное село на реке Аргун.\n\nРодина танцора Махмуда Эсамбаева.\n\nСтатус исследования: needs_review.",
+      "id": "bf78d16d-524d-5b90-ab8c-6589f679abec",
+      "locale": "ru",
+      "short_description": "Крупное село на реке Аргун.",
+      "title": "Старые Атаги"
+    },
+    {
+      "entity_id": "1b4d638b-849c-536e-9fa6-0d4a5e8bccc0",
+      "full_description": "Село на реке Аргун южнее Грозного.\n\nСтатус исследования: needs_review.",
+      "id": "dac6fbcd-f82e-5bb2-86f2-0e430f7bae64",
+      "locale": "ru",
+      "short_description": "Село на реке Аргун южнее Грозного.",
+      "title": "Новые Атаги"
+    },
+    {
+      "entity_id": "770c442f-a6e9-5f35-94b4-42a99ae80135",
+      "full_description": "Село в Грозненском районе.\n\nРодина Героя Советского Союза Абухаджи Идрисова.\n\nСтатус исследования: verified.",
+      "id": "c3a85aaa-a962-50e6-9fa9-4efb194b733f",
+      "locale": "ru",
+      "short_description": "Село в Грозненском районе.",
+      "title": "Бердыкель (Комсомольское)"
+    },
+    {
+      "entity_id": "7c7c0092-f017-5e23-a9ae-157309002046",
+      "full_description": "Село Надтеречного района.\n\nРодина Героя Советского Союза Мовлида Висаитова.\n\nСтатус исследования: verified.",
+      "id": "4125f157-c0f5-5eb1-97d3-304cd4e59d61",
+      "locale": "ru",
+      "short_description": "Село Надтеречного района.",
+      "title": "Надтеречное"
+    },
+    {
+      "entity_id": "80eb0068-56cd-543d-ae23-1adc1392c89e",
+      "full_description": "Историческое селение, ныне в черте Грозного.\n\nРодина шейха Мансура; место разгрома отряда де Пьери в 1785 году.\n\nСтатус исследования: verified.",
+      "id": "10d944ac-4502-5c22-8e3b-2b2999317e2e",
+      "locale": "ru",
+      "short_description": "Историческое селение, ныне в черте Грозного.",
+      "title": "Алды"
+    },
+    {
+      "entity_id": "bfd219bc-3b28-516f-ba24-6a504c7e0e32",
+      "full_description": "Село в Веденском районе у истоков Хулхулау.\n\nРодина абрека Зелимхана Харачоевского.\n\nСтатус исследования: verified.",
+      "id": "8612a753-7cf7-52c1-b233-3c59defe6168",
+      "locale": "ru",
+      "short_description": "Село в Веденском районе у истоков Хулхулау.",
+      "title": "Харачой"
+    },
+    {
+      "entity_id": "b319196a-7306-54b4-ae1d-8790c4e83869",
+      "full_description": "Село в Ножай-Юртовском районе.\n\nМесто захоронения имама Ташу-Хаджи Саясановского.\n\nСтатус исследования: needs_review.",
+      "id": "b2a13488-b41f-5ae8-b0b5-8112e95f03be",
+      "locale": "ru",
+      "short_description": "Село в Ножай-Юртовском районе.",
+      "title": "Саясан"
+    },
+    {
+      "entity_id": "adfb8c72-c79e-5bdc-9c72-804c6d1c21f0",
+      "full_description": "Горное село (общество Зумсо).\n\nРодовое село наиба Умы Дуева.\n\nСтатус исследования: needs_review.",
+      "id": "74208cca-1960-50ba-a082-db86e7acc55f",
+      "locale": "ru",
+      "short_description": "Горное село (общество Зумсо).",
+      "title": "Зумсой"
+    },
+    {
+      "entity_id": "c6d74983-b432-5e81-af6e-3607884ae663",
+      "full_description": "Село у входа в Веденское ущелье.\n\nСтатус исследования: needs_review.",
+      "id": "874c79f3-b3d5-5379-b31d-e05207da2f4d",
+      "locale": "ru",
+      "short_description": "Село у входа в Веденское ущелье.",
+      "title": "Сержень-Юрт"
+    },
+    {
+      "entity_id": "34ccf634-6f7f-5ae4-abff-a3b6d75e14b6",
+      "full_description": "Крупное село Шалинского района.\n\nСтатус исследования: needs_review.",
+      "id": "8c9a623c-90b5-53cf-9648-644e6f022152",
+      "locale": "ru",
+      "short_description": "Крупное село Шалинского района.",
+      "title": "Автуры"
+    },
+    {
+      "entity_id": "11c7c5e9-b708-5de3-aa86-0c608495b320",
+      "full_description": "Село на Чеченской равнине.\n\nСтатус исследования: needs_review.",
+      "id": "b4ec98bc-e3ab-5df9-9cc3-45d5680d905a",
+      "locale": "ru",
+      "short_description": "Село на Чеченской равнине.",
+      "title": "Мескер-Юрт"
+    },
+    {
+      "entity_id": "db2a73f0-4dad-5f61-92b8-b4eefbef10ed",
+      "full_description": "Село у входа в Аргунское ущелье, цементный завод.\n\nСтатус исследования: needs_review.",
+      "id": "42c7c39b-9d5f-5bb4-93bd-11e4efa257c9",
+      "locale": "ru",
+      "short_description": "Село у входа в Аргунское ущелье, цементный завод.",
+      "title": "Чири-Юрт"
+    },
+    {
+      "entity_id": "44c79bd3-8160-508a-bca5-b378a12b9c91",
+      "full_description": "Село у устья Аргунского ущелья.\n\nСтатус исследования: needs_review.",
+      "id": "a26e6047-6b33-59a8-a1fa-53e167a1e4e7",
+      "locale": "ru",
+      "short_description": "Село у устья Аргунского ущелья.",
+      "title": "Дуба-Юрт"
+    },
+    {
+      "entity_id": "db42c867-eb89-5573-9cb3-af5fec328674",
+      "full_description": "Село Курчалоевского района.\n\nСтатус исследования: needs_review.",
+      "id": "d0c022ca-2d74-5db4-9341-12c395c6c513",
+      "locale": "ru",
+      "short_description": "Село Курчалоевского района.",
+      "title": "Гелдаган"
+    },
+    {
+      "entity_id": "4ef627fc-9aa9-542b-bfce-2780f286f789",
+      "full_description": "Село Курчалоевского района.\n\nСтатус исследования: needs_review.",
+      "id": "8db5a5f1-ae60-522c-a2da-e2b7b1a53634",
+      "locale": "ru",
+      "short_description": "Село Курчалоевского района.",
+      "title": "Майртуп"
+    },
+    {
+      "entity_id": "92a20491-816d-5abf-951a-fe7bef05e2ab",
+      "full_description": "Село Курчалоевского района.\n\nСтатус исследования: needs_review.",
+      "id": "e2614987-7bd7-57e0-8e86-09cb86ee915d",
+      "locale": "ru",
+      "short_description": "Село Курчалоевского района.",
+      "title": "Цоци-Юрт"
+    },
+    {
+      "entity_id": "2cb6f51d-a06d-5d58-be47-43b9fa0323d6",
+      "full_description": "Село Гудермесского района.\n\nСтатус исследования: needs_review.",
+      "id": "4bb2b256-0a24-5ce6-bebd-5b820fc8555e",
+      "locale": "ru",
+      "short_description": "Село Гудермесского района.",
+      "title": "Ойсхара"
+    },
+    {
+      "entity_id": "1d2a9799-6d60-547d-a6d7-6a67c582d756",
+      "full_description": "Одна из старейших терских казачьих станиц.\n\nСтатус исследования: needs_review.",
+      "id": "4f7a8d70-e66b-5474-875f-0d1d6c19391c",
+      "locale": "ru",
+      "short_description": "Одна из старейших терских казачьих станиц.",
+      "title": "Червлённая"
+    },
+    {
+      "entity_id": "9e5fdb39-de72-5ff4-9863-04f32686f05c",
+      "full_description": "Село Урус-Мартановского района.\n\nСтатус исследования: needs_review.",
+      "id": "b89cc8b2-e476-5a38-beb1-ac248216b3b0",
+      "locale": "ru",
+      "short_description": "Село Урус-Мартановского района.",
+      "title": "Гехи"
+    },
+    {
+      "entity_id": "29a49a6e-b6e7-5fca-90fc-8c1ade684d8c",
+      "full_description": "Село под Грозным.\n\nСтатус исследования: needs_review.",
+      "id": "470a1f56-0e4c-55d1-bd78-b44b40ab02c5",
+      "locale": "ru",
+      "short_description": "Село под Грозным.",
+      "title": "Алхан-Кала"
+    },
+    {
+      "entity_id": "25ef393a-02a2-579a-be76-d5bbe879722c",
+      "full_description": "Село Ачхой-Мартановского района; население около 12 800 человек.\n\nСтатус исследования: needs_review.",
+      "id": "e4a3c5de-4db4-5d2f-af42-784b75a72c6f",
+      "locale": "ru",
+      "short_description": "Село Ачхой-Мартановского района; население около 12 800 человек.",
+      "title": "Самашки"
+    },
+    {
+      "entity_id": "76a95fe9-ce5e-5c0f-ac3c-91225530cfa9",
+      "full_description": "Станица Сунженского района; население около 10 200 человек.\n\nСтатус исследования: needs_review.",
+      "id": "da3dd8c4-c6c1-549c-b3a9-bb72432f9443",
+      "locale": "ru",
+      "short_description": "Станица Сунженского района; население около 10 200 человек.",
+      "title": "Ассиновская"
+    },
+    {
+      "entity_id": "90278fee-1f67-5c14-b00b-f8a440e64931",
+      "full_description": "Село на западе республики у границы с Ингушетией.\n\nСтатус исследования: needs_review.",
+      "id": "bfe84a33-ccc4-5d98-95eb-ab89a308a56b",
+      "locale": "ru",
+      "short_description": "Село на западе республики у границы с Ингушетией.",
+      "title": "Бамут"
+    },
+    {
+      "entity_id": "bb7b55b7-3be8-55f3-951f-b6096a2b93ac",
+      "full_description": "Крупнейшее и глубочайшее высокогорное озеро Северного Кавказа; площадь ~2,5 км².\n\nСтатус исследования: needs_review.",
+      "id": "2a4b06a3-cf92-5b23-bc25-4063cffa296b",
+      "locale": "ru",
+      "short_description": "Крупнейшее и глубочайшее высокогорное озеро Северного Кавказа; площадь ~2,5 км².",
+      "title": "Озеро Кезеной-Ам"
+    },
+    {
+      "entity_id": "968618e9-460e-526a-8caa-9772838f7dcf",
+      "full_description": "Крупный приток Сунжи, формирует Аргунское ущелье.\n\nСтатус исследования: needs_review.",
+      "id": "be83c3eb-7b02-5358-9d10-bb687780ac8f",
+      "locale": "ru",
+      "short_description": "Крупный приток Сунжи, формирует Аргунское ущелье.",
+      "title": "Река Аргун"
+    },
+    {
+      "entity_id": "306b4eec-28d1-5942-a4f4-a7ccc9cb2ccb",
+      "full_description": "Каньон длиной около 120 км до границы с Грузией; концентрация памятников.\n\nСтатус исследования: needs_review.",
+      "id": "84eb85f0-3a98-5c6d-8d9e-772f9b806640",
+      "locale": "ru",
+      "short_description": "Каньон длиной около 120 км до границы с Грузией; концентрация памятников.",
+      "title": "Аргунское ущелье"
+    },
+    {
+      "entity_id": "b6c41f17-6048-5418-bb5f-d4d63a5424cf",
+      "full_description": "Высочайшая вершина Чечни (4492 м).\n\n4492 м\n\nСтатус исследования: needs_review.",
+      "id": "192dfc5b-0463-5ef9-a0f6-5ea2b95b8ee5",
+      "locale": "ru",
+      "short_description": "Высочайшая вершина Чечни (4492 м).",
+      "title": "Гора Тебулосмта"
+    },
+    {
+      "entity_id": "dd14bb59-72b5-53b3-9c7d-29609fa0bbda",
+      "full_description": "Одна из крупнейших мечетей России, открыта в Грозном в 2008 году.\n\n2008\n\nСтатус исследования: needs_review.",
+      "id": "2707d007-1e3d-5e5e-bd8f-fcf19e9a98cf",
+      "locale": "ru",
+      "short_description": "Одна из крупнейших мечетей России, открыта в Грозном в 2008 году.",
+      "title": "Мечеть «Сердце Чечни» им. А. А. Кадырова"
+    },
+    {
+      "entity_id": "ecc9a72e-f2af-5470-a224-17e81193767b",
+      "full_description": "Одна из крупнейших мечетей Европы, открыта в Шали в 2019 году.\n\n2019\n\nСтатус исследования: needs_review.",
+      "id": "03d49a7d-62fd-51ca-99a4-0e25a82a1844",
+      "locale": "ru",
+      "short_description": "Одна из крупнейших мечетей Европы, открыта в Шали в 2019 году.",
+      "title": "Мечеть «Гордость мусульман» им. Пророка Мухаммада"
+    },
+    {
+      "entity_id": "f388dc31-e2f3-57aa-871d-a2d3249faf14",
+      "full_description": "Средневековый боевой и жилой башенный комплекс в Итум-Кали.\n\nСтатус исследования: needs_review.",
+      "id": "bdb9839a-4b98-51bd-acc4-d33325e86606",
+      "locale": "ru",
+      "short_description": "Средневековый боевой и жилой башенный комплекс в Итум-Кали.",
+      "title": "Башенный комплекс Пхакоч"
+    },
+    {
+      "entity_id": "3aee2921-6eba-5a0d-aea9-37916ba5236e",
+      "full_description": "Древний каменный город над Терлойским ущельем (~1800 м), 17 сооружений.\n\nСтатус исследования: needs_review.",
+      "id": "bc55cb0e-f28f-51a2-b61d-3d79cc03f8d7",
+      "locale": "ru",
+      "short_description": "Древний каменный город над Терлойским ущельем (~1800 м), 17 сооружений.",
+      "title": "Никарой"
+    },
+    {
+      "entity_id": "bcec174d-867e-5c20-bcd1-7cabc0053f4c",
+      "full_description": "Древний горный город-крепость рядом с озером Кезеной-Ам.\n\nСтатус исследования: needs_review.",
+      "id": "6dceda55-9fad-5493-b808-fa2c5d1f2dfe",
+      "locale": "ru",
+      "short_description": "Древний горный город-крепость рядом с озером Кезеной-Ам.",
+      "title": "Хой"
+    },
+    {
+      "entity_id": "7d26c677-b004-5706-8105-a25dbd4e63d6",
+      "full_description": "Музей-заповедник с более чем 600 памятниками истории и культуры.\n\nСтатус исследования: verified.",
+      "id": "a094ef5a-0a68-5df9-b6e7-9c46ca7ff5e0",
+      "locale": "ru",
+      "short_description": "Музей-заповедник с более чем 600 памятниками истории и культуры.",
+      "title": "Аргунский государственный музей-заповедник"
+    },
+    {
+      "entity_id": "b8df28ef-15f4-5843-ac38-4f3c04956df1",
+      "full_description": "Горнолыжный курорт в Аргунском ущелье.\n\nСтатус исследования: needs_review.",
+      "id": "4c44ea8c-11ed-554f-930e-ecd4d50396fb",
+      "locale": "ru",
+      "short_description": "Горнолыжный курорт в Аргунском ущелье.",
+      "title": "Всесезонный курорт Ведучи"
+    },
+    {
+      "entity_id": "90deb7b1-d12a-505a-b2c9-b9556234a219",
+      "full_description": "Главный музей республики в Грозном.\n\nСтатус исследования: needs_review.",
+      "id": "9082d158-0adb-57b4-8098-98e8b168d0d6",
+      "locale": "ru",
+      "short_description": "Главный музей республики в Грозном.",
+      "title": "Национальный музей Чеченской Республики"
+    },
+    {
+      "entity_id": "ef78ce84-cb9b-5b45-abb2-3eda27fdaa9c",
+      "full_description": "Комплекс высотных зданий в центре Грозного.\n\nСтатус исследования: needs_review.",
+      "id": "ba28bc23-ef1c-54b2-b89d-75f6af9e2d6f",
+      "locale": "ru",
+      "short_description": "Комплекс высотных зданий в центре Грозного.",
+      "title": "Комплекс «Грозный-Сити»"
+    },
+    {
+      "entity_id": "01548aec-caf4-5b53-98fe-59c44f742c0f",
+      "full_description": "Село Новолакского района Дагестана; прежнее название Минай-Тогай.\n\nМесто рождения Героя Советского Союза Ханпаши Нурадилова.\n\nСтатус исследования: verified.",
+      "id": "ee7ae151-b704-51fc-b28f-2295856d3d30",
+      "locale": "ru",
+      "short_description": "Село Новолакского района Дагестана; прежнее название Минай-Тогай.",
+      "title": "Гамиях (быв. Минай-Тогай)"
+    },
+    {
+      "entity_id": "2fdc5777-eed5-53a6-8183-f82c9ef58390",
+      "full_description": "Город в Дагестане.\n\nМесто казни Байсангура Беноевского в 1861 году.\n\nСтатус исследования: needs_review.",
+      "id": "a8cdb8d0-3deb-5c2d-89dc-474ad7134d36",
+      "locale": "ru",
+      "short_description": "Город в Дагестане.",
+      "title": "Хасавюрт"
+    },
+    {
+      "entity_id": "537c420f-e5f6-528f-ade9-cd31474e727f",
+      "full_description": "Крепость под Санкт-Петербургом.\n\nМесто заключения и смерти шейха Мансура в 1794 году.\n\nСтатус исследования: verified.",
+      "id": "8fde9b2f-a5f0-5a9f-8710-ee0a8c6f674c",
+      "locale": "ru",
+      "short_description": "Крепость под Санкт-Петербургом.",
+      "title": "Шлиссельбургская крепость"
+    },
+    {
+      "entity_id": "3285f1c3-e32e-5e0b-b14d-3282893b754f",
+      "full_description": "Город в Казахстане.\n\nМесто рождения А.-Х. Кадырова в период депортации чеченцев.\n\nСтатус исследования: needs_review.",
+      "id": "e7a1267e-01f7-5bf6-9f64-dd863fd876c4",
+      "locale": "ru",
+      "short_description": "Город в Казахстане.",
+      "title": "Караганда"
+    },
+    {
+      "entity_id": "1aa88c22-d98a-58d1-b228-94dee4a2422b",
+      "full_description": "Крепость в Белоруссии.\n\nСреди защитников в 1941 году были уроженцы Чечено-Ингушетии.\n\nСтатус исследования: needs_review.",
+      "id": "77445081-a289-549d-bae1-387236c1642f",
+      "locale": "ru",
+      "short_description": "Крепость в Белоруссии.",
+      "title": "Брестская крепость"
+    },
+    {
+      "entity_id": "fad4d1cf-8e91-5f3a-8865-e31f3ab17d40",
+      "full_description": "Чеченец из селения Алды. С весны 1785 года возглавил народно-освободительное восстание горцев. В 1791 году ранен и пленён при взятии Анапы, умер в заключении в Шлиссельбургской крепости 13 апреля 1794 года.\n\nСтатус исследования: verified.",
+      "id": "6d00b1a4-c7b3-53bc-ab87-f4a398f9cb45",
+      "locale": "ru",
+      "short_description": "Первый имам Северного Кавказа",
+      "title": "Шейх Мансур (Ушурма)"
+    },
+    {
+      "entity_id": "6185e98c-0240-5a08-9154-0fd39094b2d5",
+      "full_description": "Руководитель национально-освободительного движения в Чечне в 1802–1831 годах. Упоминается А. С. Пушкиным в «Путешествии в Арзрум».\n\nСтатус исследования: needs_review.",
+      "id": "c4793644-f528-5fce-91d0-eed60ad52267",
+      "locale": "ru",
+      "short_description": "Предводитель горцев",
+      "title": "Бейбулат Таймиев"
+    },
+    {
+      "entity_id": "2ffdf017-8858-58f1-b941-5a74e2271ae8",
+      "full_description": "Имам и один из идеологов сопротивления в Чечне (1830–1844), выходец из селения Эндери. Похоронен в селе Саясан, где расположен зиярат.\n\nСтатус исследования: needs_review.",
+      "id": "2a9c234f-e4b6-5dc0-a1ae-22c3ce99419c",
+      "locale": "ru",
+      "short_description": "Имам Чечни (1830–1844)",
+      "title": "Ташу-Хаджи Саясановский"
+    },
+    {
+      "entity_id": "aeb2d259-ecf0-5fc0-a0eb-59b1dba26b7d",
+      "full_description": "Наиб Беноевского общества, командовал беноевским отрядом под красным знаменем. Потерял в боях руку, глаз и ногу, но продолжал воевать. После пленения Шамиля в 1859 году — один из лидеров восстания 1860–1861 годов. Казнён в Хасавюрте 1 марта 1861 года.\n\nСтатус исследования: verified.",
+      "id": "2a5e52c8-e9c0-5f5e-9a64-a1c87547a29f",
+      "locale": "ru",
+      "short_description": "Наиб имама Шамиля",
+      "title": "Байсангур Беноевский"
+    },
+    {
+      "entity_id": "4ce10ba3-f686-5de4-9f1a-9278a3070965",
+      "full_description": "Наиб из общества Зумсо, один из руководителей восстания в Чечне 1877–1878 годов.\n\nСтатус исследования: needs_review.",
+      "id": "35509cfe-3ee0-59cf-810e-d83ff64e8467",
+      "locale": "ru",
+      "short_description": "Наиб, предводитель восстания",
+      "title": "Ума Дуев"
+    },
+    {
+      "entity_id": "d3356248-7684-54df-ba88-ee1dedc52d84",
+      "full_description": "Знаменитый чеченский абрек рубежа XIX–XX веков, родился в селе Харачой. Символ народного сопротивления; погиб 26 сентября 1913 года.\n\nСтатус исследования: verified.",
+      "id": "228ce432-edf1-5dac-acb8-54c761f009e6",
+      "locale": "ru",
+      "short_description": "Абрек",
+      "title": "Зелимхан Гушмазукаев (Харачоевский)"
+    },
+    {
+      "entity_id": "da86a501-8b89-5671-b95a-62a3a7c221d9",
+      "full_description": "Один из лидеров установления советской власти в Чечне, организатор красных партизанских отрядов. Погиб в 1919 году. Его именем названо село Асланбек-Шерипово (бывший Шатой).\n\nСтатус исследования: needs_review.",
+      "id": "11f2d4a9-0d48-52bd-b450-9b6644d8767b",
+      "locale": "ru",
+      "short_description": "Чеченский революционер",
+      "title": "Асланбек Джемалдинович Шерипов"
+    },
+    {
+      "entity_id": "0df490d1-e9d1-5734-9758-94fd077967fb",
+      "full_description": "Гвардии сержант, командир пулемётного взвода 17-го гвардейского кавалерийского полка. Участник Сталинградской битвы, считается самым результативным советским пулемётчиком войны. Погиб под Сталинградом 12 сентября 1942 года.\n\nСтатус исследования: verified.",
+      "id": "c1f2fa60-1861-57b0-9ab6-b06cd635e898",
+      "locale": "ru",
+      "short_description": "Герой Советского Союза",
+      "title": "Ханпаша Нурадилович Нурадилов"
+    },
+    {
+      "entity_id": "afbaf789-32e2-59cb-920f-02619dabaffb",
+      "full_description": "Командир 28-го гвардейского кавалерийского полка. В мае 1945 года одним из первых вышел к Эльбе и встретился с американскими войсками. Звание Героя Советского Союза присвоено посмертно указом от 5 мая 1990 года.\n\nСтатус исследования: verified.",
+      "id": "0e0336cf-cbaa-5978-900f-a1bb1a5d8fd7",
+      "locale": "ru",
+      "short_description": "Герой Советского Союза",
+      "title": "Мавлид (Мовлид) Алероевич Висаитов"
+    },
+    {
+      "entity_id": "46561d4c-c3b4-5401-8e06-8e9be1280028",
+      "full_description": "Старший сержант, снайпер. Звание Героя Советского Союза присвоено указом от 3 июня 1944 года. По официальным данным уничтожил около 349 солдат и офицеров противника (число требует проверки по наградным документам).\n\nСтатус исследования: verified.",
+      "id": "92d001bb-9365-5923-9be0-1347e983b30c",
+      "locale": "ru",
+      "short_description": "Герой Советского Союза",
+      "title": "Абухаджи Идрисов"
+    },
+    {
+      "entity_id": "b65cd9da-9a60-5718-9e1e-62c87cc9ba11",
+      "full_description": "Командир стрелкового батальона в боях за Мелитополь. Батальон отразил 19 контратак, уничтожил 7 танков и свыше 1000 солдат противника. Звание Героя Советского Союза присвоено посмертно указом от 1 ноября 1943 года.\n\nСтатус исследования: needs_review.",
+      "id": "d516a0d5-1dd5-5606-9f33-3256a86b5ea0",
+      "locale": "ru",
+      "short_description": "Герой Советского Союза",
+      "title": "Ирбайхан Адельханович Бейбулатов"
+    },
+    {
+      "entity_id": "ffcf0329-3c9b-5bcc-807e-148ae570b26b",
+      "full_description": "Один из чеченских Героев Советского Союза. Звание присвоено указом от 15 января 1944 года. Биографические детали требуют уточнения.\n\nСтатус исследования: needs_review.",
+      "id": "794a7378-aa4b-56fa-8a4b-05ae05d91175",
+      "locale": "ru",
+      "short_description": "Герой Советского Союза",
+      "title": "Хаваджи Магомед-Мирзоев"
+    },
+    {
+      "entity_id": "ce825c4d-79ae-53c2-8d93-bde084c8d460",
+      "full_description": "Герой Советского Союза (1944). В 1955 году лишён звания, восстановлен в 1985 году. Биографические детали требуют уточнения.\n\nСтатус исследования: needs_review.",
+      "id": "72b9c26d-4fde-5e25-b2f3-f6c95b36bb67",
+      "locale": "ru",
+      "short_description": "Герой Советского Союза",
+      "title": "Хансултан Чапаевич Дачиев"
+    },
+    {
+      "entity_id": "21523908-cf55-5b52-b684-1d40c992185f",
+      "full_description": "Легендарный чеченский танкист, погиб под Сталинградом. По ряду источников трижды представлялся к званию Героя. Требует проверки по наградным документам.\n\nСтатус исследования: needs_review.",
+      "id": "b935e0d0-cd74-54ba-a8e6-e6a70a7f9aa3",
+      "locale": "ru",
+      "short_description": "Танкист, участник Сталинградской битвы",
+      "title": "Маташ Мазаев"
+    },
+    {
+      "entity_id": "c4b9c02c-59ce-5b93-8222-4572cbea16cb",
+      "full_description": "Первый Президент Чеченской Республики. Родился в Караганде в период депортации, родовое село — Центарой. Звание Героя Российской Федерации присвоено посмертно после гибели 9 мая 2004 года в Грозном.\n\nСтатус исследования: needs_review.\n\nЗвание Героя России\n\nЗвание Героя Российской Федерации присвоено посмертно.\n\nГерой Российской Федерации (посмертно)\n\n2004-05-10\n\nСтатус исследования: needs_review.",
+      "id": "ac7ed7a9-5c74-513f-a9b9-8cbbaaf402f6",
+      "locale": "ru",
+      "short_description": "Герой Российской Федерации",
+      "title": "Ахмат-Хаджи Абдулхамидович Кадыров"
+    },
+    {
+      "entity_id": "7242b00c-17c6-556e-a31f-7aa7d2840bfb",
+      "full_description": "Глава Чеченской Республики. Звание Героя Российской Федерации присвоено в 2004 году. Родовое село — Центарой.\n\nСтатус исследования: needs_review.",
+      "id": "87245eaa-21e8-5018-9f4d-6cc86182d20a",
+      "locale": "ru",
+      "short_description": "Герой Российской Федерации",
+      "title": "Рамзан Ахматович Кадыров"
+    },
+    {
+      "entity_id": "08a704a1-1518-59a4-8257-8e278aa4c67b",
+      "full_description": "Командир ОМОН МВД Чеченской Республики. Звание Героя Российской Федерации присвоено посмертно. Биографические детали требуют уточнения.\n\nСтатус исследования: needs_review.",
+      "id": "d2c6b1ff-3d7b-5e10-9172-78bf76525702",
+      "locale": "ru",
+      "short_description": "Герой Российской Федерации",
+      "title": "Муса Газимагомадов"
+    },
+    {
+      "entity_id": "303c5c66-a65b-57dd-afca-d66a06f5331f",
+      "full_description": "15-летний подросток, погибший при защите семьи от нападения. Звание Героя Российской Федерации присвоено посмертно. Требует уточнения.\n\nСтатус исследования: needs_review.",
+      "id": "6ab3031e-189e-5911-9b4a-61a80efd09c7",
+      "locale": "ru",
+      "short_description": "Герой Российской Федерации",
+      "title": "Магомед Сайдиевич Ташухаджиев"
+    },
+    {
+      "entity_id": "f8682be9-f0f1-56d0-b910-67af50f61d5f",
+      "full_description": "Всемирно известный чеченский танцор, Народный артист СССР. Родился в селе Старые Атаги. Удостоен звания Героя Социалистического Труда.\n\nСтатус исследования: needs_review.",
+      "id": "6cc343f6-5d20-5ba0-82bd-b7a9ed612ba9",
+      "locale": "ru",
+      "short_description": "Народный артист СССР, Герой Социалистического Труда",
+      "title": "Махмуд Алисултанович Эсамбаев"
+    },
+    {
+      "entity_id": "c7325552-1119-59d7-9dfc-b28337d04b49",
+      "full_description": "Народно-освободительное восстание горцев Северного Кавказа под руководством шейха Мансура.\n\nСтатус исследования: verified.",
+      "id": "f93433f8-2d03-57af-b838-801d4c2aaa5f",
+      "locale": "ru",
+      "short_description": "Народно-освободительное восстание горцев Северного Кавказа под руководством шейха Мансура.",
+      "title": "Восстание шейха Мансура"
+    },
+    {
+      "entity_id": "9aa14194-0b24-5a01-ae36-07767e8b4717",
+      "full_description": "1785-07-06\n\n6 июля 1785 года посланный против Мансура отряд полковника де Пьери потерпел поражение у селения Алды; сам де Пьери погиб.\n\nСтатус исследования: verified.",
+      "id": "528d6517-b38b-56c1-a99f-68ce650c8534",
+      "locale": "ru",
+      "short_description": "6 июля 1785 года посланный против Мансура отряд полковника де Пьери потерпел поражение у селения Алды; сам де Пьери погиб.",
+      "title": "Разгром отряда де Пьери у Алдов"
+    },
+    {
+      "entity_id": "3a4634bf-5721-5fff-94e7-763a8c596743",
+      "full_description": "В 1818 году основана крепость Грозная, давшая начало городу Грозному.\n\nСтатус исследования: verified.",
+      "id": "6a8516b6-23f5-5434-b3d8-3d5b922d0398",
+      "locale": "ru",
+      "short_description": "В 1818 году основана крепость Грозная, давшая начало городу Грозному.",
+      "title": "Основание крепости Грозная"
+    },
+    {
+      "entity_id": "2503b706-f407-5d94-817f-2a068379b72d",
+      "full_description": "Длительная война Российской империи за присоединение Северного Кавказа.\n\nСтатус исследования: verified.",
+      "id": "75ae64c5-b3ea-5a12-adc8-f922780e2ece",
+      "locale": "ru",
+      "short_description": "Длительная война Российской империи за присоединение Северного Кавказа.",
+      "title": "Кавказская война"
+    },
+    {
+      "entity_id": "f08da49d-96a7-5821-a08c-376b76903289",
+      "full_description": "1840-07-11\n\nКровопролитное сражение Кавказской войны 11 июля 1840 года, описанное М. Ю. Лермонтовым в стихотворении «Валерик».\n\nСтатус исследования: needs_review.",
+      "id": "23a02edb-9cbf-5050-991e-382439cdde0e",
+      "locale": "ru",
+      "short_description": "Кровопролитное сражение Кавказской войны 11 июля 1840 года, описанное М. Ю. Лермонтовым в стихотворении «Валерик».",
+      "title": "Сражение на реке Валерик"
+    },
+    {
+      "entity_id": "40bec69d-d29d-5c3b-865f-67f4727fcef7",
+      "full_description": "В 1845–1859 годах Ведено служило столицей имамата Шамиля.\n\nСтатус исследования: verified.",
+      "id": "9eb8b7a4-a932-5332-83be-5197d66b1b6e",
+      "locale": "ru",
+      "short_description": "В 1845–1859 годах Ведено служило столицей имамата Шамиля.",
+      "title": "Столица имамата Шамиля в Ведено"
+    },
+    {
+      "entity_id": "3c31b446-0e0c-51e6-884b-d3cb39e985f0",
+      "full_description": "Одно из последних крупных восстаний Кавказской войны; среди лидеров — Байсангур Беноевский.\n\nСтатус исследования: needs_review.",
+      "id": "b4517fea-27f6-5b29-bdcd-6b63166a5770",
+      "locale": "ru",
+      "short_description": "Одно из последних крупных восстаний Кавказской войны; среди лидеров — Байсангур Беноевский.",
+      "title": "Восстание в Чечне 1860–1861 годов"
+    },
+    {
+      "entity_id": "a2b93c68-26d6-5296-a301-e29a93764b46",
+      "full_description": "Крупное восстание в Чечне и Дагестане; среди руководителей — Ума Дуев.\n\nСтатус исследования: needs_review.",
+      "id": "15f08c4c-aed3-525d-9485-1e3d7a8f49dc",
+      "locale": "ru",
+      "short_description": "Крупное восстание в Чечне и Дагестане; среди руководителей — Ума Дуев.",
+      "title": "Восстание в Чечне 1877–1878 годов"
+    },
+    {
+      "entity_id": "4d315a7f-feb4-54f6-8771-63f9b76cb23d",
+      "full_description": "Война СССР против нацистской Германии; тысячи чеченцев — её участники.\n\nСтатус исследования: verified.",
+      "id": "87a918e5-67b5-5424-8be5-e4c6722ef48d",
+      "locale": "ru",
+      "short_description": "Война СССР против нацистской Германии; тысячи чеченцев — её участники.",
+      "title": "Великая Отечественная война"
+    },
+    {
+      "entity_id": "07cdd514-0a84-5082-95f4-51e327d07d67",
+      "full_description": "Оборона Брестской крепости летом 1941 года; среди защитников были уроженцы Чечено-Ингушетии.\n\nСтатус исследования: needs_review.",
+      "id": "a8b2ec77-3646-5c09-9114-acb6e26590b8",
+      "locale": "ru",
+      "short_description": "Оборона Брестской крепости летом 1941 года; среди защитников были уроженцы Чечено-Ингушетии.",
+      "title": "Оборона Брестской крепости"
+    },
+    {
+      "entity_id": "ec87a297-0727-5020-a136-8f19205ab089",
+      "full_description": "Переломное сражение Великой Отечественной войны.\n\nСтатус исследования: verified.",
+      "id": "2af56a67-a8af-5ec0-a425-670b333c0481",
+      "locale": "ru",
+      "short_description": "Переломное сражение Великой Отечественной войны.",
+      "title": "Сталинградская битва"
+    },
+    {
+      "entity_id": "ea954a6b-e2d6-5158-b39b-586809367e04",
+      "full_description": "1945-05\n\nСоединение советских и американских войск на Эльбе в мае 1945 года.\n\nСтатус исследования: verified.",
+      "id": "2bbe910d-a74b-5b30-9b55-baacc4289377",
+      "locale": "ru",
+      "short_description": "Соединение советских и американских войск на Эльбе в мае 1945 года.",
+      "title": "Встреча на Эльбе"
+    },
+    {
+      "entity_id": "51151ac6-98cc-57e4-9fb0-d1d1a959ec90",
+      "full_description": "1944-02-23\n\nНасильственная депортация чеченского и ингушского народов в Среднюю Азию и Казахстан, начатая 23 февраля 1944 года.\n\nСтатус исследования: verified.",
+      "id": "6ac14705-b5d7-54c1-bd81-4cba90bbb95f",
+      "locale": "ru",
+      "short_description": "Насильственная депортация чеченского и ингушского народов в Среднюю Азию и Казахстан, начатая 23 февраля 1944 года.",
+      "title": "Депортация чеченцев и ингушей («Чечевица»)"
+    },
+    {
+      "entity_id": "90198017-06ff-5b33-a7c7-5feeed29f40f",
+      "full_description": "В 2008 году в Грозном открыта мечеть «Сердце Чечни».\n\nСтатус исследования: needs_review.",
+      "id": "903d844f-7bed-584e-b8ad-2ca4cdfd8fa9",
+      "locale": "ru",
+      "short_description": "В 2008 году в Грозном открыта мечеть «Сердце Чечни».",
+      "title": "Открытие мечети «Сердце Чечни»"
+    },
+    {
+      "entity_id": "ad549745-a376-5a77-bdfb-93b767282699",
+      "full_description": "В 2019 году в Шали открыта одна из крупнейших мечетей Европы.\n\nСтатус исследования: needs_review.",
+      "id": "b8c5d670-7c2d-5991-ad06-d74d8fc25d1e",
+      "locale": "ru",
+      "short_description": "В 2019 году в Шали открыта одна из крупнейших мечетей Европы.",
+      "title": "Открытие мечети «Гордость мусульман»"
+    }
+  ],
+  "relation_sources": [
+    {
+      "id": "5900b826-ec54-5820-b3ef-2868099f362a",
+      "relation_id": "28c5692e-7884-5fc1-b389-cd49c3047f5d",
+      "source_id": "a7d477d1-bbe3-54c4-9b5d-4f921bc20dc0"
+    },
+    {
+      "id": "ed2b90ac-df3e-55fc-af7c-bc223305d6af",
+      "relation_id": "525426a0-7bd4-5b0f-82e7-8a33c1f3368b",
+      "source_id": "a7d477d1-bbe3-54c4-9b5d-4f921bc20dc0"
+    },
+    {
+      "id": "55c8b949-b526-54e8-b146-28d93848cf80",
+      "relation_id": "71b4def3-55cf-56de-8ef1-fb0015a9d504",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "id": "8cd48c95-f74b-579f-b0d6-c16cab0b160a",
+      "relation_id": "1aef4aea-a886-5b36-a990-8534212e91d3",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "id": "4c4f5611-c335-5a18-9c65-14b343059c03",
+      "relation_id": "48345636-68e6-5f03-a3e1-56552b4feaf2",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "id": "67a7f203-b314-56d3-8552-86754a404239",
+      "relation_id": "e7f7e644-6aac-5e3b-be2d-6e8d2e627a21",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "id": "2a61b0d5-05db-54de-9bb4-9a384f3294df",
+      "relation_id": "da69ddf8-cae9-55e9-9ac9-9e710812fd6e",
+      "source_id": "8601b5ff-7d0f-5f45-a35d-3b10362f12c3"
+    },
+    {
+      "id": "68dfaa0a-f246-5f75-bfd9-abdf9907f10a",
+      "relation_id": "e1b6495a-8cdc-5e0c-969e-935da0a901e7",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "id": "09100879-53d8-5186-890d-47eebabb7e9e",
+      "relation_id": "9ff3a0c5-de75-5bfd-bf8f-7530f4ace38b",
+      "source_id": "04b166a7-3f65-5e7b-b1ba-a2568f26dde9"
+    },
+    {
+      "id": "ef89939d-7185-5fcc-8a68-cd7a10b37572",
+      "relation_id": "8f3b4da9-9515-5e45-b691-c2fa917efcc7",
+      "source_id": "04b166a7-3f65-5e7b-b1ba-a2568f26dde9"
+    },
+    {
+      "id": "7ef2df1e-f91c-52d4-bfec-301b68cf97cf",
+      "relation_id": "a4cc9c76-77c0-5e70-b592-bfe7b916e078",
+      "source_id": "04b166a7-3f65-5e7b-b1ba-a2568f26dde9"
+    },
+    {
+      "id": "de912874-9d30-51f3-975a-d19183edcd84",
+      "relation_id": "1de8d2da-a775-57c9-a36c-083ad7009e7d",
+      "source_id": "04b166a7-3f65-5e7b-b1ba-a2568f26dde9"
+    },
+    {
+      "id": "2eb08046-aa40-5fba-aa68-8cbc40b29fa5",
+      "relation_id": "5cf7933a-3a62-5164-b237-14af6de4f445",
+      "source_id": "04b166a7-3f65-5e7b-b1ba-a2568f26dde9"
+    },
+    {
+      "id": "3b125fb0-4770-5233-8ee0-7faf7ef9c975",
+      "relation_id": "1e699563-73bc-5791-ad6d-5f73af7bcae3",
+      "source_id": "534b44c2-9320-55e7-9108-032bf243c8b3"
+    },
+    {
+      "id": "c0065748-cce5-58cf-89dc-218188ccb164",
+      "relation_id": "f4d7071c-408a-5982-8917-3bcd0e6a6a4c",
+      "source_id": "534b44c2-9320-55e7-9108-032bf243c8b3"
+    },
+    {
+      "id": "bc1932b4-dfd0-5f6f-9ef2-c97a816f159d",
+      "relation_id": "11d16442-54f4-5507-9c89-842b19fa161e",
+      "source_id": "534b44c2-9320-55e7-9108-032bf243c8b3"
+    },
+    {
+      "id": "6a5b5b2a-a8d8-5fb3-9445-74480c3ba70a",
+      "relation_id": "c17676b3-b554-5253-a36b-350381ec7f6f",
+      "source_id": "534b44c2-9320-55e7-9108-032bf243c8b3"
+    },
+    {
+      "id": "9f0ae20c-3e93-590e-aa8a-ba08e6b05cc2",
+      "relation_id": "a70cc25f-cdf2-5eda-8881-e3db359c2a98",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "id": "0d161e68-f701-5884-9064-2bc8d444ad96",
+      "relation_id": "fd05aa9c-0777-5dd5-8c86-371afbdea55c",
+      "source_id": "a7d477d1-bbe3-54c4-9b5d-4f921bc20dc0"
+    },
+    {
+      "id": "74453225-b822-5438-9228-d119837ba461",
+      "relation_id": "3e59cf64-ba9e-5758-88ca-6ecf36010076",
+      "source_id": "a7d477d1-bbe3-54c4-9b5d-4f921bc20dc0"
+    },
+    {
+      "id": "cd2c937c-1bed-5a37-a751-0206313764d3",
+      "relation_id": "62e475d6-feb3-59fb-ba4b-33b1b516888e",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "id": "c950884a-053b-58a0-bc31-ae73d4361a2a",
+      "relation_id": "95d4b58a-9dec-5be4-b85c-e334b33d3b46",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "id": "8d8638f4-1b94-53be-b790-7da6c61a3f20",
+      "relation_id": "213f9381-f67c-5961-acc6-f55616492cdc",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "id": "09607659-8ce7-5cf5-9596-d9f58d19952e",
+      "relation_id": "8f967257-63e4-5bb1-8ca7-617614ee6871",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "id": "290673f9-3735-57e5-a0bf-0a400fbb02d7",
+      "relation_id": "e565ee38-a3a8-571a-8654-c7a62bf6d5e7",
+      "source_id": "04b166a7-3f65-5e7b-b1ba-a2568f26dde9"
+    },
+    {
+      "id": "44f2b879-d140-5eac-b016-34ab2dd3ea52",
+      "relation_id": "b4bb55a0-d5e7-5e2c-8e8c-d45ed1695799",
+      "source_id": "04b166a7-3f65-5e7b-b1ba-a2568f26dde9"
+    },
+    {
+      "id": "808d42dc-479b-5b6e-82fd-6726903050ce",
+      "relation_id": "e3d16b4f-4803-5df0-aec4-6622b129818f",
+      "source_id": "8601b5ff-7d0f-5f45-a35d-3b10362f12c3"
+    },
+    {
+      "id": "ac7e848a-c7c5-591d-acca-dbe0136d1205",
+      "relation_id": "5c2c850f-e3fc-5f23-9e4e-eea23ea4b41a",
+      "source_id": "04b166a7-3f65-5e7b-b1ba-a2568f26dde9"
+    },
+    {
+      "id": "3b07d6c2-fa95-52b3-994d-e4daa69d1900",
+      "relation_id": "104f5c9c-4a28-5725-bab7-d24551b9e8fd",
+      "source_id": "04b166a7-3f65-5e7b-b1ba-a2568f26dde9"
+    },
+    {
+      "id": "b6045417-ae07-5d02-9ea6-1e7725fce174",
+      "relation_id": "494f02cc-f7af-5d76-b2e8-54b3abbde4f9",
+      "source_id": "04b166a7-3f65-5e7b-b1ba-a2568f26dde9"
+    },
+    {
+      "id": "60becb62-e1d0-58e0-af9e-8e763362d45f",
+      "relation_id": "7c8ced4a-a11e-5377-a525-b9c564e91693",
+      "source_id": "bea2d9a0-2862-5607-b477-8f18ab253028"
+    },
+    {
+      "id": "6629539d-1472-5eed-ac44-b6c343fbe676",
+      "relation_id": "ffecb311-fabd-5564-bddb-03496095e12a",
+      "source_id": "6b9024f2-fd28-5c65-a256-e9773ac77891"
+    },
+    {
+      "id": "d473fddc-5290-510b-a0f2-dc518bda3425",
+      "relation_id": "72ad36a7-9f83-554a-8999-5dc2f12d728c",
+      "source_id": "bea2d9a0-2862-5607-b477-8f18ab253028"
+    },
+    {
+      "id": "21e9258d-5402-5bea-b78f-9ed4d5979034",
+      "relation_id": "dcebc187-77da-5e4a-8017-df1b0e43c339",
+      "source_id": "a7d477d1-bbe3-54c4-9b5d-4f921bc20dc0"
+    },
+    {
+      "id": "46f6baeb-efbc-526c-86eb-221020e9c0f4",
+      "relation_id": "3bb04fa4-8158-53ec-8375-9da7d3ca8919",
+      "source_id": "a7d477d1-bbe3-54c4-9b5d-4f921bc20dc0"
+    },
+    {
+      "id": "689076f8-6bae-5a2b-bf8d-6fd75df9793b",
+      "relation_id": "ad64074f-6e1e-5f46-a5b6-9fe51e7ed18d",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "id": "c2a2b7ad-2f12-5d27-950b-a82f6b9f4b5c",
+      "relation_id": "359aec84-5c1c-5512-912b-5f9a974bd086",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "id": "f44cbbcf-0f21-5618-9b44-ecb8b71dc3ca",
+      "relation_id": "2df3ee69-df42-5038-99fc-41086f7109c2",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "id": "968aa495-e389-5616-bde7-124a1a8a72e1",
+      "relation_id": "0d740cf6-fbce-5612-9da0-30caab840216",
+      "source_id": "3e8565d9-d522-5e73-aa0e-bd5c2ed7c5a4"
+    },
+    {
+      "id": "7f45aabb-78a7-508c-a6c6-3c189feeaa56",
+      "relation_id": "6d1b6239-9413-5f3b-8eca-1d986d463b69",
+      "source_id": "3e8565d9-d522-5e73-aa0e-bd5c2ed7c5a4"
+    },
+    {
+      "id": "99ff71b2-2609-543a-a7a6-de8bf12098be",
+      "relation_id": "ad7d5d28-c1bc-5f49-8d2f-5cd513e3151b",
+      "source_id": "04b166a7-3f65-5e7b-b1ba-a2568f26dde9"
+    },
+    {
+      "id": "b318df4d-7aa8-5b72-b330-4e8579a142ac",
+      "relation_id": "31f6c9bf-7eec-5382-b807-ec9d5fe76ee3",
+      "source_id": "04b166a7-3f65-5e7b-b1ba-a2568f26dde9"
+    },
+    {
+      "id": "ad84c779-e608-536c-bd7e-944e0ca967d8",
+      "relation_id": "2f2361f1-307d-5568-88d4-970e13babbd6",
+      "source_id": "04b166a7-3f65-5e7b-b1ba-a2568f26dde9"
+    },
+    {
+      "id": "5c14624d-7ebe-5ad3-bd64-e6c38ea7a95d",
+      "relation_id": "b13b25ac-ad46-504d-a44a-5784e4a2ef93",
+      "source_id": "6b9024f2-fd28-5c65-a256-e9773ac77891"
+    },
+    {
+      "id": "4d157070-60b7-58da-9b6a-b45c08083e91",
+      "relation_id": "807a4419-f456-5e2f-bdf7-7e2925bc4c3d",
+      "source_id": "bea2d9a0-2862-5607-b477-8f18ab253028"
+    },
+    {
+      "id": "1df12afd-52ad-5c66-942e-6ede07b9cae1",
+      "relation_id": "87916f8e-c923-569a-8ad8-6c43c34318d4",
+      "source_id": "bea2d9a0-2862-5607-b477-8f18ab253028"
+    },
+    {
+      "id": "7055ac1e-5e05-5c0d-bc2b-63fc9a1c63e6",
+      "relation_id": "9fe918b1-c34c-5635-ba6e-29158d4b5501",
+      "source_id": "8601b5ff-7d0f-5f45-a35d-3b10362f12c3"
+    },
+    {
+      "id": "ada2cb41-c93f-5308-b20c-dbb3182cbe34",
+      "relation_id": "07c03010-b063-5a19-97ec-6c8949cfd1e6",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "id": "5a69455f-6f24-5616-87fc-ba085634c41d",
+      "relation_id": "a8eece8b-1118-5df0-95df-5b4f81d40737",
+      "source_id": "a7d477d1-bbe3-54c4-9b5d-4f921bc20dc0"
+    },
+    {
+      "id": "0c86229f-1bdc-59e2-867e-b3d6c232828f",
+      "relation_id": "572df5bf-ce11-5055-b538-d1dc3500cf5b",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "id": "1355f031-fa6d-59c1-b3c9-eda4dc611bd0",
+      "relation_id": "f21e2af3-d48f-574a-b1a0-5a1ba0536676",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    }
+  ],
+  "relations": [
+    {
+      "description_ce": null,
+      "description_ru": "Место рождения",
+      "id": "28c5692e-7884-5fc1-b389-cd49c3047f5d",
+      "period_from": null,
+      "period_to": null,
+      "source_entity_id": "fad4d1cf-8e91-5f3a-8865-e31f3ab17d40",
+      "status": "draft",
+      "target_entity_id": "80eb0068-56cd-543d-ae23-1adc1392c89e",
+      "title_ce": null,
+      "title_ru": "Место рождения",
+      "type": "born_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "1794\n\nМесто смерти",
+      "id": "525426a0-7bd4-5b0f-82e7-8a33c1f3368b",
+      "period_from": 1794,
+      "period_to": null,
+      "source_entity_id": "fad4d1cf-8e91-5f3a-8865-e31f3ab17d40",
+      "status": "draft",
+      "target_entity_id": "537c420f-e5f6-528f-ade9-cd31474e727f",
+      "title_ce": null,
+      "title_ru": "Место смерти",
+      "type": "connected_with"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Место рождения",
+      "id": "71b4def3-55cf-56de-8ef1-fb0015a9d504",
+      "period_from": null,
+      "period_to": null,
+      "source_entity_id": "aeb2d259-ecf0-5fc0-a0eb-59b1dba26b7d",
+      "status": "draft",
+      "target_entity_id": "fbef07c3-05c6-52d8-accf-f47601778d94",
+      "title_ce": null,
+      "title_ru": "Место рождения",
+      "type": "born_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "1861\n\nМесто смерти",
+      "id": "1aef4aea-a886-5b36-a990-8534212e91d3",
+      "period_from": 1861,
+      "period_to": null,
+      "source_entity_id": "aeb2d259-ecf0-5fc0-a0eb-59b1dba26b7d",
+      "status": "draft",
+      "target_entity_id": "2fdc5777-eed5-53a6-8183-f82c9ef58390",
+      "title_ce": null,
+      "title_ru": "Место смерти",
+      "type": "connected_with"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Место рождения",
+      "id": "48345636-68e6-5f03-a3e1-56552b4feaf2",
+      "period_from": null,
+      "period_to": null,
+      "source_entity_id": "4ce10ba3-f686-5de4-9f1a-9278a3070965",
+      "status": "draft",
+      "target_entity_id": "adfb8c72-c79e-5bdc-9c72-804c6d1c21f0",
+      "title_ce": null,
+      "title_ru": "Место рождения",
+      "type": "born_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Место рождения",
+      "id": "e7f7e644-6aac-5e3b-be2d-6e8d2e627a21",
+      "period_from": null,
+      "period_to": null,
+      "source_entity_id": "d3356248-7684-54df-ba88-ee1dedc52d84",
+      "status": "draft",
+      "target_entity_id": "bfd219bc-3b28-516f-ba24-6a504c7e0e32",
+      "title_ce": null,
+      "title_ru": "Место рождения",
+      "type": "born_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Место захоронения",
+      "id": "da69ddf8-cae9-55e9-9ac9-9e710812fd6e",
+      "period_from": null,
+      "period_to": null,
+      "source_entity_id": "2ffdf017-8858-58f1-b941-5a74e2271ae8",
+      "status": "draft",
+      "target_entity_id": "b319196a-7306-54b4-ae1d-8790c4e83869",
+      "title_ce": null,
+      "title_ru": "Место захоронения",
+      "type": "connected_with"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Место рождения",
+      "id": "e1b6495a-8cdc-5e0c-969e-935da0a901e7",
+      "period_from": null,
+      "period_to": null,
+      "source_entity_id": "da86a501-8b89-5671-b95a-62a3a7c221d9",
+      "status": "draft",
+      "target_entity_id": "50e46161-a47c-5d57-a889-345afe07de6b",
+      "title_ce": null,
+      "title_ru": "Место рождения",
+      "type": "born_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Место рождения",
+      "id": "9ff3a0c5-de75-5bfd-bf8f-7530f4ace38b",
+      "period_from": null,
+      "period_to": null,
+      "source_entity_id": "0df490d1-e9d1-5734-9758-94fd077967fb",
+      "status": "draft",
+      "target_entity_id": "01548aec-caf4-5b53-98fe-59c44f742c0f",
+      "title_ce": null,
+      "title_ru": "Место рождения",
+      "type": "born_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Увековечен в топонимике и мемориалах республики.\n\nМесто увековечения памяти",
+      "id": "8f3b4da9-9515-5e45-b691-c2fa917efcc7",
+      "period_from": null,
+      "period_to": null,
+      "source_entity_id": "0df490d1-e9d1-5734-9758-94fd077967fb",
+      "status": "draft",
+      "target_entity_id": "50e46161-a47c-5d57-a889-345afe07de6b",
+      "title_ce": null,
+      "title_ru": "Место увековечения памяти",
+      "type": "connected_with"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Место рождения",
+      "id": "a4cc9c76-77c0-5e70-b592-bfe7b916e078",
+      "period_from": null,
+      "period_to": null,
+      "source_entity_id": "afbaf789-32e2-59cb-920f-02619dabaffb",
+      "status": "draft",
+      "target_entity_id": "7c7c0092-f017-5e23-a9ae-157309002046",
+      "title_ce": null,
+      "title_ru": "Место рождения",
+      "type": "born_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "1986\n\nМесто смерти",
+      "id": "1de8d2da-a775-57c9-a36c-083ad7009e7d",
+      "period_from": 1986,
+      "period_to": null,
+      "source_entity_id": "afbaf789-32e2-59cb-920f-02619dabaffb",
+      "status": "draft",
+      "target_entity_id": "50e46161-a47c-5d57-a889-345afe07de6b",
+      "title_ce": null,
+      "title_ru": "Место смерти",
+      "type": "connected_with"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Место рождения",
+      "id": "5cf7933a-3a62-5164-b237-14af6de4f445",
+      "period_from": null,
+      "period_to": null,
+      "source_entity_id": "46561d4c-c3b4-5401-8e06-8e9be1280028",
+      "status": "draft",
+      "target_entity_id": "770c442f-a6e9-5f35-94b4-42a99ae80135",
+      "title_ce": null,
+      "title_ru": "Место рождения",
+      "type": "born_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "1951\n\nМесто рождения",
+      "id": "1e699563-73bc-5791-ad6d-5f73af7bcae3",
+      "period_from": 1951,
+      "period_to": null,
+      "source_entity_id": "c4b9c02c-59ce-5b93-8222-4572cbea16cb",
+      "status": "draft",
+      "target_entity_id": "3285f1c3-e32e-5e0b-b14d-3282893b754f",
+      "title_ce": null,
+      "title_ru": "Место рождения",
+      "type": "born_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Место проживания",
+      "id": "f4d7071c-408a-5982-8917-3bcd0e6a6a4c",
+      "period_from": null,
+      "period_to": null,
+      "source_entity_id": "c4b9c02c-59ce-5b93-8222-4572cbea16cb",
+      "status": "draft",
+      "target_entity_id": "faf5f3f9-abf1-5ed8-a05c-3c41f3ebfef1",
+      "title_ce": null,
+      "title_ru": "Место проживания",
+      "type": "lived_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "2004\n\nМесто смерти",
+      "id": "11d16442-54f4-5507-9c89-842b19fa161e",
+      "period_from": 2004,
+      "period_to": null,
+      "source_entity_id": "c4b9c02c-59ce-5b93-8222-4572cbea16cb",
+      "status": "draft",
+      "target_entity_id": "50e46161-a47c-5d57-a889-345afe07de6b",
+      "title_ce": null,
+      "title_ru": "Место смерти",
+      "type": "connected_with"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "1976\n\nМесто рождения",
+      "id": "c17676b3-b554-5253-a36b-350381ec7f6f",
+      "period_from": 1976,
+      "period_to": null,
+      "source_entity_id": "7242b00c-17c6-556e-a31f-7aa7d2840bfb",
+      "status": "draft",
+      "target_entity_id": "faf5f3f9-abf1-5ed8-a05c-3c41f3ebfef1",
+      "title_ce": null,
+      "title_ru": "Место рождения",
+      "type": "born_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Место рождения",
+      "id": "a70cc25f-cdf2-5eda-8881-e3db359c2a98",
+      "period_from": null,
+      "period_to": null,
+      "source_entity_id": "f8682be9-f0f1-56d0-b910-67af50f61d5f",
+      "status": "draft",
+      "target_entity_id": "81242eaf-1654-5f3a-9a99-004a663b6165",
+      "title_ce": null,
+      "title_ru": "Место рождения",
+      "type": "born_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Предводитель",
+      "id": "fd05aa9c-0777-5dd5-8c86-371afbdea55c",
+      "period_from": null,
+      "period_to": null,
+      "source_entity_id": "fad4d1cf-8e91-5f3a-8865-e31f3ab17d40",
+      "status": "draft",
+      "target_entity_id": "c7325552-1119-59d7-9dfc-b28337d04b49",
+      "title_ce": null,
+      "title_ru": "Участие в событии",
+      "type": "participated_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Предводитель ополчения",
+      "id": "3e59cf64-ba9e-5758-88ca-6ecf36010076",
+      "period_from": null,
+      "period_to": null,
+      "source_entity_id": "fad4d1cf-8e91-5f3a-8865-e31f3ab17d40",
+      "status": "draft",
+      "target_entity_id": "9aa14194-0b24-5a01-ae36-07767e8b4717",
+      "title_ce": null,
+      "title_ru": "Участие в событии",
+      "type": "participated_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Предводитель восстания",
+      "id": "62e475d6-feb3-59fb-ba4b-33b1b516888e",
+      "period_from": null,
+      "period_to": null,
+      "source_entity_id": "6185e98c-0240-5a08-9154-0fd39094b2d5",
+      "status": "draft",
+      "target_entity_id": "2503b706-f407-5d94-817f-2a068379b72d",
+      "title_ce": null,
+      "title_ru": "Участие в событии",
+      "type": "participated_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Наиб, командир отряда",
+      "id": "95d4b58a-9dec-5be4-b85c-e334b33d3b46",
+      "period_from": null,
+      "period_to": null,
+      "source_entity_id": "aeb2d259-ecf0-5fc0-a0eb-59b1dba26b7d",
+      "status": "draft",
+      "target_entity_id": "2503b706-f407-5d94-817f-2a068379b72d",
+      "title_ce": null,
+      "title_ru": "Участие в событии",
+      "type": "participated_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Один из лидеров",
+      "id": "213f9381-f67c-5961-acc6-f55616492cdc",
+      "period_from": null,
+      "period_to": null,
+      "source_entity_id": "aeb2d259-ecf0-5fc0-a0eb-59b1dba26b7d",
+      "status": "draft",
+      "target_entity_id": "3c31b446-0e0c-51e6-884b-d3cb39e985f0",
+      "title_ce": null,
+      "title_ru": "Участие в событии",
+      "type": "participated_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Один из вождей",
+      "id": "8f967257-63e4-5bb1-8ca7-617614ee6871",
+      "period_from": null,
+      "period_to": null,
+      "source_entity_id": "4ce10ba3-f686-5de4-9f1a-9278a3070965",
+      "status": "draft",
+      "target_entity_id": "a2b93c68-26d6-5296-a301-e29a93764b46",
+      "title_ce": null,
+      "title_ru": "Участие в событии",
+      "type": "participated_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Командир пулемётного взвода",
+      "id": "e565ee38-a3a8-571a-8654-c7a62bf6d5e7",
+      "period_from": null,
+      "period_to": null,
+      "source_entity_id": "0df490d1-e9d1-5734-9758-94fd077967fb",
+      "status": "draft",
+      "target_entity_id": "ec87a297-0727-5020-a136-8f19205ab089",
+      "title_ce": null,
+      "title_ru": "Участие в событии",
+      "type": "participated_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Участник",
+      "id": "b4bb55a0-d5e7-5e2c-8e8c-d45ed1695799",
+      "period_from": null,
+      "period_to": null,
+      "source_entity_id": "0df490d1-e9d1-5734-9758-94fd077967fb",
+      "status": "draft",
+      "target_entity_id": "4d315a7f-feb4-54f6-8771-63f9b76cb23d",
+      "title_ce": null,
+      "title_ru": "Участие в событии",
+      "type": "participated_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Танкист",
+      "id": "e3d16b4f-4803-5df0-aec4-6622b129818f",
+      "period_from": null,
+      "period_to": null,
+      "source_entity_id": "21523908-cf55-5b52-b684-1d40c992185f",
+      "status": "draft",
+      "target_entity_id": "ec87a297-0727-5020-a136-8f19205ab089",
+      "title_ce": null,
+      "title_ru": "Участие в событии",
+      "type": "participated_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Командир кавалерийского полка",
+      "id": "5c2c850f-e3fc-5f23-9e4e-eea23ea4b41a",
+      "period_from": null,
+      "period_to": null,
+      "source_entity_id": "afbaf789-32e2-59cb-920f-02619dabaffb",
+      "status": "draft",
+      "target_entity_id": "ea954a6b-e2d6-5158-b39b-586809367e04",
+      "title_ce": null,
+      "title_ru": "Участие в событии",
+      "type": "participated_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Участник",
+      "id": "104f5c9c-4a28-5725-bab7-d24551b9e8fd",
+      "period_from": null,
+      "period_to": null,
+      "source_entity_id": "afbaf789-32e2-59cb-920f-02619dabaffb",
+      "status": "draft",
+      "target_entity_id": "4d315a7f-feb4-54f6-8771-63f9b76cb23d",
+      "title_ce": null,
+      "title_ru": "Участие в событии",
+      "type": "participated_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Снайпер",
+      "id": "494f02cc-f7af-5d76-b2e8-54b3abbde4f9",
+      "period_from": null,
+      "period_to": null,
+      "source_entity_id": "46561d4c-c3b4-5401-8e06-8e9be1280028",
+      "status": "draft",
+      "target_entity_id": "4d315a7f-feb4-54f6-8771-63f9b76cb23d",
+      "title_ce": null,
+      "title_ru": "Участие в событии",
+      "type": "participated_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Снайпер",
+      "id": "7c8ced4a-a11e-5377-a525-b9c564e91693",
+      "period_from": null,
+      "period_to": null,
+      "source_entity_id": "ffcf0329-3c9b-5bcc-807e-148ae570b26b",
+      "status": "draft",
+      "target_entity_id": "4d315a7f-feb4-54f6-8771-63f9b76cb23d",
+      "title_ce": null,
+      "title_ru": "Участие в событии",
+      "type": "participated_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Командир батальона",
+      "id": "ffecb311-fabd-5564-bddb-03496095e12a",
+      "period_from": null,
+      "period_to": null,
+      "source_entity_id": "b65cd9da-9a60-5718-9e1e-62c87cc9ba11",
+      "status": "draft",
+      "target_entity_id": "4d315a7f-feb4-54f6-8771-63f9b76cb23d",
+      "title_ce": null,
+      "title_ru": "Участие в событии",
+      "type": "participated_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Участник",
+      "id": "72ad36a7-9f83-554a-8999-5dc2f12d728c",
+      "period_from": null,
+      "period_to": null,
+      "source_entity_id": "ce825c4d-79ae-53c2-8d93-bde084c8d460",
+      "status": "draft",
+      "target_entity_id": "4d315a7f-feb4-54f6-8771-63f9b76cb23d",
+      "title_ce": null,
+      "title_ru": "Участие в событии",
+      "type": "participated_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Народно-освободительное восстание горцев Северного Кавказа под руководством шейха Мансура.\n\nСтатус исследования: verified.",
+      "id": "dcebc187-77da-5e4a-8017-df1b0e43c339",
+      "period_from": 1785,
+      "period_to": 1791,
+      "source_entity_id": "c7325552-1119-59d7-9dfc-b28337d04b49",
+      "status": "draft",
+      "target_entity_id": "80eb0068-56cd-543d-ae23-1adc1392c89e",
+      "title_ce": null,
+      "title_ru": "Место события",
+      "type": "located_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "6 июля 1785 года посланный против Мансура отряд полковника де Пьери потерпел поражение у селения Алды; сам де Пьери погиб.\n\nСтатус исследования: verified.",
+      "id": "3bb04fa4-8158-53ec-8375-9da7d3ca8919",
+      "period_from": 1785,
+      "period_to": null,
+      "source_entity_id": "9aa14194-0b24-5a01-ae36-07767e8b4717",
+      "status": "draft",
+      "target_entity_id": "80eb0068-56cd-543d-ae23-1adc1392c89e",
+      "title_ce": null,
+      "title_ru": "Место события",
+      "type": "located_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "В 1818 году основана крепость Грозная, давшая начало городу Грозному.\n\nСтатус исследования: verified.",
+      "id": "ad64074f-6e1e-5f46-a5b6-9fe51e7ed18d",
+      "period_from": 1818,
+      "period_to": null,
+      "source_entity_id": "3a4634bf-5721-5fff-94e7-763a8c596743",
+      "status": "draft",
+      "target_entity_id": "50e46161-a47c-5d57-a889-345afe07de6b",
+      "title_ce": null,
+      "title_ru": "Место события",
+      "type": "located_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "В 1845–1859 годах Ведено служило столицей имамата Шамиля.\n\nСтатус исследования: verified.",
+      "id": "359aec84-5c1c-5512-912b-5f9a974bd086",
+      "period_from": 1845,
+      "period_to": 1859,
+      "source_entity_id": "40bec69d-d29d-5c3b-865f-67f4727fcef7",
+      "status": "draft",
+      "target_entity_id": "1f7c2436-2332-514c-82fb-9d21fccd9218",
+      "title_ce": null,
+      "title_ru": "Место события",
+      "type": "located_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Оборона Брестской крепости летом 1941 года; среди защитников были уроженцы Чечено-Ингушетии.\n\nСтатус исследования: needs_review.",
+      "id": "2df3ee69-df42-5038-99fc-41086f7109c2",
+      "period_from": 1941,
+      "period_to": null,
+      "source_entity_id": "07cdd514-0a84-5082-95f4-51e327d07d67",
+      "status": "draft",
+      "target_entity_id": "1aa88c22-d98a-58d1-b228-94dee4a2422b",
+      "title_ce": null,
+      "title_ru": "Место события",
+      "type": "located_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "В 2008 году в Грозном открыта мечеть «Сердце Чечни».\n\nСтатус исследования: needs_review.",
+      "id": "0d740cf6-fbce-5612-9da0-30caab840216",
+      "period_from": 2008,
+      "period_to": null,
+      "source_entity_id": "90198017-06ff-5b33-a7c7-5feeed29f40f",
+      "status": "draft",
+      "target_entity_id": "dd14bb59-72b5-53b3-9c7d-29609fa0bbda",
+      "title_ce": null,
+      "title_ru": "Место события",
+      "type": "located_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "В 2019 году в Шали открыта одна из крупнейших мечетей Европы.\n\nСтатус исследования: needs_review.",
+      "id": "6d1b6239-9413-5f3b-8eca-1d986d463b69",
+      "period_from": 2019,
+      "period_to": null,
+      "source_entity_id": "ad549745-a376-5a77-bdfb-93b767282699",
+      "status": "draft",
+      "target_entity_id": "ecc9a72e-f2af-5470-a224-17e81193767b",
+      "title_ce": null,
+      "title_ru": "Место события",
+      "type": "located_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "По официальным данным уничтожил свыше 920 солдат противника, подавил 7 пулемётных расчётов, взял в плен 12 солдат.\n\nГерой Советского Союза (посмертно)\n\n1943-04-17\n\nСтатус исследования: verified.",
+      "id": "ad7d5d28-c1bc-5f49-8d2f-5cd513e3151b",
+      "period_from": 1942,
+      "period_to": null,
+      "source_entity_id": "0df490d1-e9d1-5734-9758-94fd077967fb",
+      "status": "draft",
+      "target_entity_id": "ec87a297-0727-5020-a136-8f19205ab089",
+      "title_ce": null,
+      "title_ru": "Наиболее результативный советский пулемётчик",
+      "type": "participated_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Одним из первых советских офицеров встретился с американскими войсками на Эльбе; награждён американским орденом от президента Трумэна.\n\nГерой Советского Союза (посмертно)\n\n1990-05-05\n\nСтатус исследования: verified.",
+      "id": "31f6c9bf-7eec-5382-b807-ec9d5fe76ee3",
+      "period_from": 1945,
+      "period_to": null,
+      "source_entity_id": "afbaf789-32e2-59cb-920f-02619dabaffb",
+      "status": "draft",
+      "target_entity_id": "ea954a6b-e2d6-5158-b39b-586809367e04",
+      "title_ce": null,
+      "title_ru": "Первым вышел к Эльбе",
+      "type": "participated_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Как снайпер уничтожил, по официальным данным, около 349 солдат и офицеров противника (число требует проверки).\n\nГерой Советского Союза\n\n1944-06-03\n\nСтатус исследования: verified.",
+      "id": "2f2361f1-307d-5568-88d4-970e13babbd6",
+      "period_from": 1944,
+      "period_to": null,
+      "source_entity_id": "46561d4c-c3b4-5401-8e06-8e9be1280028",
+      "status": "draft",
+      "target_entity_id": "4d315a7f-feb4-54f6-8771-63f9b76cb23d",
+      "title_ce": null,
+      "title_ru": "Снайперское мастерство",
+      "type": "participated_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Батальон под его командованием отразил 19 контратак, уничтожил 7 танков и свыше 1000 солдат противника.\n\nГерой Советского Союза (посмертно)\n\n1943-11-01\n\nСтатус исследования: needs_review.",
+      "id": "b13b25ac-ad46-504d-a44a-5784e4a2ef93",
+      "period_from": 1943,
+      "period_to": null,
+      "source_entity_id": "b65cd9da-9a60-5718-9e1e-62c87cc9ba11",
+      "status": "draft",
+      "target_entity_id": "4d315a7f-feb4-54f6-8771-63f9b76cb23d",
+      "title_ce": null,
+      "title_ru": "Оборона под Мелитополем",
+      "type": "participated_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "За мужество и героизм в боях Великой Отечественной войны удостоен звания Героя Советского Союза.\n\nГерой Советского Союза\n\n1944-01-15\n\nСтатус исследования: needs_review.",
+      "id": "807a4419-f456-5e2f-bdf7-7e2925bc4c3d",
+      "period_from": null,
+      "period_to": null,
+      "source_entity_id": "ffcf0329-3c9b-5bcc-807e-148ae570b26b",
+      "status": "draft",
+      "target_entity_id": "4d315a7f-feb4-54f6-8771-63f9b76cb23d",
+      "title_ce": null,
+      "title_ru": "Снайперский счёт",
+      "type": "participated_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Удостоен звания Героя Советского Союза в 1944 году; звание восстановлено в 1985 году.\n\nГерой Советского Союза\n\nСтатус исследования: needs_review.",
+      "id": "87916f8e-c923-569a-8ad8-6c43c34318d4",
+      "period_from": null,
+      "period_to": null,
+      "source_entity_id": "ce825c4d-79ae-53c2-8d93-bde084c8d460",
+      "status": "draft",
+      "target_entity_id": "4d315a7f-feb4-54f6-8771-63f9b76cb23d",
+      "title_ce": null,
+      "title_ru": "Отвага в бою",
+      "type": "participated_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Легендарный танкист, отличился в боях под Сталинградом; трижды представлялся к званию Героя (по ряду источников).\n\nСтатус исследования: needs_review.",
+      "id": "9fe918b1-c34c-5635-ba6e-29158d4b5501",
+      "period_from": 1942,
+      "period_to": null,
+      "source_entity_id": "21523908-cf55-5b52-b684-1d40c992185f",
+      "status": "draft",
+      "target_entity_id": "ec87a297-0727-5020-a136-8f19205ab089",
+      "title_ce": null,
+      "title_ru": "Танковый таран под Сталинградом",
+      "type": "participated_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Продолжал вести отряд в бой, потеряв руку, глаз и ногу; возглавлял сопротивление после пленения Шамиля.\n\nНациональный герой чеченского народа\n\nСтатус исследования: verified.",
+      "id": "07c03010-b063-5a19-97ec-6c8949cfd1e6",
+      "period_from": null,
+      "period_to": null,
+      "source_entity_id": "aeb2d259-ecf0-5fc0-a0eb-59b1dba26b7d",
+      "status": "draft",
+      "target_entity_id": "3c31b446-0e0c-51e6-884b-d3cb39e985f0",
+      "title_ce": null,
+      "title_ru": "Воевал, несмотря на тяжёлые увечья",
+      "type": "participated_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Ополчение под его руководством разгромило двухтысячный отряд полковника де Пьери у селения Алды.\n\nСтатус исследования: verified.",
+      "id": "a8eece8b-1118-5df0-95df-5b4f81d40737",
+      "period_from": 1785,
+      "period_to": null,
+      "source_entity_id": "fad4d1cf-8e91-5f3a-8865-e31f3ab17d40",
+      "status": "draft",
+      "target_entity_id": "9aa14194-0b24-5a01-ae36-07767e8b4717",
+      "title_ce": null,
+      "title_ru": "Разгром карательного отряда у Алдов",
+      "type": "participated_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Возглавил крупное антиколониальное восстание в Чечне в 1825 году.\n\nСтатус исследования: needs_review.",
+      "id": "572df5bf-ce11-5055-b538-d1dc3500cf5b",
+      "period_from": 1825,
+      "period_to": null,
+      "source_entity_id": "6185e98c-0240-5a08-9154-0fd39094b2d5",
+      "status": "draft",
+      "target_entity_id": "2503b706-f407-5d94-817f-2a068379b72d",
+      "title_ce": null,
+      "title_ru": "Руководство восстанием 1825 года",
+      "type": "participated_in"
+    },
+    {
+      "description_ce": null,
+      "description_ru": "Возглавил горские общества в восстании 1877–1878 годов.\n\nСтатус исследования: needs_review.",
+      "id": "f21e2af3-d48f-574a-b1a0-5a1ba0536676",
+      "period_from": 1877,
+      "period_to": null,
+      "source_entity_id": "4ce10ba3-f686-5de4-9f1a-9278a3070965",
+      "status": "draft",
+      "target_entity_id": "a2b93c68-26d6-5296-a301-e29a93764b46",
+      "title_ce": null,
+      "title_ru": "Один из вождей восстания 1877 года",
+      "type": "participated_in"
+    }
+  ],
+  "sources": [
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Источник исследовательского набора.",
+      "id": "bea2d9a0-2862-5607-b477-8f18ab253028",
+      "is_verified": false,
+      "publication_year": null,
+      "publisher": "Википедия",
+      "status": "draft",
+      "title": "Список Героев Советского Союза (Чечено-Ингушетия)",
+      "type": "web_resource",
+      "url": "https://ru.wikipedia.org/wiki/Список_Героев_Советского_Союза_(Чечено-Ингушетия)"
+    },
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Источник исследовательского набора.",
+      "id": "534b44c2-9320-55e7-9108-032bf243c8b3",
+      "is_verified": false,
+      "publication_year": null,
+      "publisher": "Википедия",
+      "status": "draft",
+      "title": "Список Героев Российской Федерации (Чечня)",
+      "type": "web_resource",
+      "url": "https://ru.wikipedia.org/wiki/Список_Героев_Российской_Федерации_(Чечня)"
+    },
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Источник исследовательского набора.",
+      "id": "04b166a7-3f65-5e7b-b1ba-a2568f26dde9",
+      "is_verified": false,
+      "publication_year": null,
+      "publisher": "warheroes.ru",
+      "status": "draft",
+      "title": "Герои страны — патриотический интернет-проект",
+      "type": "web_resource",
+      "url": "https://warheroes.ru/"
+    },
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Источник исследовательского набора.",
+      "id": "6b9024f2-fd28-5c65-a256-e9773ac77891",
+      "is_verified": false,
+      "publication_year": null,
+      "publisher": "ТАСС",
+      "status": "draft",
+      "title": "Герои Чечни на фронтах Великой Отечественной войны",
+      "type": "web_resource",
+      "url": "https://spec.tass.ru/geroipobedy/chechnya"
+    },
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Источник исследовательского набора.",
+      "id": "a7d477d1-bbe3-54c4-9b5d-4f921bc20dc0",
+      "is_verified": false,
+      "publication_year": null,
+      "publisher": "АН ЧР",
+      "status": "draft",
+      "title": "Академия наук Чеченской Республики — исторические публикации",
+      "type": "scientific_article",
+      "url": "https://anchr.ru/"
+    },
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Источник исследовательского набора.",
+      "id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7",
+      "is_verified": false,
+      "publication_year": null,
+      "publisher": "Википедия",
+      "status": "draft",
+      "title": "Википедия — тематические статьи (личности, места, события)",
+      "type": "web_resource",
+      "url": "https://ru.wikipedia.org/"
+    },
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Источник исследовательского набора.",
+      "id": "e727d0e6-0482-5c07-b947-cc21568e6981",
+      "is_verified": false,
+      "publication_year": null,
+      "publisher": "Википедия",
+      "status": "draft",
+      "title": "Административно-территориальное деление Чечни",
+      "type": "web_resource",
+      "url": "https://ru.wikipedia.org/wiki/Административно-территориальное_деление_Чечни"
+    },
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Источник исследовательского набора.",
+      "id": "b249b182-a230-54de-a53d-4aaae0271b35",
+      "is_verified": false,
+      "publication_year": null,
+      "publisher": "Wikipedia",
+      "status": "draft",
+      "title": "Wikipedia — English articles (settlements)",
+      "type": "web_resource",
+      "url": "https://en.wikipedia.org/"
+    },
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Источник исследовательского набора.",
+      "id": "6687cc19-8ad5-5e98-90a7-bd3f4d42f307",
+      "is_verified": false,
+      "publication_year": null,
+      "publisher": "Nohchalla.com",
+      "status": "draft",
+      "title": "Nohchalla.com — история, личности и традиции чеченцев",
+      "type": "web_resource",
+      "url": "https://nohchalla.com/"
+    },
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Источник исследовательского набора.",
+      "id": "8601b5ff-7d0f-5f45-a35d-3b10362f12c3",
+      "is_verified": false,
+      "publication_year": null,
+      "publisher": "checheninfo.ru",
+      "status": "draft",
+      "title": "ИА Чеченинфо — историко-краеведческие материалы",
+      "type": "web_resource",
+      "url": "https://checheninfo.ru/"
+    },
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Источник исследовательского набора.",
+      "id": "3e8565d9-d522-5e73-aa0e-bd5c2ed7c5a4",
+      "is_verified": false,
+      "publication_year": null,
+      "publisher": "bolshayastrana.com / places.moscow",
+      "status": "draft",
+      "title": "Путеводители по достопримечательностям Чечни",
+      "type": "web_resource",
+      "url": "https://bolshayastrana.com/blog/dostoprimechatelnosti-chechenskoj-respubliki-314"
+    }
+  ]
+}

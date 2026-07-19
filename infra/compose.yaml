@@ -16,6 +16,7 @@ x-backend-environment: &backend-environment
   AUTH_SESSION_ABSOLUTE_DAYS: ${AUTH_SESSION_ABSOLUTE_DAYS:-30}
   AUTH_RATE_LIMIT_ATTEMPTS: ${AUTH_RATE_LIMIT_ATTEMPTS:-5}
   AUTH_RATE_LIMIT_WINDOW_SECONDS: ${AUTH_RATE_LIMIT_WINDOW_SECONDS:-900}
+  MEDIA_STORAGE_ROOT: /home/appuser/media
 
 x-runtime-security: &runtime-security
   security_opt:
@@ -26,7 +27,7 @@ x-runtime-security: &runtime-security
 services:
   postgres:
     <<: *runtime-security
-    image: postgres:17.7-alpine
+    image: postgis/postgis:17-3.5-alpine@sha256:4901dbe093da7bee4526c2da5fd9bbbe3921901485bc0eeea18db2414ba745b1
     user: "70:70"
     environment:
       POSTGRES_DB: ${POSTGRES_DB:-app}
@@ -36,7 +37,7 @@ services:
       - postgres_data:/var/lib/postgresql/data
     networks: [data]
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
       interval: 5s
       timeout: 5s
       retries: 10
@@ -112,6 +113,39 @@ services:
     restart: "no"
     read_only: true
     tmpfs: [/tmp]
+    cpus: 0.5
+    mem_limit: 256m
+    logging: *default-logging
+
+  bootstrap-admin:
+    <<: *runtime-security
+    profiles: [bootstrap]
+    build:
+      context: ../backend
+      target: runtime
+    image: product-hackathon-api:${IMAGE_TAG:-local}
+    user: "10001:10001"
+    command: ["python", "scripts/bootstrap_admin.py"]
+    environment:
+      <<: *backend-environment
+      ADMIN_BOOTSTRAP_EMAIL: ${ADMIN_BOOTSTRAP_EMAIL:-}
+      ADMIN_BOOTSTRAP_PASSWORD_FILE: /run/secrets/admin_bootstrap_password
+    volumes:
+      - type: bind
+        source: ${ADMIN_BOOTSTRAP_PASSWORD_FILE:-./secrets/admin_bootstrap_password}
+        target: /run/secrets/admin_bootstrap_password
+        read_only: true
+        bind:
+          create_host_path: false
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    networks: [data]
+    restart: "no"
+    read_only: true
+    tmpfs: [/tmp]
+    cpus: 0.5
+    mem_limit: 256m
     logging: *default-logging
 
   api:
@@ -130,6 +164,9 @@ services:
       rabbitmq:
         condition: service_healthy
     networks: [application, data]
+    volumes:
+      # The image owns this existing mountpoint as 10001:10001, including on first volume creation.
+      - media_data:/home/appuser
     healthcheck:
       test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health/ready', timeout=3)"]
       interval: 10s
@@ -145,6 +182,9 @@ services:
 
   worker:
     <<: *runtime-security
+    build:
+      context: ../backend
+      target: runtime
     image: product-hackathon-api:${IMAGE_TAG:-local}
     user: "10001:10001"
     command: ["celery", "-A", "infrastructure.celery_app:celery", "worker", "--loglevel=INFO", "--concurrency=${CELERY_CONCURRENCY:-2}"]
@@ -157,6 +197,8 @@ services:
       rabbitmq:
         condition: service_healthy
     networks: [data]
+    volumes:
+      - media_data:/home/appuser
     healthcheck:
       test: ["CMD-SHELL", "celery -A infrastructure.celery_app:celery inspect ping -d celery@$${HOSTNAME} --timeout=5 | grep -q pong"]
       interval: 30s
@@ -251,6 +293,9 @@ services:
       - certbot_work:/var/lib/letsencrypt
       - certbot_logs:/var/log/letsencrypt
     networks: [edge]
+    cpus: 0.25
+    mem_limit: 192m
+    logging: *default-logging
 
   certbot-renew:
     <<: *runtime-security
@@ -260,15 +305,21 @@ services:
     tmpfs:
       - /tmp:uid=10001,gid=10001,mode=1770
     profiles: [tls]
-    entrypoint: /bin/sh
-    command: -c "trap exit TERM; while :; do certbot renew --webroot -w /var/www/certbot --quiet --deploy-hook 'chgrp -R 101 /etc/letsencrypt/live /etc/letsencrypt/archive && chmod 750 /etc/letsencrypt/live /etc/letsencrypt/archive && chmod 640 /etc/letsencrypt/archive/${DOMAIN:-example.com}/privkey*.pem'; sleep 12h & wait $${!}; done"
+    command:
+      - renew
+      - --webroot
+      - --webroot-path=/var/www/certbot
+      - --quiet
+      - --deploy-hook=chgrp -R 101 /etc/letsencrypt/live /etc/letsencrypt/archive && chmod 750 /etc/letsencrypt/live /etc/letsencrypt/archive && chmod 640 /etc/letsencrypt/archive/${DOMAIN:-example.com}/privkey*.pem
     volumes:
       - certbot_www:/var/www/certbot
       - certbot_certs:/etc/letsencrypt
       - certbot_work:/var/lib/letsencrypt
       - certbot_logs:/var/log/letsencrypt
     networks: [edge]
-    restart: unless-stopped
+    restart: "no"
+    cpus: 0.25
+    mem_limit: 192m
     logging: *default-logging
 
 networks:
@@ -280,6 +331,7 @@ networks:
 
 volumes:
   postgres_data:
+  media_data:
   redis_data:
   rabbitmq_data:
   certbot_www:

@@ -1,0 +1,3214 @@
+{
+  "districts": [],
+  "entities": [
+    {
+      "district_id": null,
+      "id": "ebc6f95c-be95-563a-849e-da3c7f52dde3",
+      "latitude": 42.6988889,
+      "longitude": 45.9086111,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4219418",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "ec690a1c-7f39-5e71-8ca6-77b89f57068d",
+      "latitude": 43.695277777,
+      "longitude": 45.767777777,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4236037",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "ec7fe42a-8530-5808-8a46-b63c84ea080c",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1994,
+      "period_to": 1994,
+      "slug": "wd-q2026919",
+      "status": "published",
+      "type": "event"
+    },
+    {
+      "district_id": null,
+      "id": "ec87a297-0727-5020-a136-8f19205ab089",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1942,
+      "period_to": 1943,
+      "slug": "battle-stalingrad",
+      "status": "published",
+      "type": "event"
+    },
+    {
+      "district_id": null,
+      "id": "ec8f2643-356c-555d-a78f-ec9bdf31771a",
+      "latitude": 42.597072,
+      "longitude": 45.644664,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q13432886",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "ec95658b-4a0d-5d38-9a7c-07654b85d61d",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1970,
+      "period_to": 1999,
+      "slug": "wd-q85987536",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "ec9af153-1fbd-5fcb-a4e8-363eb49f75e9",
+      "latitude": 43.298093813,
+      "longitude": 45.710553483,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q129730784",
+      "status": "published",
+      "type": "cultural_object"
+    },
+    {
+      "district_id": null,
+      "id": "ecaad3a5-7f81-5936-a729-e1f31941422e",
+      "latitude": 42.787938,
+      "longitude": 45.618772,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q28332753",
+      "status": "published",
+      "type": "landmark"
+    },
+    {
+      "district_id": "abeb92f7-da72-5c2d-8d4a-be371e24653d",
+      "id": "ecc9a72e-f2af-5470-a224-17e81193767b",
+      "latitude": 43.1486,
+      "longitude": 45.92,
+      "period_from": null,
+      "period_to": null,
+      "slug": "pride-of-muslims",
+      "status": "published",
+      "type": "cultural_object"
+    },
+    {
+      "district_id": null,
+      "id": "ecfa5ce3-0d99-56af-baf6-e214d77bc18f",
+      "latitude": 43.4781,
+      "longitude": 46.254,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q30890475",
+      "status": "published",
+      "type": "natural_object"
+    },
+    {
+      "district_id": null,
+      "id": "ed02ebe4-24f8-5dc1-9f50-4a8e4d377d0a",
+      "latitude": 43.662959,
+      "longitude": 45.773835,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4415465",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "edb30898-d897-5c8b-9295-e70070881820",
+      "latitude": 42.836545,
+      "longitude": 45.830749,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4316189",
+      "status": "published",
+      "type": "natural_object"
+    },
+    {
+      "district_id": null,
+      "id": "ee1855f4-5091-5249-a88b-aa297ad38030",
+      "latitude": 42.915277777,
+      "longitude": 45.277777777,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4078978",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "ee3741c3-dc14-566e-a032-4d94afc6b4bf",
+      "latitude": 42.8344,
+      "longitude": 45.3928,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4137823",
+      "status": "published",
+      "type": "natural_object"
+    },
+    {
+      "district_id": null,
+      "id": "ee3d6c4c-dddd-5476-b84c-c8c85453cbb2",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1962,
+      "period_to": 1983,
+      "slug": "wd-q109887736",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "ee43a596-30b4-5428-a3e2-f8ddcd049ae8",
+      "latitude": 42.815277777,
+      "longitude": 45.534166666,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4306891",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "ee68cf5e-a80b-565f-a7ea-08dfc8e816fd",
+      "latitude": 42.608488,
+      "longitude": 45.434755,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4219421",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "eee333cb-133d-50d7-8ff9-355f2cfa2eac",
+      "latitude": 42.762717,
+      "longitude": 45.401728,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4160129",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "eeea5299-d014-50fb-8a1a-8848a6f975b0",
+      "latitude": 42.63,
+      "longitude": 45.526111111,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4219793",
+      "status": "published",
+      "type": "natural_object"
+    },
+    {
+      "district_id": null,
+      "id": "ef164905-7949-59d9-b69b-c242f930be6c",
+      "latitude": 42.816586,
+      "longitude": 45.926653,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q13450427",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "ef229437-1ca1-536e-8720-3e8ee80ee3fc",
+      "latitude": 43.48866,
+      "longitude": 45.092768,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q2066286",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "ef498504-ba5e-5b20-bbef-e8a2404263f6",
+      "latitude": 43.164166666,
+      "longitude": 45.622777777,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4141272",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "ef6d474c-5dd3-55d0-8ddb-42ec549d1d57",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1922,
+      "period_to": 1978,
+      "slug": "wd-q137166899",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": "ce7a00f3-9091-5c0e-b207-4880075ff0e9",
+      "id": "ef78ce84-cb9b-5b45-abb2-3eda27fdaa9c",
+      "latitude": 43.323,
+      "longitude": 45.697,
+      "period_from": null,
+      "period_to": null,
+      "slug": "grozny-city",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "efa5eeca-dadd-5779-8ede-2ba25ff303b5",
+      "latitude": 43.610277777,
+      "longitude": 45.245277777,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4108711",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "efbcf974-70b3-5542-a910-25c0dca63cfc",
+      "latitude": 43.544032,
+      "longitude": 45.514689,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4219438",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "f003a3e6-d398-5d10-a652-3fbc7cc27cc8",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1851,
+      "period_to": 1917,
+      "slug": "wd-q4069909",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "f0165f23-d502-5508-b4fa-5af502ee56b3",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1914,
+      "period_to": 1943,
+      "slug": "wd-q4245363",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "f063ff46-ecf4-5ed2-a3e7-48b4fc9a67e3",
+      "latitude": 42.675555555,
+      "longitude": 45.901666666,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q35400373",
+      "status": "published",
+      "type": "natural_object"
+    },
+    {
+      "district_id": null,
+      "id": "f08da49d-96a7-5821-a08c-376b76903289",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1840,
+      "period_to": null,
+      "slug": "battle-valerik-1840",
+      "status": "published",
+      "type": "event"
+    },
+    {
+      "district_id": null,
+      "id": "f0a65b5c-855d-56f3-b0d5-3fd515c227e3",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1903,
+      "period_to": 1933,
+      "slug": "wd-q111364556",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "f119236d-6191-5742-bf52-e0773ba89e89",
+      "latitude": 43.054444444,
+      "longitude": 45.336666666,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q32477200",
+      "status": "published",
+      "type": "natural_object"
+    },
+    {
+      "district_id": null,
+      "id": "f16bab74-ec8a-501c-992a-473d3d243397",
+      "latitude": 43.324722222,
+      "longitude": 45.679722222,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4343507",
+      "status": "published",
+      "type": "cultural_object"
+    },
+    {
+      "district_id": null,
+      "id": "f199817c-4666-5075-a740-955a47c00fce",
+      "latitude": 42.543888888,
+      "longitude": 45.527222222,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4466775",
+      "status": "published",
+      "type": "natural_object"
+    },
+    {
+      "district_id": null,
+      "id": "f19d3a22-7c79-583e-b648-22a22aced8f5",
+      "latitude": 43.11527,
+      "longitude": 46.33604,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4085991",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "f1b9c359-3cfa-5768-8255-e3bb0b8e9c4c",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1922,
+      "period_to": 1994,
+      "slug": "wd-q16626803",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "f1c7fac4-554e-542d-a3cc-dc818771a18c",
+      "latitude": 43.009825,
+      "longitude": 45.728093,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4155467",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "f23c1ad0-4cc6-51ab-b0e0-85b3ec29d7fb",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1941,
+      "period_to": 1979,
+      "slug": "wd-q131381091",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "f25b8278-de04-50b4-8dcc-891432ffeccd",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1936,
+      "period_to": 2004,
+      "slug": "wd-q112993147",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "f25d3aac-9fef-54fb-a344-ce59a0caf42d",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1920,
+      "period_to": 1954,
+      "slug": "wd-q15067108",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "f27e7afb-38bd-5076-bb4e-9d2c95e8be58",
+      "latitude": 42.981111111,
+      "longitude": 45.664722222,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4133145",
+      "status": "published",
+      "type": "natural_object"
+    },
+    {
+      "district_id": null,
+      "id": "f2885765-f86e-5eb6-b8a6-2a3fc2b84d65",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1937,
+      "period_to": 2005,
+      "slug": "wd-q4419826",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "f2cf8435-a332-577c-9e99-5685873f6c82",
+      "latitude": 42.6047,
+      "longitude": 45.796691,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4319208",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "f2f9c1fd-a6ec-59a5-b894-aa98046b9239",
+      "latitude": 43.10972,
+      "longitude": 45.97417,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q108785050",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "f3066978-659e-5005-8e97-df5e2c36307a",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1914,
+      "period_to": 1994,
+      "slug": "wd-q18674959",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "f335658c-00c3-5683-a18d-e990011bd484",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1976,
+      "period_to": 2012,
+      "slug": "wd-q4055569",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": "2aeef331-d67d-5ce4-b705-25c9d40e8050",
+      "id": "f388dc31-e2f3-57aa-871d-a2d3249faf14",
+      "latitude": 42.7367,
+      "longitude": 45.5697,
+      "period_from": null,
+      "period_to": null,
+      "slug": "pkhakoch",
+      "status": "published",
+      "type": "landmark"
+    },
+    {
+      "district_id": null,
+      "id": "f3d7135d-b763-5416-b14b-8ca351011650",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1908,
+      "period_to": 1997,
+      "slug": "wd-q1967089",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "f3e4dfa5-edef-5152-9475-0c20505e3405",
+      "latitude": 43.094722222,
+      "longitude": 45.358888888,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4519632",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "f4185d78-eb2f-5ac4-9bc0-2c185cf558e6",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1923,
+      "period_to": 1993,
+      "slug": "wd-q12109246",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "f4945ed5-69bf-5355-8eab-ce397890fb02",
+      "latitude": 42.986147,
+      "longitude": 45.273358,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q13416919",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "f4cfc891-aa27-5eef-b66f-1e0521fbd854",
+      "latitude": 42.992102,
+      "longitude": 46.344103,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4442406",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "f502ceb0-e2ef-5ac2-9868-dbb57540e0cf",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1937,
+      "period_to": 1999,
+      "slug": "wd-q65156051",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "f526742d-5b13-5220-b83a-036da518587b",
+      "latitude": 43.096111111,
+      "longitude": 46.128888888,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4392021",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "f57ad556-e014-5550-9fef-993cf519ebfe",
+      "latitude": 43.021677,
+      "longitude": 45.892413,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4056957",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "f5830d46-9c89-59ea-becd-72eebcb2a716",
+      "latitude": 42.72463,
+      "longitude": 46.068851,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4495958",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "f5da3984-1e2f-507d-b907-7620780938d9",
+      "latitude": 42.7802,
+      "longitude": 45.6082,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4160898",
+      "status": "published",
+      "type": "natural_object"
+    },
+    {
+      "district_id": null,
+      "id": "f758c4d4-7bef-5344-8627-81359e4e24e4",
+      "latitude": 43.0306,
+      "longitude": 46.0256,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4069135",
+      "status": "published",
+      "type": "natural_object"
+    },
+    {
+      "district_id": null,
+      "id": "f80ba5f5-ab4b-5730-8951-dea769b57aee",
+      "latitude": 42.783688,
+      "longitude": 45.317959,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4137839",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "f82e81f8-0af0-5e08-823b-345155b4ccb1",
+      "latitude": 42.887293,
+      "longitude": 45.313542,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4232730",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "f854e420-e8db-5ea7-ba0d-c6138399f30d",
+      "latitude": 42.936872,
+      "longitude": 45.871524,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4219153",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "f8682be9-f0f1-56d0-b910-67af50f61d5f",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1924,
+      "period_to": 2000,
+      "slug": "esambaev",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "f8910d5e-6e04-57cb-ad18-4bf70d939010",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1962,
+      "period_to": 2002,
+      "slug": "wd-q4054616",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": "abeb92f7-da72-5c2d-8d4a-be371e24653d",
+      "id": "f9075823-f2af-5a73-9f62-a88edf4e03b2",
+      "latitude": 43.1486,
+      "longitude": 45.8994,
+      "period_from": null,
+      "period_to": null,
+      "slug": "shali",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "f9244c85-d063-5d17-89c6-a0e0d0ad06b3",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1944,
+      "period_to": 2016,
+      "slug": "wd-q4189779",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "f9dab79d-cfc7-5559-8ba9-ba54539935f2",
+      "latitude": 43.148611111,
+      "longitude": 46.379722222,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q13460966",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "fa196380-ade2-5ec8-89bd-4e912bfacf87",
+      "latitude": 42.636093,
+      "longitude": 45.965104,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4206595",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "fa44d3fa-4ddf-5037-8a9d-fcdb6aac1884",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1994,
+      "period_to": 1995,
+      "slug": "wd-q1028296",
+      "status": "published",
+      "type": "event"
+    },
+    {
+      "district_id": null,
+      "id": "fa53d086-3bc8-5f53-8763-8c8eb0674f84",
+      "latitude": 43.3271,
+      "longitude": 45.6796,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q97317018",
+      "status": "published",
+      "type": "cultural_object"
+    },
+    {
+      "district_id": null,
+      "id": "fa58d07c-cbf8-5486-8d05-a2eb09d1aeac",
+      "latitude": 42.658888888,
+      "longitude": 45.379166666,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4506984",
+      "status": "published",
+      "type": "natural_object"
+    },
+    {
+      "district_id": null,
+      "id": "fa5c3b00-4741-5ca5-8138-f646f548e4be",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1881,
+      "period_to": 1925,
+      "slug": "wd-q24018195",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "facaf42a-18d3-5c34-b57e-24fa0cbc15aa",
+      "latitude": 42.801944444,
+      "longitude": 46.072777777,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4218212",
+      "status": "published",
+      "type": "natural_object"
+    },
+    {
+      "district_id": null,
+      "id": "fad2c6a5-77ec-5418-814e-47cf8a11bf18",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1939,
+      "period_to": 2006,
+      "slug": "wd-q1297632",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "fad4d1cf-8e91-5f3a-8865-e31f3ab17d40",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1760,
+      "period_to": 1794,
+      "slug": "sheikh-mansur",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": "17bba85b-98e6-58c4-af00-393bfabb4a36",
+      "id": "faf5f3f9-abf1-5ed8-a05c-3c41f3ebfef1",
+      "latitude": 43.16,
+      "longitude": 46.22,
+      "period_from": null,
+      "period_to": null,
+      "slug": "tsentaroy",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "fb16da9a-b677-5124-b16c-fcb79f75708f",
+      "latitude": 42.9255,
+      "longitude": 46.5304,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4277551",
+      "status": "published",
+      "type": "natural_object"
+    },
+    {
+      "district_id": null,
+      "id": "fb274f00-5105-5be2-8bd5-51c762f3a64b",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1960,
+      "period_to": 2000,
+      "slug": "wd-q4075068",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "fb3c9499-3464-5608-a408-e333896c5214",
+      "latitude": 43.791794,
+      "longitude": 46.551803,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4169483",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "fb7f4cd4-94cf-5295-a169-16e0616d97f5",
+      "latitude": 43.653611111,
+      "longitude": 44.888888888,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4095985",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "fbb11785-1509-51ce-9d4a-652439878119",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1964,
+      "period_to": 2017,
+      "slug": "wd-q40908363",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": "e8d9a7e9-6724-5344-bf06-84c0ca8101ac",
+      "id": "fbef07c3-05c6-52d8-accf-f47601778d94",
+      "latitude": 43.04,
+      "longitude": 46.43,
+      "period_from": null,
+      "period_to": null,
+      "slug": "benoy",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "fc003226-7bb9-5f0e-9f2c-8b4edb9b31fa",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1964,
+      "period_to": 2000,
+      "slug": "wd-q109321837",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "fc13b4c2-a03b-5faf-bd7a-2cbf777a57f1",
+      "latitude": 42.746284,
+      "longitude": 45.198437,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q116962738",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "fc19346c-3c33-513d-8860-e1bf5007da7f",
+      "latitude": 43.296944444,
+      "longitude": 45.77,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4495489",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "fc7efcce-bd21-5bc6-a794-626b8a3c6b30",
+      "latitude": 42.84147,
+      "longitude": 45.62746,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4093674",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "fca54808-70be-51b2-b4c5-ea3fe077029b",
+      "latitude": 43.4369,
+      "longitude": 45.8714,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q31664424",
+      "status": "published",
+      "type": "natural_object"
+    },
+    {
+      "district_id": null,
+      "id": "fcfe4104-4085-5b03-8fec-022a77633946",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1909,
+      "period_to": 1972,
+      "slug": "wd-q15686395",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "fd2283c3-b000-5e5e-a70c-f463ae70b7e9",
+      "latitude": 43.163611111,
+      "longitude": 45.4725,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4137814",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "fd499bac-3d9d-5f8b-8292-110e2b0e2f87",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1942,
+      "period_to": 2024,
+      "slug": "wd-q2362198",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "fd783be5-48ab-5d59-a51a-1a36c05bf5b7",
+      "latitude": 42.706181,
+      "longitude": 45.280203,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4210714",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "fdfa7438-200a-5a16-9ff8-8e308e2734c4",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1870,
+      "period_to": 1934,
+      "slug": "wd-q4531485",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "fe55abba-23b1-55f6-acb1-1778ecf5f6f6",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1923,
+      "period_to": 2018,
+      "slug": "wd-q30238665",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "fea1137b-4b4e-5d0d-bd84-18773692817d",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1925,
+      "period_to": 2009,
+      "slug": "wd-q16704033",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "fedd64fd-e3fb-5c14-9b9a-02d6190b35a8",
+      "latitude": 42.750422,
+      "longitude": 45.577787,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4227243",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "fee3f87e-8d45-5df8-85ae-7af18fc9e26a",
+      "latitude": 43.042444,
+      "longitude": 45.709777,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4255304",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "feec9f56-a487-5dae-92f0-fced2c5b16c8",
+      "latitude": 43.13544,
+      "longitude": 46.195477,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4072970",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "ff38ddc9-f3f1-57fa-ac37-6486fffc7d1f",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1910,
+      "period_to": 1944,
+      "slug": "wd-q14915642",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "ff721100-a434-5245-850e-a494c212dd5a",
+      "latitude": 43.310768,
+      "longitude": 46.025805,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4326854",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "ff804530-8bb1-56e1-a13c-4ffed7acfd8a",
+      "latitude": 42.75036,
+      "longitude": 45.3921,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4531525",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "ff87e299-18a8-5a92-804e-3b533b889b01",
+      "latitude": null,
+      "longitude": null,
+      "period_from": 1900,
+      "period_to": 1996,
+      "slug": "wd-q2118101",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "ffb34223-2b3c-5812-862e-ea1e2e71eae4",
+      "latitude": 43.841658,
+      "longitude": 46.43,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4408841",
+      "status": "published",
+      "type": "settlement"
+    },
+    {
+      "district_id": null,
+      "id": "ffcf0329-3c9b-5bcc-807e-148ae570b26b",
+      "latitude": null,
+      "longitude": null,
+      "period_from": null,
+      "period_to": null,
+      "slug": "magomed-mirzoev",
+      "status": "published",
+      "type": "person"
+    },
+    {
+      "district_id": null,
+      "id": "fffa6d26-26b8-5ec7-a4dd-a7416a8e0bfe",
+      "latitude": 42.912222222,
+      "longitude": 46.272222222,
+      "period_from": null,
+      "period_to": null,
+      "slug": "wd-q4506837",
+      "status": "published",
+      "type": "natural_object"
+    }
+  ],
+  "entity_names": [
+    {
+      "entity_id": "ebc6f95c-be95-563a-849e-da3c7f52dde3",
+      "id": "6aa26730-d9bd-5d4d-b323-16c1aa41eeaf",
+      "locale": "ru",
+      "name": "Кенсо"
+    },
+    {
+      "entity_id": "ec690a1c-7f39-5e71-8ca6-77b89f57068d",
+      "id": "848a6aa7-8c3b-5459-8e52-21ceb03bfedd",
+      "locale": "ru",
+      "name": "Котланкин"
+    },
+    {
+      "entity_id": "ec7fe42a-8530-5808-8a46-b63c84ea080c",
+      "id": "1ec25052-fc2b-54ff-bb4e-f1f38c29ac33",
+      "locale": "ru",
+      "name": "Штурм Грозного силами Временного совета"
+    },
+    {
+      "entity_id": "ec87a297-0727-5020-a136-8f19205ab089",
+      "id": "6db3d7b6-01ed-5fc2-b432-c1d8ea5ac275",
+      "locale": "ru",
+      "name": "Сталинградская битва"
+    },
+    {
+      "entity_id": "ec8f2643-356c-555d-a78f-ec9bdf31771a",
+      "id": "acdbd5b3-ebd0-5bc8-ada6-ff63678d2fd4",
+      "locale": "ru",
+      "name": "Качехой"
+    },
+    {
+      "entity_id": "ec95658b-4a0d-5d38-9a7c-07654b85d61d",
+      "id": "b10d7583-4c7e-5df0-862e-8bd45758b2d6",
+      "locale": "ru",
+      "name": "Ахмадов, Хута Адланович"
+    },
+    {
+      "entity_id": "ec9af153-1fbd-5fcb-a4e8-363eb49f75e9",
+      "id": "d111dc6b-00d4-5272-b5be-d524e1cbb555",
+      "locale": "ru",
+      "name": "Мечеть имени Пророка Исы"
+    },
+    {
+      "entity_id": "ecaad3a5-7f81-5936-a729-e1f31941422e",
+      "id": "89d6591d-0261-5b5e-a4e0-adc9a3e05c69",
+      "locale": "ru",
+      "name": "Ушкалойские башни"
+    },
+    {
+      "entity_id": "ecc9a72e-f2af-5470-a224-17e81193767b",
+      "id": "109fb0b9-df0f-565c-8092-132c62101a3a",
+      "locale": "ru",
+      "name": "Мечеть «Гордость мусульман» им. Пророка Мухаммада"
+    },
+    {
+      "entity_id": "ecfa5ce3-0d99-56af-baf6-e214d77bc18f",
+      "id": "8d7af339-00dd-58d7-851a-bb8bf9ddde7b",
+      "locale": "ru",
+      "name": "Карьерное"
+    },
+    {
+      "entity_id": "ed02ebe4-24f8-5dc1-9f50-4a8e4d377d0a",
+      "id": "100bf7b0-8c2c-515e-be06-d9ea0cda15e1",
+      "locale": "ru",
+      "name": "Семиколодцев"
+    },
+    {
+      "entity_id": "edb30898-d897-5c8b-9295-e70070881820",
+      "id": "e778e3e1-e7c5-5294-a0e0-d19567b6f0bc",
+      "locale": "ru",
+      "name": "Нежилойахк"
+    },
+    {
+      "entity_id": "ee1855f4-5091-5249-a88b-aa297ad38030",
+      "id": "bb0f0e0f-7f5b-572c-a093-7163be90f64d",
+      "locale": "ru",
+      "name": "Басары Ялхора"
+    },
+    {
+      "entity_id": "ee3741c3-dc14-566e-a032-4d94afc6b4bf",
+      "id": "9ff383c9-d7f7-55aa-a6dc-e08f4765087d",
+      "locale": "ru",
+      "name": "Гехи"
+    },
+    {
+      "entity_id": "ee3d6c4c-dddd-5476-b84c-c8c85453cbb2",
+      "id": "35b96dea-0fc8-5057-af41-e2a0eea9ad5e",
+      "locale": "ru",
+      "name": "Хачукаев, Сулейман Ахмедович"
+    },
+    {
+      "entity_id": "ee43a596-30b4-5428-a3e2-f8ddcd049ae8",
+      "id": "cf1f1d07-d6c2-53d7-9dd5-c0b2c3a76950",
+      "locale": "ru",
+      "name": "Мулкой"
+    },
+    {
+      "entity_id": "ee68cf5e-a80b-565f-a7ea-08dfc8e816fd",
+      "id": "05a8cb3a-fd11-59ad-9834-be7d191ae269",
+      "locale": "ru",
+      "name": "Кент"
+    },
+    {
+      "entity_id": "eee333cb-133d-50d7-8ff9-355f2cfa2eac",
+      "id": "b37b0244-ac21-5a83-9dc3-062718f61495",
+      "locale": "ru",
+      "name": "Джелашхой"
+    },
+    {
+      "entity_id": "eeea5299-d014-50fb-8a1a-8848a6f975b0",
+      "id": "a2d0bcae-556b-56bc-84d3-f536d048ada1",
+      "locale": "ru",
+      "name": "Кестинкорт"
+    },
+    {
+      "entity_id": "ef164905-7949-59d9-b69b-c242f930be6c",
+      "id": "5981402c-9760-5e44-8ec9-92f5af08743f",
+      "locale": "ru",
+      "name": "Багинаул"
+    },
+    {
+      "entity_id": "ef229437-1ca1-536e-8720-3e8ee80ee3fc",
+      "id": "d9494acb-db11-550d-b512-03831e16e8d0",
+      "locale": "ru",
+      "name": "Горагорск"
+    },
+    {
+      "entity_id": "ef498504-ba5e-5b20-bbef-e8a2404263f6",
+      "id": "ce126ae2-efa4-5c73-ab98-e5ef11714ef6",
+      "locale": "ru",
+      "name": "Гойты"
+    },
+    {
+      "entity_id": "ef6d474c-5dd3-55d0-8ddb-42ec549d1d57",
+      "id": "45df193b-100f-505c-bceb-f89dfcfb1d1f",
+      "locale": "ru",
+      "name": "Муталибов, Зайнди Абдулхалимович"
+    },
+    {
+      "entity_id": "ef78ce84-cb9b-5b45-abb2-3eda27fdaa9c",
+      "id": "0b7e1f51-3315-5283-b7d7-bc88d9ca4eb1",
+      "locale": "ru",
+      "name": "Комплекс «Грозный-Сити»"
+    },
+    {
+      "entity_id": "efa5eeca-dadd-5779-8ede-2ba25ff303b5",
+      "id": "7ff91c9f-d96f-56b6-b7bd-27e4032a04dd",
+      "locale": "ru",
+      "name": "Верхний Наур"
+    },
+    {
+      "entity_id": "efbcf974-70b3-5542-a910-25c0dca63cfc",
+      "id": "2dfc3039-acbf-5dda-b44d-50f523b5f3cd",
+      "locale": "ru",
+      "name": "Кень-Юрт"
+    },
+    {
+      "entity_id": "f003a3e6-d398-5d10-a652-3fbc7cc27cc8",
+      "id": "9c6ff3c3-3221-5801-9658-40d40cdd6015",
+      "locale": "ru",
+      "name": "Дени Арсанов"
+    },
+    {
+      "entity_id": "f0165f23-d502-5508-b4fa-5af502ee56b3",
+      "id": "bea2aba8-22b8-5cb1-bd9e-59508f87aee4",
+      "locale": "ru",
+      "name": "Кузьмин, Павел Семёнович"
+    },
+    {
+      "entity_id": "f063ff46-ecf4-5ed2-a3e7-48b4fc9a67e3",
+      "id": "d6f9a28a-7d28-5ba8-b85b-64913b79a748",
+      "locale": "ru",
+      "name": "Кенхи"
+    },
+    {
+      "entity_id": "f08da49d-96a7-5821-a08c-376b76903289",
+      "id": "ef09693c-754a-5d59-8263-315d480e048b",
+      "locale": "ru",
+      "name": "Сражение на реке Валерик"
+    },
+    {
+      "entity_id": "f0a65b5c-855d-56f3-b0d5-3fd515c227e3",
+      "id": "7d5e02a5-eb47-5b4f-b04f-7db00ed4ee65",
+      "locale": "ru",
+      "name": "Сайханов, Алаудин Магомедхаджиевич"
+    },
+    {
+      "entity_id": "f119236d-6191-5742-bf52-e0773ba89e89",
+      "id": "61f18960-9df8-5c8b-be2f-823587ff2b64",
+      "locale": "ru",
+      "name": "Белая Шалажа"
+    },
+    {
+      "entity_id": "f16bab74-ec8a-501c-992a-473d3d243397",
+      "id": "2c393bb3-ef2e-560b-a107-1082506300eb",
+      "locale": "ru",
+      "name": "Памятник журналистам, погибшим за свободу слова"
+    },
+    {
+      "entity_id": "f199817c-4666-5075-a740-955a47c00fce",
+      "id": "4ca76b5f-ee59-58eb-993a-155b940a327d",
+      "locale": "ru",
+      "name": "Тушетский хребет"
+    },
+    {
+      "entity_id": "f19d3a22-7c79-583e-b648-22a22aced8f5",
+      "id": "cdbf406a-23dc-5314-9bcb-7efcd0ba6844",
+      "locale": "ru",
+      "name": "Бетти-Мохк"
+    },
+    {
+      "entity_id": "f1b9c359-3cfa-5768-8255-e3bb0b8e9c4c",
+      "id": "ae5e87f3-f20b-54b5-90ba-99b2e8e83ec6",
+      "locale": "ru",
+      "name": "Белоусов, Юрий Николаевич"
+    },
+    {
+      "entity_id": "f1c7fac4-554e-542d-a3cc-dc818771a18c",
+      "id": "80f6164e-8c31-5a23-9e60-ad643cc61418",
+      "locale": "ru",
+      "name": "Дачу-Борзой"
+    },
+    {
+      "entity_id": "f23c1ad0-4cc6-51ab-b0e0-85b3ec29d7fb",
+      "id": "677b1cda-e9f1-52f6-9d60-677fda8e0aa5",
+      "locale": "ru",
+      "name": "Дикаев, Магомед Джунидович"
+    },
+    {
+      "entity_id": "f25b8278-de04-50b4-8dcc-891432ffeccd",
+      "id": "024e36fb-6812-5a95-9859-9445d4753498",
+      "locale": "ru",
+      "name": "Хамзаев, Абдулла Майрбекович"
+    },
+    {
+      "entity_id": "f25d3aac-9fef-54fb-a344-ce59a0caf42d",
+      "id": "5d2ed632-0ce0-5302-a84e-15cb008fa055",
+      "locale": "ru",
+      "name": "Зозуля, Георгий Петрович"
+    },
+    {
+      "entity_id": "f27e7afb-38bd-5076-bb4e-9d2c95e8be58",
+      "id": "7dba9fd0-a994-5809-bd4c-f1168f64fbe2",
+      "locale": "ru",
+      "name": "Гамырберт"
+    },
+    {
+      "entity_id": "f2885765-f86e-5eb6-b8a6-2a3fc2b84d65",
+      "id": "8fb3f946-10d8-529c-a170-49a77690655b",
+      "locale": "ru",
+      "name": "Эдуард Симонянц"
+    },
+    {
+      "entity_id": "f2cf8435-a332-577c-9e99-5685873f6c82",
+      "id": "fb25cb49-12af-5fd5-a573-3efdd99dec4b",
+      "locale": "ru",
+      "name": "Нижний Хошелдой"
+    },
+    {
+      "entity_id": "f2f9c1fd-a6ec-59a5-b894-aa98046b9239",
+      "id": "a0d94116-034f-5a0b-91b1-909e93957ee8",
+      "locale": "ru",
+      "name": "Сержень-Юртовское поселение"
+    },
+    {
+      "entity_id": "f3066978-659e-5005-8e97-df5e2c36307a",
+      "id": "b7972e39-d550-55a4-a9a4-367302742b02",
+      "locale": "ru",
+      "name": "Саидов, Билал Саидович"
+    },
+    {
+      "entity_id": "f335658c-00c3-5683-a18d-e990011bd484",
+      "id": "82dfb3df-c08e-5b1b-a809-852804a56208",
+      "locale": "ru",
+      "name": "Авдорханов, Заурбек Зелимханович"
+    },
+    {
+      "entity_id": "f388dc31-e2f3-57aa-871d-a2d3249faf14",
+      "id": "b5f560ff-d44a-5b22-80fc-0634e985bb38",
+      "locale": "ru",
+      "name": "Башенный комплекс Пхакоч"
+    },
+    {
+      "entity_id": "f3d7135d-b763-5416-b14b-8ca351011650",
+      "id": "b94ba67b-199e-5f15-9544-cb5f42633473",
+      "locale": "ru",
+      "name": "Абдурахман Геназович Авторханов"
+    },
+    {
+      "entity_id": "f3e4dfa5-edef-5152-9475-0c20505e3405",
+      "id": "c93ec001-d130-53a3-8a82-241f642ae376",
+      "locale": "ru",
+      "name": "Шалажи"
+    },
+    {
+      "entity_id": "f4185d78-eb2f-5ac4-9bc0-2c185cf558e6",
+      "id": "e37c0482-31ff-5e8a-a3be-d05312153d96",
+      "locale": "ru",
+      "name": "Каимов, Владимир Ахметович"
+    },
+    {
+      "entity_id": "f4945ed5-69bf-5355-8eab-ce397890fb02",
+      "id": "eb718279-170a-5a3f-9cee-26a51fd220c7",
+      "locale": "ru",
+      "name": "Кечнюхи"
+    },
+    {
+      "entity_id": "f4cfc891-aa27-5eef-b66f-1e0521fbd854",
+      "id": "ae79cce8-50ec-59d3-9961-fa1ed64cd859",
+      "locale": "ru",
+      "name": "Стерч-Керч"
+    },
+    {
+      "entity_id": "f502ceb0-e2ef-5ac2-9868-dbb57540e0cf",
+      "id": "e4906a63-b25b-509e-a63f-30f23c5d589c",
+      "locale": "ru",
+      "name": "Дутаев, Ильяс Магомедович"
+    },
+    {
+      "entity_id": "f526742d-5b13-5220-b83a-036da518587b",
+      "id": "c47e35c1-c765-5072-9a46-80ffabee3435",
+      "locale": "ru",
+      "name": "Регита"
+    },
+    {
+      "entity_id": "f57ad556-e014-5550-9fef-993cf519ebfe",
+      "id": "6b63daea-5f61-57ec-87fd-7987fecbd2e6",
+      "locale": "ru",
+      "name": "Агишты"
+    },
+    {
+      "entity_id": "f5830d46-9c89-59ea-becd-72eebcb2a716",
+      "id": "0b918986-ba2c-543b-b4d6-142b946f063e",
+      "locale": "ru",
+      "name": "Харкарой"
+    },
+    {
+      "entity_id": "f5da3984-1e2f-507d-b907-7620780938d9",
+      "id": "67ee0426-4266-5c21-b1c1-69125023db87",
+      "locale": "ru",
+      "name": "Дзумсэрк"
+    },
+    {
+      "entity_id": "f758c4d4-7bef-5344-8627-81359e4e24e4",
+      "id": "dad7a703-81a7-5c73-b20b-d2accf1e421f",
+      "locale": "ru",
+      "name": "Аржи-Ахк"
+    },
+    {
+      "entity_id": "f80ba5f5-ab4b-5730-8951-dea769b57aee",
+      "id": "7fc04d4c-088f-5f04-962e-34cead99631a",
+      "locale": "ru",
+      "name": "Геши"
+    },
+    {
+      "entity_id": "f82e81f8-0af0-5e08-823b-345155b4ccb1",
+      "id": "0194bac8-db56-5d69-8c31-8d1f71b1561f",
+      "locale": "ru",
+      "name": "Корги"
+    },
+    {
+      "entity_id": "f854e420-e8db-5ea7-ba0d-c6138399f30d",
+      "id": "0655b0e9-f195-5d8c-ab82-feb9fe74a2b8",
+      "locale": "ru",
+      "name": "Кель-Аул"
+    },
+    {
+      "entity_id": "f8682be9-f0f1-56d0-b910-67af50f61d5f",
+      "id": "8e7ab3cb-c0ea-54f8-b9af-4d1c297ac967",
+      "locale": "ru",
+      "name": "Махмуд Алисултанович Эсамбаев"
+    },
+    {
+      "entity_id": "f8910d5e-6e04-57cb-ad18-4bf70d939010",
+      "id": "5fdf76b4-d836-539b-8ef4-69887a6cbaa4",
+      "locale": "ru",
+      "name": "Абдулхаджиев, Асламбек Сайпиевич"
+    },
+    {
+      "entity_id": "f9075823-f2af-5a73-9f62-a88edf4e03b2",
+      "id": "3a5baed2-3fb2-544b-b1ec-7c29be48f1a4",
+      "locale": "ru",
+      "name": "Шали"
+    },
+    {
+      "entity_id": "f9244c85-d063-5d17-89c6-a0e0d0ad06b3",
+      "id": "f5e86d57-949c-59e3-8850-2b8ba67b31e1",
+      "locale": "ru",
+      "name": "Василий Звягинцев"
+    },
+    {
+      "entity_id": "f9dab79d-cfc7-5559-8ba9-ba54539935f2",
+      "id": "dc78f965-0c1f-5b28-8f7f-119b0e371b4d",
+      "locale": "ru",
+      "name": "Замай-Юрт"
+    },
+    {
+      "entity_id": "fa196380-ade2-5ec8-89bd-4e912bfacf87",
+      "id": "95431f11-01e1-5980-92e5-c75a43df7828",
+      "locale": "ru",
+      "name": "Кабардатлы"
+    },
+    {
+      "entity_id": "fa44d3fa-4ddf-5037-8a9d-fcdb6aac1884",
+      "id": "65e912b0-0fdc-5aa3-9bf5-34dc85abd5ac",
+      "locale": "ru",
+      "name": "Штурм Грозного (1994—1995)"
+    },
+    {
+      "entity_id": "fa53d086-3bc8-5f53-8763-8c8eb0674f84",
+      "id": "b9948c12-53b3-55b6-b31a-9f7e3e5c766b",
+      "locale": "ru",
+      "name": "Памятник Мовлиду Висаитову"
+    },
+    {
+      "entity_id": "fa58d07c-cbf8-5486-8d05-a2eb09d1aeac",
+      "id": "c8d71842-b8ef-5b79-9238-b28e02f2ee62",
+      "locale": "ru",
+      "name": "Чамгой"
+    },
+    {
+      "entity_id": "fa5c3b00-4741-5ca5-8138-f646f548e4be",
+      "id": "6dc61e51-f19b-5f68-8df8-6ac486a5b762",
+      "locale": "ru",
+      "name": "Али Митаев"
+    },
+    {
+      "entity_id": "facaf42a-18d3-5c34-b57e-24fa0cbc15aa",
+      "id": "f7e76404-c376-552f-b037-0870f97e93ca",
+      "locale": "ru",
+      "name": "Кашкерлам"
+    },
+    {
+      "entity_id": "fad2c6a5-77ec-5418-814e-47cf8a11bf18",
+      "id": "dcfffd56-f278-5d08-bc24-4a0fad8623a2",
+      "locale": "ru",
+      "name": "Сергей Курепов"
+    },
+    {
+      "entity_id": "fad4d1cf-8e91-5f3a-8865-e31f3ab17d40",
+      "id": "a2df1643-bab0-5bdb-9ce3-19ea08bf7e00",
+      "locale": "ru",
+      "name": "шайх Учерман"
+    },
+    {
+      "entity_id": "fad4d1cf-8e91-5f3a-8865-e31f3ab17d40",
+      "id": "9a7ee950-6015-58b4-b8ba-90881e89dafc",
+      "locale": "ru",
+      "name": "Ушурма Алдынский"
+    },
+    {
+      "entity_id": "fad4d1cf-8e91-5f3a-8865-e31f3ab17d40",
+      "id": "3b598381-a1b2-59fe-86b7-a6c0be1cd08b",
+      "locale": "ru",
+      "name": "Шейх Мансур (Ушурма)"
+    },
+    {
+      "entity_id": "faf5f3f9-abf1-5ed8-a05c-3c41f3ebfef1",
+      "id": "e44fb4a5-91b1-5fe3-a145-e63d8b50279b",
+      "locale": "ru",
+      "name": "Центарой (Ахмат-Юрт)"
+    },
+    {
+      "entity_id": "faf5f3f9-abf1-5ed8-a05c-3c41f3ebfef1",
+      "id": "75f17f1e-93f4-585c-b98d-afc798239b80",
+      "locale": "ru",
+      "name": "Хоси-Юрт"
+    },
+    {
+      "entity_id": "fb16da9a-b677-5124-b16c-fcb79f75708f",
+      "id": "d04d7e06-ea9b-5884-aece-b4b06293c0b9",
+      "locale": "ru",
+      "name": "Малый Ярыксу"
+    },
+    {
+      "entity_id": "fb274f00-5105-5be2-8bd5-51c762f3a64b",
+      "id": "e61d6357-ef79-5cd5-9470-d5f3c55bc21c",
+      "locale": "ru",
+      "name": "Зия Юсупович Бажаев"
+    },
+    {
+      "entity_id": "fb3c9499-3464-5608-a408-e333896c5214",
+      "id": "26983541-877a-5991-9aab-bbdee9bb116f",
+      "locale": "ru",
+      "name": "Дубовская"
+    },
+    {
+      "entity_id": "fb7f4cd4-94cf-5295-a169-16e0616d97f5",
+      "id": "c763da89-6af9-5d14-b726-a25788a4cd48",
+      "locale": "ru",
+      "name": "Братское"
+    },
+    {
+      "entity_id": "fbb11785-1509-51ce-9d4a-652439878119",
+      "id": "eadf90b7-a666-5356-bc5f-fd6be9210258",
+      "locale": "ru",
+      "name": "Альтемиров, Арби Мусаевич"
+    },
+    {
+      "entity_id": "fbef07c3-05c6-52d8-accf-f47601778d94",
+      "id": "03dca45b-4c2b-51c0-ac7a-11cdc2803bc9",
+      "locale": "ru",
+      "name": "Беной"
+    },
+    {
+      "entity_id": "fc003226-7bb9-5f0e-9f2c-8b4edb9b31fa",
+      "id": "74f17209-d32f-56f6-b279-c84c67ae7141",
+      "locale": "ru",
+      "name": "Багураев, Таус Садыкович"
+    },
+    {
+      "entity_id": "fc13b4c2-a03b-5faf-bd7a-2cbf777a57f1",
+      "id": "909c3d94-515a-5efe-982b-5ae52863161e",
+      "locale": "ru",
+      "name": "Малхиста"
+    },
+    {
+      "entity_id": "fc19346c-3c33-513d-8860-e1bf5007da7f",
+      "id": "d6497e1a-b064-5cd2-aff3-64fa4537309a",
+      "locale": "ru",
+      "name": "Ханкала"
+    },
+    {
+      "entity_id": "fc7efcce-bd21-5bc6-a794-626b8a3c6b30",
+      "id": "32310abc-9986-528f-9bab-46064a3b7415",
+      "locale": "ru",
+      "name": "Борзой"
+    },
+    {
+      "entity_id": "fca54808-70be-51b2-b4c5-ea3fe077029b",
+      "id": "f72f0a38-9d22-5278-8ba4-8b3eb3516da6",
+      "locale": "ru",
+      "name": "Гора Караилтюбе"
+    },
+    {
+      "entity_id": "fcfe4104-4085-5b03-8fec-022a77633946",
+      "id": "747cc557-6dac-5379-82ba-eed21f7e1e09",
+      "locale": "ru",
+      "name": "Магомед-Салах Гадаев"
+    },
+    {
+      "entity_id": "fd2283c3-b000-5e5e-a70c-f463ae70b7e9",
+      "id": "ea62d32c-4e75-59ed-a42b-4d4234779bad",
+      "locale": "ru",
+      "name": "Гехи"
+    },
+    {
+      "entity_id": "fd499bac-3d9d-5f8b-8292-110e2b0e2f87",
+      "id": "fd753868-22e1-524c-990b-47b508025431",
+      "locale": "ru",
+      "name": "Асламбек Ахмедович Аслаханов"
+    },
+    {
+      "entity_id": "fd783be5-48ab-5d59-a51a-1a36c05bf5b7",
+      "id": "5d3992fb-40e6-5146-8461-1968baffe53d",
+      "locale": "ru",
+      "name": "Камалхи"
+    },
+    {
+      "entity_id": "fdfa7438-200a-5a16-9ff8-8e308e2734c4",
+      "id": "9f236917-c4cf-596d-b9f9-4bce160ed302",
+      "locale": "ru",
+      "name": "Эльдарханов, Таштемир Эльжуркаевич"
+    },
+    {
+      "entity_id": "fe55abba-23b1-55f6-acb1-1778ecf5f6f6",
+      "id": "e21d32db-2187-5328-bc19-235cb39b8456",
+      "locale": "ru",
+      "name": "Николай Матвеевич Егоров"
+    },
+    {
+      "entity_id": "fea1137b-4b4e-5d0d-bd84-18773692817d",
+      "id": "22f67817-83d4-5f8d-8ae7-cf84de3c44bf",
+      "locale": "ru",
+      "name": "Табацкова, Вера Георгиевна"
+    },
+    {
+      "entity_id": "fedd64fd-e3fb-5c14-9b9a-02d6190b35a8",
+      "id": "4765dee3-8ef8-5e8e-9ed7-2197b193f168",
+      "locale": "ru",
+      "name": "Кокадой"
+    },
+    {
+      "entity_id": "fee3f87e-8d45-5df8-85ae-7af18fc9e26a",
+      "id": "e716bdf3-bd8e-5f25-ade5-6b60daa26e52",
+      "locale": "ru",
+      "name": "Лаха-Варанды"
+    },
+    {
+      "entity_id": "feec9f56-a487-5dae-92f0-fced2c5b16c8",
+      "id": "b07e3dfa-a646-5c25-aff0-4a5401066105",
+      "locale": "ru",
+      "name": "Ахкинчу-Борзой"
+    },
+    {
+      "entity_id": "ff38ddc9-f3f1-57fa-ac37-6486fffc7d1f",
+      "id": "c23350f7-cd18-57d4-9e17-05f5245ba46f",
+      "locale": "ru",
+      "name": "Акаев, Даша Ибрагимович"
+    },
+    {
+      "entity_id": "ff721100-a434-5245-850e-a494c212dd5a",
+      "id": "1032c254-07aa-5de6-b91c-2d0931ae61ae",
+      "locale": "ru",
+      "name": "Новый Энгеной"
+    },
+    {
+      "entity_id": "ff804530-8bb1-56e1-a13c-4ffed7acfd8a",
+      "id": "5cbb8113-8077-5512-8e1f-b1bda845936f",
+      "locale": "ru",
+      "name": "Эльпаро"
+    },
+    {
+      "entity_id": "ff87e299-18a8-5a92-804e-3b533b889b01",
+      "id": "1a144b7c-ce89-5a97-b6d6-c77e6189f6bd",
+      "locale": "ru",
+      "name": "Серж Чермаев"
+    },
+    {
+      "entity_id": "ffb34223-2b3c-5812-862e-ea1e2e71eae4",
+      "id": "d7e66bd6-9e00-50fa-bc7c-b9901d4e3c95",
+      "locale": "ru",
+      "name": "Сары-Су"
+    },
+    {
+      "entity_id": "ffcf0329-3c9b-5bcc-807e-148ae570b26b",
+      "id": "04ca6ea8-3e3c-56fa-84e5-c4663bcbebe8",
+      "locale": "ru",
+      "name": "Хаваджи Магомед-Мирзоев"
+    },
+    {
+      "entity_id": "fffa6d26-26b8-5ec7-a4dd-a7416a8e0bfe",
+      "id": "5f2ffa79-2faa-50d2-94a7-4bfab62bfa8e",
+      "locale": "ru",
+      "name": "Чайляхканчи"
+    }
+  ],
+  "entity_sources": [
+    {
+      "entity_id": "ebc6f95c-be95-563a-849e-da3c7f52dde3",
+      "id": "a89a6f92-7885-52c2-b4fd-aa9e3e10575b",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "ec690a1c-7f39-5e71-8ca6-77b89f57068d",
+      "id": "0ef1faf7-97ee-5331-9ac9-290be5cfd144",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "ec7fe42a-8530-5808-8a46-b63c84ea080c",
+      "id": "92983266-2878-512a-80e8-5617a4e7f7ca",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "ec87a297-0727-5020-a136-8f19205ab089",
+      "id": "20cfe62a-768b-564b-908f-2e00a1945d06",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "ec8f2643-356c-555d-a78f-ec9bdf31771a",
+      "id": "e38063d5-101b-5191-a163-e2bd7b8a35a7",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "ec95658b-4a0d-5d38-9a7c-07654b85d61d",
+      "id": "c776ae9b-2d84-5a34-a367-57b8de740680",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "ec9af153-1fbd-5fcb-a4e8-363eb49f75e9",
+      "id": "3d60d695-c9d1-5c33-b91c-f7edfc3cc650",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "ecaad3a5-7f81-5936-a729-e1f31941422e",
+      "id": "d64fe573-f085-5bc7-bf15-83f48503fe17",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "ecc9a72e-f2af-5470-a224-17e81193767b",
+      "id": "0a9b9bb6-404c-5900-8535-ece8f565fa22",
+      "source_id": "3e8565d9-d522-5e73-aa0e-bd5c2ed7c5a4"
+    },
+    {
+      "entity_id": "ecfa5ce3-0d99-56af-baf6-e214d77bc18f",
+      "id": "6d8134a8-5072-5145-a295-becac9def515",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "ed02ebe4-24f8-5dc1-9f50-4a8e4d377d0a",
+      "id": "06cca605-0af5-578c-8ef8-02fbffa84798",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "edb30898-d897-5c8b-9295-e70070881820",
+      "id": "846aa6b4-44d9-5147-b28a-7caaf7c2ff69",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "ee1855f4-5091-5249-a88b-aa297ad38030",
+      "id": "87ecc097-b12e-56fe-98e2-00cf525039dc",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "ee3741c3-dc14-566e-a032-4d94afc6b4bf",
+      "id": "7ac2abf7-0b42-55f0-aed5-4804efd8dfe9",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "ee3d6c4c-dddd-5476-b84c-c8c85453cbb2",
+      "id": "d0cc0f8f-649e-535d-83e1-2a6ee8629d5e",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "ee43a596-30b4-5428-a3e2-f8ddcd049ae8",
+      "id": "ba9f4e0f-beca-5d61-ae8e-25578a137293",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "ee68cf5e-a80b-565f-a7ea-08dfc8e816fd",
+      "id": "374c73d5-dcc4-5906-8e04-4ee0d6d42420",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "eee333cb-133d-50d7-8ff9-355f2cfa2eac",
+      "id": "29511fb1-ae16-5eca-9c8c-78085b234416",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "eeea5299-d014-50fb-8a1a-8848a6f975b0",
+      "id": "3965855f-e6cb-573e-81dc-222f56d166c9",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "ef164905-7949-59d9-b69b-c242f930be6c",
+      "id": "c76419df-6207-5e71-b329-f2f4756d04a7",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "ef229437-1ca1-536e-8720-3e8ee80ee3fc",
+      "id": "d2313170-0064-5f8f-ba9a-5f800620fc95",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "ef498504-ba5e-5b20-bbef-e8a2404263f6",
+      "id": "ceb38fde-561e-581b-9aab-430621e9aa62",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "ef6d474c-5dd3-55d0-8ddb-42ec549d1d57",
+      "id": "c396b0c3-7d99-5b39-99f7-f9d62c124962",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "ef78ce84-cb9b-5b45-abb2-3eda27fdaa9c",
+      "id": "809dd229-a9de-5950-b671-69af1be121d9",
+      "source_id": "3e8565d9-d522-5e73-aa0e-bd5c2ed7c5a4"
+    },
+    {
+      "entity_id": "efa5eeca-dadd-5779-8ede-2ba25ff303b5",
+      "id": "a4e19638-2294-59ff-b1ed-8318e9253c76",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "efbcf974-70b3-5542-a910-25c0dca63cfc",
+      "id": "ea55b044-f0df-5ab9-a553-6cb9bf333fb1",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f003a3e6-d398-5d10-a652-3fbc7cc27cc8",
+      "id": "d67cee8a-eda2-5de4-b826-0306845c6bd8",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f0165f23-d502-5508-b4fa-5af502ee56b3",
+      "id": "2f74ce03-baa6-50af-970d-db1d58f6898a",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f063ff46-ecf4-5ed2-a3e7-48b4fc9a67e3",
+      "id": "07ebfe7d-c627-5010-a13d-165ebf8c711e",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f08da49d-96a7-5821-a08c-376b76903289",
+      "id": "7d4563e9-1de8-5826-9876-38a6c63ebc56",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "f0a65b5c-855d-56f3-b0d5-3fd515c227e3",
+      "id": "f0c6e517-272f-54c0-87c3-4bd6aeb25d40",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f119236d-6191-5742-bf52-e0773ba89e89",
+      "id": "557f9f6f-55f6-504e-bda4-1fb25105e8f0",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f16bab74-ec8a-501c-992a-473d3d243397",
+      "id": "f110f7c4-44d5-5967-91df-ab2262aec2fc",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f199817c-4666-5075-a740-955a47c00fce",
+      "id": "9809b017-7c46-58d7-9d5f-bfc777218cd7",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f19d3a22-7c79-583e-b648-22a22aced8f5",
+      "id": "119a9206-adbf-5b49-b9fc-6992b7d74446",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f1b9c359-3cfa-5768-8255-e3bb0b8e9c4c",
+      "id": "8b6e8f0e-f5a2-564e-aca1-782a58aadabf",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f1c7fac4-554e-542d-a3cc-dc818771a18c",
+      "id": "b6a91021-8f98-54a6-99c2-e1d896d184e8",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f23c1ad0-4cc6-51ab-b0e0-85b3ec29d7fb",
+      "id": "71c0ed6a-6c41-5ec4-985e-90e6d63bc15c",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f25b8278-de04-50b4-8dcc-891432ffeccd",
+      "id": "c61c2f40-0f31-575a-884c-478d48969427",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f25d3aac-9fef-54fb-a344-ce59a0caf42d",
+      "id": "abb280b9-15b4-546a-8f3e-a0b236ae762f",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f27e7afb-38bd-5076-bb4e-9d2c95e8be58",
+      "id": "6e1a3776-e87d-5160-9e6e-97a47715a079",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f2885765-f86e-5eb6-b8a6-2a3fc2b84d65",
+      "id": "7b4e77e1-032a-5d2a-96dc-c1a80b185a1f",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f2cf8435-a332-577c-9e99-5685873f6c82",
+      "id": "ce9b47e7-0d20-597b-a937-f41953001b2c",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f2f9c1fd-a6ec-59a5-b894-aa98046b9239",
+      "id": "ec82673b-0cb2-5909-ab09-33ef7c138ac3",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f3066978-659e-5005-8e97-df5e2c36307a",
+      "id": "74b6325f-4666-5c2e-a4e5-abd3068229ce",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f335658c-00c3-5683-a18d-e990011bd484",
+      "id": "f732a407-9526-5cdf-8377-b6201d2b048b",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f388dc31-e2f3-57aa-871d-a2d3249faf14",
+      "id": "cf8f7f2b-abc4-5f4e-a7a7-39712a83b2e1",
+      "source_id": "3e8565d9-d522-5e73-aa0e-bd5c2ed7c5a4"
+    },
+    {
+      "entity_id": "f3d7135d-b763-5416-b14b-8ca351011650",
+      "id": "b0ac03e6-aef2-5f6c-86a4-e9873701f964",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f3e4dfa5-edef-5152-9475-0c20505e3405",
+      "id": "54e17465-9c5f-5567-9095-78b9e37efe43",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f4185d78-eb2f-5ac4-9bc0-2c185cf558e6",
+      "id": "1d7ff29b-0a67-5288-87ab-4cf1d2963020",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f4945ed5-69bf-5355-8eab-ce397890fb02",
+      "id": "0c00b720-e8b2-5c67-9f28-eb7ee9a5d0fd",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f4cfc891-aa27-5eef-b66f-1e0521fbd854",
+      "id": "e9d28432-5099-54e3-a785-950ccbc26856",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f502ceb0-e2ef-5ac2-9868-dbb57540e0cf",
+      "id": "d01e307f-e587-54b7-bde1-a9e64f013f9f",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f526742d-5b13-5220-b83a-036da518587b",
+      "id": "1b6846ac-7381-5d2e-a8b8-18fab450c8b4",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f57ad556-e014-5550-9fef-993cf519ebfe",
+      "id": "941f0f6f-f9ba-5399-928b-e7f825e93f95",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f5830d46-9c89-59ea-becd-72eebcb2a716",
+      "id": "b48adb91-fed6-5a15-8319-3d92cdf417e5",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f5da3984-1e2f-507d-b907-7620780938d9",
+      "id": "bea332af-456d-53d6-af94-3ce81745789a",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f758c4d4-7bef-5344-8627-81359e4e24e4",
+      "id": "17d1802b-9d6a-5e30-b05f-a5b0c86df14c",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f80ba5f5-ab4b-5730-8951-dea769b57aee",
+      "id": "f26d2925-1b2f-5dd0-bff3-a66ce6bdb243",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f82e81f8-0af0-5e08-823b-345155b4ccb1",
+      "id": "7c6ab8b0-4d73-5f65-82ae-618422b3f466",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f854e420-e8db-5ea7-ba0d-c6138399f30d",
+      "id": "e2ee4c3c-7d74-5d27-8b51-ea2aacdb9170",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f8682be9-f0f1-56d0-b910-67af50f61d5f",
+      "id": "43732326-501c-515f-9fcf-df7847dd9e2e",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "f8910d5e-6e04-57cb-ad18-4bf70d939010",
+      "id": "1092289d-fa0b-5bba-8691-d8c8d4fbe082",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f9075823-f2af-5a73-9f62-a88edf4e03b2",
+      "id": "030f714f-45af-54b2-9fae-98a71cca04f1",
+      "source_id": "e727d0e6-0482-5c07-b947-cc21568e6981"
+    },
+    {
+      "entity_id": "f9244c85-d063-5d17-89c6-a0e0d0ad06b3",
+      "id": "99fc4287-b467-58bc-94ce-a190beb07bdd",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "f9dab79d-cfc7-5559-8ba9-ba54539935f2",
+      "id": "54d39d87-1514-5af4-9ad2-25c4b12f4630",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "fa196380-ade2-5ec8-89bd-4e912bfacf87",
+      "id": "1447bef1-4696-54e3-800d-d8947f14c454",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "fa44d3fa-4ddf-5037-8a9d-fcdb6aac1884",
+      "id": "ea01f458-aa5a-5de0-b2ad-b51de418916e",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "fa53d086-3bc8-5f53-8763-8c8eb0674f84",
+      "id": "36a46a57-a2c3-5e51-8fff-81e2a54543a4",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "fa58d07c-cbf8-5486-8d05-a2eb09d1aeac",
+      "id": "5bf29cac-47d0-5eab-b4f6-f7869a83fade",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "fa5c3b00-4741-5ca5-8138-f646f548e4be",
+      "id": "97a6881b-c16d-5529-8fc7-2af3608595b1",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "facaf42a-18d3-5c34-b57e-24fa0cbc15aa",
+      "id": "fece9c2b-a4dd-56d1-a368-c6cc438c4fc9",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "fad2c6a5-77ec-5418-814e-47cf8a11bf18",
+      "id": "f63504f5-c13d-592e-8319-e89c24646de9",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "fad4d1cf-8e91-5f3a-8865-e31f3ab17d40",
+      "id": "00282dc4-6546-500c-a681-51bc0bc285b8",
+      "source_id": "a7d477d1-bbe3-54c4-9b5d-4f921bc20dc0"
+    },
+    {
+      "entity_id": "faf5f3f9-abf1-5ed8-a05c-3c41f3ebfef1",
+      "id": "0e68d499-3850-5a05-8e7e-176ca19ac26c",
+      "source_id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7"
+    },
+    {
+      "entity_id": "fb16da9a-b677-5124-b16c-fcb79f75708f",
+      "id": "993aa4e2-6da7-5f65-9a67-99f2b8c2e69f",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "fb274f00-5105-5be2-8bd5-51c762f3a64b",
+      "id": "db0e2d54-abe6-59a4-ab35-8192dca0735a",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "fb3c9499-3464-5608-a408-e333896c5214",
+      "id": "aa73d7af-276b-5f6e-869d-71e8bf6c3905",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "fb7f4cd4-94cf-5295-a169-16e0616d97f5",
+      "id": "090818b9-e4e2-58a1-be92-3d8a15ffa256",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "fbb11785-1509-51ce-9d4a-652439878119",
+      "id": "4ff35099-a821-5ba8-9fea-12e7e85528f6",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "fbef07c3-05c6-52d8-accf-f47601778d94",
+      "id": "cddee7b3-fa4b-5115-9841-9dcbe37862e9",
+      "source_id": "6687cc19-8ad5-5e98-90a7-bd3f4d42f307"
+    },
+    {
+      "entity_id": "fc003226-7bb9-5f0e-9f2c-8b4edb9b31fa",
+      "id": "dc268f2c-5fdb-5b60-b4c6-4c677a8f56cb",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "fc13b4c2-a03b-5faf-bd7a-2cbf777a57f1",
+      "id": "51bfab1c-bec5-5b69-8312-404e9c33b904",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "fc19346c-3c33-513d-8860-e1bf5007da7f",
+      "id": "170cc40d-c975-5f67-b9ab-a04ea6085a5a",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "fc7efcce-bd21-5bc6-a794-626b8a3c6b30",
+      "id": "1214d75d-1c0a-5b46-8579-294f66f5dd2e",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "fca54808-70be-51b2-b4c5-ea3fe077029b",
+      "id": "51994099-026e-5ff1-8856-e99fda0cdae9",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "fcfe4104-4085-5b03-8fec-022a77633946",
+      "id": "768d5801-d672-5fbb-9076-abb9047ce94f",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "fd2283c3-b000-5e5e-a70c-f463ae70b7e9",
+      "id": "23b398a8-356b-5107-ad17-244badfdd7fc",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "fd499bac-3d9d-5f8b-8292-110e2b0e2f87",
+      "id": "32249ef5-d5c8-5854-8c4e-bfd004ba0cce",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "fd783be5-48ab-5d59-a51a-1a36c05bf5b7",
+      "id": "451e5e75-db31-5b5a-8296-d3912cd7037d",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "fdfa7438-200a-5a16-9ff8-8e308e2734c4",
+      "id": "3ad56a41-53a4-5960-b283-cec95f50c86c",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "fe55abba-23b1-55f6-acb1-1778ecf5f6f6",
+      "id": "ff4bf865-fd1a-5eee-b246-7fec00363d57",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "fea1137b-4b4e-5d0d-bd84-18773692817d",
+      "id": "c528f7aa-2e96-5306-afa4-82a0cd598f9a",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "fedd64fd-e3fb-5c14-9b9a-02d6190b35a8",
+      "id": "b734c69a-8e03-5818-916b-2ca538cffddf",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "fee3f87e-8d45-5df8-85ae-7af18fc9e26a",
+      "id": "e0b685f5-271e-5d8f-8dd9-7b31cd947432",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "feec9f56-a487-5dae-92f0-fced2c5b16c8",
+      "id": "dee8bea7-0507-5527-90c4-48d87522cfe0",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "ff38ddc9-f3f1-57fa-ac37-6486fffc7d1f",
+      "id": "53e46838-c3ec-58b3-bc0b-96b91d056363",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "ff721100-a434-5245-850e-a494c212dd5a",
+      "id": "847902d1-587f-5508-850e-c935ee910fbc",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "ff804530-8bb1-56e1-a13c-4ffed7acfd8a",
+      "id": "72f3604b-2452-5e5a-95b5-7999d1f0c13d",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "ff87e299-18a8-5a92-804e-3b533b889b01",
+      "id": "f29c5ba7-d3c8-51be-9cc5-e5b2eac3fda6",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "ffb34223-2b3c-5812-862e-ea1e2e71eae4",
+      "id": "5484e14e-ef83-5713-bf37-f374192f9447",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    },
+    {
+      "entity_id": "ffcf0329-3c9b-5bcc-807e-148ae570b26b",
+      "id": "d9e9d51a-d2d7-5dc0-a092-204f63bc8345",
+      "source_id": "bea2d9a0-2862-5607-b477-8f18ab253028"
+    },
+    {
+      "entity_id": "fffa6d26-26b8-5ec7-a4dd-a7416a8e0bfe",
+      "id": "8a36719e-e347-5901-8344-7902790c18a8",
+      "source_id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a"
+    }
+  ],
+  "entity_texts": [
+    {
+      "entity_id": "ebc6f95c-be95-563a-849e-da3c7f52dde3",
+      "full_description": "Исследовательский кандидат\n\nВнешний идентификатор Wikidata: Q4219418.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4219418.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4219418. Точность: exact; заявленная точность, м: 0.01.\n\nСтатус исследования: needs_review.",
+      "id": "974d2e84-f35c-561a-bcdb-e5226a307de0",
+      "locale": "ru",
+      "short_description": "Исследовательский кандидат",
+      "title": "Кенсо"
+    },
+    {
+      "entity_id": "ec690a1c-7f39-5e71-8ca6-77b89f57068d",
+      "full_description": "Исследовательский кандидат\n\nВнешний идентификатор Wikidata: Q4236037.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4236037.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4236037. Точность: approximate; заявленная точность, м: 30.92.\n\nСтатус исследования: needs_review.",
+      "id": "1c1661cb-8e92-5c60-9ee0-b3afb41ab77e",
+      "locale": "ru",
+      "short_description": "Исследовательский кандидат",
+      "title": "Котланкин"
+    },
+    {
+      "entity_id": "ec7fe42a-8530-5808-8a46-b63c84ea080c",
+      "full_description": "событие 26 ноября 1994 года\n\nВнешний идентификатор Wikidata: Q2026919.\n\nURL записи источника: https://www.wikidata.org/wiki/Q2026919.\n\nСтатус исследования: needs_review.",
+      "id": "aadc99b5-d9ea-5598-84a0-bc90acb32596",
+      "locale": "ru",
+      "short_description": "событие 26 ноября 1994 года",
+      "title": "Штурм Грозного силами Временного совета"
+    },
+    {
+      "entity_id": "ec87a297-0727-5020-a136-8f19205ab089",
+      "full_description": "Переломное сражение Великой Отечественной войны.\n\nСтатус исследования: verified.",
+      "id": "2af56a67-a8af-5ec0-a425-670b333c0481",
+      "locale": "ru",
+      "short_description": "Переломное сражение Великой Отечественной войны.",
+      "title": "Сталинградская битва"
+    },
+    {
+      "entity_id": "ec8f2643-356c-555d-a78f-ec9bdf31771a",
+      "full_description": "Исследовательский кандидат\n\nВнешний идентификатор Wikidata: Q13432886.\n\nURL записи источника: https://www.wikidata.org/wiki/Q13432886.\n\nИсточник координат: https://www.wikidata.org/wiki/Q13432886. Точность: exact; заявленная точность, м: 0.11.\n\nСтатус исследования: needs_review.",
+      "id": "93c63bd8-e107-57a0-be64-076e96bc6bc5",
+      "locale": "ru",
+      "short_description": "Исследовательский кандидат",
+      "title": "Качехой"
+    },
+    {
+      "entity_id": "ec95658b-4a0d-5d38-9a7c-07654b85d61d",
+      "full_description": "чеченский полевой командир\n\nВнешний идентификатор Wikidata: Q85987536.\n\nURL записи источника: https://www.wikidata.org/wiki/Q85987536.\n\nСтатус исследования: needs_review.",
+      "id": "16a26b1e-2237-5ad0-aa44-817835e1d3f3",
+      "locale": "ru",
+      "short_description": "чеченский полевой командир",
+      "title": "Ахмадов, Хута Адланович"
+    },
+    {
+      "entity_id": "ec9af153-1fbd-5fcb-a4e8-363eb49f75e9",
+      "full_description": "Исследовательский кандидат\n\nВнешний идентификатор Wikidata: Q129730784.\n\nURL записи источника: https://www.wikidata.org/wiki/Q129730784.\n\nИсточник координат: https://www.wikidata.org/wiki/Q129730784. Точность: exact; заявленная точность, м: 0.0.\n\nСтатус исследования: needs_review.",
+      "id": "53530cc7-40c7-58d3-9b38-04b03c0d9465",
+      "locale": "ru",
+      "short_description": "Исследовательский кандидат",
+      "title": "Мечеть имени Пророка Исы"
+    },
+    {
+      "entity_id": "ecaad3a5-7f81-5936-a729-e1f31941422e",
+      "full_description": "Исследовательский кандидат\n\nВнешний идентификатор Wikidata: Q28332753.\n\nURL записи источника: https://www.wikidata.org/wiki/Q28332753.\n\nИсточник координат: https://www.wikidata.org/wiki/Q28332753. Точность: exact; заявленная точность, м: 0.11.\n\nСтатус исследования: needs_review.",
+      "id": "4c232e90-b325-51ae-bc01-937cf855cedb",
+      "locale": "ru",
+      "short_description": "Исследовательский кандидат",
+      "title": "Ушкалойские башни"
+    },
+    {
+      "entity_id": "ecc9a72e-f2af-5470-a224-17e81193767b",
+      "full_description": "Одна из крупнейших мечетей Европы, открыта в Шали в 2019 году.\n\n2019\n\nСтатус исследования: needs_review.",
+      "id": "03d49a7d-62fd-51ca-99a4-0e25a82a1844",
+      "locale": "ru",
+      "short_description": "Одна из крупнейших мечетей Европы, открыта в Шали в 2019 году.",
+      "title": "Мечеть «Гордость мусульман» им. Пророка Мухаммада"
+    },
+    {
+      "entity_id": "ecfa5ce3-0d99-56af-baf6-e214d77bc18f",
+      "full_description": "Исследовательский кандидат\n\nВнешний идентификатор Wikidata: Q30890475.\n\nURL записи источника: https://www.wikidata.org/wiki/Q30890475.\n\nИсточник координат: https://www.wikidata.org/wiki/Q30890475. Точность: approximate; заявленная точность, м: 13781.05.\n\nСтатус исследования: needs_review.",
+      "id": "4dd4a13e-b59c-5847-a5ef-1a6b222f2138",
+      "locale": "ru",
+      "short_description": "Исследовательский кандидат",
+      "title": "Карьерное"
+    },
+    {
+      "entity_id": "ed02ebe4-24f8-5dc1-9f50-4a8e4d377d0a",
+      "full_description": "хутор в Наурском районе Чечни России\n\nВнешний идентификатор Wikidata: Q4415465.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4415465.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4415465. Точность: exact; заявленная точность, м: 0.11.\n\nСтатус исследования: needs_review.",
+      "id": "1f0328aa-f16a-5b10-a3b1-aef862e739a9",
+      "locale": "ru",
+      "short_description": "хутор в Наурском районе Чечни России",
+      "title": "Семиколодцев"
+    },
+    {
+      "entity_id": "edb30898-d897-5c8b-9295-e70070881820",
+      "full_description": "Исследовательский кандидат\n\nВнешний идентификатор Wikidata: Q4316189.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4316189.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4316189. Точность: exact; заявленная точность, м: 11.13.\n\nСтатус исследования: needs_review.",
+      "id": "49876fb7-55e0-5c07-b89c-480facc3e21f",
+      "locale": "ru",
+      "short_description": "Исследовательский кандидат",
+      "title": "Нежилойахк"
+    },
+    {
+      "entity_id": "ee1855f4-5091-5249-a88b-aa297ad38030",
+      "full_description": "Исследовательский кандидат\n\nВнешний идентификатор Wikidata: Q4078978.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4078978.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4078978. Точность: approximate; заявленная точность, м: 30.92.\n\nСтатус исследования: needs_review.",
+      "id": "8d8aa5b7-2bb4-5e12-aa5e-1ac017097145",
+      "locale": "ru",
+      "short_description": "Исследовательский кандидат",
+      "title": "Басары Ялхора"
+    },
+    {
+      "entity_id": "ee3741c3-dc14-566e-a032-4d94afc6b4bf",
+      "full_description": "приток Сунжи\n\nВнешний идентификатор Wikidata: Q4137823.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4137823.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4137823. Точность: approximate; заявленная точность, м: 30.92.\n\nСтатус исследования: needs_review.",
+      "id": "25dbee45-c701-5a67-9cbe-ed4eae0fe3e4",
+      "locale": "ru",
+      "short_description": "приток Сунжи",
+      "title": "Гехи"
+    },
+    {
+      "entity_id": "ee3d6c4c-dddd-5476-b84c-c8c85453cbb2",
+      "full_description": "участник Афганской войны\n\nВнешний идентификатор Wikidata: Q109887736.\n\nURL записи источника: https://www.wikidata.org/wiki/Q109887736.\n\nСтатус исследования: needs_review.",
+      "id": "6036c10d-abf6-5adc-86a7-28c4fccec897",
+      "locale": "ru",
+      "short_description": "участник Афганской войны",
+      "title": "Хачукаев, Сулейман Ахмедович"
+    },
+    {
+      "entity_id": "ee43a596-30b4-5428-a3e2-f8ddcd049ae8",
+      "full_description": "село в Итум-Калинском районе Чечни России\n\nВнешний идентификатор Wikidata: Q4306891.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4306891.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4306891. Точность: approximate; заявленная точность, м: 30.92.\n\nСтатус исследования: needs_review.",
+      "id": "8aab00f0-c1e7-50e2-8101-9c9af19610b0",
+      "locale": "ru",
+      "short_description": "село в Итум-Калинском районе Чечни России",
+      "title": "Мулкой"
+    },
+    {
+      "entity_id": "ee68cf5e-a80b-565f-a7ea-08dfc8e816fd",
+      "full_description": "Исследовательский кандидат\n\nВнешний идентификатор Wikidata: Q4219421.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4219421.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4219421. Точность: exact; заявленная точность, м: 0.11.\n\nСтатус исследования: needs_review.",
+      "id": "d5821890-4080-5aeb-94d3-c4044e6ceef4",
+      "locale": "ru",
+      "short_description": "Исследовательский кандидат",
+      "title": "Кент"
+    },
+    {
+      "entity_id": "eee333cb-133d-50d7-8ff9-355f2cfa2eac",
+      "full_description": "Исследовательский кандидат\n\nВнешний идентификатор Wikidata: Q4160129.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4160129.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4160129. Точность: exact; заявленная точность, м: 0.11.\n\nСтатус исследования: needs_review.",
+      "id": "379365d4-0205-5f2f-b55f-2f11e1831b49",
+      "locale": "ru",
+      "short_description": "Исследовательский кандидат",
+      "title": "Джелашхой"
+    },
+    {
+      "entity_id": "eeea5299-d014-50fb-8a1a-8848a6f975b0",
+      "full_description": "горная вершина в Итум-Калинском районе Чечни\n\nВнешний идентификатор Wikidata: Q4219793.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4219793.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4219793. Точность: approximate; заявленная точность, м: 30.92.\n\nСтатус исследования: needs_review.",
+      "id": "55db1d4d-7fae-5d73-a52c-ffb6ad2bbd63",
+      "locale": "ru",
+      "short_description": "горная вершина в Итум-Калинском районе Чечни",
+      "title": "Кестинкорт"
+    },
+    {
+      "entity_id": "ef164905-7949-59d9-b69b-c242f930be6c",
+      "full_description": "Исследовательский кандидат\n\nВнешний идентификатор Wikidata: Q13450427.\n\nURL записи источника: https://www.wikidata.org/wiki/Q13450427.\n\nИсточник координат: https://www.wikidata.org/wiki/Q13450427. Точность: exact; заявленная точность, м: 0.11.\n\nСтатус исследования: needs_review.",
+      "id": "c2407b9a-9976-5b99-a3f4-4d2073464b7f",
+      "locale": "ru",
+      "short_description": "Исследовательский кандидат",
+      "title": "Багинаул"
+    },
+    {
+      "entity_id": "ef229437-1ca1-536e-8720-3e8ee80ee3fc",
+      "full_description": "посёлок в Надтеречном районе Чечни России\n\nВнешний идентификатор Wikidata: Q2066286.\n\nURL записи источника: https://www.wikidata.org/wiki/Q2066286.\n\nИсточник координат: https://www.wikidata.org/wiki/Q2066286. Точность: exact; заявленная точность, м: 0.11.\n\nСтатус исследования: needs_review.",
+      "id": "3188db3d-cceb-5dd3-af65-82e52ae84f5c",
+      "locale": "ru",
+      "short_description": "посёлок в Надтеречном районе Чечни России",
+      "title": "Горагорск"
+    },
+    {
+      "entity_id": "ef498504-ba5e-5b20-bbef-e8a2404263f6",
+      "full_description": "село в Урус-Мартановском районе Чечни России\n\nВнешний идентификатор Wikidata: Q4141272.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4141272.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4141272. Точность: approximate; заявленная точность, м: 30.92.\n\nСтатус исследования: needs_review.",
+      "id": "55407719-49eb-5204-b02f-1e53effc9bc5",
+      "locale": "ru",
+      "short_description": "село в Урус-Мартановском районе Чечни России",
+      "title": "Гойты"
+    },
+    {
+      "entity_id": "ef6d474c-5dd3-55d0-8ddb-42ec549d1d57",
+      "full_description": "чеченский поэт и писатель\n\nВнешний идентификатор Wikidata: Q137166899.\n\nURL записи источника: https://www.wikidata.org/wiki/Q137166899.\n\nСтатус исследования: needs_review.",
+      "id": "61b1cc07-72c1-51e1-a38c-a132c76c4259",
+      "locale": "ru",
+      "short_description": "чеченский поэт и писатель",
+      "title": "Муталибов, Зайнди Абдулхалимович"
+    },
+    {
+      "entity_id": "ef78ce84-cb9b-5b45-abb2-3eda27fdaa9c",
+      "full_description": "Комплекс высотных зданий в центре Грозного.\n\nСтатус исследования: needs_review.",
+      "id": "ba28bc23-ef1c-54b2-b89d-75f6af9e2d6f",
+      "locale": "ru",
+      "short_description": "Комплекс высотных зданий в центре Грозного.",
+      "title": "Комплекс «Грозный-Сити»"
+    },
+    {
+      "entity_id": "efa5eeca-dadd-5779-8ede-2ba25ff303b5",
+      "full_description": "село в Надтеречном районе Чечни России\n\nВнешний идентификатор Wikidata: Q4108711.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4108711.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4108711. Точность: approximate; заявленная точность, м: 30.92.\n\nСтатус исследования: needs_review.",
+      "id": "08dc1131-3418-5101-baad-702687c6695e",
+      "locale": "ru",
+      "short_description": "село в Надтеречном районе Чечни России",
+      "title": "Верхний Наур"
+    },
+    {
+      "entity_id": "efbcf974-70b3-5542-a910-25c0dca63cfc",
+      "full_description": "село в Грозненском районе Чечни России\n\nВнешний идентификатор Wikidata: Q4219438.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4219438.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4219438. Точность: exact; заявленная точность, м: 0.11.\n\nСтатус исследования: needs_review.",
+      "id": "41bc2fe2-2c8e-5f75-a1fa-98b9002212b8",
+      "locale": "ru",
+      "short_description": "село в Грозненском районе Чечни России",
+      "title": "Кень-Юрт"
+    },
+    {
+      "entity_id": "f003a3e6-d398-5d10-a652-3fbc7cc27cc8",
+      "full_description": "Историческая личность; сведения требуют проверки.\n\nВнешний идентификатор Wikidata: Q4069909.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4069909.\n\nСтатус исследования: needs_review.",
+      "id": "fa3ec4cf-9a6b-5b8f-9d88-6e7cb85c4477",
+      "locale": "ru",
+      "short_description": "Историческая личность; сведения требуют проверки.",
+      "title": "Дени Арсанов"
+    },
+    {
+      "entity_id": "f0165f23-d502-5508-b4fa-5af502ee56b3",
+      "full_description": "Историческая личность; сведения требуют проверки.\n\nВнешний идентификатор Wikidata: Q4245363.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4245363.\n\nСтатус исследования: needs_review.",
+      "id": "c61e8a67-9a77-589d-9b0a-3bc333cc996e",
+      "locale": "ru",
+      "short_description": "Историческая личность; сведения требуют проверки.",
+      "title": "Кузьмин, Павел Семёнович"
+    },
+    {
+      "entity_id": "f063ff46-ecf4-5ed2-a3e7-48b4fc9a67e3",
+      "full_description": "река\n\nВнешний идентификатор Wikidata: Q35400373.\n\nURL записи источника: https://www.wikidata.org/wiki/Q35400373.\n\nИсточник координат: https://www.wikidata.org/wiki/Q35400373. Точность: exact; заявленная точность, м: 11.13.\n\nСтатус исследования: needs_review.",
+      "id": "df512a09-450a-562f-993b-0159a1720613",
+      "locale": "ru",
+      "short_description": "река",
+      "title": "Кенхи"
+    },
+    {
+      "entity_id": "f08da49d-96a7-5821-a08c-376b76903289",
+      "full_description": "1840-07-11\n\nКровопролитное сражение Кавказской войны 11 июля 1840 года, описанное М. Ю. Лермонтовым в стихотворении «Валерик».\n\nСтатус исследования: needs_review.",
+      "id": "23a02edb-9cbf-5050-991e-382439cdde0e",
+      "locale": "ru",
+      "short_description": "Кровопролитное сражение Кавказской войны 11 июля 1840 года, описанное М. Ю. Лермонтовым в стихотворении «Валерик».",
+      "title": "Сражение на реке Валерик"
+    },
+    {
+      "entity_id": "f0a65b5c-855d-56f3-b0d5-3fd515c227e3",
+      "full_description": "советский государственный деятель\n\nВнешний идентификатор Wikidata: Q111364556.\n\nURL записи источника: https://www.wikidata.org/wiki/Q111364556.\n\nСтатус исследования: needs_review.",
+      "id": "101ecdcf-9e3b-5ed1-b782-7033b7ed119e",
+      "locale": "ru",
+      "short_description": "советский государственный деятель",
+      "title": "Сайханов, Алаудин Магомедхаджиевич"
+    },
+    {
+      "entity_id": "f119236d-6191-5742-bf52-e0773ba89e89",
+      "full_description": "Исследовательский кандидат\n\nВнешний идентификатор Wikidata: Q32477200.\n\nURL записи источника: https://www.wikidata.org/wiki/Q32477200.\n\nИсточник координат: https://www.wikidata.org/wiki/Q32477200. Точность: approximate; заявленная точность, м: 30.92.\n\nСтатус исследования: needs_review.",
+      "id": "42408ddb-b6e9-5592-bce3-df1800b7509f",
+      "locale": "ru",
+      "short_description": "Исследовательский кандидат",
+      "title": "Белая Шалажа"
+    },
+    {
+      "entity_id": "f16bab74-ec8a-501c-992a-473d3d243397",
+      "full_description": "Исследовательский кандидат\n\nВнешний идентификатор Wikidata: Q4343507.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4343507.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4343507. Точность: approximate; заявленная точность, м: 30.92.\n\nСтатус исследования: needs_review.",
+      "id": "74ebb2d6-41a2-5441-8110-3cbf365f68bf",
+      "locale": "ru",
+      "short_description": "Исследовательский кандидат",
+      "title": "Памятник журналистам, погибшим за свободу слова"
+    },
+    {
+      "entity_id": "f199817c-4666-5075-a740-955a47c00fce",
+      "full_description": "хребет на границе Грузии и России\n\nВнешний идентификатор Wikidata: Q4466775.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4466775.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4466775. Точность: approximate; заявленная точность, м: 30.92.\n\nСтатус исследования: needs_review.",
+      "id": "2cff3030-3c0f-5285-8c7c-9000b07f415d",
+      "locale": "ru",
+      "short_description": "хребет на границе Грузии и России",
+      "title": "Тушетский хребет"
+    },
+    {
+      "entity_id": "f19d3a22-7c79-583e-b648-22a22aced8f5",
+      "full_description": "село в Ножай-Юртовском районе Чечни России\n\nВнешний идентификатор Wikidata: Q4085991.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4085991.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4085991. Точность: exact; заявленная точность, м: 1.11.\n\nСтатус исследования: needs_review.",
+      "id": "57e491ac-32e1-56fd-b2e2-db11a331c4b4",
+      "locale": "ru",
+      "short_description": "село в Ножай-Юртовском районе Чечни России",
+      "title": "Бетти-Мохк"
+    },
+    {
+      "entity_id": "f1b9c359-3cfa-5768-8255-e3bb0b8e9c4c",
+      "full_description": "Историческая личность; сведения требуют проверки.\n\nВнешний идентификатор Wikidata: Q16626803.\n\nURL записи источника: https://www.wikidata.org/wiki/Q16626803.\n\nСтатус исследования: needs_review.",
+      "id": "a621f919-36ec-577b-a0f8-0d1de492409a",
+      "locale": "ru",
+      "short_description": "Историческая личность; сведения требуют проверки.",
+      "title": "Белоусов, Юрий Николаевич"
+    },
+    {
+      "entity_id": "f1c7fac4-554e-542d-a3cc-dc818771a18c",
+      "full_description": "село в Шатойском районе Чечни России\n\nВнешний идентификатор Wikidata: Q4155467.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4155467.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4155467. Точность: exact; заявленная точность, м: 0.11.\n\nСтатус исследования: needs_review.",
+      "id": "e01962e0-f556-5792-978b-3561bf511300",
+      "locale": "ru",
+      "short_description": "село в Шатойском районе Чечни России",
+      "title": "Дачу-Борзой"
+    },
+    {
+      "entity_id": "f23c1ad0-4cc6-51ab-b0e0-85b3ec29d7fb",
+      "full_description": "чеченский поэт\n\nВнешний идентификатор Wikidata: Q131381091.\n\nURL записи источника: https://www.wikidata.org/wiki/Q131381091.\n\nСтатус исследования: needs_review.",
+      "id": "0e6c1f07-6a4c-512f-97a5-c3b5a34ddeb5",
+      "locale": "ru",
+      "short_description": "чеченский поэт",
+      "title": "Дикаев, Магомед Джунидович"
+    },
+    {
+      "entity_id": "f25b8278-de04-50b4-8dcc-891432ffeccd",
+      "full_description": "чеченский юрист\n\nВнешний идентификатор Wikidata: Q112993147.\n\nURL записи источника: https://www.wikidata.org/wiki/Q112993147.\n\nСтатус исследования: needs_review.",
+      "id": "10eecd01-8ca6-5d63-9748-f4348712a7ed",
+      "locale": "ru",
+      "short_description": "чеченский юрист",
+      "title": "Хамзаев, Абдулла Майрбекович"
+    },
+    {
+      "entity_id": "f25d3aac-9fef-54fb-a344-ce59a0caf42d",
+      "full_description": "Историческая личность; сведения требуют проверки.\n\nВнешний идентификатор Wikidata: Q15067108.\n\nURL записи источника: https://www.wikidata.org/wiki/Q15067108.\n\nСтатус исследования: needs_review.",
+      "id": "0b262e09-d038-52ce-aea5-d294fdcda49b",
+      "locale": "ru",
+      "short_description": "Историческая личность; сведения требуют проверки.",
+      "title": "Зозуля, Георгий Петрович"
+    },
+    {
+      "entity_id": "f27e7afb-38bd-5076-bb4e-9d2c95e8be58",
+      "full_description": "горная вершина в Урус-Мартановском районе  Чечни\n\nВнешний идентификатор Wikidata: Q4133145.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4133145.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4133145. Точность: approximate; заявленная точность, м: 30.92.\n\nСтатус исследования: needs_review.",
+      "id": "f8760a4f-9929-506a-9b9f-6e09ba6d0286",
+      "locale": "ru",
+      "short_description": "горная вершина в Урус-Мартановском районе  Чечни",
+      "title": "Гамырберт"
+    },
+    {
+      "entity_id": "f2885765-f86e-5eb6-b8a6-2a3fc2b84d65",
+      "full_description": "армянский политический и военный деятель, генерал-майор\n\nВнешний идентификатор Wikidata: Q4419826.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4419826.\n\nСтатус исследования: needs_review.",
+      "id": "80f6ce0a-23dc-5b7a-988a-6550dd5e13bb",
+      "locale": "ru",
+      "short_description": "армянский политический и военный деятель, генерал-майор",
+      "title": "Эдуард Симонянц"
+    },
+    {
+      "entity_id": "f2cf8435-a332-577c-9e99-5685873f6c82",
+      "full_description": "Исследовательский кандидат\n\nВнешний идентификатор Wikidata: Q4319208.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4319208.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4319208. Точность: exact; заявленная точность, м: 0.11.\n\nСтатус исследования: needs_review.",
+      "id": "4f86e2ea-0775-5745-8fb5-653d2f3aa949",
+      "locale": "ru",
+      "short_description": "Исследовательский кандидат",
+      "title": "Нижний Хошелдой"
+    },
+    {
+      "entity_id": "f2f9c1fd-a6ec-59a5-b894-aa98046b9239",
+      "full_description": "Исследовательский кандидат\n\nВнешний идентификатор Wikidata: Q108785050.\n\nURL записи источника: https://www.wikidata.org/wiki/Q108785050.\n\nИсточник координат: https://www.wikidata.org/wiki/Q108785050. Точность: approximate; заявленная точность, м: 30.92.\n\nСтатус исследования: needs_review.",
+      "id": "4e816e81-4f8d-5169-9e7c-c75fba5562c0",
+      "locale": "ru",
+      "short_description": "Исследовательский кандидат",
+      "title": "Сержень-Юртовское поселение"
+    },
+    {
+      "entity_id": "f3066978-659e-5005-8e97-df5e2c36307a",
+      "full_description": "Историческая личность; сведения требуют проверки.\n\nВнешний идентификатор Wikidata: Q18674959.\n\nURL записи источника: https://www.wikidata.org/wiki/Q18674959.\n\nСтатус исследования: needs_review.",
+      "id": "40b2827a-7c67-5612-bf13-b62dea4e4fd2",
+      "locale": "ru",
+      "short_description": "Историческая личность; сведения требуют проверки.",
+      "title": "Саидов, Билал Саидович"
+    },
+    {
+      "entity_id": "f335658c-00c3-5683-a18d-e990011bd484",
+      "full_description": "Историческая личность; сведения требуют проверки.\n\nВнешний идентификатор Wikidata: Q4055569.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4055569.\n\nСтатус исследования: needs_review.",
+      "id": "f8959db0-1e36-52db-9892-2cb4d8185bb1",
+      "locale": "ru",
+      "short_description": "Историческая личность; сведения требуют проверки.",
+      "title": "Авдорханов, Заурбек Зелимханович"
+    },
+    {
+      "entity_id": "f388dc31-e2f3-57aa-871d-a2d3249faf14",
+      "full_description": "Средневековый боевой и жилой башенный комплекс в Итум-Кали.\n\nСтатус исследования: needs_review.",
+      "id": "bdb9839a-4b98-51bd-acc4-d33325e86606",
+      "locale": "ru",
+      "short_description": "Средневековый боевой и жилой башенный комплекс в Итум-Кали.",
+      "title": "Башенный комплекс Пхакоч"
+    },
+    {
+      "entity_id": "f3d7135d-b763-5416-b14b-8ca351011650",
+      "full_description": "Историческая личность; сведения требуют проверки.\n\nВнешний идентификатор Wikidata: Q1967089.\n\nURL записи источника: https://www.wikidata.org/wiki/Q1967089.\n\nСтатус исследования: needs_review.",
+      "id": "dfabf5a3-858a-5149-932d-d6dc2b979cc6",
+      "locale": "ru",
+      "short_description": "Историческая личность; сведения требуют проверки.",
+      "title": "Абдурахман Геназович Авторханов"
+    },
+    {
+      "entity_id": "f3e4dfa5-edef-5152-9475-0c20505e3405",
+      "full_description": "село в Урус-Мартановском районе Чечни России\n\nВнешний идентификатор Wikidata: Q4519632.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4519632.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4519632. Точность: approximate; заявленная точность, м: 30.92.\n\nСтатус исследования: needs_review.",
+      "id": "7c0c62ad-597b-582c-9b23-b766b3f36ed4",
+      "locale": "ru",
+      "short_description": "село в Урус-Мартановском районе Чечни России",
+      "title": "Шалажи"
+    },
+    {
+      "entity_id": "f4185d78-eb2f-5ac4-9bc0-2c185cf558e6",
+      "full_description": "Историческая личность; сведения требуют проверки.\n\nВнешний идентификатор Wikidata: Q12109246.\n\nURL записи источника: https://www.wikidata.org/wiki/Q12109246.\n\nСтатус исследования: needs_review.",
+      "id": "49202363-d8f2-571c-9876-7807006cc5ac",
+      "locale": "ru",
+      "short_description": "Историческая личность; сведения требуют проверки.",
+      "title": "Каимов, Владимир Ахметович"
+    },
+    {
+      "entity_id": "f4945ed5-69bf-5355-8eab-ce397890fb02",
+      "full_description": "Исследовательский кандидат\n\nВнешний идентификатор Wikidata: Q13416919.\n\nURL записи источника: https://www.wikidata.org/wiki/Q13416919.\n\nИсточник координат: https://www.wikidata.org/wiki/Q13416919. Точность: exact; заявленная точность, м: 0.11.\n\nСтатус исследования: needs_review.",
+      "id": "c64549a8-00e8-570b-9cf9-e5021f6fdb1e",
+      "locale": "ru",
+      "short_description": "Исследовательский кандидат",
+      "title": "Кечнюхи"
+    },
+    {
+      "entity_id": "f4cfc891-aa27-5eef-b66f-1e0521fbd854",
+      "full_description": "село в Ножай-Юртовском районе Чечни России\n\nВнешний идентификатор Wikidata: Q4442406.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4442406.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4442406. Точность: exact; заявленная точность, м: 0.11.\n\nСтатус исследования: needs_review.",
+      "id": "acfcefd7-2874-55cd-ab84-4efe90a0ccc7",
+      "locale": "ru",
+      "short_description": "село в Ножай-Юртовском районе Чечни России",
+      "title": "Стерч-Керч"
+    },
+    {
+      "entity_id": "f502ceb0-e2ef-5ac2-9868-dbb57540e0cf",
+      "full_description": "Историческая личность; сведения требуют проверки.\n\nВнешний идентификатор Wikidata: Q65156051.\n\nURL записи источника: https://www.wikidata.org/wiki/Q65156051.\n\nСтатус исследования: needs_review.",
+      "id": "3e5c73c8-914c-5bd1-916e-d4bd697728e0",
+      "locale": "ru",
+      "short_description": "Историческая личность; сведения требуют проверки.",
+      "title": "Дутаев, Ильяс Магомедович"
+    },
+    {
+      "entity_id": "f526742d-5b13-5220-b83a-036da518587b",
+      "full_description": "село в Курчалоевском районе Чечни России\n\nВнешний идентификатор Wikidata: Q4392021.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4392021.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4392021. Точность: approximate; заявленная точность, м: 30.92.\n\nСтатус исследования: needs_review.",
+      "id": "32378582-5b3b-56bd-a733-ba7cdc6d2b3a",
+      "locale": "ru",
+      "short_description": "село в Курчалоевском районе Чечни России",
+      "title": "Регита"
+    },
+    {
+      "entity_id": "f57ad556-e014-5550-9fef-993cf519ebfe",
+      "full_description": "село в Шалинском районе Чечни России\n\nВнешний идентификатор Wikidata: Q4056957.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4056957.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4056957. Точность: exact; заявленная точность, м: 0.11.\n\nСтатус исследования: needs_review.",
+      "id": "29878562-47b4-5ed2-b3e7-b37c7ebd6f68",
+      "locale": "ru",
+      "short_description": "село в Шалинском районе Чечни России",
+      "title": "Агишты"
+    },
+    {
+      "entity_id": "f5830d46-9c89-59ea-becd-72eebcb2a716",
+      "full_description": "село в Веденском районе Чечни России\n\nВнешний идентификатор Wikidata: Q4495958.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4495958.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4495958. Точность: exact; заявленная точность, м: 0.11.\n\nСтатус исследования: needs_review.",
+      "id": "1585fe0a-6e82-5f42-9369-ea6d82f688be",
+      "locale": "ru",
+      "short_description": "село в Веденском районе Чечни России",
+      "title": "Харкарой"
+    },
+    {
+      "entity_id": "f5da3984-1e2f-507d-b907-7620780938d9",
+      "full_description": "Исследовательский кандидат\n\nВнешний идентификатор Wikidata: Q4160898.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4160898.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4160898. Точность: exact; заявленная точность, м: 1.11.\n\nСтатус исследования: needs_review.",
+      "id": "4d0e1199-1e54-51c2-bd4f-90bdd0b72d2d",
+      "locale": "ru",
+      "short_description": "Исследовательский кандидат",
+      "title": "Дзумсэрк"
+    },
+    {
+      "entity_id": "f758c4d4-7bef-5344-8627-81359e4e24e4",
+      "full_description": "Исследовательский кандидат\n\nВнешний идентификатор Wikidata: Q4069135.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4069135.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4069135. Точность: exact; заявленная точность, м: 11.13.\n\nСтатус исследования: needs_review.",
+      "id": "4980e381-f55a-53a9-a129-657b20b54673",
+      "locale": "ru",
+      "short_description": "Исследовательский кандидат",
+      "title": "Аржи-Ахк"
+    },
+    {
+      "entity_id": "f80ba5f5-ab4b-5730-8951-dea769b57aee",
+      "full_description": "Исследовательский кандидат\n\nВнешний идентификатор Wikidata: Q4137839.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4137839.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4137839. Точность: exact; заявленная точность, м: 0.11.\n\nСтатус исследования: needs_review.",
+      "id": "a9625bf3-3fbb-5f07-b1d9-d2b38e000aa9",
+      "locale": "ru",
+      "short_description": "Исследовательский кандидат",
+      "title": "Геши"
+    },
+    {
+      "entity_id": "f82e81f8-0af0-5e08-823b-345155b4ccb1",
+      "full_description": "Исследовательский кандидат\n\nВнешний идентификатор Wikidata: Q4232730.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4232730.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4232730. Точность: exact; заявленная точность, м: 1.11.\n\nСтатус исследования: needs_review.",
+      "id": "a2ab3c66-9ae5-58d4-b064-7ebfa83e22d0",
+      "locale": "ru",
+      "short_description": "Исследовательский кандидат",
+      "title": "Корги"
+    },
+    {
+      "entity_id": "f854e420-e8db-5ea7-ba0d-c6138399f30d",
+      "full_description": "село в Веденском районе Чечни России\n\nВнешний идентификатор Wikidata: Q4219153.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4219153.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4219153. Точность: exact; заявленная точность, м: 0.11.\n\nСтатус исследования: needs_review.",
+      "id": "f47cfe42-1678-5738-ba79-bfc8c4b3b4bb",
+      "locale": "ru",
+      "short_description": "село в Веденском районе Чечни России",
+      "title": "Кель-Аул"
+    },
+    {
+      "entity_id": "f8682be9-f0f1-56d0-b910-67af50f61d5f",
+      "full_description": "Всемирно известный чеченский танцор, Народный артист СССР. Родился в селе Старые Атаги. Удостоен звания Героя Социалистического Труда.\n\nСтатус исследования: needs_review.",
+      "id": "6cc343f6-5d20-5ba0-82bd-b7a9ed612ba9",
+      "locale": "ru",
+      "short_description": "Народный артист СССР, Герой Социалистического Труда",
+      "title": "Махмуд Алисултанович Эсамбаев"
+    },
+    {
+      "entity_id": "f8910d5e-6e04-57cb-ad18-4bf70d939010",
+      "full_description": "чеченский военачальник, террорист\n\nВнешний идентификатор Wikidata: Q4054616.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4054616.\n\nСтатус исследования: needs_review.",
+      "id": "a4fe4e7c-8790-5f11-b744-f4aa7547e32f",
+      "locale": "ru",
+      "short_description": "чеченский военачальник, террорист",
+      "title": "Абдулхаджиев, Асламбек Сайпиевич"
+    },
+    {
+      "entity_id": "f9075823-f2af-5a73-9f62-a88edf4e03b2",
+      "full_description": "Один из крупнейших городов Чеченской равнины.\n\nНаселение около 45 000 человек.\n\nгород 2019\n\nСтатус исследования: needs_review.",
+      "id": "ff568576-4887-5790-9e0c-e134da9c4289",
+      "locale": "ru",
+      "short_description": "Один из крупнейших городов Чеченской равнины.",
+      "title": "Шали"
+    },
+    {
+      "entity_id": "f9244c85-d063-5d17-89c6-a0e0d0ad06b3",
+      "full_description": "российский писатель-фантаст\n\nВнешний идентификатор Wikidata: Q4189779.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4189779.\n\nСтатус исследования: needs_review.",
+      "id": "953f7e55-9070-52f2-bf09-33a61fe3f7ec",
+      "locale": "ru",
+      "short_description": "российский писатель-фантаст",
+      "title": "Василий Звягинцев"
+    },
+    {
+      "entity_id": "f9dab79d-cfc7-5559-8ba9-ba54539935f2",
+      "full_description": "село в Ножай-Юртовском районе Чечни России\n\nВнешний идентификатор Wikidata: Q13460966.\n\nURL записи источника: https://www.wikidata.org/wiki/Q13460966.\n\nИсточник координат: https://www.wikidata.org/wiki/Q13460966. Точность: approximate; заявленная точность, м: 30.92.\n\nСтатус исследования: needs_review.",
+      "id": "3b455af8-ee14-5195-94a5-4c03998fcbd8",
+      "locale": "ru",
+      "short_description": "село в Ножай-Юртовском районе Чечни России",
+      "title": "Замай-Юрт"
+    },
+    {
+      "entity_id": "fa196380-ade2-5ec8-89bd-4e912bfacf87",
+      "full_description": "Исследовательский кандидат\n\nВнешний идентификатор Wikidata: Q4206595.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4206595.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4206595. Точность: exact; заявленная точность, м: 0.11.\n\nСтатус исследования: needs_review.",
+      "id": "67aaf562-bce2-5252-8713-8bcbad5d31c4",
+      "locale": "ru",
+      "short_description": "Исследовательский кандидат",
+      "title": "Кабардатлы"
+    },
+    {
+      "entity_id": "fa44d3fa-4ddf-5037-8a9d-fcdb6aac1884",
+      "full_description": "операция во время Первой чеченской войны\n\nВнешний идентификатор Wikidata: Q1028296.\n\nURL записи источника: https://www.wikidata.org/wiki/Q1028296.\n\nСтатус исследования: needs_review.",
+      "id": "283f3cc1-58b8-518d-81ba-f196715054fd",
+      "locale": "ru",
+      "short_description": "операция во время Первой чеченской войны",
+      "title": "Штурм Грозного (1994—1995)"
+    },
+    {
+      "entity_id": "fa53d086-3bc8-5f53-8763-8c8eb0674f84",
+      "full_description": "Исследовательский кандидат\n\nВнешний идентификатор Wikidata: Q97317018.\n\nURL записи источника: https://www.wikidata.org/wiki/Q97317018.\n\nИсточник координат: https://www.wikidata.org/wiki/Q97317018. Точность: approximate; заявленная точность, м: 30.92.\n\nСтатус исследования: needs_review.",
+      "id": "0c9171e5-8665-526f-978e-f3bba054a21b",
+      "locale": "ru",
+      "short_description": "Исследовательский кандидат",
+      "title": "Памятник Мовлиду Висаитову"
+    },
+    {
+      "entity_id": "fa58d07c-cbf8-5486-8d05-a2eb09d1aeac",
+      "full_description": "горная вершина в Итум-Калинском районе Чечни\n\nВнешний идентификатор Wikidata: Q4506984.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4506984.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4506984. Точность: approximate; заявленная точность, м: 30.92.\n\nСтатус исследования: needs_review.",
+      "id": "6ff79a05-f968-5e7e-8831-8bcad3cd557d",
+      "locale": "ru",
+      "short_description": "горная вершина в Итум-Калинском районе Чечни",
+      "title": "Чамгой"
+    },
+    {
+      "entity_id": "fa5c3b00-4741-5ca5-8138-f646f548e4be",
+      "full_description": "чеченский политический и религиозный деятель\n\nВнешний идентификатор Wikidata: Q24018195.\n\nURL записи источника: https://www.wikidata.org/wiki/Q24018195.\n\nСтатус исследования: needs_review.",
+      "id": "1b13ab71-59e2-5468-9038-92b9709c1385",
+      "locale": "ru",
+      "short_description": "чеченский политический и религиозный деятель",
+      "title": "Али Митаев"
+    },
+    {
+      "entity_id": "facaf42a-18d3-5c34-b57e-24fa0cbc15aa",
+      "full_description": "горная вершина в Веденском районе Чечни\n\nВнешний идентификатор Wikidata: Q4218212.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4218212.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4218212. Точность: approximate; заявленная точность, м: 30.92.\n\nСтатус исследования: needs_review.",
+      "id": "a7ea28f5-42b9-58d5-a847-628ca3e88d93",
+      "locale": "ru",
+      "short_description": "горная вершина в Веденском районе Чечни",
+      "title": "Кашкерлам"
+    },
+    {
+      "entity_id": "fad2c6a5-77ec-5418-814e-47cf8a11bf18",
+      "full_description": "Историческая личность; сведения требуют проверки.\n\nВнешний идентификатор Wikidata: Q1297632.\n\nURL записи источника: https://www.wikidata.org/wiki/Q1297632.\n\nСтатус исследования: needs_review.",
+      "id": "59b4676f-dd4b-53a1-be14-2c9941ff41bf",
+      "locale": "ru",
+      "short_description": "Историческая личность; сведения требуют проверки.",
+      "title": "Сергей Курепов"
+    },
+    {
+      "entity_id": "fad4d1cf-8e91-5f3a-8865-e31f3ab17d40",
+      "full_description": "Чеченец из селения Алды. С весны 1785 года возглавил народно-освободительное восстание горцев. В 1791 году ранен и пленён при взятии Анапы, умер в заключении в Шлиссельбургской крепости 13 апреля 1794 года.\n\nСтатус исследования: verified.",
+      "id": "6d00b1a4-c7b3-53bc-ab87-f4a398f9cb45",
+      "locale": "ru",
+      "short_description": "Первый имам Северного Кавказа",
+      "title": "Шейх Мансур (Ушурма)"
+    },
+    {
+      "entity_id": "faf5f3f9-abf1-5ed8-a05c-3c41f3ebfef1",
+      "full_description": "Родовое село семьи Кадыровых.\n\nСтатус исследования: needs_review.",
+      "id": "6ae2f032-d7a9-5372-a33d-2d3a2781e47f",
+      "locale": "ru",
+      "short_description": "Родовое село семьи Кадыровых.",
+      "title": "Центарой (Ахмат-Юрт)"
+    },
+    {
+      "entity_id": "fb16da9a-b677-5124-b16c-fcb79f75708f",
+      "full_description": "Исследовательский кандидат\n\nВнешний идентификатор Wikidata: Q4277551.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4277551.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4277551. Точность: exact; заявленная точность, м: 11.13.\n\nСтатус исследования: needs_review.",
+      "id": "d53ae877-5ca2-5532-b437-ec886602ae92",
+      "locale": "ru",
+      "short_description": "Исследовательский кандидат",
+      "title": "Малый Ярыксу"
+    },
+    {
+      "entity_id": "fb274f00-5105-5be2-8bd5-51c762f3a64b",
+      "full_description": "российский бизнесмен, основатель компании «Альянс»\n\nВнешний идентификатор Wikidata: Q4075068.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4075068.\n\nСтатус исследования: needs_review.",
+      "id": "6f29437d-6985-587a-bcb4-5351fee56184",
+      "locale": "ru",
+      "short_description": "российский бизнесмен, основатель компании «Альянс»",
+      "title": "Зия Юсупович Бажаев"
+    },
+    {
+      "entity_id": "fb3c9499-3464-5608-a408-e333896c5214",
+      "full_description": "станица в Шелковском районе Чечни России\n\nВнешний идентификатор Wikidata: Q4169483.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4169483.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4169483. Точность: exact; заявленная точность, м: 0.11.\n\nСтатус исследования: needs_review.",
+      "id": "7d5d4c8c-ad48-50ef-b5ba-c1c3b90d7967",
+      "locale": "ru",
+      "short_description": "станица в Шелковском районе Чечни России",
+      "title": "Дубовская"
+    },
+    {
+      "entity_id": "fb7f4cd4-94cf-5295-a169-16e0616d97f5",
+      "full_description": "село в Надтеречном районе Чечни России\n\nВнешний идентификатор Wikidata: Q4095985.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4095985.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4095985. Точность: approximate; заявленная точность, м: 30.92.\n\nСтатус исследования: needs_review.",
+      "id": "7db5f2e4-dc71-5380-9476-a11d1d2b3ce7",
+      "locale": "ru",
+      "short_description": "село в Надтеречном районе Чечни России",
+      "title": "Братское"
+    },
+    {
+      "entity_id": "fbb11785-1509-51ce-9d4a-652439878119",
+      "full_description": "Историческая личность; сведения требуют проверки.\n\nВнешний идентификатор Wikidata: Q40908363.\n\nURL записи источника: https://www.wikidata.org/wiki/Q40908363.\n\nСтатус исследования: needs_review.",
+      "id": "47a88e48-a169-5405-84f2-11b54f9e1d9c",
+      "locale": "ru",
+      "short_description": "Историческая личность; сведения требуют проверки.",
+      "title": "Альтемиров, Арби Мусаевич"
+    },
+    {
+      "entity_id": "fbef07c3-05c6-52d8-accf-f47601778d94",
+      "full_description": "Родовое село тайпа беной.\n\nРодина Байсангура Беноевского, узел местной истории.\n\nСтатус исследования: needs_review.",
+      "id": "6496f43e-870b-5eb9-a2fa-2758131a8e70",
+      "locale": "ru",
+      "short_description": "Родовое село тайпа беной.",
+      "title": "Беной"
+    },
+    {
+      "entity_id": "fc003226-7bb9-5f0e-9f2c-8b4edb9b31fa",
+      "full_description": "Историческая личность; сведения требуют проверки.\n\nВнешний идентификатор Wikidata: Q109321837.\n\nURL записи источника: https://www.wikidata.org/wiki/Q109321837.\n\nСтатус исследования: needs_review.",
+      "id": "548243e9-0b36-5290-915e-25c60c1e80f3",
+      "locale": "ru",
+      "short_description": "Историческая личность; сведения требуют проверки.",
+      "title": "Багураев, Таус Садыкович"
+    },
+    {
+      "entity_id": "fc13b4c2-a03b-5faf-bd7a-2cbf777a57f1",
+      "full_description": "Исследовательский кандидат\n\nВнешний идентификатор Wikidata: Q116962738.\n\nURL записи источника: https://www.wikidata.org/wiki/Q116962738.\n\nИсточник координат: https://www.wikidata.org/wiki/Q116962738. Точность: approximate; заявленная точность, м: 30.92.\n\nСтатус исследования: needs_review.",
+      "id": "24a30a8a-1b07-59a9-bdfe-22141d47fa0b",
+      "locale": "ru",
+      "short_description": "Исследовательский кандидат",
+      "title": "Малхиста"
+    },
+    {
+      "entity_id": "fc19346c-3c33-513d-8860-e1bf5007da7f",
+      "full_description": "упразднённый посёлок в Чеченской Республике, вошедший в состав Грозного\n\nВнешний идентификатор Wikidata: Q4495489.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4495489.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4495489. Точность: approximate; заявленная точность, м: 30.92.\n\nСтатус исследования: needs_review.",
+      "id": "f0bc20b2-06e0-5fef-8552-ed78e761a9c2",
+      "locale": "ru",
+      "short_description": "упразднённый посёлок в Чеченской Республике, вошедший в состав Грозного",
+      "title": "Ханкала"
+    },
+    {
+      "entity_id": "fc7efcce-bd21-5bc6-a794-626b8a3c6b30",
+      "full_description": "село в Шатойском районе Чечни России\n\nВнешний идентификатор Wikidata: Q4093674.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4093674.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4093674. Точность: exact; заявленная точность, м: 1.11.\n\nСтатус исследования: needs_review.",
+      "id": "db13f715-1ac7-5b93-8d7b-cd52e5bc1c99",
+      "locale": "ru",
+      "short_description": "село в Шатойском районе Чечни России",
+      "title": "Борзой"
+    },
+    {
+      "entity_id": "fca54808-70be-51b2-b4c5-ea3fe077029b",
+      "full_description": "Исследовательский кандидат\n\nВнешний идентификатор Wikidata: Q31664424.\n\nURL записи источника: https://www.wikidata.org/wiki/Q31664424.\n\nИсточник координат: https://www.wikidata.org/wiki/Q31664424. Точность: exact; заявленная точность, м: 1.11.\n\nСтатус исследования: needs_review.",
+      "id": "14ee573a-def9-5ce9-ac1f-08aedc47b94e",
+      "locale": "ru",
+      "short_description": "Исследовательский кандидат",
+      "title": "Гора Караилтюбе"
+    },
+    {
+      "entity_id": "fcfe4104-4085-5b03-8fec-022a77633946",
+      "full_description": "Историческая личность; сведения требуют проверки.\n\nВнешний идентификатор Wikidata: Q15686395.\n\nURL записи источника: https://www.wikidata.org/wiki/Q15686395.\n\nСтатус исследования: needs_review.",
+      "id": "e769bb88-5e9f-5181-b5b0-a88ab9ac1050",
+      "locale": "ru",
+      "short_description": "Историческая личность; сведения требуют проверки.",
+      "title": "Магомед-Салах Гадаев"
+    },
+    {
+      "entity_id": "fd2283c3-b000-5e5e-a70c-f463ae70b7e9",
+      "full_description": "село в Урус-Мартановском районе Чечни России\n\nВнешний идентификатор Wikidata: Q4137814.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4137814.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4137814. Точность: approximate; заявленная точность, м: 30.92.\n\nСтатус исследования: needs_review.",
+      "id": "f30af41a-8fac-50b5-8f50-991b02efe3b8",
+      "locale": "ru",
+      "short_description": "село в Урус-Мартановском районе Чечни России",
+      "title": "Гехи"
+    },
+    {
+      "entity_id": "fd499bac-3d9d-5f8b-8292-110e2b0e2f87",
+      "full_description": "Историческая личность; сведения требуют проверки.\n\nВнешний идентификатор Wikidata: Q2362198.\n\nURL записи источника: https://www.wikidata.org/wiki/Q2362198.\n\nСтатус исследования: needs_review.",
+      "id": "42e5c49a-198d-53e9-920d-b0ad53eae85a",
+      "locale": "ru",
+      "short_description": "Историческая личность; сведения требуют проверки.",
+      "title": "Асламбек Ахмедович Аслаханов"
+    },
+    {
+      "entity_id": "fd783be5-48ab-5d59-a51a-1a36c05bf5b7",
+      "full_description": "Исследовательский кандидат\n\nВнешний идентификатор Wikidata: Q4210714.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4210714.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4210714. Точность: exact; заявленная точность, м: 0.11.\n\nСтатус исследования: needs_review.",
+      "id": "113c1776-2bd8-5e58-9734-e96ef907eda0",
+      "locale": "ru",
+      "short_description": "Исследовательский кандидат",
+      "title": "Камалхи"
+    },
+    {
+      "entity_id": "fdfa7438-200a-5a16-9ff8-8e308e2734c4",
+      "full_description": "Историческая личность; сведения требуют проверки.\n\nВнешний идентификатор Wikidata: Q4531485.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4531485.\n\nСтатус исследования: needs_review.",
+      "id": "a4565a8b-8b45-5ec6-b70f-64c43ce67a9c",
+      "locale": "ru",
+      "short_description": "Историческая личность; сведения требуют проверки.",
+      "title": "Эльдарханов, Таштемир Эльжуркаевич"
+    },
+    {
+      "entity_id": "fe55abba-23b1-55f6-acb1-1778ecf5f6f6",
+      "full_description": "советский и российский поэт и писатель\n\nВнешний идентификатор Wikidata: Q30238665.\n\nURL записи источника: https://www.wikidata.org/wiki/Q30238665.\n\nСтатус исследования: needs_review.",
+      "id": "e81bbd21-12f8-5302-a4dc-bba01c5de2f9",
+      "locale": "ru",
+      "short_description": "советский и российский поэт и писатель",
+      "title": "Николай Матвеевич Егоров"
+    },
+    {
+      "entity_id": "fea1137b-4b4e-5d0d-bd84-18773692817d",
+      "full_description": "Историческая личность; сведения требуют проверки.\n\nВнешний идентификатор Wikidata: Q16704033.\n\nURL записи источника: https://www.wikidata.org/wiki/Q16704033.\n\nСтатус исследования: needs_review.",
+      "id": "24ecba6a-776f-5b7a-bd7e-915d39db873c",
+      "locale": "ru",
+      "short_description": "Историческая личность; сведения требуют проверки.",
+      "title": "Табацкова, Вера Георгиевна"
+    },
+    {
+      "entity_id": "fedd64fd-e3fb-5c14-9b9a-02d6190b35a8",
+      "full_description": "село в Итум-Калинском районе Чечни России\n\nВнешний идентификатор Wikidata: Q4227243.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4227243.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4227243. Точность: exact; заявленная точность, м: 0.11.\n\nСтатус исследования: needs_review.",
+      "id": "2d4220b3-9f50-5d85-9e59-9f77a1af6856",
+      "locale": "ru",
+      "short_description": "село в Итум-Калинском районе Чечни России",
+      "title": "Кокадой"
+    },
+    {
+      "entity_id": "fee3f87e-8d45-5df8-85ae-7af18fc9e26a",
+      "full_description": "село в Шатойском районе Чечни России\n\nВнешний идентификатор Wikidata: Q4255304.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4255304.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4255304. Точность: exact; заявленная точность, м: 0.11.\n\nСтатус исследования: needs_review.",
+      "id": "9178b859-1483-57a6-8052-2c885e9e57e6",
+      "locale": "ru",
+      "short_description": "село в Шатойском районе Чечни России",
+      "title": "Лаха-Варанды"
+    },
+    {
+      "entity_id": "feec9f56-a487-5dae-92f0-fced2c5b16c8",
+      "full_description": "село в Курчалоевском районе Чечни России\n\nВнешний идентификатор Wikidata: Q4072970.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4072970.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4072970. Точность: exact; заявленная точность, м: 0.11.\n\nСтатус исследования: needs_review.",
+      "id": "95d212bd-f72e-5603-83ae-330c8e34c5ed",
+      "locale": "ru",
+      "short_description": "село в Курчалоевском районе Чечни России",
+      "title": "Ахкинчу-Борзой"
+    },
+    {
+      "entity_id": "ff38ddc9-f3f1-57fa-ac37-6486fffc7d1f",
+      "full_description": "Историческая личность; сведения требуют проверки.\n\nВнешний идентификатор Wikidata: Q14915642.\n\nURL записи источника: https://www.wikidata.org/wiki/Q14915642.\n\nСтатус исследования: needs_review.",
+      "id": "e3d2fd67-8ac1-5312-8e48-1ea82e7d674b",
+      "locale": "ru",
+      "short_description": "Историческая личность; сведения требуют проверки.",
+      "title": "Акаев, Даша Ибрагимович"
+    },
+    {
+      "entity_id": "ff721100-a434-5245-850e-a494c212dd5a",
+      "full_description": "село в Гудермесском районе Чечни в России\n\nВнешний идентификатор Wikidata: Q4326854.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4326854.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4326854. Точность: exact; заявленная точность, м: 0.11.\n\nСтатус исследования: needs_review.",
+      "id": "d8014968-50e0-547b-b8d1-8f132a43b293",
+      "locale": "ru",
+      "short_description": "село в Гудермесском районе Чечни в России",
+      "title": "Новый Энгеной"
+    },
+    {
+      "entity_id": "ff804530-8bb1-56e1-a13c-4ffed7acfd8a",
+      "full_description": "Исследовательский кандидат\n\nВнешний идентификатор Wikidata: Q4531525.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4531525.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4531525. Точность: exact; заявленная точность, м: 1.11.\n\nСтатус исследования: needs_review.",
+      "id": "adfe8267-1cb8-5860-9030-892fee586d29",
+      "locale": "ru",
+      "short_description": "Исследовательский кандидат",
+      "title": "Эльпаро"
+    },
+    {
+      "entity_id": "ff87e299-18a8-5a92-804e-3b533b889b01",
+      "full_description": "Историческая личность; сведения требуют проверки.\n\nВнешний идентификатор Wikidata: Q2118101.\n\nURL записи источника: https://www.wikidata.org/wiki/Q2118101.\n\nСтатус исследования: needs_review.",
+      "id": "e493001a-f436-5310-8356-48d4303503a4",
+      "locale": "ru",
+      "short_description": "Историческая личность; сведения требуют проверки.",
+      "title": "Серж Чермаев"
+    },
+    {
+      "entity_id": "ffb34223-2b3c-5812-862e-ea1e2e71eae4",
+      "full_description": "село в Шелковском районе Чечни России\n\nВнешний идентификатор Wikidata: Q4408841.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4408841.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4408841. Точность: exact; заявленная точность, м: 0.11.\n\nСтатус исследования: needs_review.",
+      "id": "83f3e4d7-bcfd-50f4-b55d-2cf7623a52e8",
+      "locale": "ru",
+      "short_description": "село в Шелковском районе Чечни России",
+      "title": "Сары-Су"
+    },
+    {
+      "entity_id": "ffcf0329-3c9b-5bcc-807e-148ae570b26b",
+      "full_description": "Один из чеченских Героев Советского Союза. Звание присвоено указом от 15 января 1944 года. Биографические детали требуют уточнения.\n\nСтатус исследования: needs_review.",
+      "id": "794a7378-aa4b-56fa-8a4b-05ae05d91175",
+      "locale": "ru",
+      "short_description": "Герой Советского Союза",
+      "title": "Хаваджи Магомед-Мирзоев"
+    },
+    {
+      "entity_id": "fffa6d26-26b8-5ec7-a4dd-a7416a8e0bfe",
+      "full_description": "горная вершина в Веденском районе Чечни\n\nВнешний идентификатор Wikidata: Q4506837.\n\nURL записи источника: https://www.wikidata.org/wiki/Q4506837.\n\nИсточник координат: https://www.wikidata.org/wiki/Q4506837. Точность: approximate; заявленная точность, м: 30.92.\n\nСтатус исследования: needs_review.",
+      "id": "81c29d36-1080-53e0-a1a3-20ec4f4d7590",
+      "locale": "ru",
+      "short_description": "горная вершина в Веденском районе Чечни",
+      "title": "Чайляхканчи"
+    }
+  ],
+  "relation_sources": [],
+  "relations": [],
+  "sources": [
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Массовый discovery-источник; каждое утверждение проверяется по ссылкам элемента.",
+      "id": "f2d9269d-b2ec-519c-9cd6-cfe4c1848d3a",
+      "is_verified": true,
+      "publication_year": null,
+      "publisher": "Wikimedia Foundation community",
+      "status": "published",
+      "title": "Wikidata: структурированные исследовательские кандидаты по Чечне",
+      "type": "web_resource",
+      "url": "https://www.wikidata.org/wiki/Wikidata:Main_Page"
+    },
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Источник исследовательского набора.",
+      "id": "e8b7c40e-96fa-5147-83fe-eee65bd695c7",
+      "is_verified": true,
+      "publication_year": null,
+      "publisher": "Википедия",
+      "status": "published",
+      "title": "Википедия — тематические статьи (личности, места, события)",
+      "type": "web_resource",
+      "url": "https://ru.wikipedia.org/"
+    },
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Источник исследовательского набора.",
+      "id": "3e8565d9-d522-5e73-aa0e-bd5c2ed7c5a4",
+      "is_verified": true,
+      "publication_year": null,
+      "publisher": "bolshayastrana.com / places.moscow",
+      "status": "published",
+      "title": "Путеводители по достопримечательностям Чечни",
+      "type": "web_resource",
+      "url": "https://bolshayastrana.com/blog/dostoprimechatelnosti-chechenskoj-respubliki-314"
+    },
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Источник исследовательского набора.",
+      "id": "e727d0e6-0482-5c07-b947-cc21568e6981",
+      "is_verified": true,
+      "publication_year": null,
+      "publisher": "Википедия",
+      "status": "published",
+      "title": "Административно-территориальное деление Чечни",
+      "type": "web_resource",
+      "url": "https://ru.wikipedia.org/wiki/Административно-территориальное_деление_Чечни"
+    },
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Источник исследовательского набора.",
+      "id": "a7d477d1-bbe3-54c4-9b5d-4f921bc20dc0",
+      "is_verified": true,
+      "publication_year": null,
+      "publisher": "АН ЧР",
+      "status": "published",
+      "title": "Академия наук Чеченской Республики — исторические публикации",
+      "type": "scientific_article",
+      "url": "https://anchr.ru/"
+    },
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Источник исследовательского набора.",
+      "id": "6687cc19-8ad5-5e98-90a7-bd3f4d42f307",
+      "is_verified": true,
+      "publication_year": null,
+      "publisher": "Nohchalla.com",
+      "status": "published",
+      "title": "Nohchalla.com — история, личности и традиции чеченцев",
+      "type": "web_resource",
+      "url": "https://nohchalla.com/"
+    },
+    {
+      "archive_reference": null,
+      "author": null,
+      "description": "Источник исследовательского набора.",
+      "id": "bea2d9a0-2862-5607-b477-8f18ab253028",
+      "is_verified": true,
+      "publication_year": null,
+      "publisher": "Википедия",
+      "status": "published",
+      "title": "Список Героев Советского Союза (Чечено-Ингушетия)",
+      "type": "web_resource",
+      "url": "https://ru.wikipedia.org/wiki/Список_Героев_Советского_Союза_(Чечено-Ингушетия)"
+    }
+  ]
+}

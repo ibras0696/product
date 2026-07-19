@@ -1,0 +1,265 @@
+.mod-review {
+  align-self: start;
+  min-width: 0;
+  min-height: 240px;
+  padding: var(--space-4);
+}
+
+.mod-detail {
+  display: grid;
+  gap: var(--space-6);
+}
+
+.mod-detail > header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding-bottom: var(--space-4);
+  border-bottom: 1px solid var(--color-line);
+}
+
+.mod-detail h2,
+.mod-detail h3,
+.mod-detail p,
+.mod-detail dl {
+  margin: 0;
+}
+
+.mod-detail h2 {
+  font-family: var(--font-editorial);
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 500;
+  line-height: 1.05;
+}
+
+.mod-evidence,
+.mod-media,
+.mod-decision-form,
+.mod-publish-form,
+.mod-unavailable {
+  display: grid;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface-raised);
+}
+
+.mod-evidence > p,
+.mod-unavailable p {
+  color: var(--color-text-muted);
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+
+.mod-evidence dl {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.mod-evidence dl div {
+  display: grid;
+  gap: var(--space-1);
+}
+
+.mod-evidence dt {
+  color: var(--color-text-muted);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+}
+
+.mod-evidence dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.mod-media-grid {
+  display: grid;
+  gap: var(--space-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mod-media-card {
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface);
+}
+
+.mod-media-preview {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 320px;
+  object-fit: contain;
+  background: var(--color-interactive);
+}
+
+.mod-media-preview--unavailable {
+  display: grid;
+  min-height: 132px;
+  place-items: center;
+  padding: var(--space-3);
+  color: var(--color-text-muted);
+  text-align: center;
+}
+
+.mod-media-card__body {
+  display: grid;
+  gap: var(--space-3);
+  padding: var(--space-3);
+}
+
+.mod-media-card__body h4 {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.mod-media-metadata {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.mod-media-metadata div {
+  min-width: 0;
+}
+
+.mod-media-metadata dt {
+  color: var(--color-text-muted);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+}
+
+.mod-media-metadata dd {
+  margin: var(--space-1) 0 0;
+  overflow-wrap: anywhere;
+}
+
+.mod-media-selection {
+  min-width: 0;
+  margin: 0;
+  padding: var(--space-3);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-sm);
+}
+
+.mod-media-selection legend {
+  padding: 0 var(--space-1);
+  font-weight: 750;
+}
+
+.mod-media-selection > p {
+  margin: 0 0 var(--space-2);
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}
+
+.mod-media-selection > div {
+  display: grid;
+  gap: var(--space-1);
+}
+
+.mod-publish-form .mod-media-selection label {
+  display: flex;
+  min-height: 44px;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2);
+  border-radius: var(--radius-sm);
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+.mod-publish-form .mod-media-selection label:hover {
+  background: var(--color-interactive);
+}
+
+.mod-publish-form .mod-media-selection input[type="checkbox"] {
+  width: 20px;
+  min-width: 20px;
+  height: 20px;
+  min-height: 20px;
+  margin: 0;
+  padding: 0;
+  accent-color: var(--color-place);
+}
+
+.mod-publish-form .mod-media-selection input[type="checkbox"]:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 3px;
+}
+
+.mod-actions,
+.mod-decision-grid {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.mod-decision-form textarea,
+.mod-publish-form textarea {
+  resize: vertical;
+}
+
+.mod-decision-form small,
+.mod-publish-form small,
+.mod-decision-form [role="alert"],
+.mod-publish-form [role="alert"] {
+  color: var(--color-danger);
+}
+
+.mod-workspace .mod-danger {
+  border-color: var(--color-danger);
+}
+
+.mod-publish-form {
+  border-color: var(--color-place);
+}
+
+.mod-publish-choice {
+  display: grid;
+  gap: var(--space-2);
+  min-width: 0;
+  margin: 0;
+  padding: var(--space-3);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-sm);
+}
+
+.mod-publish-choice legend {
+  padding: 0 var(--space-1);
+  font-weight: 750;
+}
+
+.mod-publish-form .mod-publish-choice label {
+  display: flex;
+  min-height: 44px;
+  align-items: center;
+  gap: var(--space-2);
+  color: var(--color-text);
+}
+
+.mod-publish-form .mod-publish-choice input[type="radio"] {
+  width: 20px;
+  min-width: 20px;
+  height: 20px;
+  min-height: 20px;
+  margin: 0;
+  padding: 0;
+  accent-color: var(--color-place);
+}
+
+@media (min-width: 768px) {
+  .mod-evidence dl {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .mod-decision-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .mod-media-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

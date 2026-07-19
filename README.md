@@ -8,7 +8,19 @@ Production-oriented single-server foundation with FastAPI, PostgreSQL, Redis, Ra
 cp .env.example .env
 # Replace development passwords in .env.
 docker compose -f infra/compose.yaml -f infra/compose.dev.yaml up -d --build
+make seed-research-demo
 ```
+
+The local start loads the complete `docs/test/` research snapshot into the same
+catalog used by the application, so the map, chronology, source evidence, and
+relation graph are populated immediately. The owner-approved demo command publishes
+the candidates and their source links while retaining every `needs_review` marker.
+This shortcut is local-only and must not be used for a production seed.
+
+To import the same research set as unpublished drafts with unverified sources,
+run `make seed-research` instead. Both commands generate and load ordered internal
+batches capped at 1,000 records and 2 MB per transaction; rerunning either command
+is idempotent and does not require wiping the catalog.
 
 Open `http://localhost:8080`. API docs are at `http://localhost:8080/api/docs`; RabbitMQ management is available only in development at `http://127.0.0.1:15672`.
 

@@ -1,0 +1,84 @@
+{
+  "_comment": "Курируемые открытия и изобретения, связанные с Чечнёй. Собрано из веб-источников, качество важнее количества. Подмешивается build_graph.py как узлы type=artifact и рёбра created_by. Каждый факт несёт источник; статус needs_review — перед публикацией нужна проверка владельцем контента (BR-008).",
+  "sources": [
+    {"slug": "ru_wikipedia", "title": "Русская Википедия", "publisher": "Wikimedia", "url": "https://ru.wikipedia.org", "type": "encyclopedia", "reliability": "medium"},
+    {"slug": "abrek_org", "title": "Абрек — историко-биографический портал", "publisher": "abrek.org", "url": "http://abrek.org", "type": "media", "reliability": "low"},
+    {"slug": "famous_chechens", "title": "Знаменитые чеченцы", "publisher": "famous-chechens.livejournal.com", "url": "https://famous-chechens.livejournal.com", "type": "media", "reliability": "low"},
+    {"slug": "sechenov_university", "title": "Сеченовский Университет", "publisher": "Первый МГМУ им. И. М. Сеченова", "url": "https://www.sechenov.ru", "type": "official", "reliability": "high"},
+    {"slug": "grozny_inform", "title": "ИА «Грозный-информ»", "publisher": "grozny-inform.ru", "url": "https://www.grozny-inform.ru", "type": "media", "reliability": "medium"}
+  ],
+  "people": [
+    {
+      "slug": "musalatov-khasan",
+      "name_ru": "Хасан Мусалатов",
+      "description": "Учёный-медик, доктор медицинских наук, профессор; специалист в области травматологии и ортопедии. Заведующий кафедрой травматологии, ортопедии и хирургии катастроф и проректор Московской медицинской академии имени И. М. Сеченова.",
+      "category": "academic",
+      "title": "Доктор медицинских наук, профессор",
+      "period_from": 1944,
+      "period_to": 2002,
+      "birth_date": "1944-02-17",
+      "death_date": "2002-09-24",
+      "provenance": {"record_url": "https://famous-chechens.livejournal.com"},
+      "sources": ["famous_chechens", "sechenov_university"],
+      "status": "needs_review"
+    }
+  ],
+  "artifacts": [
+    {
+      "slug": "discovery-avalanche-transit-diode",
+      "name_ru": "Открытие лавинно-пролётного диода",
+      "description": "Установлено ранее неизвестное явление генерации сверхвысокочастотных колебаний полупроводниковым диодом при напряжении, близком к пробивному. Открытие легло в основу лавинно-пролётных диодов, применяемых в радиолокации, связи, навигации и телеметрии. Внесено в Государственный реестр открытий СССР под № 24 (приоритет 27 октября 1959 года). Сделано группой физиков, среди которых А. С. Тагер, А. И. Мельников, Г. П. Кобельков и А. М. Цебиев.",
+      "field": "Физика, радиоэлектроника",
+      "kind": "Открытие",
+      "period_from": 1959,
+      "sources": ["ru_wikipedia", "abrek_org"],
+      "status": "needs_review"
+    },
+    {
+      "slug": "invention-bone-tissue-conservation",
+      "name_ru": "Изобретения в травматологии и ортопедии",
+      "description": "Серия из 37 авторских свидетельств и патентов в области травматологии и ортопедии, в том числе методы консервации костной ткани. Разработки сопровождаются более чем 300 научными работами и 4 монографиями и внедрены в клиническую практику ведущих ортопедических центров.",
+      "field": "Медицина, травматология и ортопедия",
+      "kind": "Изобретения",
+      "sources": ["famous_chechens", "sechenov_university"],
+      "status": "needs_review"
+    },
+    {
+      "slug": "invention-zeolite-petrochemistry-catalysts",
+      "name_ru": "Цеолитные катализаторы нефтехимии",
+      "description": "Разработки в области превращения углеводородов на цеолитсодержащих катализаторах и производства низкозастывающих высокоплотных нефтяных топлив. Автору принадлежат 163 патента и авторских свидетельства и свыше 400 научных работ. Академик РАН, директор Института нефтехимического синтеза имени А. В. Топчиева РАН.",
+      "field": "Химия, нефтехимия и катализ",
+      "kind": "Изобретения и разработки",
+      "period_from": 1967,
+      "sources": ["ru_wikipedia", "grozny_inform"],
+      "status": "needs_review"
+    },
+    {
+      "slug": "invention-demercurization-methods",
+      "name_ru": "Методы демеркуризации аэропортов",
+      "description": "Разработка методов демеркуризации — обезвреживания ртутного загрязнения, — применённых в аэропортах Москвы, Ташкента и Еревана. Основаны на исследованиях поверхностного натяжения и адсорбции в двойных железных системах и влияния ртути и амальгам на авиационные материалы. Всего у автора 8 авторских свидетельств и свыше 200 научных работ.",
+      "field": "Химия, физическая химия и материаловедение",
+      "kind": "Изобретения",
+      "period_from": 1980,
+      "sources": ["ru_wikipedia", "checheninfo"],
+      "status": "needs_review"
+    },
+    {
+      "slug": "invention-construction-composites",
+      "name_ru": "Строительные композиты из техногенного сырья",
+      "description": "Материалы и технологии для ремонтно-восстановительных работ в строительстве и повышения сейсмостойкости зданий, основанные на использовании техногенного сырья. Подтверждены 35 авторскими свидетельствами и патентами; автору принадлежат около 500 научных работ и 20 монографий.",
+      "field": "Строительные материалы и композиты",
+      "kind": "Изобретения",
+      "sources": ["ru_wikipedia", "checheninfo"],
+      "status": "needs_review"
+    }
+  ],
+  "relations": [
+    {"type": "created_by", "from": "discovery-avalanche-transit-diode", "to": "wd-q4503614", "title_ru": "Открыл (в составе группы)", "evidence": {"method": "source", "source": "ru_wikipedia"}, "confidence": "high", "sources": ["ru_wikipedia", "abrek_org"], "status": "needs_review"},
+    {"type": "created_by", "from": "invention-bone-tissue-conservation", "to": "musalatov-khasan", "title_ru": "Автор", "evidence": {"method": "source", "source": "famous_chechens"}, "confidence": "high", "sources": ["famous_chechens", "sechenov_university"], "status": "needs_review"},
+    {"type": "created_by", "from": "invention-zeolite-petrochemistry-catalysts", "to": "wd-q4494545", "title_ru": "Автор", "evidence": {"method": "source", "source": "ru_wikipedia"}, "confidence": "high", "sources": ["ru_wikipedia", "grozny_inform"], "status": "needs_review"},
+    {"type": "created_by", "from": "invention-demercurization-methods", "to": "wd-q16654721", "title_ru": "Автор", "evidence": {"method": "source", "source": "ru_wikipedia"}, "confidence": "high", "sources": ["ru_wikipedia", "checheninfo"], "status": "needs_review"},
+    {"type": "created_by", "from": "invention-construction-composites", "to": "bataev-dena", "title_ru": "Автор", "evidence": {"method": "source", "source": "ru_wikipedia"}, "confidence": "high", "sources": ["ru_wikipedia", "checheninfo"], "status": "needs_review"},
+    {"type": "born_in", "from": "musalatov-khasan", "to": "wd-q4515305", "title_ru": "Родился в", "evidence": {"method": "biography", "source": "sechenov_university"}, "confidence": "high", "sources": ["sechenov_university"], "status": "needs_review"}
+  ]
+}
