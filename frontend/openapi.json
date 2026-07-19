@@ -8113,18 +8113,80 @@
             "type": "array",
             "title": "Items"
           },
+          "relations": {
+            "items": {
+              "$ref": "#/components/schemas/MapRelation"
+            },
+            "type": "array",
+            "title": "Relations"
+          },
           "truncated": {
             "type": "boolean",
             "title": "Truncated"
+          },
+          "relations_truncated": {
+            "type": "boolean",
+            "title": "Relations Truncated"
           }
         },
         "additionalProperties": false,
         "type": "object",
         "required": [
           "items",
-          "truncated"
+          "relations",
+          "truncated",
+          "relations_truncated"
         ],
         "title": "MapEntityCollection"
+      },
+      "MapRelation": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid",
+            "title": "Id"
+          },
+          "source_id": {
+            "type": "string",
+            "format": "uuid",
+            "title": "Source Id"
+          },
+          "target_id": {
+            "type": "string",
+            "format": "uuid",
+            "title": "Target Id"
+          },
+          "type": {
+            "$ref": "#/components/schemas/RelationType"
+          },
+          "source_type": {
+            "$ref": "#/components/schemas/EntityType"
+          },
+          "source_title": {
+            "type": "string",
+            "title": "Source Title"
+          },
+          "target_type": {
+            "$ref": "#/components/schemas/EntityType"
+          },
+          "target_title": {
+            "type": "string",
+            "title": "Target Title"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "id",
+          "source_id",
+          "target_id",
+          "type",
+          "source_type",
+          "source_title",
+          "target_type",
+          "target_title"
+        ],
+        "title": "MapRelation"
       },
       "ModerationMedia": {
         "properties": {

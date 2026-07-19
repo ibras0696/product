@@ -67,6 +67,10 @@ class FakeCatalogRepository:
                     source_id=self.entity_id,
                     target_id=self.peer_entity_id,
                     type=RelationType.CONNECTED_WITH,
+                    source_type=EntityType.SETTLEMENT,
+                    source_title="Грозный",
+                    target_type=EntityType.EVENT,
+                    target_title="Событие",
                 )
             ],
             truncated=True,
@@ -175,6 +179,10 @@ def test_map_validates_filters_and_returns_bounded_transport_shape() -> None:
             "source_id": str(repository.entity_id),
             "target_id": str(repository.peer_entity_id),
             "type": "connected_with",
+            "source_type": "settlement",
+            "source_title": "Грозный",
+            "target_type": "event",
+            "target_title": "Событие",
         }
     ]
     assert response.json()["data"]["relations_truncated"] is False

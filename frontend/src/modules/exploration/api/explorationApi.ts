@@ -32,19 +32,7 @@ type DetailsResponse = components["schemas"]["ApiResponse_EntityDetails_"];
 type GraphResponse = components["schemas"]["ApiResponse_GraphView_"];
 type SourcesResponse = components["schemas"]["ApiResponse_Page_SourceView__"];
 type MediaResponse = components["schemas"]["ApiResponse_Page_PublishedMedia__"];
-type MapCollectionData = NonNullable<MapResponse["data"]> & {
-  relations: Array<{
-    id: string;
-    source_id: string;
-    target_id: string;
-    type: components["schemas"]["RelationType"];
-    source_type?: CatalogEntityType;
-    source_title?: string;
-    target_type?: CatalogEntityType;
-    target_title?: string;
-  }>;
-  relations_truncated: boolean;
-};
+type MapCollectionData = NonNullable<MapResponse["data"]>;
 
 interface Envelope<T> {
   ok?: boolean;
@@ -209,11 +197,9 @@ export const explorationApi = {
       relations: data.relations.map((relation) => ({
         from: relation.source_id,
         to: relation.target_id,
-        fromKind: relation.source_type
-          ? entityKind(relation.source_type)
-          : undefined,
+        fromKind: entityKind(relation.source_type),
         fromName: relation.source_title,
-        toKind: relation.target_type ? entityKind(relation.target_type) : undefined,
+        toKind: entityKind(relation.target_type),
         toName: relation.target_title,
       })),
       truncated: data.truncated,

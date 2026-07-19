@@ -285,7 +285,11 @@ limit=1..1000 (default 200)
     "id": "relation-uuid",
     "source_id": "source-entity-uuid",
     "target_id": "target-entity-uuid",
-    "type": "connected_with"
+    "type": "connected_with",
+    "source_type": "person",
+    "source_title": "Историческая личность",
+    "target_type": "settlement",
+    "target_title": "Грозный"
   }],
   "truncated": false,
   "relations_truncated": false
@@ -296,6 +300,8 @@ limit=1..1000 (default 200)
 от наличия координат у их сторон. Связи выбираются одним bounded query, сортируются по UUID
 и ограничены 5000 элементами; при превышении `relations_truncated=true`. Поэтому клиент
 сразу рисует реальную паутину без N+1-запросов и без выбора отдельного объекта.
+`source_type`, `source_title`, `target_type` и `target_title` позволяют отрисовать стороны,
+у которых нет географических координат и которые поэтому отсутствуют в `items`.
 
 Неверный bbox/period — `bad_request`; превышение server maximum не приводит к unbounded
 query, а возвращает `truncated=true`.

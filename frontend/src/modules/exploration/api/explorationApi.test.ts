@@ -113,6 +113,10 @@ it("maps backend map relations into the runtime relation layer", async () => {
           source_id: "10000000-0000-4000-8000-000000000001",
           target_id: "10000000-0000-4000-8000-000000000002",
           type: "connected_with",
+          source_type: "person",
+          source_title: "Историческая личность",
+          target_type: "settlement",
+          target_title: "Грозный",
         },
       ],
       truncated: false,
@@ -127,6 +131,10 @@ it("maps backend map relations into the runtime relation layer", async () => {
     {
       from: "10000000-0000-4000-8000-000000000001",
       to: "10000000-0000-4000-8000-000000000002",
+      fromKind: "person",
+      fromName: "Историческая личность",
+      toKind: "place",
+      toName: "Грозный",
     },
   ]);
   expect(result.relationsTruncated).toBe(true);

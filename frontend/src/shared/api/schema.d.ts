@@ -1568,8 +1568,37 @@ export interface components {
     MapEntityCollection: {
       /** Items */
       items: components["schemas"]["MapEntity"][];
+      /** Relations */
+      relations: components["schemas"]["MapRelation"][];
       /** Truncated */
       truncated: boolean;
+      /** Relations Truncated */
+      relations_truncated: boolean;
+    };
+    /** MapRelation */
+    MapRelation: {
+      /**
+       * Id
+       * Format: uuid
+       */
+      id: string;
+      /**
+       * Source Id
+       * Format: uuid
+       */
+      source_id: string;
+      /**
+       * Target Id
+       * Format: uuid
+       */
+      target_id: string;
+      type: components["schemas"]["RelationType"];
+      source_type: components["schemas"]["EntityType"];
+      /** Source Title */
+      source_title: string;
+      target_type: components["schemas"]["EntityType"];
+      /** Target Title */
+      target_title: string;
     };
     /** ModerationMedia */
     ModerationMedia: {
