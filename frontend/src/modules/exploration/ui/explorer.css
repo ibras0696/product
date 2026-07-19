@@ -25,7 +25,7 @@
 .hx-body {
   display: grid;
   grid-template-columns: 214px minmax(0, 1fr);
-  height: 446px;
+  height: 535px;
   min-height: 0;
 }
 
