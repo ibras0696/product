@@ -11,12 +11,38 @@ import type {
 } from "../domain/catalog";
 import { useAdminSources, useSourceMutations } from "../model/catalogQueries";
 import { resourceError } from "./resourceMessages";
+import { ResourcePagination } from "./ResourcePagination";
 import { SourceEditor } from "./SourceEditor";
 import { sourceTypes } from "./sourceForm";
 
 interface FilterValues {
   query: string;
   type: "" | AdminSourceType;
+}
+
+function sourceFilters(values: FilterValues): SourceListFilters {
+  return {
+    query: values.query.trim() || undefined,
+    type: values.type || undefined,
+    limit: 20,
+    offset: 0,
+  };
+}
+
+function SourcePagination({
+  page,
+  onOffsetChange,
+}: {
+  page: NonNullable<ReturnType<typeof useAdminSources>["data"]>;
+  onOffsetChange: (offset: number) => void;
+}) {
+  return (
+    <ResourcePagination
+      label="Страницы источников"
+      meta={page.meta}
+      onOffsetChange={onOffsetChange}
+    />
+  );
 }
 
 export function SourcesPanel({
@@ -40,12 +66,7 @@ export function SourcesPanel({
   const query = useAdminSources(port, permissions, filters);
   const mutations = useSourceMutations(port, permissions);
   const apply = filterForm.handleSubmit((values) => {
-    setFilters({
-      query: values.query.trim() || undefined,
-      type: values.type || undefined,
-      limit: 20,
-      offset: 0,
-    });
+    setFilters(sourceFilters(values));
   });
   async function save(input: SourceInput) {
     if (editing === "create") await mutations.create.mutateAsync(input);
@@ -85,6 +106,14 @@ export function SourcesPanel({
         onEdit={setEditing}
         onArchive={archive}
       />
+      {query.data ? (
+        <SourcePagination
+          page={query.data}
+          onOffsetChange={(offset) => {
+            setFilters((current) => ({ ...current, offset }));
+          }}
+        />
+      ) : null}
       <SourceEditorPanel
         editing={editing}
         onSave={save}
@@ -234,21 +263,23 @@ function SourceList({
             <div className="catalog-actions">
               <button
                 type="button"
+                aria-label={`Изменить ${item.title}`}
                 disabled={item.status === "archived"}
                 onClick={() => {
                   onEdit(item);
                 }}
               >
-                Изменить {item.title}
+                Изменить
               </button>
               <button
                 type="button"
+                aria-label={`Архивировать ${item.title}`}
                 disabled={item.status === "archived"}
                 onClick={() => {
                   onArchive(item);
                 }}
               >
-                Архивировать {item.title}
+                Архивировать
               </button>
             </div>
           ) : null}

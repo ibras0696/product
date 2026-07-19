@@ -42,3 +42,33 @@ it("preserves unsaved entity input when expected version conflicts", async () =>
   );
   expect(title).toHaveValue("Моя несохранённая версия");
 });
+
+it("keeps large catalog resources in separate navigable workspaces", async () => {
+  const queryClient = new QueryClient({
+    defaultOptions: { queries: { retry: false }, mutations: { retry: false } },
+  });
+  const user = userEvent.setup();
+  render(
+    <QueryClientProvider client={queryClient}>
+      <MemoryRouter initialEntries={["/admin/catalog/entities"]}>
+        <AdminCatalogPage
+          port={createMockAdminCatalogPort()}
+          permissions={permissions}
+        />
+      </MemoryRouter>
+    </QueryClientProvider>,
+  );
+
+  expect(
+    await screen.findByRole("heading", { name: "Сущности" }),
+  ).toBeVisible();
+  expect(screen.queryByRole("heading", { name: "Источники" })).toBeNull();
+  await user.click(screen.getByRole("button", { name: "Источники" }));
+  expect(
+    await screen.findByRole("heading", { name: "Источники" }),
+  ).toBeVisible();
+  expect(
+    screen.getByRole("navigation", { name: "Страницы источников" }),
+  ).toBeVisible();
+  expect(screen.queryByRole("heading", { name: "Сущности" })).toBeNull();
+});

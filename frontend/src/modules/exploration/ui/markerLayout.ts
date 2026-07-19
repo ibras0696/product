@@ -13,8 +13,15 @@ export interface MarkerGroup {
 }
 
 type ProjectCoordinates = (coordinates: GeoCoordinates) => ScreenPoint;
+type UnprojectCoordinates = (point: ScreenPoint) => GeoCoordinates;
 
-const clusterZoom = 8;
+function clusterCellSize(zoom: number) {
+  if (zoom < 6.5) return 132;
+  if (zoom < 7.5) return 108;
+  if (zoom < 8.5) return 84;
+  if (zoom < 10) return 62;
+  return 44;
+}
 
 function averageCoordinates(entities: MapEntity[]): GeoCoordinates {
   const total = entities.reduce<GeoCoordinates>(
@@ -27,14 +34,76 @@ function averageCoordinates(entities: MapEntity[]): GeoCoordinates {
   return [total[0] / entities.length, total[1] / entities.length];
 }
 
+function stableAngle(id: string) {
+  const hash = Array.from(id).reduce(
+    (value, character) => (value * 31 + character.charCodeAt(0)) >>> 0,
+    0,
+  );
+  return ((hash % 360) * Math.PI) / 180;
+}
+
+function semanticRadius(zoom: number) {
+  if (zoom < 6.5) return 58;
+  if (zoom < 7.5) return 96;
+  return 188;
+}
+
+function semanticRing(zoom: number) {
+  if (zoom < 6.5) return { capacity: 28, gap: 26 };
+  if (zoom < 7.5) return { capacity: 22, gap: 44 };
+  return { capacity: 16, gap: 72 };
+}
+
+function positionVirtualEntities(
+  entities: MapEntity[],
+  zoom: number,
+  project: ProjectCoordinates,
+  unproject?: UnprojectCoordinates,
+) {
+  if (!unproject) return entities;
+  const byId = new Map(entities.map((entity) => [entity.id, entity]));
+  const byAnchor = new Map<string, MapEntity[]>();
+  entities.forEach((entity) => {
+    if (!entity.virtualAnchorId) return;
+    const values = byAnchor.get(entity.virtualAnchorId) ?? [];
+    values.push(entity);
+    byAnchor.set(entity.virtualAnchorId, values);
+  });
+  const positioned = new Map<string, MapEntity>();
+  byAnchor.forEach((values, anchorId) => {
+    const anchor = byId.get(anchorId);
+    if (!anchor) return;
+    const center = project(anchor.coordinates);
+    const sorted = [...values].sort((left, right) =>
+      left.id.localeCompare(right.id),
+    );
+    const ringLayout = semanticRing(zoom);
+    sorted.forEach((entity, index) => {
+      const ring = Math.floor(index / ringLayout.capacity);
+      const ringValues = Math.min(
+        ringLayout.capacity,
+        sorted.length - ring * ringLayout.capacity,
+      );
+      const slot = index % ringLayout.capacity;
+      const angle = stableAngle(anchorId) + (slot / ringValues) * Math.PI * 2;
+      const radius = semanticRadius(zoom) + ring * ringLayout.gap;
+      const coordinates = unproject({
+        x: center.x + Math.cos(angle) * radius,
+        y: center.y + Math.sin(angle) * radius,
+      });
+      positioned.set(entity.id, { ...entity, coordinates });
+    });
+  });
+  return entities.map((entity) => positioned.get(entity.id) ?? entity);
+}
+
 function groupEntities(
   entities: MapEntity[],
   selectedId: string,
   zoom: number,
   project: ProjectCoordinates,
 ) {
-  if (zoom >= clusterZoom) return entities.map((entity) => [entity]);
-  const cellSize = zoom < 7.8 ? 120 : 88;
+  const cellSize = clusterCellSize(zoom);
   const buckets = new Map<string, MapEntity[]>();
   entities.forEach((entity) => {
     if (entity.id === selectedId) return;
@@ -75,9 +144,16 @@ export function createMarkerLayout(
   selectedId: string,
   zoom: number,
   project: ProjectCoordinates,
+  unproject?: UnprojectCoordinates,
 ): MarkerGroup[] {
+  const positionedEntities = positionVirtualEntities(
+    entities,
+    zoom,
+    project,
+    unproject,
+  );
   const occupied: Array<{ x: number; y: number; width: number }> = [];
-  return groupEntities(entities, selectedId, zoom, project)
+  return groupEntities(positionedEntities, selectedId, zoom, project)
     .sort((left, right) => {
       const leftPriority =
         left[0]?.id === selectedId || left.length > 1 ? 1 : 0;

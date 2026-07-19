@@ -21,6 +21,7 @@ import {
 } from "./mapCamera";
 import { chechnyaOutsideMaskLayer, createRelationGeoJson } from "./mapGeoData";
 import { renderMapMarkers } from "./mapMarkers";
+import { createMarkerLayout } from "./markerLayout";
 
 export type Basemap = "street" | "satellite";
 type EngineState = "loading" | "ready" | "unsupported";
@@ -222,23 +223,23 @@ function syncRelationLayer(
       "line-color": [
         "case",
         ["boolean", ["get", "connected"], false],
-        "rgba(222, 243, 234, 0.94)",
-        "rgba(191, 213, 205, 0.68)",
+        "rgba(255, 255, 255, 0.96)",
+        "rgba(255, 255, 255, 0.78)",
       ],
       "line-width": [
         "interpolate",
         ["linear"],
         ["zoom"],
         7,
-        ["case", ["boolean", ["get", "connected"], false], 1.4, 0.7],
+        ["case", ["boolean", ["get", "connected"], false], 1.4, 0.8],
         11,
-        ["case", ["boolean", ["get", "connected"], false], 2.4, 0.7],
+        ["case", ["boolean", ["get", "connected"], false], 2.2, 0.9],
       ],
       "line-opacity": [
         "case",
         ["boolean", ["get", "connected"], false],
         0.95,
-        0.34,
+        0.46,
       ],
     },
   });
@@ -260,27 +261,39 @@ function useMapContent(
     const maplibre = moduleRef.current;
     if (state !== "ready" || !map || !maplibre) return;
     addTerritoryLayers(map, entities);
-    const renderMarkers = () => {
+    const renderScene = () => {
+      const groups = createMarkerLayout(
+        entities,
+        selectedId,
+        map.getZoom(),
+        (coordinates) => map.project([...coordinates]),
+        (point) => {
+          const coordinates = map.unproject([point.x, point.y]);
+          return [coordinates.lng, coordinates.lat];
+        },
+      );
       markersRef.current.forEach((marker) => {
         marker.remove();
       });
       markersRef.current = renderMapMarkers({
         map,
         maplibre,
-        entities,
+        groups,
         selectedId,
         onSelect,
         elements: elementsRef.current,
       });
+      syncRelationLayer(
+        map,
+        createRelationGeoJson(groups, relations, selectedId),
+      );
     };
-    renderMarkers();
-    map.on("zoomend", renderMarkers);
-    map.on("moveend", renderMarkers);
-    const data = createRelationGeoJson(entities, relations, selectedId);
-    syncRelationLayer(map, data);
+    renderScene();
+    map.on("zoomend", renderScene);
+    map.on("moveend", renderScene);
     return () => {
-      map.off("zoomend", renderMarkers);
-      map.off("moveend", renderMarkers);
+      map.off("zoomend", renderScene);
+      map.off("moveend", renderScene);
     };
   }, [
     elementsRef,

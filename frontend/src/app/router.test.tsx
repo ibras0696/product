@@ -36,8 +36,12 @@ it("routes an anonymous admin through backend login into the protected shell", a
   renderRoute("/admin/catalog/entities");
 
   expect(
-    await screen.findByRole("heading", { name: "Вход в рабочее пространство" }),
+    await screen.findByRole("heading", { name: "Вход в редакцию" }),
   ).toBeVisible();
+  await user.type(
+    screen.getByLabelText("Электронная почта"),
+    "admin@museum.test",
+  );
   await user.type(screen.getByLabelText("Пароль"), "long museum password");
   await user.click(screen.getByRole("button", { name: "Войти" }));
 
@@ -86,7 +90,7 @@ it("keeps an editor out of moderation while allowing the admin shell", async () 
   const user = userEvent.setup();
   renderRoute("/admin/submissions");
 
-  const email = await screen.findByLabelText("Email");
+  const email = await screen.findByLabelText("Электронная почта");
   await user.clear(email);
   await user.type(email, "editor@museum.test");
   await user.type(screen.getByLabelText("Пароль"), "long museum password");

@@ -6,6 +6,7 @@ import {
   type AdminEntityView,
   type BoundedPage,
 } from "../domain/catalog";
+import { ResourcePagination } from "./ResourcePagination";
 
 interface CatalogEntityListProps {
   page?: BoundedPage<AdminEntityView>;
@@ -56,12 +57,9 @@ function archiveMessage(error: unknown) {
 }
 
 export function CatalogEntityList(props: CatalogEntityListProps) {
-  const [params, setParams] = useSearchParams();
+  const [, setParams] = useSearchParams();
   const [archiveError, setArchiveError] = useState<string | null>(null);
-  const pageNumber = Math.max(
-    Number.parseInt(params.get("page") ?? "1", 10) || 1,
-    1,
-  );
+  const pageLimit = props.page?.meta.limit ?? 10;
   function archive(entity: AdminEntityView) {
     if (!window.confirm(`Архивировать «${entity.title.ru}»?`)) return;
     setArchiveError(null);
@@ -70,7 +68,7 @@ export function CatalogEntityList(props: CatalogEntityListProps) {
     });
   }
   return (
-    <section aria-labelledby="catalog-list-title">
+    <section className="catalog-section" aria-labelledby="catalog-list-title">
       <div className="catalog-heading">
         <h2 id="catalog-list-title">Сущности</h2>
         {props.canWrite ? (
@@ -101,29 +99,14 @@ export function CatalogEntityList(props: CatalogEntityListProps) {
         />
       ) : null}
       {props.page ? (
-        <nav className="catalog-pagination" aria-label="Страницы каталога">
-          <button
-            type="button"
-            disabled={pageNumber <= 1}
-            onClick={() => {
-              setParams((current) => setPage(current, pageNumber - 1));
-            }}
-          >
-            Назад
-          </button>
-          <span>Страница {String(pageNumber)}</span>
-          <button
-            type="button"
-            disabled={
-              pageNumber * props.page.meta.limit >= props.page.meta.total
-            }
-            onClick={() => {
-              setParams((current) => setPage(current, pageNumber + 1));
-            }}
-          >
-            Дальше
-          </button>
-        </nav>
+        <ResourcePagination
+          label="Страницы каталога"
+          meta={props.page.meta}
+          onOffsetChange={(offset) => {
+            const nextPage = Math.floor(offset / pageLimit) + 1;
+            setParams((current) => setPage(current, nextPage));
+          }}
+        />
       ) : null}
     </section>
   );
@@ -164,21 +147,23 @@ function EntityTable({ items, canWrite, onEdit, onArchive }: EntityTableProps) {
                 <div className="catalog-actions">
                   <button
                     type="button"
+                    aria-label={`Изменить ${entity.title.ru}`}
                     disabled={!canWrite || entity.status === "archived"}
                     onClick={() => {
                       onEdit(entity);
                     }}
                   >
-                    Изменить {entity.title.ru}
+                    Изменить
                   </button>
                   <button
                     type="button"
+                    aria-label={`Архивировать ${entity.title.ru}`}
                     disabled={!canWrite || entity.status === "archived"}
                     onClick={() => {
                       onArchive(entity);
                     }}
                   >
-                    Архивировать {entity.title.ru}
+                    Архивировать
                   </button>
                 </div>
               </td>

@@ -1,13 +1,12 @@
 import type { Map as MapLibreMap, Marker } from "maplibre-gl";
 
-import type { MapEntity } from "../model/historyData";
 import { regionalSelectionZoom } from "./mapCamera";
-import { createMarkerLayout, type MarkerGroup } from "./markerLayout";
+import type { MarkerGroup } from "./markerLayout";
 
 interface MarkerRenderOptions {
   map: MapLibreMap;
   maplibre: typeof import("maplibre-gl");
-  entities: MapEntity[];
+  groups: MarkerGroup[];
   selectedId: string;
   onSelect: (id: string) => void;
   elements: Map<string, HTMLButtonElement>;
@@ -56,14 +55,8 @@ function activateGroup(
 }
 
 export function renderMapMarkers(options: MarkerRenderOptions): Marker[] {
-  const layout = createMarkerLayout(
-    options.entities,
-    options.selectedId,
-    options.map.getZoom(),
-    (coordinates) => options.map.project([...coordinates]),
-  );
   options.elements.clear();
-  return layout.map((group) => {
+  return options.groups.map((group) => {
     const element = createMarkerElement(group, options.selectedId);
     element.addEventListener("click", () => {
       activateGroup(options.map, group, options.onSelect);

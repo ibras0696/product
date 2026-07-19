@@ -140,6 +140,51 @@ it("maps backend map relations into the runtime relation layer", async () => {
   expect(result.relationsTruncated).toBe(true);
 });
 
+it("places relation-only entities around a geographic endpoint", async () => {
+  const targetId = "10000000-0000-4000-8000-000000000002";
+  const sourceId = "10000000-0000-4000-8000-000000000001";
+  const fetchMock = vi.fn<typeof fetch>().mockResolvedValue(
+    apiResponse({
+      items: [
+        {
+          id: targetId,
+          type: "settlement",
+          title: { ru: "Грозный", ce: null },
+          coordinates: { latitude: 43.318, longitude: 45.698 },
+          relations_count: 1,
+          cover_url: null,
+          district_id: null,
+          research_status: "verified",
+        },
+      ],
+      relations: [
+        {
+          id: "30000000-0000-4000-8000-000000000001",
+          source_id: sourceId,
+          target_id: targetId,
+          type: "connected_with",
+          source_type: "person",
+          source_title: "Историческая личность",
+          target_type: "settlement",
+          target_title: "Грозный",
+        },
+      ],
+      truncated: false,
+      relations_truncated: false,
+    }),
+  );
+  vi.stubGlobal("fetch", fetchMock);
+
+  const result = await explorationApi.getMapEntities({}, signal);
+  expect(result.items).toHaveLength(2);
+  expect(result.items.find((item) => item.id === sourceId)).toMatchObject({
+    kind: "person",
+    name: "Историческая личность",
+    virtualAnchorId: targetId,
+    coordinates: [45.698, 43.318],
+  });
+});
+
 it("loads the selected production graph at depth two", async () => {
   const fetchMock = vi.fn<typeof fetch>().mockResolvedValue(
     apiResponse({

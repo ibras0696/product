@@ -22,6 +22,7 @@ export interface MapEntity {
   y: number;
   description: string;
   coordinates: GeoCoordinates;
+  virtualAnchorId?: string;
 }
 
 export type GeoCoordinates = readonly [longitude: number, latitude: number];

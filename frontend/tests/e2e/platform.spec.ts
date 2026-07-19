@@ -148,7 +148,7 @@ test("admin route guards anonymous access without browser tokens", async ({
 }) => {
   await page.goto("/admin/catalog/entities");
   await expect(
-    page.getByRole("heading", { name: "Вход в рабочее пространство" }),
+    page.getByRole("heading", { name: "Вход в редакцию" }),
   ).toBeVisible();
   const accessibility = await new AxeBuilder({ page }).analyze();
   expect(

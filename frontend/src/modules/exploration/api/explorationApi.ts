@@ -159,6 +159,104 @@ function mapEntity(
   };
 }
 
+type MapRelationDto = components["schemas"]["MapRelation"];
+
+function relationCounts(relations: MapRelationDto[]) {
+  const counts = new Map<string, number>();
+  relations.forEach((relation) => {
+    counts.set(relation.source_id, (counts.get(relation.source_id) ?? 0) + 1);
+    counts.set(relation.target_id, (counts.get(relation.target_id) ?? 0) + 1);
+  });
+  return counts;
+}
+
+function relationOnlyEntity(
+  id: string,
+  type: CatalogEntityType,
+  name: string,
+  anchor: MapEntityViewModel,
+  relations: number,
+): MapEntityViewModel {
+  return {
+    ...anchor,
+    id,
+    entityType: type,
+    kind: entityKind(type),
+    name,
+    title: { ru: name, ce: null },
+    districtId: anchor.districtId,
+    image: "",
+    stats: { relations, heroes: 0, events: 0, landmarks: 0, sources: 0 },
+    virtualAnchorId: anchor.virtualAnchorId ?? anchor.id,
+  };
+}
+
+interface RelatedEndpoint {
+  id: string;
+  type: CatalogEntityType;
+  name: string;
+}
+
+function relationNeighbors(relations: MapRelationDto[]) {
+  const neighbors = new Map<string, RelatedEndpoint[]>();
+  const add = (id: string, endpoint: RelatedEndpoint) => {
+    neighbors.set(id, [...(neighbors.get(id) ?? []), endpoint]);
+  };
+  relations.forEach((relation) => {
+    add(relation.source_id, {
+      id: relation.target_id,
+      type: relation.target_type,
+      name: relation.target_title,
+    });
+    add(relation.target_id, {
+      id: relation.source_id,
+      type: relation.source_type,
+      name: relation.source_title,
+    });
+  });
+  return neighbors;
+}
+
+function mapRelationEntities(
+  items: MapEntityViewModel[],
+  relations: MapRelationDto[],
+) {
+  const entities = new Map(items.map((item) => [item.id, item]));
+  const counts = relationCounts(relations);
+  const neighbors = relationNeighbors(relations);
+  const queue = [...entities.keys()];
+  for (let cursor = 0; cursor < queue.length; cursor += 1) {
+    const anchor = entities.get(queue[cursor]);
+    if (!anchor) continue;
+    (neighbors.get(anchor.id) ?? []).forEach((endpoint) => {
+      if (entities.has(endpoint.id)) return;
+      entities.set(
+        endpoint.id,
+        relationOnlyEntity(
+          endpoint.id,
+          endpoint.type,
+          endpoint.name,
+          anchor,
+          counts.get(endpoint.id) ?? 0,
+        ),
+      );
+      queue.push(endpoint.id);
+    });
+  }
+  return [...entities.values()];
+}
+
+function mapRelation(relation: MapRelationDto) {
+  return {
+    from: relation.source_id,
+    to: relation.target_id,
+    fromKind: entityKind(relation.source_type),
+    fromName: relation.source_title,
+    toKind: entityKind(relation.target_type),
+    toName: relation.target_title,
+  };
+}
+
 function mapOptions(
   data: components["schemas"]["CatalogOptions"],
 ): CatalogOptionsViewModel {
@@ -192,16 +290,10 @@ export const explorationApi = {
       `/api/v1/map/entities?${params}`,
       signal,
     );
+    const items = data.items.map(mapEntity);
     return {
-      items: data.items.map(mapEntity),
-      relations: data.relations.map((relation) => ({
-        from: relation.source_id,
-        to: relation.target_id,
-        fromKind: entityKind(relation.source_type),
-        fromName: relation.source_title,
-        toKind: entityKind(relation.target_type),
-        toName: relation.target_title,
-      })),
+      items: mapRelationEntities(items, data.relations),
+      relations: data.relations.map(mapRelation),
       truncated: data.truncated,
       relationsTruncated: data.relations_truncated,
     };

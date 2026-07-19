@@ -14,12 +14,38 @@ import {
   useRelationMutations,
 } from "../model/catalogQueries";
 import { RelationEditor } from "./RelationEditor";
+import { ResourcePagination } from "./ResourcePagination";
 import { relationTypes } from "./relationForm";
 import { resourceError } from "./resourceMessages";
 
 interface FilterValues {
   entityId: string;
   type: "" | AdminRelationType;
+}
+
+function relationFilters(values: FilterValues): RelationListFilters {
+  return {
+    entityId: values.entityId.trim() || undefined,
+    type: values.type || undefined,
+    limit: 20,
+    offset: 0,
+  };
+}
+
+function RelationPagination({
+  page,
+  onOffsetChange,
+}: {
+  page: NonNullable<ReturnType<typeof useAdminRelations>["data"]>;
+  onOffsetChange: (offset: number) => void;
+}) {
+  return (
+    <ResourcePagination
+      label="Страницы связей"
+      meta={page.meta}
+      onOffsetChange={onOffsetChange}
+    />
+  );
 }
 
 export function RelationsPanel({
@@ -43,12 +69,7 @@ export function RelationsPanel({
   const query = useAdminRelations(port, permissions, filters);
   const mutations = useRelationMutations(port, permissions);
   const apply = filterForm.handleSubmit((values) => {
-    setFilters({
-      entityId: values.entityId.trim() || undefined,
-      type: values.type || undefined,
-      limit: 20,
-      offset: 0,
-    });
+    setFilters(relationFilters(values));
   });
   async function save(input: RelationInput) {
     if (editing === "create") await mutations.create.mutateAsync(input);
@@ -88,6 +109,14 @@ export function RelationsPanel({
         onEdit={setEditing}
         onArchive={archive}
       />
+      {query.data ? (
+        <RelationPagination
+          page={query.data}
+          onOffsetChange={(offset) => {
+            setFilters((current) => ({ ...current, offset }));
+          }}
+        />
+      ) : null}
       <RelationEditorPanel
         editing={editing}
         onSave={save}
@@ -223,21 +252,23 @@ function RelationList({
             <div className="catalog-actions">
               <button
                 type="button"
+                aria-label={`Изменить ${item.title.ru}`}
                 disabled={item.status === "archived"}
                 onClick={() => {
                   onEdit(item);
                 }}
               >
-                Изменить {item.title.ru}
+                Изменить
               </button>
               <button
                 type="button"
+                aria-label={`Архивировать ${item.title.ru}`}
                 disabled={item.status === "archived"}
                 onClick={() => {
                   onArchive(item);
                 }}
               >
-                Архивировать {item.title.ru}
+                Архивировать
               </button>
             </div>
           ) : null}
